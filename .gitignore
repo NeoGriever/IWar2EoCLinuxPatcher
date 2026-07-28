@@ -1,0 +1,10 @@
+# Non-redistributable German CD game data.  The patcher obtains these only from
+# separately hosted, checksum-verified archives configured in sources.json.
+/resource.zip
+/resource/
+/streams/
+
+# User-specific and generated runtime state.
+/backups/
+/logs/
+/runtime/

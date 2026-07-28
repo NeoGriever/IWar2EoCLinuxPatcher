@@ -1,0 +1,106 @@
+; FILE: Cargo_list_addendum.csv,
+; Key,FRENCH
+;,
+Cargo_AiImages,Images IA
+Cargo_AtomicBlueprints,Plans atomiques
+Cargo_ConsumerData,Données consom.
+Cargo_PrivateData,Données privées
+Cargo_SecureData,Données protégées
+Cargo_Software,Logiciels
+Cargo_Avionics,Avionique
+Cargo_Computers,Ordinateurs
+Cargo_ConsumerElectronics,Electronique
+Cargo_Cybernetics,Cybernétique
+Cargo_DataStorage,Stockage données
+Cargo_Instrumentation,Instrumentation
+Cargo_MedicalElectronics,Electronique médicale
+Cargo_Nanotechnology,Nanotechnologie
+Cargo_Robotics,Robotique
+Cargo_AgriculturalEquipment,Equip. agricole
+Cargo_Environmental,Environnement
+Cargo_MachineTools,Machines-outils
+Cargo_MiningEquipment,Equipement minier
+Cargo_PowerSystems,Systèmes énergie
+Cargo_Terraforming,Terraformation
+Cargo_Vehicles,Véhicules
+Cargo_Alcohol,Alcool
+Cargo_Art,Art
+Cargo_Furs,Fourrures
+Cargo_Jewellery,Bijoux
+Cargo_LuxuryConsumerGoods,Produits de luxe
+Cargo_LuxuryFoodstuffs,Mets de luxe
+Cargo_Narcotics,Narcotiques
+Cargo_SportingGoods,Equip. sportifs
+Cargo_ConsumerGoods,Produits courants
+Cargo_MedicalSupplies,Matériel médical
+Cargo_Pharmaceuticals,Pharmaceutiques
+Cargo_SurvivalEquipment,Equip. de survie
+Cargo_Bacteria,Bactéries
+Cargo_Biomass,Biomasse
+Cargo_Fauna,Faune
+Cargo_Flora,Flore
+Cargo_Fungi,Fongus
+Cargo_GeneticMaterial,Génétique
+Cargo_ProcessedFoodstuffs,Nourrit. traitée
+Cargo_UnprocessedFoodstuffs,Nourriture brute
+Cargo_Waste,Déchets
+Cargo_Antimatter,Antimatière
+Cargo_ConstructionMaterial,Mat. construction
+Cargo_Exotics,Métaux spéciaux
+Cargo_Fuel,Carburant
+Cargo_Gemstones,Gemmes
+Cargo_Hydrocarbons,Hydrocarbures
+Cargo_Metals,Métaux
+Cargo_Radioactives,Radioactifs
+Cargo_BulkChemicals,Chimie brute
+Cargo_Gasses,Gaz
+Cargo_Ore,Minerai
+Cargo_Rocks,Pierres
+Cargo_Water,Eau
+Cargo_CombatVehicles,Véhic. de combat
+Cargo_NBCWarfare,Armement NBC
+Cargo_Ordinance,Munitions
+Cargo_PersonalWeapons,Armes perso.
+Cargo_SpacecraftWeapons,Armes vaisseau
+Cargo_SpacecraftDefenceSystems,Syst. déf. vaiss.
+Cargo_Data,Données
+Cargo_Electronics,Electronique
+Cargo_HeavyEngineering,Engins lourds
+Cargo_Luxuries,Produits de luxe
+Cargo_ManufacturedGoods,Prod. industriels
+Cargo_OrganicMaterials,Mat. organique
+Cargo_ProcessedMaterials,Matière traitée
+Cargo_RawMaterials,Matière brute
+Cargo_WeaponSystems,Syst. d'armement
+Cargo_IndustrialWater,Eau indust.
+Cargo_ReactorFuel,Carbu. réacteur
+Cargo_AntimatterGoods,Produits antimat.
+Cargo_Blueprints,Plans
+,Weapon blueprints. These are all ONSCREEN TEXT ONLY
+Cargo_SeekerMineBlueprints,Plans recherche mine 
+Cargo_AchillesBlueprints,Plans Achille
+Cargo_AntimatterMineBlueprints,Plans mine AM
+Cargo_AntimatterMissileBlueprints,Plans missile AM
+Cargo_BlizzardMissileBlueprints,Plans Blizzard
+Cargo_DeadshotBlueprints,Plans Deadshot
+Cargo_DeathblowBlueprints,Plans Deathblow
+Cargo_DecoyBlueprints,Plans leurre CME
+Cargo_DisruptorBlueprints,Plans disrupteur
+Cargo_LDSi3000Blueprints,Plans LDSi 3000
+Cargo_LDSiMineBlueprints,Plans mine LDSi
+Cargo_LDSiMissileBlueprints,Plans miss. LDSi
+Cargo_SniperCannonAmmoBlueprints,Plans obus sniper
+Cargo_MiningChargeBlueprints,Plans charge
+Cargo_ProximityMineBlueprints,Plans proximité mine 
+Cargo_PulsarBlueprints,Plans Pulsar
+Cargo_RemoteMissileBlueprints,Plans miss. télé.
+Cargo_RemoteProbeBlueprints,Plans sonde télé.
+Cargo_SmartDecoyBlueprints,Plans leurre IA
+,Antimatter cargo type name override. ONSCREEN TEXT ONLY
+Cargo_Antimatter,Antimatière
+,Cargo types. These are all ONSCREEN TEXT ONLY
+Cargo_ValuableJewellery,Bijoux précieux
+Cargo_CommonOre,Minerai ordinaire
+Cargo_CommonMetals,Métaux ord.
+Cargo_PowerPlant,Réacteurs
+Cargo_DeionisedWater,Eau dé-ionisée

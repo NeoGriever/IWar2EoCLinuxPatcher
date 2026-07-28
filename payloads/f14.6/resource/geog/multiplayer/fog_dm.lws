@@ -1,0 +1,276 @@
+LWSC
+1
+
+FirstFrame 1
+LastFrame 60
+FrameStep 1
+PreviewFirstFrame 1
+PreviewLastFrame 60
+PreviewFrameStep 1
+FramesPerSecond 30.000000
+
+AddNullObject <node class=icStarfieldAvatar tint=(1.0,1.0,1.0)>
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject <node class=icNebulaAvatar url=model||models|multiplayer|BlueNeb>
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject SystemParent
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  -22.5 0 -27.5 87.30009 0 180 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 48
+ShadowOptions 7
+
+AddNullObject root
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ParentObject 3
+ShadowOptions 7
+
+AmbientColor 255 255 255
+AmbIntensity 0.250000
+
+AddLight
+LightName <star>
+ShowLight 1 7
+LightMotion (unnamed)
+  9
+  1
+  0 0 0 90 80 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 48
+LightColor 218 233 239
+LgtIntensity 1.500000
+LightType 0
+ShadowType 1
+
+AddLight
+LightName <fill>
+ShowLight 1 7
+LightMotion (unnamed)
+  9
+  1
+  0 0 0 -90 80 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+LightColor 24 115 166
+LgtIntensity 1.000000
+LightType 0
+ShadowType 1
+
+AddLight
+LightName Batatas
+ShowLight 1 7
+LightMotion (unnamed)
+  9
+  1
+  -993.9 0 -858.1 180 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 2
+ParentObject 4
+LightColor 109 167 146
+LgtIntensity 1.000000
+LightType 1
+LensFlare 1
+FlareIntensity 0.008000
+FlareDissolve 0.000000
+LensFlareFade 4
+LensFlareOptions 7
+FlareRingColor 80 20 10
+FlareRingSize 0.220000
+FlareStarFilter 2
+ShadowType 1
+
+AddLight
+LightName Drake
+ShowLight 1 7
+LightMotion (unnamed)
+  9
+  1
+  -2238.7 140 -6 180 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 2
+ParentObject 4
+LightColor 174 206 194
+LgtIntensity 1.000000
+LightType 1
+LensFlare 1
+FlareIntensity 0.008000
+FlareDissolve 0.000000
+LensFlareFade 4
+LensFlareOptions 7
+FlareRingColor 80 20 10
+FlareRingSize 0.220000
+FlareStarFilter 2
+ShadowType 1
+
+AddLight
+LightName Formhault
+ShowLight 1 7
+LightMotion (unnamed)
+  9
+  1
+  -3.700806 100 6 180 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 2
+ParentObject 4
+LightColor 102 162 139
+LgtIntensity 1.000000
+LightType 1
+LensFlare 1
+FlareIntensity 0.014000
+FlareDissolve 0.000000
+LensFlareFade 4
+LensFlareOptions 7
+FlareRingColor 80 20 10
+FlareRingSize 0.220000
+FlareStarFilter 2
+ShadowType 1
+
+AddLight
+LightName NewBavaria
+ShowLight 1 7
+LightMotion (unnamed)
+  9
+  1
+  -198.7 0 1699 180 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 2
+ParentObject 4
+LightColor 87 142 122
+LgtIntensity 1.000000
+LightType 1
+LensFlare 1
+FlareIntensity 0.008000
+FlareDissolve 0.000000
+LensFlareFade 4
+LensFlareOptions 7
+FlareRingColor 80 20 10
+FlareRingSize 0.220000
+FlareStarFilter 2
+ShadowType 1
+
+AddLight
+LightName Osprey
+ShowLight 1 7
+LightMotion (unnamed)
+  9
+  1
+  761.3 200 946 180 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 2
+ParentObject 4
+LightColor 193 217 208
+LgtIntensity 1.000000
+LightType 1
+LensFlare 1
+FlareIntensity 0.007000
+FlareDissolve 0.000000
+LensFlareFade 4
+LensFlareOptions 7
+FlareRingColor 80 20 10
+FlareRingSize 0.220000
+FlareStarFilter 2
+ShadowType 1
+
+AddLight
+LightName OwensStar
+ShowLight 1 7
+LightMotion (unnamed)
+  9
+  1
+  968.3 -145 -1215 180 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 2
+ParentObject 4
+LightColor 217 232 226
+LgtIntensity 1.000000
+LightType 1
+LensFlare 1
+FlareIntensity 0.009000
+FlareDissolve 0.000000
+LensFlareFade 4
+LensFlareOptions 7
+FlareRingColor 80 20 10
+FlareRingSize 0.220000
+FlareStarFilter 2
+ShadowType 1
+
+ShowCamera 1 7
+CameraMotion (unnamed)
+  9
+  1
+  0 0 0 -1.5 -11.5 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ZoomFactor 3.200000
+Resolution 1
+PixelAspectRatio 2
+SegmentMemory 9000000
+Antialiasing 0
+AdaptiveSampling 1
+AdaptiveThreshold 16
+FilmSize 2
+FieldRendering 0
+MotionBlur 0
+DepthOfField 0
+
+SolidBackdrop 1
+BackdropColor 0 0 0
+ZenithColor 0 40 80
+SkyColor 120 180 240
+GroundColor 50 40 30
+NadirColor 100 80 60
+FogType 0
+DitherIntensity 1
+AnimatedDither 0
+
+RenderMode 2
+RayTraceEffects 0
+ClipRayColors 0
+DataOverlayLabel  
+FullSceneParamEval 0
+
+ViewMode 0
+ViewAimpoint 0.000000 0.000000 0.000000
+ViewDirection -0.010472 -0.092502 0.000000
+ViewZoomFactor 9.087387
+GridNumber 40
+GridSize 500.000000
+ShowMotionPath 1
+ShowBGImage 0
+ShowFogRadius 0
+ShowRedraw 0
+ShowSafeAreas 0
+ShowFieldChart 0

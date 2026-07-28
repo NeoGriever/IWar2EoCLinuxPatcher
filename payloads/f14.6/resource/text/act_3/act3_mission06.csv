@@ -1,0 +1,37 @@
+; FILE: Dact3_mission06.csv,
+; Key,
+ ACT 3 MISSION 6 - Smokescreen,
+; FILE NAME,GERMAN TRANSLATION
+a3_m06_name_hoffer,Franklyn Hoffer
+a3_m06_name_maashq,Maas-Station Hauptquartier
+a3_m06_name_escort,Grand Marina
+a3_m06_dialogue_hoffer_good_to,"Ah, Cal. Gut, dich zu sehen. Diese großartige Sammlung ist unsere Flotte. Es kommt nun ganz auf dich an. Mach dich auf nach Ozaki zum Maas-Sternhaufen-Zentralhauptquartier in Ishime. Und bitte sei vorsichtig mit diesen Schiffen!"
+a3_m06_dialogue_cal_all_ships,"Alle Schiffe, stellt eure IFFs auf Maas."
+a3_m06_dialogue_smith_uh_oh,Das kann nicht stimmen... Verdammter Mist! Da ist eine große Formation von Unternehmensschiffen auf Angriffskurs in Richtung Maas-Hauptquartier.
+a3_m06_dialogue_maashq_its_about,"Es wird aber auch langsam Zeit, dass ihr Typen aufkreuzt. Wir haben vor Stunden nach Verstärkung gerufen! Wir haben hier ziemlich viele Objekte im Anflug."
+a3_m06_dialogue_clay_hey,Anscheinend halten sie uns für ECHTE Maas-Schiffe. Jetzt können wir -
+a3_m06_dialogue_smith_cal,CAL! Die anfliegenden Schiffe teilen sich und kommen direkt auf uns zu!
+a3_m06_dialogue_smith_wooa,"Mann, das war knapp. Alle angreifenden Schiffe sind zertört. Wir hätten nicht mehr lange durchhalten können."
+a3_m06_dialogue_clay_i_think,"Ich glaube, den Angriff auf die Station können wir vergessen. Hoffen wir lieber, dass unsere Tarnung nicht auffliegt."
+a3_m06_dialogue_maashq_thanks,"Danke für deine Hilfe! Du bist gerade noch einmal rechtzeitig gekommen! Ich werde sichergehen, dass deine Flotte ein Lob erhält."
+a3_m06_dialogue_player_what_was,Ich wäre schon mit einer Erklärung zufrieden. Was zum Teufel war da LOS?!
+a3_m06_dialogue_maashq_c1_cabal,"Ich fürchte, diese Gerüchte über Aufspaltungen im Geheimbund der Unternehmen haben sich als richtig erwiesen."
+a3_m06_text_c1_option_1_cabal,Geheimbund der Unternehmen?
+a3_m06_dialogue_player_c1_option_1_cabal,Was hat es denn mit dem Geheimbund der Unternehmen auf sich?
+a3_m06_dialogue_maashq_c1_response_1_cabal,"In diesem Geheimbund haben sich die Eigentümer der 32 größten Unternehmen zusammen geschlossen. Sie haben ihre Kräfte vereint, um sich absolute wirtschaftliche Kontrolle im uns bekannten Weltraum zu verschaffen, ohne so unschöne Begleiterscheinungen wie freien Wettbewerb und gegenseitiges Verklagen vor irgendwelchen Gerichten."
+a3_m06_text_c1_option_2_split,Der Geheimbund zerfällt?
+a3_m06_dialogue_player_c1_option_2_split,Was hat es mit Abspaltungen im Geheimbund der Unternehmen auf sich?
+a3_m06_dialogue_maashq_c1_response_2_split,"Der Geheimbund ist kürzlich in zwei Lager zerfallen, jedes mit seinem eigenem Programm. Die anderen wollten nach dem urprünglichen Erlass vorgehen, während wir darauf warteten, dass die Marine ihre Arbeit erledigt."
+a3_m06_text_c1_option_3_remit,Ursprünglicher Erlass?
+a3_m06_dialogue_player_c1_option_3_remit,Was für ein 'ursprünglicher Erlass'?
+a3_m06_dialogue_maashq_c1_response_3_remit,"Oh, ich glaube kaum, dass du die Berechtigung hast, solche Interna zu wissen. Na ja, zum Teufel, da du auf unserer Seite bist, solltest du besser Bescheid wissen. Der Erlass gibt Erlaubnis, die Marineflotten, die sich im Neu-Bayern-System sammeln, auszulöschen. Unsere Gruppierung war gegen den Zeitplan, aber nach diesem Angriff jetzt zu urteilen, hält sich die andere Gruppierung sehr genau an ihn."
+a3_m06_dialogue_player_i_see,"Ich verstehe... nun, ich nehme an, wir sollten besser..."
+a3_m06_dialogue_maashq_funny,"Das Lustige ist, Caleb Maas ist persönlich in den Angriff verwickelt. Er hat gehört, dass Franklyn Hoffer höchst persönlich auf dem Weg zu einem Treffen mit der Marineflotte ist. Maas ist auf dem Weg, Hoffer abzufangen und seine Rebellion im Keim zu ersticken."
+a3_m06_dialogue_player_what,"WAS? Ich meine, äh... ähm, ich muss gehen."
+a3_m06_dialogue_clay_that_dont,"Wir sollten besser zur Basis zurückkehren und Hoffer wissen lassen, dass hier bald die Hölle los sein wird!"
+a3_m06_dialogue_cal_lets_get,"Lass uns diese Maas-IFFs loswerden. Alle Schiffe, entfernt die Maas-IFFs."
+a3_m06_dialogue_smith_it,Zu spät. Ich kann Hoffers Schiffe nirgendwo sehen. Warte. Ein Schiff ist da draußen.
+a3_m06_dialogue_cal_what,Was ist passiert?
+a3_m06_dialogue_escort_im_all,"Wir sind im Osprey-System in einen Hinterhalt geraten! Hoffer wurde gefangen genommen! Von Maas-Schiffen. Ich bin alles, was von Hoffers Geleitschutz übrig geblieben ist. Ich bin nicht sicher, wohin sie ihn gebracht haben, aber ich kann dir seine letzte Position geben."
+a3_m06_dialogue_cal_you_did,"Du hast das gut gemacht. Mach dir keine Sorgen, wir übernehmen das jetzt."
+a3_m06_dialogue_smith_well,"Cal, wir sollten besser an die Basis andocken und aufladen. Wer weiß, wann wir wieder die Möglichkeit haben werden."

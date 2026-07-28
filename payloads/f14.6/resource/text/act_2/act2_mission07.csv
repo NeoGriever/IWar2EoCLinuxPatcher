@@ -1,0 +1,20 @@
+; FILE: Dact2_mission07.csv,
+; Key,
+;,
+; FILE NAME,GERMAN TRANSLATION
+a2_m07_dialogue_ambassador_c2_who_are_you,Wer sind Sie? Was machen Sie hier?
+a2_m07_dialogue_ambassador_c2_ah_your_back,Schon zurück? Was kann ich diesmal für Sie tun?
+a2_m07_text_player_c2_option_1_cal_help,"Ich bin Cal, man hat mir gesagt, Sie könnten mir eventuell helfen..."
+a2_m07_dialogue_player_c2_option_1_cal_help,"Ich bin Cal, man hat mir gesagt, Sie könnten uns eventuell helfen, die Marauder zu besiegen. "
+a2_m07_dialogue_ambassador_c2_response_1_ah_a_common,"Ein lobenswertes Ziel und zudem auch das meine. Ich habe eine Streitmacht gegen die wachsende Unterdrückung aufgebaut. Aber meine Bemühungen wurden entdeckt, und jetzt kann ich mich nicht mehr frei bewegen, ohne unerwünschte Aufmerksamkeit zu erregen. Schiffe der Marauder folgen mir überall hin. Für einen einfachen Beamten ist das zwar schmeichelhaft, aber Sie werden verstehen, dass es meine Aktivitäten einschränkt. Es tut mir leid. Ich werde die Marauder nicht los, also kann ich auch niemand anderem helfen."
+a2_m07_dialogue_player_c2_response_1_we_can_help,Dann können WIR ja vielleicht IHNEN helfen. Lassen Sie uns IFFs tauschen. Die Marauder werden mein Schiff für Ihr Geleitschiff halten und uns folgen statt Ihnen.
+a2_m07_dialogue_ambassador_c2_response_1_hm_that_might,"Hmmm. Sie sind mutig. Oder einfach nur leichtsinnig. Die Aktion könnte funktionieren, vorausgesetzt Sie überleben sie.  Wenn Sie die Maurauder weit genug wegführen, flüchte ich zum Sprungpunkt. Wir treffen uns dann in Ihrer Basis. Also los. Ich werde Ihnen folgen, und wenn wir weit genug draußen sind, übermittele ich Ihnen meinen IFF."
+a2_m07_text_player_c2_option_2_just_passing_through,Nur auf der Durchreise.
+a2_m07_dialogue_player_c2_option_2_just_passing_through,Nur auf der Durchreise.
+a2_m07_dialogue_ambassador_c2_response_2_hm_ok_then,Hmm. Nun gut. Dann will ich Sie nicht aufhalten. 
+a2_m07_dialogue_ambassador_ok_this_should_do,"Das müsste reichen. Wir sind weit genug draußen, um den IFF zu übermitteln. Einen Moment... Okay, hier ist mein IFF. Angekommen? Gut. Geben Sie den Maraudern auch von mir eins drüber.  Wir sehen uns in der Basis!"
+a2_m07_dialogue_clay_lets_move_kid,"Setzen wir uns in Bewegung, Kleiner. Wir müssen Abstand zum Botschafter gewinnen!"
+a2_m07_dialogue_clay_heads_up_kid,"Achtung, Kleiner! Ich glaube, sie haben uns durchschaut!"
+a2_m07_dialogue_clay_nice_one,Gut gemacht!  Jetzt aber zurück zur Basis bevor die Verstärkung anrückt!
+a2_m07_dialogue_clay_nice_one_shame,"Gute Aktion, Kleiner. Schade um den Wingman. Jetzt aber zurück zur Basis bevor die Verstärkung anrückt!"
+a2_m07_dialogue_wingman_thanks_for_the_help,"Danke für Ihre Hilfe. Hier, das ist für Sie."

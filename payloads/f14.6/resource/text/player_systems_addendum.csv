@@ -1,0 +1,14 @@
+;,,
+; Cargo systems Addendum,,
+;,,
+Cargo_PowerUpRegularHealth,Augmentation de la vie,Vie 
+Cargo_PowerUpSuperHealth,Super augmentation de la vie,Super vie
+Cargo_PowerUpSpeedTimesTwo,Augmentation de la vitesse X2,Vitesse X2
+Cargo_PowerUpSpeedTimesThree,Augmentation de la vitesse X3,Vitesse X3
+Cargo_PowerUpSpeedDivTwo,"Vitesse X 0,5","Vitesse X 0,5" 
+Cargo_PowerUpBomb,Bomb PowerUp,Bombe
+
+; Antimatter remote missile pack
+Cargo_AntimatterRemotePack,"Miss. REM antimatière,Miss. REM AM"
+Cargo_LDSClass3Drive,LDS Classe 3,LDS Classe 3
+

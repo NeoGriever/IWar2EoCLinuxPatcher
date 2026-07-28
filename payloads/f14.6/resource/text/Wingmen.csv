@@ -1,0 +1,31 @@
+; FILE: Wingmencsv,
+; Key,FRENCH
+;,
+wingmen_id,AILIERS
+wingmen_you,VOUS
+wingmen_acknowledged,BIEN RECU 
+wingmen_status,SITUATION AILIERS 
+wingmen_not_available,PAS D'AILIERS DISPONIBLES 
+wingmen_cannot_comply_no_target,IMPOSSIBLE - PAS DE CIBLE
+wingmen_cannot_comply_friendly_target,IMPOSSIBLE - CIBLE AMIE
+wingmen_cannot_comply_target_wingman,IMPOSSIBLE - LA CIBLE EST UN AILIER
+wingmen_cannot_comply_enemy_target,IMPOSSIBLE - CIBLE ENNEMIE
+wingmen_awaiting_orders,EN ATTENTE DES ORDRES
+wingmen_attacking,ATTAQUE
+wingmen_defending_player,VOUS DEFENDONS
+wingmen_defending,DEFENSE
+wingmen_docking_to,AMARRAGE
+wingmen_retreating,RETRAITE
+wingmen_approaching,APPROCHE
+wingmen_undocking,DESAMARRAGE
+wingmen_tfighters,CHASSEURS-T
+wingmen_no_tfighters_available,PAS DE CHASSEURS-T DISPONIBLES
+wingmen_tfighters_detaching,DETACHEMENT
+wingmen_tfighters_attaching,RATTACHEMENT
+wingmen_tfighters_cannot_comply_no_dockport,IMPOSSIBLE - POINT D'ATTACHE UTILISE
+wingmen_tfighter_1,CHASSEUR-T LORI
+wingmen_tfighter_2,CHASSEUR-T AZ
+wingmen_tfighters_acknowledged,CHASSEURS-T - BIEN RECU 
+wingmen_tfighters_firing_at_will,FEU A VOLONTE
+wingmen_tfighters_holding_fire,NE PAS TIRER
+wingmen_tfighters_not_attached,IMPOSSIBLE - PAS ATTACHE

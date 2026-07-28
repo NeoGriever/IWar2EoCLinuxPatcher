@@ -1,0 +1,255 @@
+; FILE: Demail.csv,
+; Key,
+; FILE NAME,GERMAN TRANSLATION
+;,
+; Act 0,
+a0_master_lucrecia_mail_sender,Lucrecia Johnston
+a0_master_story0.30_mail_subject,An den Finder...
+;,
+; Act 1,
+;,
+a1_m02_email_sender,Verity Stepson
+a1_m02_email_subject,Bitte um Mitgliedschaft
+;,
+a1_m03_email_sender,Elmo Stepson
+a1_m03_email_subject,Marauder-Basis gefunden
+;,
+a1_m04_email_sender,Anonym
+a1_m04_email_subject,Was Interessantes
+;,
+a1_m05_email_sender,E. R. Oregon
+a1_m05_email_subject,Information bezüglich der Marauder
+;,
+a1_m06_email_sender,Elmo Stepson
+a1_m06_email_subject,Verteidigung von Hoffer's Gap
+;,
+a1_m08_email_sender,Paulus Richter
+a1_m08_email_subject,Bitte um Mitgliedschaft
+;,
+a1_m09_email_sender,Paulus Richter
+a1_m09_email_subject,Lukrativer Job
+;,
+a1_m10_email_sender,Natashia Blake
+a1_m10_email_subject,Belohnung für den Finder
+;,
+; Act 2,
+;,
+a2_master_league_mail_sender,Die League
+a2_master_story2.10_mail_subject,"Wir brauchen wieder deine Hilfe, Cal"
+;,
+a2_master_oman_sender,Abdul Hadi
+a2_master_story2.12_mail_subject,Über uns
+a2_master_story2.140_mail_subject,Warnung
+;,
+a2_master_mca_mail_sender,MCA-Hauptquartier
+a2_master_story2.140b_mail_subject,Das solltest du wissen
+;,
+a2_master_story2.160_mail_subject,Mögliche Lösung des Marauder-Problems
+a2_master_story2.170_mail_subject,Was in Ihrer Abwesenheit passiert ist
+a2_master_story2.180_mail_subject,Um es dir leichter zu machen...
+a2_master_story2.190_mail_subject,An alle League-Beauftragten
+;,
+a2_master_story2.260_mail_subject,Vielleicht von Nutzen
+a2_master_anon_sender,Anonym
+;,
+a2_master_story2.210_mail_subject,An alle League-Beauftragten
+;,
+a2_master_ambassador_mail_sender,Botschafter Callow
+a2_master_ambassador_mail_subject,Danke - Nützliche Information
+;,
+a2_m08_email_sender,Jarvis Fokker
+a2_m08_email_subject,Hintertür ins Mwari-System
+;,
+a2_m09_email_sender,MCA-Oberbefehl
+a2_m09_email_subject,Planung von Einsätzen gegen die Marauder
+;,
+a2_m10_email_sender,Third Man
+a2_m10_email_subject,Vorschlag
+;,
+a2_m11_email_sender,Carla Stepson
+a2_m11_email_subject,Vorschlag
+;,
+a2_m12_email_sender,Natashia Blake
+a2_m12_email_subject,Ärger bei Haven Station
+;,
+a2_m13_email_sender,Natashia Blake
+a2_m13_email_subject,Notfall
+;,
+a2_m18_email_sender,Natashia Blake
+a2_m18_email_subject,Marauder-Falle
+;,
+a2_m20_email_sender,Indigo
+a2_m20_email_subject,Mobilmachung der Flotte
+;,
+a2_m24_email_sender,Natashia Blake
+a2_m24_email_subject,Verdeckter Einsatz
+;,
+a2_master_story2.290_mail_subject,Stunde Null...
+a2_master_story2.150_mail_subject,Rettung Mwaris geht weiter...
+a2_master_hoffer_mail_sender,Franklyn Hoffer
+;,
+a2_master_story2.300_mail_subject,Zukunft der Badlands
+a2_master_story2.310_mail_subject,Marauder-Hauptquartier gefunden
+a2_master_story2.270_mail_subject,Ein Marauder-Problem weniger...
+;,
+a2_master_story2.280_mail_subject,Probleme mit Firefrost
+;,
+a2_master_kong_mail_sender,Die Kong
+a2_master_league_mail_sender,Die League
+a2_master_story2.200b_mail_subject,Bedauernswerte Sache mit den Kong
+a2_master_story2.200_mail_subject,Danke für Ihr Eingreifen
+;,
+a2_master_league_boffin_mail_sender,Paulo Christov
+a2_master_story2.231_mail_subject,Marauder-Verschlüsselung
+a2_master_story2.230_mail_subject,Gute Neuigkeiten!
+a2_master_story2.320_mail_subject,Wir brauchen eine Alternative...
+a2_master_hoffer_mail_sender,Franklyn Hoffer
+a2_master_story2.330_mail_subject,"Du hast dich selbst übertroffen, Cal!"
+;,
+; Act 3,
+;,
+a3_master_hoffer_mail_sender,Franklyn Hoffer
+a3_master_story3.10_mail_subject,Feind in die Ecke gedrängt
+;,
+
+a3_master_story3.20_mail_subject,Auftrag für dich
+
+a3_master_story3.30_mail_subject,Eine Sorge...
+
+a3_master_story3.40_mail_subject,Neueste Berichte
+
+a3_master_story3.50_mail_subject,Katastrophe
+;,
+
+a3_master_story3.70_mail_subject,Saubere Arbeit!
+
+a3_master_story3.80_mail_subject,Womit wir's zu tun haben 
+
+a3_master_story3.90_mail_subject,Hab' den Braten gerochen
+;,
+
+a3_master_story3.140_mail_subject,Es gibt nur eine Lösung...
+;,
+a3_m02_email_sender,Franklyn Hoffer
+a3_m02_email_subject,Systemverteidigungsflotte
+;,
+a3_m03_email_sender,Franklyn Hoffer
+;,
+a3_m04_email_sender,Franklyn Hoffer
+a3_m04_email_subject,Angriff auf Fomalhaut
+;,
+a3_m05_email_sender,Franklyn Hoffer
+a3_m05_email_subject,Standort Systemflotte
+a3_m05_email_subject_02, Abgefangene Marine-Korrespondenz
+
+;,
+a3_m09_email_sender,Franklyn Hoffer
+a3_m09_email_subject,Bergung von Antimaterie
+;,
+generated_missions_01_email_sender_01,Jafs
+generated_missions_01_email_subject_01,Minenarbeiter
+generated_missions_02_email_sender_01,Dave Schwa
+generated_missions_02_email_subject_01,Nachricht von Dave Schwa
+generated_missions_03_email_sender_01,Julius Stepson
+generated_missions_03_email_subject_01,Auftrag von den Stepsons
+generated_missions_04_email_sender_01,Juseph Bin Alam
+generated_missions_04_email_subject_01,Oman bitten um Unterredung
+generated_missions_04_email_sender_02,Sprecher der Oman
+generated_missions_04_email_subject_02,Lob von den Oman
+generated_missions_05_email_sender_01,Juseph Bin Alam
+generated_missions_05_email_subject_01,Nachricht von den Oman
+generated_missions_05_email_sender_02,Juseph Bin Alam
+generated_missions_05_email_subject_02,Dank von den Oman von Jahim
+generated_missions_06_email_sender_01,Dr. Catherine Stepson
+generated_missions_06_email_subject_01,Stepsons - Notfall!
+generated_missions_06_email_sender_02,Dr. Catherine Stepson
+generated_missions_06_email_subject_02,Stepsons - BEEILUNG
+generated_missions_07_email_sender_01,Dr. Catherine Stepson
+generated_missions_07_email_subject_01,Stepsons - haben Hinweis erhalten
+generated_missions_09_email_sender_01,Dr. Catherine Stepson
+generated_missions_09_email_subject_01,"Weitergeleitet von Jafs: Lies das, Cal..."
+generated_missions_09_email_sender_02,Anonymer Gönner
+generated_missions_09_email_subject_02,Beeil dich!
+generated_missions_09_email_sender_03,Anonymer Gönner
+generated_missions_09_email_subject_03,Gut gemacht
+generated_missions_10_email_sender_01,Mr. Runcible
+generated_missions_10_email_subject_01,Gesucht - frisches Fleisch
+generated_missions_10_email_sender_02,Mr. Runcible
+generated_missions_10_email_subject_02,Zur Erinnerung - Wir brauchen Fleisch!
+generated_missions_11_email_sender,Jerome Stepson
+generated_missions_11_email_subject_01,Kleiner Auftrag für dich
+generated_missions_12_email_sender,Gabriella Stepson
+generated_missions_12_email_subject_01,Komm zum Sommerhaus
+generated_missions_13_email_sender_01,Dr. Jones
+generated_missions_13_email_subject_01,Medikamentenmangel der League
+generated_missions_14_email_sender_01,Gavin Stepson
+generated_missions_14_email_subject_01,"Stepsons - Auftrag für dich, Cal..."
+generated_missions_15_email_sender_01,Besorgter Bürger
+generated_missions_15_email_subject_01,Daten besorgen
+generated_missions_16_email_sender_01,Der Freak
+generated_missions_16_email_subject_01,Ma1l v0m Fr3ak
+generated_missions_17_email_sender_01,Der Freak
+generated_missions_17_email_subject_01,Wi3d3r Ma1l v0m Fr3ak
+generated_missions_18_email_sender_01,La Campanas
+generated_missions_18_email_subject_01,Vom La Campanas-Minenkollektiv
+generated_missions_19_email_sender_01,Big Jack
+generated_missions_19_email_subject_01,Nachricht von Big Jack 
+generated_missions_19_email_sender_02,Big Jack
+generated_missions_19_email_subject_02,Nachricht von Big Jack (2)
+generated_missions_20_email_sender_01,"Foreman, League"
+generated_missions_20_email_subject_01,Bitte der League
+generated_missions_21_email_sender_01,Gav Stepson
+generated_missions_21_email_subject_01,E-Mail von Gav Stepson 
+generated_missions_21_email_sender_02,Gav Stepson
+generated_missions_21_email_subject_02,E-Mail von Gav Stepson (2)
+generated_missions_22_email_sender_01,Marchion
+generated_missions_22_email_subject_01,Nachricht von der League
+generated_missions_22_email_sender_02,Marchion
+generated_missions_22_email_subject_02,Gut gemacht
+generated_missions_23_email_sender_01,Sprecher der Oman
+generated_missions_23_email_subject_01,Oman begrüßen dein Geschick
+generated_missions_23_email_sender_02,Sprecher der Oman
+generated_missions_23_email_subject_02,"Du weißt, wie man Angst verbreitet"
+generated_missions_24_email_sender_01,Wafeeq
+generated_missions_24_email_subject_01,Sei die gerechte Rache der Oman
+generated_missions_25_email_sender_01,Marid
+generated_missions_25_email_subject_01,Nachricht von Marid von den Oman
+generated_missions_26_email_sender_01,Aseelah
+generated_missions_26_email_subject_01,Gesucht: Waffenteile
+generated_missions_26_email_sender_02,Aseelah
+generated_missions_26_email_subject_02,Produktion wieder normal
+generated_missions_27_email_sender_01,Basaam
+generated_missions_27_email_subject_01,"Eine Beleidigung, die nach Rache verlangt"
+generated_missions_27_email_sender_02,Basaam
+generated_missions_27_email_subject_02,Dein Geschick erweist uns gute Dienste
+generated_missions_28_email_sender_01,Sprecher der Oman
+generated_missions_28_email_subject_01,Dringende Nachricht - Oman
+generated_missions_29_email_sender_01,Humam
+generated_missions_29_email_subject_01,Industriespionage im Auftrag der Oman
+generated_missions_30_email_sender_01,Abdul Hadi
+generated_missions_30_email_subject_01,Vorbereitungen zum großen Fest
+generated_missions_30_email_sender_02,Abdul Hadi
+generated_missions_30_email_subject_02,Danke für deine Hilfe
+generated_missions_31_email_sender_01,Dan O'Herlihy
+generated_missions_31_email_subject_01,MCA - Benötigte Ausstattung
+generated_missions_32_email_sender_01,Marcel Jardan
+generated_missions_32_email_subject_01,MCA - Terraform-Projekt
+generated_missions_33_email_sender_01,Jason Kay
+generated_missions_33_email_subject_01,MCA - BIOGEFAHR-NOTFALL
+generated_missions_33_email_sender_02,Jason Kay
+generated_missions_33_email_subject_02,MCA-Biogefahr - Danke für die Hilfe
+generated_missions_34_email_sender_01,General Matuska
+generated_missions_34_email_subject_01,MCA - Büro von General Matuska 
+generated_missions_34_email_sender_02,General Matuska
+generated_missions_34_email_subject_02,MCA - Büro von General Matuska (2)
+generated_missions_35_email_sender_01,Quartiermeister
+generated_missions_35_email_subject_01,MCA - Sicherheitsfragen
+a1_sender_the_stepsons,Die Stepsons
+a1_subject_greetings,Gruß
+a1_subject_doing_well,Das machen Sie gut
+a1_subject_we_are_impressed,Wir sind beeindruckt
+a1_master_subject_haven,Ein Geheimnis...
+a3_m03_email_subject,Die Maas geben das Coyote-System auf!
+a3_m05_email_subject_02,Abgefangene Marine-Korrespondenz
+
+

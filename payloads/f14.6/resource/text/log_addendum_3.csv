@@ -1,0 +1,9 @@
+
+;
+; Log text addendum 3
+;
+
+; Capsule space
+E_NoCapsuleDrive,"FEHLER: HYPERANTRIEB NICHT INSTALLIERT"
+E_CapsuleDriveDestroyed,"FEHLER: HYPERANTRIEB ZERSTÖRT"
+"

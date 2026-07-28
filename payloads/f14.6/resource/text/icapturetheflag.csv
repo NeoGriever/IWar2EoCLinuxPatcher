@@ -1,0 +1,72 @@
+; FILE: Dicapturetheflag#2.csv,
+; Key,
+; FILE NAME,GERMAN TRANSLATION
+;,
+mp_flag_team_a,ALPHA
+mp_flag_team_b,BETA
+mp_flag_a_flag_name,ALPHA-FLAGGE
+mp_flag_b_flag_name,BETA-FLAGGE
+mp_flag_a_flag_gate_name,Flaggentor ALPHA
+mp_flag_b_flag_gate_name,Flaggentor BETA
+mp_flag_a_gunstar_name,Alpha-Gunstar
+mp_flag_b_gunstar_name,Beta-Gunstar
+mp_flag_a_fighter_name,Alpha-Jäger
+mp_flag_b_fighter_name,Beta-Jäger
+mp_flag_a_ring_name,Alpha-Ring
+mp_flag_b_ring_name,Beta-Ring
+mp_flag_player_left, : Hat das Gebäude verlassen.
+mp_flag_player_falling,Sie nähern sich dem Ende der Welt.
+mp_flag_player_transported,Sie wurden zur Basis zurückgebracht.
+mp_flag_player_stuffed_you,Dir hab' ich's gegeben!
+mp_flag_player_killed,%s hat %s abgeschossen.
+mp_flag_flag_returned,Wieder am Stützpunkt.
+mp_flag_team_b_captured_flag,Vom ALPHA-Team erobert.
+mp_flag_player_picked_up_a,Hat jetzt die ALPHA-Flagge.
+mp_flag_player_picked_up_b,Hat jetzt die BETA-Flagge.
+mp_flag_team_a_captured_flag,Vom BETA-Team erobert.
+mp_flag_team_a_got_b_flag,Hat jetzt die BETA-Flagge.
+mp_flag_team_b_got_a_flag,Hat jetzt die ALPHA-Flagge.
+mp_flag_joined_team_a,Hat sich dem ALPHA-Team angeschlossen.
+mp_flag_joined_team_b,Hat sich dem BETA-Team angeschlossen.
+mp_flag_player_won_flag_a,Sie haben die ALPHA-Flagge erobert.
+mp_flag_player_won_flag_b,Sie haben die BETA-Flagge erobert.
+mp_flag_team_a_wins,ALPHA-Team hat gewonnen.
+mp_flag_team_b_wins,BETA-Team hat gewonnen.
+mp_flag_team_draw,Das Ergebnis ist unentschieden.
+mp_flag_ammo_power_up,Munitionsstärke
+mp_kill_message_1,%s hat %s eine Abreibung verpasst.
+mp_kill_message_2,%s wurde von %s haushoch geschlagen.
+mp_kill_message_3,%s wurde von %s zerstört.
+mp_kill_message_4,%s wurde von %s ordentlich versohlt.
+mp_bomb_kill_message_1,"Aua, mein Kopf!"
+mp_bomb_kill_message_2,Das war zu viel!
+mp_bomb_warning_message,Sekunden bis zur Explosion:
+mp_health_message,Steigerung der Lebensenergie (%):
+mp_speed_message_up,Steigerung der Maximalgeschwindigkeit (%):
+mp_speed_message_down,Neueinstellung Maximalgeschwindigkeit
+mp_station_name,Spondonium
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,

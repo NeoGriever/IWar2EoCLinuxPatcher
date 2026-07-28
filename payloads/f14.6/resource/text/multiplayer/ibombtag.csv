@@ -1,0 +1,10 @@
+; FILE: Dibombtag.csv,
+; Key,GERMAN TRANSLATION
+;,
+mp_bomb_name,BOMBE
+mp_bomb_about_to_spawn,Die Bombe wird gleich erstellt!!
+mp_bomb_bomb_spawned,Die Bombe wurde erstellt!!
+mp_bomb_detonation_time,Zeit bis Detonation:
+mp_bomb_picked_up, hat die Bombe aufgenommen!
+mp_bomb_killed_bot,Umgelegter Bot:
+mp_bomb_score,PUNKTE

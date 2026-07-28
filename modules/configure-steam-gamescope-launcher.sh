@@ -1,0 +1,120 @@
+#!/usr/bin/env bash
+# Sets the Gamescope diagnostic wrapper as the Steam launch option for IW2.
+set -Eeuo pipefail
+
+PATCH_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd -P)"
+APP_ID="${IW2_STEAM_APP_ID:-359630}"
+STEAM_ROOT="${IW2_STEAM_ROOT:-$HOME/.local/share/Steam}"
+RUNTIME_DIR="${IW2_RUNTIME_DIR:-$HOME/.local/share/independence-war-2-ultimate-patcher}"
+SOURCE_WRAPPER="$PATCH_DIR/tools/iwar2-gamescope-diagnostic.sh"
+INSTALLED_WRAPPER="$RUNTIME_DIR/tools/iwar2-gamescope-diagnostic.sh"
+SOURCE_DISPLAY_CONFIG="$PATCH_DIR/runtime/display.conf"
+DISPLAY_CONFIG="$RUNTIME_DIR/runtime/display.conf"
+PROGRESS_FILE="${GERPATCH_PROGRESS_FILE:-}"
+
+progress() {
+    [[ -n "$PROGRESS_FILE" ]] || return 0
+    local temporary="${PROGRESS_FILE}.tmp.$$"
+    printf '%s|%s|%s\n' "$1" "$2" "$3" > "$temporary"
+    mv -f -- "$temporary" "$PROGRESS_FILE"
+}
+
+[[ $# -eq 1 && -f "$1/flux.ini" ]] || {
+    printf 'Usage: %s <IW2 installation directory>\n' "$(basename -- "$0")" >&2
+    exit 64
+}
+[[ -x "$SOURCE_WRAPPER" ]] || { printf 'Gamescope wrapper is missing: %s\n' "$SOURCE_WRAPPER" >&2; exit 66; }
+[[ -f "$SOURCE_DISPLAY_CONFIG" ]] || { printf 'Gamescope display template is missing: %s\n' "$SOURCE_DISPLAY_CONFIG" >&2; exit 66; }
+
+install_runtime() {
+    local temporary
+    mkdir -p -- "$RUNTIME_DIR/tools" "$RUNTIME_DIR/runtime"
+    [[ -f "$DISPLAY_CONFIG" ]] || cp -a -- "$SOURCE_DISPLAY_CONFIG" "$DISPLAY_CONFIG"
+    temporary="${INSTALLED_WRAPPER}.tmp.$$"
+    cp -a -- "$SOURCE_WRAPPER" "$temporary"
+    chmod 0755 -- "$temporary"
+    mv -f -- "$temporary" "$INSTALLED_WRAPPER"
+    cmp -s -- "$SOURCE_WRAPPER" "$INSTALLED_WRAPPER" || {
+        printf 'Failed to install Gamescope wrapper: %s\n' "$INSTALLED_WRAPPER" >&2
+        exit 65
+    }
+}
+
+progress steam-launcher 0 1
+install_runtime
+
+# Steam retains localconfig.vdf in memory and otherwise overwrites a direct
+# edit on shutdown. Give the user the exact safe manual alternative instead.
+if pgrep -x steam >/dev/null; then
+    progress steam-launcher 1 1
+    printf 'Steam is running, so its local configuration was left unchanged.\n\n'
+    printf 'In Steam: Library → Independence War 2 → Properties → General → Launch Options\n'
+    printf 'Copy this exact line into the Launch Options field:\n\n'
+    printf '%s %%command%%\n\n' "$INSTALLED_WRAPPER"
+    printf 'Then start the game normally from Steam.\n'
+    exit 0
+fi
+
+shopt -s nullglob
+configs=("$STEAM_ROOT"/userdata/*/config/localconfig.vdf)
+(( ${#configs[@]} > 0 )) || { printf 'No Steam localconfig.vdf was found.\n' >&2; exit 66; }
+
+backup_dir="$PATCH_DIR/backups/steam-launch-options-$(date +%Y%m%d-%H%M%S)"
+mkdir -p -- "$backup_dir"
+progress steam-launcher 0 "${#configs[@]}"
+updated=0
+for config in "${configs[@]}"; do
+    grep -Fq "\"$APP_ID\"" "$config" || continue
+    cp -a -- "$config" "$backup_dir/$(basename "$(dirname "$(dirname "$config")")")-localconfig.vdf"
+    IW2_APP_ID="$APP_ID" IW2_LAUNCH_OPTION="$INSTALLED_WRAPPER %command%" perl -0pi -e '
+        my $app_id = $ENV{IW2_APP_ID};
+        my $value = $ENV{IW2_LAUNCH_OPTION};
+        my $escaped_value = $value;
+        $escaped_value =~ s/([\\"])/\\$1/g;
+        my $anchor = index($_, qq{"$app_id"});
+        die "Steam app block not found for $app_id\\n" if $anchor < 0;
+        my $open = index($_, "{", $anchor);
+        die "Steam app block is malformed for $app_id\\n" if $open < 0;
+        my $depth = 0;
+        my $close = -1;
+        for my $index ($open .. length($_) - 1) {
+            my $char = substr($_, $index, 1);
+            ++$depth if $char eq "{";
+            --$depth if $char eq "}";
+            if ($depth == 0) { $close = $index; last; }
+        }
+        die "Steam app block is unclosed for $app_id\\n" if $close < 0;
+        my $block = substr($_, $anchor, $close - $anchor + 1);
+        if ($block =~ /"LaunchOptions"/) {
+            $block =~ s{("LaunchOptions"[ \t]*)"(?:\\.|[^"\\])*"}{$1"$escaped_value"};
+        } else {
+            my $insert_at = rindex($block, "}");
+            die "Steam app block has no closing brace for $app_id\\n" if $insert_at < 0;
+            substr($block, $insert_at, 0) = "\n\t\t\t\t\t\t\"LaunchOptions\"\t\t\"$escaped_value\"\n";
+        }
+        substr($_, $anchor, $close - $anchor + 1, $block);
+    ' "$config"
+    actual="$(IW2_APP_ID="$APP_ID" perl -0ne '
+        my $app_id = $ENV{IW2_APP_ID};
+        my $anchor = index($_, qq{"$app_id"});
+        exit if $anchor < 0;
+        my $open = index($_, "{", $anchor);
+        my $depth = 0;
+        my $close = -1;
+        for my $index ($open .. length($_) - 1) {
+            my $char = substr($_, $index, 1);
+            ++$depth if $char eq "{"; --$depth if $char eq "}";
+            if ($depth == 0) { $close = $index; last; }
+        }
+        my $block = substr($_, $anchor, $close - $anchor + 1);
+        print $1 if $block =~ /"LaunchOptions"[ \t]*"((?:\\.|[^"\\])*)"/;
+    ' "$config")"
+    [[ "$actual" == "$INSTALLED_WRAPPER %command%" ]] || { printf 'Failed to verify Steam launch option in %s\n' "$config" >&2; exit 65; }
+    updated=$((updated + 1))
+    progress steam-launcher "$updated" "${#configs[@]}"
+done
+
+(( updated > 0 )) || { printf 'No local Steam account contains App %s yet. Start Steam once after installing the game, then rerun this selected task.\n' "$APP_ID" >&2; exit 66; }
+progress steam-launcher "$updated" "$updated"
+printf 'Gamescope runtime installed at %s and set as the Steam launch option for %s account configuration(s). Backup: %s\n' \
+    "$RUNTIME_DIR" "$updated" "$backup_dir"

@@ -1,0 +1,52 @@
+; FILE: FAct2_mission18.csv,
+; Key,FRENCH
+;,
+a2_m18_ship_escort_1,Skydive 1
+a2_m18_ship_escort_2,Skydive 2
+a2_m18_ship_escort_3,Skydive 3
+a2_m18_ship_escort_4,Skydive 4
+a2_m18_ship_fighter_1,Chasseur-Tél 1
+a2_m18_ship_fighter_2,Chasseur-Tél 2
+a2_m18_ship_fighter_3,Chasseur-Tél 3
+a2_m18_ship_freighter_1,Logistique-X345-A
+a2_m18_ship_freighter_2,Logistique-X345-B
+a2_m18_waypoint_rendezvous,Coordonnées rendez-vous convoi
+,
+,
+a2_m18_dialogue_escort_1_greetings_glad_you_could_make_it,"Contente de vous voir, Cal. Merci d'être venu !"
+a2_m18_dialogue_escort_1_the_plan_is_to_head_for_hoffers_gap,Nous sommes prêts à partir.
+a2_m18_dialogue_escort_1_ok_formate_with_us_and_lets_go,"Cal, mettez-vous en formation avec un des transporteurs et nous partirons."
+a2_m18_dialogue_escort_1_setting_course_for_hoffers_gap,Cap réglé sur la Faille de Hoffer. Bonne chance à tous.
+a2_m18_dialogue_escort_1_our_ldsi_drives_have_cut_out,Notre propulseur LDS vient de s'éteindre !
+a2_m18_dialogue_escort_1_watch_out_for_marauders,Attention aux Marauders !
+a2_m18_dialogue_escort_1_cal_where_the_heck_are_you,Cal ? Cal ! Où êtes-vous passé ?
+a2_m18_dialogue_escort_1_marauders_incoming,Des Marauders approchent !
+a2_m18_dialogue_escort_1_theyre_going_for_the_freighters,Ils s'en prennent aux transporteurs. Nous allons essayer de les contenir pendant que vous traquez le vaisseau LDSi.
+a2_m18_dialogue_escort_1_were_releasing_the_remote_fighters_now,Nous relâchons les chasseurs télépilotés maintenant.
+a2_m18_dialogue_clay_weve_lost_a_freighter,On vient de perdre un transporteur !
+a2_m18_dialogue_clay_dammit_there_goes_the_other_one,Chiotte ! On vient de perdre l'autre cargo !
+a2_m18_dialogue_smith_ive_traced_the_ldsi_field_source,"Cal, j'ai trouvé l'origine du champ LDSi. Tu ne vas pas y croire, mais ce champ LDSi est à près de 250 kilomètres !"
+a2_m18_dialogue_cal_thats_huge,Quoi ? Comment pourrait-il être aussi puissant ?
+a2_m18_dialogue_clay_must_be_one_big_ship_generating_that_field,Ca vient peut-être d'un gros vaisseau. Sûrement l'Akela. Allons lui rendre visite.
+a2_m18_dialogue_smith_waypoint_locked_in,Point de passage saisi.
+a2_m18_dialogue_smith_hey_ive_lost_the_ldsi_signal,Hé ! J'ai perdu le signal LDSi ! Je n'ai plus rien !
+a2_m18_dialogue_smith_that_megafreighter_must_be_loaded_with_ldsi_field_generators,"Ce méga-cargo doit être chargé de générateurs de champs LDSi. Il est impossible qu'il produise seul assez d'énergie pour un champ aussi grand ! Attends, on dirait que les cargos l'alimentent en énergie."
+a2_m18_dialogue_clay_so_thats_how_theyre_doing_it,Alors c'est comme CA qu'ils font.
+a2_m18_dialogue_clay_those_power_freighters_could_be_the_key,"Fiston, ces transporteurs d'énergie pourraient être la clé."
+a2_m18_dialogue_smith_the_ships_are_too_well_shielded,Les vaisseaux sont trop bien protégés.
+a2_m18_dialogue_clay_weve_got_to_shut_off_the_power_somehow,Il faut couper cette source d'énergie !
+a2_m18_dialogue_smith_the_ldsi_field_is_down,Le champ LDSi est éteint !
+a2_m18_dialogue_smith_that_did_it_their_shields_are_down,"Ca a marché, Cal ! Magnifique ! Ils se sont fait exploser ! Leurs boucliers sont éteints. Ils sont cuits !"
+a2_m18_dialogue_smith_its_launching_ships,C'est quoi ça ? Il largue des vaisseaux. C'est une saleté de porte-chasseurs !
+a2_m18_dialogue_clay_way_to_go,"Bien joué, fiston !"
+a2_m18_dialogue_clay_i_think_i_think_the_league_owe_you,La League vous doit une fière chandelle.
+a2_m18_dialogue_freighter_what_the_hell_do_you_think_youre_doing,"Mais qu'est-ce que vous fabriquez, là ?"
+a2_m18_dialogue_freighter_are_you_crazy_cease_fire,Vous êtes fou ? Cessez de tirer !
+a2_m18_dialogue_freighter_dont_shoot_us_you_idiot,"Ne tirez pas sur nous, idiot !"
+a2_m18_dialogue_freighter_help_were_under_attack,"A l'aide, nous sommes attaqués !"
+a2_m18_dialogue_freighter_were_being_fired_upon,Nous subissons des tirs ! A l'aide !
+a2_m18_dialogue_freighter_enemy_ships_are_attacking,Des vaisseaux ennemis attaquent ! Nous avons besoin d'aide !
+,
+,
+,
+,

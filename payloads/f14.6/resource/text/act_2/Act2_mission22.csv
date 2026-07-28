@@ -1,0 +1,24 @@
+; FILE: FAct2_mission22.csv,
+; Key,FRENCH
+;,
+a2_m22_name_star,Etoile et Jarretière
+;,
+a2_m22_dialogue_smith_hm_dont,Euh. Je ne reconnais pas ce Point-L. Il n'est pas sur nos cartes. Allons voir.
+a2_m22_dialogue_clay_this_place,Cet endroit a l'air désert. Rien qu'un tas de ferraille abandonnée...
+a2_m22_dialogue_smith_dont_look,Ca n'a pas l'air d'être une base Marauder !
+a2_m22_dialogue_cal_there_must,Il doit y avoir quelque chose dans le coin...
+a2_m22_dialogue_smith_look_sharp,"Fais gaffe, Cal. On a de la compagnie. Je détecte des contacts lointains. Je crois que nous devrions nous planquer dans toute cette ferraille."
+a2_m22_dialogue_clay_hey_that,Ce transporteur pourrait nous abriter... Si nous pouvons nous approcher sans être détectés.
+a2_m22_dialogue_smith_wooa_this,Ouah. C'est une vraie ruche dans le coin. Je me demande ce qu'ils font par ici.
+a2_m22_dialogue_clay_i_think,Je recommande d'explorer cet endroit et de rentrer. Ne t'approche pas de ces patrouilles !
+a2_m22_dialogue_clay_i_wonder,Où tous ces vaisseaux de ravitaillement peuvent-ils aller ?
+a2_m22_dialogue_smith_theyre_taking,Ils amènent du ravitaillement au système Dante à travers un Point-L caché !!! Je crois que nous avons trouvé ce qu'il nous fallait ! Rentrons !
+a2_m22_dialogue_smith_damn_looks,"Chiotte, on dirait que ces appareils Marauders gardent toujours le Point-L. Il va falloir trouver un moyen de les distraire..."
+a2_m22_dialogue_clay_hey_didnt,"Hé, il n'y avait pas un vieux remorqueur dans tout ce bazar ? Ca pourrait marcher comme distraction."
+a2_m22_dialogue_marauders_intruder,Intrus détecté ! A l'attaque !
+a2_m22_dialogue_marauders_unidentified,Vaisseau non-identifié ! Halte ou nous faisons feu !
+a2_m22_dialogue_clay_ok_theyre,Okay ! Ils sont tombés dans le panneau ! Ils nous suivent. Coupons la connexion et laissons-le leur !
+a2_m22_dialogue_clay_were_clear,On est passés ! Retournons à la base pour dire à tout le monde ce que nous avons trouvé !
+,
+,
+,

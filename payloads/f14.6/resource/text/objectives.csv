@@ -1,0 +1,642 @@
+a0_m10_mission_name,Zu Hause
+a0_m10_objectives_approach_clay,Clays Streckenpunkt anfliegen
+a0_m10_objectives_approach_lesson,"Autopilot 'Anflug' mit einem Ziel einsetzen"
+a0_m10_objectives_formate_lesson,"Autopilot 'Formieren' mit einem Ziel einsetzen"
+a0_m10_objectives_starmap_lesson,Sternkarte aktivieren
+a0_m10_objectives_select_griffon,Griffon auf Sternkarte wählen
+a0_m10_objectives_fly_to,Nach Griffon fliegen
+a0_m10_objectives_fly_to_effrit,Zum Effrit fliegen
+a0_m10_objectives_follow_waypoints,Den Streckenpunkten zu Lucrecias Basis folgen
+;,
+
+;,
+a0_m20_mission_name,Bewährungsprobe
+a0_m20_objectives_complete_course, Trainingskurs in unter 3 Minuten absolvieren
+;,
+
+;,
+a0_m35_mission_name,Große Tour
+;,
+
+;,
+a0_m40_mission_name,Botenjunge
+a0_m40_objectives_visit,Spielman in der Frachterstation von Charlesworth besuchen
+a0_m40_objectives_meet_freight,Paket am L-Punkt von Alexander abholen
+a0_m40_objectives_deliver_package,Paket an Junkers liefern
+a0_m40_objectives_collect,Belohnung von Spielman abholen
+a0_m40_objectives_intercept,Belrano bei Griffon abfangen
+a0_m40_objectives_return,Gestohlene Ware an Spielman zurückgeben
+;,
+
+;,
+a0_m50_mission_name,Schrottplatz-Rallye
+a0_m50_objectives_scout,Schrottplatz auskundschaften
+a0_m50_objectives_sneak,Auf Schrottplatz schleichen und an Reaktor andocken
+a0_m50_objectives_return,Brennstäbe sicher zum Stützpunkt bringen
+;,
+
+;,
+a0_m60_mission_name,Nemesis
+a0_m60_objectives_recover,Drohne aus Felix' Garage bergen
+;,
+
+;,
+a1_master_mission_name,Erster Akt
+a1_m00_mission_name,Kinderspiel
+a1_m00_objective_checkout,Notsignal am Rande des Effrit untersuchen
+;,
+
+;,
+a1_m01_mission_name,Gesprengte Ketten
+a1_m01_objective_change_iff,IFF-Sender bei Maurice austauschen
+a1_m01_objective_find_base,Lucrecias Basis finden
+;,
+
+;,
+a1_m02_mission_name,Die Stepsons
+a1_m02_objective_visit,Stepsons beim Treffpunkt besuchen
+a1_m02_objective_steal,Maas Schiffsladeliste vom Kurier am Touchdown-L-Punkt erbeuten
+a1_m02_objective_recover,Schiffsladeliste aus der Sammelstation I von Grimwald bergen 
+a1_m02_objective_deliver,Schiffsladeliste an die Stepsons übergeben
+;,
+
+;,
+a1_m03_mission_name,Vereinte Kräfte
+a1_m03_objectives_rendezvous,Angriffsflotte treffen
+a1_m03_objectives_destroy,Marauderstützpunkt zerstören
+a1_m03_objectives_return,"Zu den Stepsons zurückkehren, um Belohnung zu holen"
+;,
+
+;,
+a1_m04_mission_name,Der Fang
+a1_m04_objectives_meet,Stepsons-Informant treffen
+a1_m04_objectives_get_iff,Passenden IFF vom Schrottplatz holen
+a1_m04_objectives_redez,Jafs am Treffpunkt aufsuchen
+a1_m04_objectives_dock,Bei Jafs andocken und zur Maas Einrichtung fliegen
+a1_m04_objectives_recover,Jäger aus Sicherheitsstation bergen
+a1_m04_objectives_make_sure,Jafs' Abzug vom Stützpunkt sichern
+;,
+
+;,
+a1_m05_mission_name,Frachteinheit der Marauder
+a1_m05_objectives_meet,E. R. Oregon bei Asteroidenmine treffen
+a1_m05_objectives_checkout,Minensender-Punkt untersuchen
+;,
+
+;,
+a1_m06_mission_name,Ärger mit den Gunstars
+a1_m06_objective_travel_to_base,Zur militärischen FTL-Relaisstation fliegen
+a1_m06_objective_dock_to_base,An Station andocken
+a1_m06_objective_retrieve_arming_keys,Gunstar-Codes bergen
+a1_m06_objective_disarm_gunstars,Gunstars entschärfen
+a1_m06_objective_call_in_freighter,Jafs zum Einsammeln der Gunstars rufen
+;,
+
+;,
+a1_m07_mission_name,Kraftprobe
+a1_m07_objective_go_to_hoffers,Nach Hoffer's Gap fliegen
+a1_m07_objective_arm_gunstars,Gunstars durch Andocken aktivieren
+a1_m07_objective_destroy_marauders,Schiffe der Marauder zerstören
+a1_m07_objective_defend_hoffers_gap,Hoffer's Gap verteidigen
+;,
+
+;,
+a1_m08_mission_name,League-Einstand
+a1_m08_objectives_meet,League am Streckenpunkt treffen
+a1_m08_objectives_goto,Zum Dock der militärischen Systemverteidigung in Memnon fliegen
+a1_m08_objectives_spray,Flaggschiff besprühen
+;,
+
+;,
+a1_m09_mission_name,Baustelle
+a1_m09_objectives_meet,League am Streckenpunkt treffen
+a1_m09_objectives_travel,Zum Standort der Wartungsplattform fliegen
+a1_m09_objectives_cut,Unterkunftsmodul mit Schneidedrohne von Station trennen
+a1_m09_objectives_lor,Wartungsplattform zur League zurückbringen
+;,
+
+;,
+a1_m10_mission_name,Lucrecias Schatz
+a1_m10_objectives_find,Bill Dulley in Hoffers Werft finden
+a1_m10_objectives_invest,In Hoffers Freizeitkomplex Schlüssel ausfindig machen
+a1_m10_objectives_calculate,Genauen Standort von Lucrecias Schatz mit Computerprogramm berechnen
+a1_m10_objectives_formate,In Formation mit NSO-Schiff zum Standort des Schatzes fliegen
+a1_m10_objectives_recover,Schatz und Mannschaft bergen
+a1_m10_objectives_fail,Einsatz gescheitert: Besatzung getötet
+;,
+
+
+
+;,
+a2_master_mission_name,Zweiter Akt
+a2_master_objectives_look_help,"Hilfe suchen, um Marauder in anderen Systemen zu bekämpfen"
+a2_master_objectives_talk_jackson,Mit Frederick Jackson auf Jacksons Hof bei Penacook reden
+a2_master_objectives_firefrost1,"Blue Note-Club bei Hyrokkin Beta, einem Planeten beim Firefrost-III-Stern, besuchen"
+a2_master_objectives_firefrost2,Mit dem Sheriff in der Systemverwaltung bei Sunflower sprechen
+a2_master_objectives_find_pilots,Genügend Piloten zum Einsatz der MCA-Schiffe finden
+a2_master_objectives_leader,Clays Mutmaßungen in Jacksons Hof nachgehen
+;,
+
+;,
+a2_m01_mission_name,Schadensbegrenzung
+a2_m01_objectives_protect,Wartungsplattform vor Maraudern schützen
+a2_m01_objectives_support,League-Frachter vor feindlichem Feuer schützen
+a2_m01_objectives_escort,Wartungsplattform im Konvoi begleiten
+a2_m01_objectives_cover,Konvoi beim Sprung Deckung geben
+;,
+
+;,
+a2_m02_mission_name,Begegnung mit den Oman
+a2_m02_objectives_wait,Auf Geleitschutz der Oman warten
+a2_m02_objectives_formate,Mit Eskorte der Oman formieren und zum Prüfungsgelände fliegen
+a2_m02_objectives_complete,Die 3 Prüfungen der Oman bestehen
+a2_m02_objectives_fly_courage,Schulschiff per Fernsteuerung zum Streckenpunkt am Gelände des Muts fliegen
+a2_m02_objectives_return_courage,Goldkapsel aus der Minensperre bergen und zum Streckenpunkt bringen
+a2_m02_objectives_fly_cunning,Schulschiff per Fernsteuerung zum Streckenpunkt am Gelände der Geschicklichkeit fliegen
+a2_m02_objectives_follow_cunning,Die Streckenpunkte im Gunstar-Feld innerhalb der gegebenen Zeit abfliegen
+a2_m02_objectives_fly_wisdom,Schulschiff per Fernsteuerung zum Streckenpunkt am Gelände der Weisheit fliegen
+a2_m02_objectives_complete_wisdom,Das Rätsel der Weisheit lösen
+;,
+
+;,
+a2_m03_mission_name,Ärger auf der Ranch
+a2_m03_objectives_investigate,Vorkommnisse bei Lucifuge in Eureka untersuchen
+a2_m03_objectives_revisit,Den Third Way in Lucifuge erneut aufsuchen 
+a2_m03_objectives_get_mines,Abwehrminen vom Piratenstützpunkt von Hastur besorgen
+a2_m03_objectives_manufacture,10 Spürsuchminen herstellen
+a2_m03_objectives_deliver,Einige Minen nach Lucifuge liefern
+;,
+
+;,
+a2_m04_mission_name,Zwölf Uhr Mittags
+a2_m04_objectives_redezvous,Trupp am Sammelpunkt treffen
+a2_m04_objectives_lead,Gruppe in der Jagd auf Marauder bei Westleys Streckenpunkt anführen
+a2_m04_objectives_wing,Als Wingman bei Westleys Streckenpunkt Jagd auf Marauder machen
+a2_m04_objectives_destroy,Alle Marauder zerstören
+;,
+
+;,
+a2_m05_mission_name,Blockadebrecher
+a2_m05_objectives_redezvous,MCA-Frachter am Frachtersammelpunkt treffen
+a2_m05_objectives_jump,"Mit Söldnern nach Mwari springen, um Flugroute auszukundschaften"
+a2_m05_objectives_eliminate,Bedrohung durch die Marauder ausschalten
+a2_m05_objectives_escort,Frachter zum Zielort begleiten
+;,
+; THE FOLLOWING TEXT COPIED FROM A1 M06 - Steve
+;
+a2_m05_objective_dock_to_base,An Station andocken
+;
+;
+;,
+a2_m07_mission_name,Im Exil
+a2_m07_objectives_redezvous,Mit dem Botschafter auf der Arche von Brotherhood in Santa Romera reden
+a2_m07_objectives_lure,Marauder vom Botschafter ablenken
+;,
+
+;,
+a2_m08_mission_name,Unternehmensanteile
+a2_m08_objectives_backdoor,"Hintertür-L-Punkt in Mwari benutzen, um nach Dagda zu gelangen"
+a2_m08_objectives_clear,Minen vor Ankunft der Schuldnerfrachter räumen
+a2_m08_objectives_cover,"Transporter decken, während sie aus dem System springen"
+a2_m08_objectives_leave,System durch L-Punkt verlassen
+;,
+
+;,
+a2_m09_mission_name,Bluthund
+a2_m09_objectives_mca_base,Zum MCA-Stützpunkt in Mwari fliegen
+a2_m09_objecitves_patrol,"Streckenpunkte patrouillieren, um dem Sensorenschiff zu helfen, Übermittlungen der Marauder abzufangen"
+a2_m09_objectives_assault,Stützpunkt der Marauder angreifen und ihre Streitkräfte in der Gegend zerstören
+;,
+
+;,
+a2_m10_mission_name,Tod des Spions
+a2_m10_objectives_redezvous,Zum Treffpunkt fliegen
+a2_m10_objectives_equip,"Zur Basis zurückkehren, um Kanone zu installieren"
+a2_m10_objectives_ammo,"Munition aus den 'Bücher'-Kisten nahe der Sicherheitsstation holen"
+a2_m10_objectives_shoot,Stationsfenster mit Scharfschützenkanone durchschießen
+a2_m10_objectives_collect,"Zum Treffpunkt zurückkehren, um Belohnung zu holen"
+;,
+
+;,
+a2_m11_mission_name,Vereinigung
+a2_m11_objectives_redezvous,Flotte am Sammelpunkt treffen
+a2_m11_objectives_lpoint,Zum L-Punkt von Blackeye fliegen und jeden Widerstand durch die Marauder ausschalten
+a2_m11_objectives_cover,L-Punkt decken und fliehende Marauder zerstören
+;,
+
+;,
+a2_m12_mission_name,Jäger oder Gejagter
+a2_m12_objectives_fly,"Zur Orbit-Transferstation von Greenback fliegen, um Disruptoren zu erhalten"
+a2_m12_objectives_scout,Gegend um Haven Station auskundschaften
+a2_m12_objectives_disable,'"Geisterschiff' manövrierunfähig machen"
+a2_m12_objectives_capture,An Schiff andocken und es entern
+;,
+
+;,
+a2_m13_mission_name,Das Zerwürfnis der Kong
+a2_m13_objectives_travel,Zur Hoffer's Port-Orbitstation bei Memnon fliegen
+a2_m13_objectives_head,Kong beim L-Punkt von Alexander abfangen
+a2_m13_objectives_stop,"Kong kampfunfähig machen, um so die Zerstörung des Polizeihauptquartiers zu verhindern"
+a2_m13_objectives_formate,Mit Kong formieren und ihnen nach Freetown folgen
+a2_m13_objectives_investigate,Großes unidentifiziertes Schiff untersuchen
+;
+;
+; THE FOLLOWING TEXT COPIED FROM A1 M06 - Steve
+;
+a2_m13_objective_dock_to_base,An Station andocken
+;
+;
+; THE FOLLOWING TEXT COPIED FROM A2 M05 - Steve
+;
+a2_m13_objectives_eliminate,Bedrohung durch die Marauder ausschalten
+;
+;,
+a2_m18_mission_name,Mama Wolf
+a2_m18_objectives_fly_to_rendezvous,Konvoi beim Kollektivhilfszentrum der Freelancer treffen
+a2_m18_objectives_listen_to_briefing,Einsatzbesprechung anhören
+a2_m18_objectives_protect_freighters,Frachter beschützen
+a2_m18_objectives_formate_with_freighter,Mit Frachtern formieren
+a2_m18_objectives_escort_freighters,Frachter zum erwarteten Hinterhalt geleiten
+a2_m18_objectives_destroy_marauders,Alle Schiffe der Marauder zerstören
+a2_m18_objectives_investigate_ldsi_signal,Quelle des LDS-Blockierfelds finden
+a2_m18_objectives_destroy_ldsi_ship,LDS-Blockierschiff und Geleitschutz zerstören
+;,
+
+;,
+a2_m20_mission_name,Die Schlacht von Mwari
+a2_m20_objectives_redezvous,Flotte beim Ritz in Santa Romera treffen
+a2_m20_objectives_clear,L-Punkt für die Ankunft des Konvois von Maraudern befreien
+a2_m20_objectives_escort,Konvoi zum Zielpunkt geleiten
+a2_m20_objective_dock_to_base,An Station andocken
+a2_m20_objectives_protect,Fort Hope vor Angriffen der Marauder schützen
+;,
+
+;,
+a2_m22_mission_name,Die Höhle des Löwen
+a2_m22_objectives_track,Stützpunkt der Marauder ausfindig machen
+a2_m22_objectives_investigate,Neuen L-Punkt-Zielort ausfindig machen 
+a2_m22_objectives_scout,Abschnitt auskundschaften
+a2_m22_objectives_freighters,Zielort der Frachter ausfindig machen
+a2_m22_objectives_escape,Zurückkehren und Information überbringen
+;,
+
+;,
+a2_m23_mission_name,Himmelfahrtskommando
+a2_m23_objectives_travel,Zum Treffpunkt in Firefrost fliegen
+a2_m23_objectives_join,Streitkräfte am L-Punkt von Dainn II treffen
+a2_m23_objectives_gunstars,"Gunstars deaktivieren, um Schiffe zu schützen"
+a2_m23_objectives_remaining,Verbleibende Marauder zerstören
+a2_m23_objectives_join_league,League-Truppen bei Quail treffen
+a2_m23_objectives_distract,"Schiffe der Marauder ablenken, um dem League-Kreuzer die Flucht zu ermöglichen"
+a2_m23_objectives_regroup,Am Treffpunkt sammeln
+a2_m23_objectives_formate,Mit Kreuzer formieren und ihn zum interstellaren L-Punkt geleiten
+;,
+
+;,
+a2_m24_mission_name,Versteckspiel
+a2_m24_objectives_rendezvous_with_ship,League-Schiff treffen
+a2_m24_objectives_fly_to_marauder_location,Zum Standort der Marauder fliegen
+a2_m24_objectives_avoid_detection_by_marauders,Von Maraudern unentdeckt bleiben
+a2_m24_objectives_hide_in_cargo_pod,Schiff in Ladekapsel verstecken
+a2_m24_objectives_enter_dante_system,Heimlich ins Dante-System fliegen
+a2_m24_objectives_scout_for_lpoint_near_faust,Stillgelegten L-Punkt bei Faust ausfindig machen
+a2_m24_objectives_locate_marauder_bases,Stützpunkte der Marauder ausfindig machen 
+a2_m24_objectives_transmit_ftl_signal,FTL-Signal senden
+a2_m24_objectives_obtain_flitter,Wartungsflitzer erbeuten
+a2_m24_objectives_locate_and_retrieve_antenna,Antenne bergen
+a2_m24_objectives_locate_and_retrieve_field_generator,Feldgenerator bergen
+a2_m24_objectices_leave_dante_system,Dante-System verlassen
+;,
+
+;,
+a2_m25_mission_name,Dantes Inferno
+a2_m25_objectives_meet_fleet_at_dante_faust_lpoint,Flotte am L-Punkt von Faust in Dante treffen
+a2_m25_objectives_destroy_cargo_station,Frachtstation der Marauder zerstören
+a2_m25_objectives_destroy_hq,Hauptquartier der Marauder zerstören
+a2_m25_objectives_destroy_shipyard,Werft der Marauder zerstören
+a2_m25_objectives_defend_destroyer,"Zerstörer schützen, während Schneidestrahl lädt"
+a2_m25_objectives_destroy_cruiser,Disruptorkreuzer der Marauder zerstören
+a2_m25_objectives_defeat_corporate_fleet,Feindliche Flotte besiegen
+a2_m25_objectives_protect_hoffer,Hoffers Kommandoschiff schützen
+
+a3_master_mission_name,Dritter Akt
+a3_master_objectives_help,"Den Verteidigern am L-Punkt von Christmas helfen"
+;,
+
+;,
+a3_m01_mission_name,Unternehmen auf der Flucht
+a3_m01_objectives_redezvous,Schiffe beim Streckenpunkt in Kompira treffen
+a3_m01_objectives_security,Zur Sicherheitsstation fliegen und Transporter der Marines beim Andocken decken 
+a3_m01_objectives_cover,"Marines decken, während sie Gunstars reaktivieren"
+a3_m01_objectives_smith,"An neutrale Gunstars andocken, damit Smith ihre Einstellung ändern kann "
+a3_m01_objectives_defend,Basis vor übrigen Unternehmenstruppen schützen
+;,
+
+;,
+a3_m02_mission_name,Kampf der Giganten
+a3_m02_objectives_fly,Zur Systemverwaltung der Regierung fliegen und mit allen Unternehmensschiffen auf dem Weg fertig werden 
+a3_m02_objectives_find_diversion,"Abschnitt auskundschaften, um eine passende Ablenkung zu finden, ohne entdeckt zu werden"
+a3_m02_objectives_arm,"An Reaktor andocken, um ihn zur Detonation zu bringen"
+a3_m02_objectives_dock,"An Verwaltungsstation andocken, während die Patrouillen abgelenkt sind"
+a3_m02_objectives_return,Zur Basis zurückkehren und Codes an Hoffer schicken
+a3_m02_objectives_protect_hoffer,"Hoffers Kommandoschiff schützen"
+
+;,
+
+;,
+a3_m03_mission_name,Aasgeier
+a3_m03_objectives_travel_to_maas_base,Zum Maas Institut Omega bei Ottawa in Coyote fliegen
+a3_m03_objectives_investigate_area,Abschnitt auskundschaften
+a3_m03_objectives_investigate_satellite,Satelliten untersuchen
+a3_m03_objectives_hide_from_ships,Vor Unternehmensschiffen verstecken
+a3_m03_objectives_destroy_cruiser,Unternehmenskreuzer zerstören
+;
+;
+; THE FOLLOWING TEXT COPIED FROM A2 M25 - Steve
+;
+a3_m04_objectives_defeat_corporate_fleet,Feindliche Flotte besiegen
+a3_m03_objectives_defeat_corporate_fleet,Feindliche Flotte besiegen
+;,
+
+;,
+a3_m04_mission_name,Brückenkopf
+a3_m04_objective_dock_to_freighter,Schiff in Megafrachterkapsel docken
+a3_m04_objective_launch_from_pod,Von Megafrachterkapsel starten
+a3_m04_objective_protect_marines,Marines schützen
+a3_m04_objective_break_out_marines,Marines aus Megafrachterkapsel befreien
+a3_m04_objective_disable_lda_field,LDA-Fallgitter am Sprungbeschleuniger ausschalten
+;,
+
+;,
+a3_m05_mission_name,Deckmantel
+a3_m05_objectives_rendezvous,"Zum Treffpunkt fliegen, um IFF-Sender zu erhalten"
+a3_m05_objectives_obtain,Sicherheits-Code vom Marine-RFK-Systemhauptquartier in Moore im Owen's Star-System erhalten
+a3_m05_objectives_travel,Mit Sicherheits-Code Zugang zu Marinesenderstation erhalten
+a3_m05_objectives_reroute,Sender anzapfen und Datenleitungen umleiten
+;,
+
+;,
+a3_m06_mission_name,Täuschungsmanöver
+a3_m06_objectives_fly_to,Mit Flotte zum Maas Sternhaufen-Zentralhauptquartier von Ozaki in Ishime fliegen
+a3_m06_objectives_destroy,Angreifende Schiffe zerstören
+a3_m06_objectives_return,"Zum Stützpunkt zurückkehren, um Hoffer zu warnen"
+;,
+
+;,
+a3_m08_mission_name,Hoffers Rettung
+a3_m08_objectives_last,Nach Osprey fliegen und von dort aus Hoffers letzten bekannten Aufenthaltsort aufsuchen
+a3_m08_objectives_savef,"Flambé vor dem Hinterhalt retten, um Code des Notsignals zu erhalten"
+a3_m08_objectives_investigate,Übermittlung vom Standort des Notsignals nachgehen
+a3_m08_objectives_fly,Zur Marinestation in Neu-Bayern fliegen
+a3_m08_objectives_save,Hoffer retten
+a3_m08_objectives_escape,Fliehen und nach Osprey zurückfliegen
+;,
+
+;,
+a3_m09_mission_name,Erhöhter Einsatz
+a3_m09_objectives_fly,Zur Antimaterie-Lagerstation in Batatas fliegen
+a3_m09_objectives_escort,Frachter zurück zum interstellaren L-Punkt eskortieren
+a3_m09_objectives_jump,Aus dem System springen
+;,
+
+;,
+a3_m10_mission_name,Ins Chaos
+a3_m10_objectives_protect,"Jafs vor Außerirdischen schützen, während alle Bomben platziert werden"
+a3_m10_objectives_prevent,Infiziertes Maas Schiff am Verlassen des Systems hindern
+;,
+;,
+
+a1_m07_dialogue_hoffers_gap_the_power_core_just_took_a_hit,Der Energiekern ist getroffen!,HW: Please integrate into act1_mission07_localise.xls (Note: GB audio doesn't exist for this file.)
+a1_m07_dialogue_hoffers_gap_were_down_50_percent,Der Energiekern hat 50 Prozent verloren!,HW: Please integrate into act1_mission07_localise.xls (Note: GB audio doesn't exist for this file.)
+a1_m07_dialogue_hoffers_gap_we_cant_take_any_more_hits,Noch einen Treffer überstehen wir nicht!,HW: Please integrate into act1_mission07_localise.xls (Note: GB audio doesn't exist for this file.)
+
+
+;,,
+
+act_0_number,Prolog,
+act_1_number,Erster Akt ,
+act_2_number,Zweiter Akt,
+act_3_number,Dritter Akt,
+
+act_0_name,Der Prolog,
+act_1_name,Hoffer's Wake,
+act_2_name,Die Badlands,
+act_3_name,The Edge of Chaos,
+act_4_name,""
+
+;,,
+
+; Amount of force provided from a force feedback joystick,,
+options_forcefeedbackramp,Force Feedback-Stärke,HW: Please integrate into GUI#3_localise.xls at the end.
+
+; Use the graphics card property of multi-texturing,,
+options_multitexture,Mehrfachtextur,HW: Please integrate into GUI#3_localise.xls at the end.
+
+; Refresh the screen during vertical blank interval,,
+options_vsync,Vertikale Synchronisation,HW: Please integrate into GUI#3_localise.xls at the end.
+
+; Hardware T n L - use graphics card transform and lighting hardware support,,
+options_hardwaretnl,Hardware-Textur &-Licht,HW: Please integrate into GUI#3_localise.xls at the end.
+
+;,,
+
+
+hud_menu_doc,DOK,HW: Please integrate into HUD#3_localise.xls at the end.
+
+;,,
+
+;,,
+
+
+hud_menu_score,STATISTIK,HW: Please integrate into GUI#3_localise.xls at the end.
+
+
+
+
+;-------------------------------- Generated Mission bits ---------------------------------------,
+; Generated mission objectives - use a fake act 4,
+;,
+
+; Key,German Text
+a4_m01_objectives_goto,Zur Metallmine von Aldos fliegen
+a4_m01_objectives_collect,Erzkapseln erbeuten
+a4_m01_objectives_deliver,Erbeutetes Erz mit Hilfe der Handelsschnittstelle gegen Sprengladungen eintauschen
+
+a4_m02_objectives_goto,Nach Budokan in Hoffer's Wake fliegen 
+a4_m02_objectives_collect,Naturfaserkleidung von Gangsterschiffen erbeuten
+a4_m02_objectives_deliver,Ware persönlich an Dave Schwa bei Hoffer's Heel abliefern
+
+a4_m03_objectives_goto,Zum Freizeitkomplex von Hoffer's Gap fliegen
+a4_m03_objectives_collect,Biomasse entwenden
+a4_m03_objectives_deliver,"Biomasse persönlich auf Orbit-Agrarstation Zwei, Greenback abgeben."
+
+a4_m04_objectives_goto,Zur Dagon Spezialmetall-Verarbeitungsanlage im Kompira-System fliegen
+a4_m04_objectives_collect,Spezialmetalle von SOLAN-Schiffen erbeuten
+a4_m04_objectives_deliver,Zwei Tonnen Spezialmetalle persönlich an die Verarbeitungsanlage der Oman liefern
+
+a4_m05_objectives_goto,Nach Hope im Romera-System fliegen
+a4_m05_objectives_collect,Reaktorersatzteile von Maas Shipping erbeuten
+a4_m05_objectives_deliver,Reaktorersatzteile über die Handelsschnittstelle tauschen
+
+a4_m06_objectives_goto,Iceberg finden
+a4_m06_objectives_collect,Polizeieskorte ausschalten und Lungen für Freelancer erbeuten
+a4_m06_objectives_deliver,Lungen persönlich bei Freelancer-Kollektiv abgeben 
+
+a4_m07_objectives_goto,Zur Werft von Hoffer's Heel fliegen
+a4_m07_objectives_collect,Die Grand Slam angreifen und Anti-Aging-Medikamente erbeuten 
+a4_m07_objectives_deliver,Anti-Aging-Medikamente persönlich bei Werft von Hoffer's Heel abliefern
+
+a4_m08_objectives_goto,Zur Metallverarbeitungsanlage von Cleitus fliegen
+a4_m08_objectives_collect,"Treibstofftransporter angreifen, um Tribstoffkugeln zu erbeuten"
+a4_m08_objectives_deliver,Treibstoffkugeln über Handelsschnittstelle gegen Suchraketen eintauschen
+
+a4_m09_objectives_goto,Transferstation des Gefängnisses von Darius besuchen
+a4_m09_objectives_collect,Daten von Polizeikurier entwenden
+a4_m09_objectives_deliver,Daten nach Spring-Heeled Jack's bringen
+
+a4_m10_objectives_goto,Nach Budokan in Hoffer's Wake fliegen 
+a4_m10_objectives_collect,Seltene Tiere von Papa Zee entwenden
+a4_m10_objectives_deliver,Vieh persönlich bei der Runcible abliefern
+
+a4_m11_objectives_goto,Orbit-Transferstation in Bessus auskundschaften
+a4_m11_objectives_collect,Computer- und Nanoteile von Firmentransportern erbeuten
+a4_m11_objectives_deliver,Computer-/Nanoteile über Handelsschnittstelle gegen Suchraketen eintauschen
+
+a4_m12_objectives_goto,Zur Transferstation von Yellow Rock fliegen
+a4_m12_objectives_collect,Bücher von der Maas Corporation erbeuten
+a4_m12_objectives_deliver,Bücher persönlich zum Sommerhaus der Stepsons bringen
+
+a4_m13_objectives_goto,Medizinische Einrichtungen in Hoffer's Wake ausfindig machen
+a4_m13_objectives_collect,Sanitätsschiff ohne Registrierung angreifen und Medikamente erbeuten
+a4_m13_objectives_deliver,Medikamente zu den Schwestern bringen
+
+a4_m14_objectives_goto,Marineeinrichtungen ausfindig machen
+a4_m14_objectives_collect,"Marineschiffe überfallen, um Schusswaffen zu erbeuten"
+a4_m14_objectives_deliver,Schusswaffen über Handelsschnittstelle für radioaktives Erz eintauschen
+
+a4_m15_objectives_goto,Deep-Systems-Forschungseinrichtung besuchen
+a4_m15_objectives_collect,Daten von Datagram Industries entwenden
+a4_m15_objectives_deliver,Forschungsdaten über Handelsschnittstelle gegen Fusionsgeneratoren eintauschen
+
+a4_m16_objectives_goto,
+a4_m16_objectives_collect,"Privat-, Geheim- oder Firmendaten entwenden"
+a4_m16_objectives_deliver,An die Freak bei der Rottweiler Station liefern
+
+a4_m17_objectives_goto,Von Maas finanzierte Forschungseinrichtung ausfindig machen
+a4_m17_objectives_collect,Cyberteile entwenden
+a4_m17_objectives_deliver,Cyberteile über Handelsschnittstelle gegen Robo-Sensoren eintauschen
+
+a4_m18_objectives_goto,Zur Metallmine von Ursus fliegen
+a4_m18_objectives_collect,Von einigen Schiffen Bergbauausrüstung erbeuten
+a4_m18_objectives_deliver,"Ware an ""Digger"" von der Las-Campanas-Metallmine liefern"
+
+a4_m19_objectives_goto,Zur Metallmine von Ursus zurückfliegen
+a4_m19_objectives_collect,"Versuchen, ungeschliffene Edelsteine zu erbeuten"
+a4_m19_objectives_deliver,Diamanten über Handelsschnittstelle gegen Arzneimittel eintauschen 
+
+a4_m20_objectives_goto,Zur Orbit-Verarbeitungsanlage der Maas Corporation fliegen
+a4_m20_objectives_collect,Schiffe mit Stationsbauteilen ausrauben
+a4_m20_objectives_deliver,Eine Kapsel mit Stationsbauteilen zur Handelsniederlassung in Hoffer's Gap bringen
+
+a4_m21_objectives_goto,Nach Budokan fliegen
+a4_m21_objectives_collect,Betäubungsmittel von Polizeitransportern entwenden
+a4_m21_objectives_deliver,Betäubungsmittel über Handelsschnittstelle gegen Belohnung eintauschen
+
+a4_m22_objectives_goto,Zu Spring-Heeled Jack's fliegen
+a4_m22_objectives_collect,Marchions Ware von Marauder-Transportern entwenden
+a4_m22_objectives_deliver,Marchions Ware durch Tausch über Handelsschnittstelle an ihn zurückgeben
+
+a4_m23_objectives_goto,Energiezellenfabrik von Belial im Eureka-System finden
+a4_m23_objectives_collect,Akkus von der Energy Cell Express entwenden
+a4_m23_objectives_deliver,Akkus über Handelsschnittstelle für DNA-Material eintauschen
+
+a4_m24_objectives_goto,Nach Hutamah im Kompira-System fliegen
+a4_m24_objectives_collect,Reaktorziele beim Überfall von Hutamah erbeuten
+a4_m24_objectives_deliver,Ziele persönlich beim von den Oman kontrollierten Vorposten in Baal abliefern
+
+a4_m25_objectives_goto,Solan-Lagerhaus bei Liberty finden
+a4_m25_objectives_collect,Lebenswichtige Impfstoffe für die Oman entwenden
+a4_m25_objectives_deliver,Impfstoffe zum Versteck der Oman bringen
+
+a4_m26_objectives_goto,Zu Hutamah zurückkehren
+a4_m26_objectives_collect,Munitionsfrachter überfallen und Fracht erbeuten
+a4_m26_objectives_deliver,Erbeutete Munition über Handelsschnittstelle gegen Semi-KI-Täuschkörper eintauschen
+
+a4_m27_objectives_goto,Maas-Andockstation bei Suqar ausfindig machen
+a4_m27_objectives_collect,"Das Schiff ""Latest Delivery"" zerstören und Flugblätter entwenden"
+a4_m27_objectives_deliver,Propagandamaterial zum Versteck der Oman bringen
+
+a4_m28_objectives_goto,Zur Maas-Station von Sagar zurückkehren
+a4_m28_objectives_collect,Umweltsysteme von Maas-Transportern erbeuten
+a4_m28_objectives_deliver,Ausrüstung zum Versteck der Oman bringen
+
+a4_m29_objectives_goto,Zur Kläranlage der Maas fliegen
+a4_m29_objectives_collect,Computer von ankommenden Schiffen erbeuten 
+a4_m29_objectives_deliver,Erbeutete Computer/Elektronik über Handelsschnittstelle gegen Telluride eintauschen
+
+a4_m30_objectives_goto,Zur Kuppelfarm von Auliya in Kompira fliegen
+a4_m30_objectives_collect,Lebensmittel erbeuten
+a4_m30_objectives_deliver,Lebensmittel über Handelsschnittstelle gegen Edelmetalle eintauschen
+
+a4_m31_objectives_goto,Streckenpunkt folgen
+a4_m31_objectives_collect,Bergbauausrüstung für die MCA abholen
+a4_m31_objectives_deliver,"Bergbauausrüstung zum MCA-Hauptquartier, Ritz bringen"
+
+a4_m32_objectives_goto,Lagerhäuser der Solan Corporation in Liberty auskundschaften
+a4_m32_objectives_collect,Terraform-Ausrüstung befreien
+a4_m32_objectives_deliver,Ausrüstung nach Ritz in Santa Romera bringen
+
+a4_m33_objectives_goto,Streckenpunkt folgen
+a4_m33_objectives_collect,Wichtige Medikamente für die MCA beschaffen
+a4_m33_objectives_deliver,Mithilfe der Handelsschnittstelle Medikamente gegen versprochene Belohnung eintauschen
+
+a4_m34_objectives_goto,Zur Sicherheitsstation von Grace fliegen
+a4_m34_objectives_collect,Maas-Schiffe überfallen und Kampffahrzeuge erbeuten 
+a4_m34_objectives_deliver,Fahrzeuge über Handelsschnittstelle gegen Schusswaffen eintauschen 
+
+a4_m35_objectives_goto,
+a4_m35_objectives_collect,Überlebensausrüstung für die MCA finden
+a4_m35_objectives_deliver,Ware persönlich in Ritz abliefern
+
+
+
+gm_text_jafs_you_deliver_this,"Cal, diese Lieferung musst du selbst übernehmen. Schau mal in deine E-Mails!","HW: Belongs to the generated missions, but cannot be integrated into any particular file, as it will be used in several instances. (Note: GB audio doesn't exist for this file.) "
+
+
+
+
+a4_m01_mission_name,Erz gesucht,
+a4_m02_mission_name,Gefälschte Ware 
+a4_m03_mission_name,Gardener
+a4_m04_mission_name,Oman Spezialmetalle
+a4_m05_mission_name,Oman Kraftwerk
+a4_m06_mission_name,Gasausstoß
+a4_m07_mission_name,Gerechte Belohnung
+a4_m08_mission_name,Der Lauf der Dinge
+a4_m09_mission_name,Gefängnisdaten
+a4_m10_mission_name,Fleischdelikatessen
+a4_m11_mission_name,Eine Hand voll Nanos
+a4_m12_mission_name,Ausleihgebühr
+a4_m13_mission_name,Medizinische Hilfe
+a4_m14_mission_name,Waffenbeschaffer
+a4_m15_mission_name,Gutachten
+a4_m16_mission_name,Der Freak
+a4_m17_mission_name,Altersschwache Cyborgs
+a4_m18_mission_name,Goldrausch
+a4_m19_mission_name,Big Jacks Juwelen
+a4_m20_mission_name,Bau einer Station
+a4_m21_mission_name,Unehrliche Polizisten
+a4_m22_mission_name,Marauder-Händler
+a4_m23_mission_name,Pirat der Oman
+a4_m24_mission_name,Gerechtigkeit für die Oman
+a4_m25_mission_name,Ansteckungsgefahr
+a4_m26_mission_name,Waffen für die Oman
+a4_m27_mission_name,Die Ehre der Oman
+a4_m28_mission_name,Fehlfunktion
+a4_m29_mission_name,Technologie für die Oman
+a4_m30_mission_name,Standesgemäße Feier
+a4_m31_mission_name,Ausgrabungen
+a4_m32_mission_name,Terraformen eines Planeten
+a4_m33_mission_name,Seuchenausbruch bei der MCA
+a4_m34_mission_name,Unsere Bodentruppen
+a4_m35_mission_name,Auf Nummer sicher gehen

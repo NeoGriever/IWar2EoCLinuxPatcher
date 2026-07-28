@@ -1,0 +1,36 @@
+; FILE: Dact3_mission03.csv,
+; Key,
+; FILE NAME,GERMAN TRANSLATION
+a3_m03_ship_corp_cruiser,Eraser
+a3_m03_ship_corp_escort,MS-Corp-Sec
+a3_m03_commsat,Maas-Commsat-OV-xxx
+a3_m03_text_time_to_detonation,Zeit bis zur Detonation:
+a3_m03_dialogue_smith_thats_interesting,"Komisch. Die Station gibt viel schwere Strahlung ab. So heiß kann sie doch gar nicht sein. Nicht, wenn da drin noch jemand lebt. "
+a3_m03_dialogue_cal_lets_take_a_look,Wir sollten also vorsichtig sein. Schauen wir uns das mal an.
+a3_m03_dialogue_clay_you_are_going_the_wrong_way,"Hast du die Orientierung verloren, Kleiner? Das ist die falsche Richtung."
+a3_m03_dialogue_smith_look_at_that,Irgendwas ist hier schiefgegangen und zwar ziemlich!
+a3_m03_dialogue_clay_antimatter_explosion,"So was hab ich schon gesehen, damals bei der Marine. Nur eine Sache verursacht so 'ne Zerstörung: Antimaterie."
+a3_m03_dialogue_cal_that_explains_the_radiation,Das erklärt die Strahlungswerte. Absolute Verwandlung von Materie in Energie. Bumm.
+a3_m03_dialogue_clay_lets_take_a_look_around,"Sehen wir uns um. Vorsichtig. Vielleicht finden wir heraus, was hier passiert ist."
+a3_m03_dialogue_smith_hey_that_ones_still_online,"He, der Kommunikationssatellit hat noch Energie."
+a3_m03_dialogue_cal_can_you_access_its_data,"Smith, hack dich in seine Datenbanken. Kannst du die letzten Aufzeichnungen finden?"
+a3_m03_dialogue_smith_hang_on,"Eine Sekunde... Arrghh!! Das blöde Teil ist total vermodert... komm schon! Na los, mach! Na also. Wir sollten jetzt gleich was sehen."
+a3_m03_dialogue_clay_they_blew_up_their_own_station,"Sie haben ihre eigene Station in die Luft gejagt, nur um das... das... aufzuhalten"
+a3_m03_dialogue_cal_what_was_it,Das WAS? Ich hab sowas noch nie gesehen.
+a3_m03_dialogue_clay_i_have_but_it_was_a_long_time_ago,"Ich schon. Oder was ähnliches. Ist sehr, sehr lange her. Es bedeutete damals Ärger und ganz bestimmt bedeutet es heute nichts anderes. "
+a3_m03_dialogue_smith_this_place_is_bad,"Ich weiß nicht, wie's euch geht, aber mir ist nicht ganz wohl bei der Sache"
+a3_m03_dialogue_smith_that_ones_dead,"Nur ein kaputter Kommunikationssatellit. Hier ist alles voll von den Dingern. Sind wohl durch die bei der Explosion freigewordene, elektromagnetische Strahlung zerstört worden."
+a3_m03_dialogue_clay_i_guess_we_will_never_find_out,"Macht dir das etwa Spaß? Wehrlose Kommunikationssatelliten abzuschießen? Ich nehme an, dir ist nicht klar, dass sie vielleicht wichtige Daten gespeichert haben könnten. Sowas idiotisches! Jetzt werden wir nie erfahren was hier vorgefallen ist."
+a3_m03_dialogue_smith_theres_a_cruiser_approaching,"Oh, oh. Ein verdammter Kreuzer der Unternehmen hat sich angeschlichen während wir uns hier umgesehen haben. Ich hätt ihn schon früher entdeckt, wenn die blöden Interferenzen von der Station nicht wären."
+a3_m03_dialogue_clay_lets_hide,"Die Interferenzen haben aber auch einen Vorteil für uns. Für die ist es genauso schwer, uns zu entdecken. Verstecken wir uns, wo sie uns nicht finden können und finden wir raus, was sie hier wollen."
+a3_m03_dialogue_smith_ive_got_a_hiding_spot_marked,Ich habe einen Streckenpunkt auf ein gutes Versteck gelegt.
+a3_m03_dialogue_clay_i_dont_call_that_hiding,Kleiner! Das ist nicht Verstecken. Das ist Selbstmord! Was willst du damit bezwecken?
+a3_m03_dialogue_smith_i_think_they_are_on_to_us,"Ich glaube die haben es auf uns abgesehen, Cal."
+a3_m03_dialogue_cal_no_kidding,"Echt? Da wäre ich ja nie drauf gekommen, bei den ganzen TSK-Schüssen."
+a3_m03_dialogue_smith_times_up,Wir haben keine Zeit mehr!
+a3_m03_dialogue_clay_i_think_we_did_pretty_well,Nicht schlecht. Ich bin fast beeindruckt. Aber los jetzt. Für heute habe ich genug von dieser Geisterstation.
+a3_m03_dialogue_cal_what_are_they_doing,Was wird da gestartet?
+a3_m03_dialogue_smith_looks_like_demolition_charges,Sieht nach Abrissminen aus.
+a3_m03_dialogue_clay_demolition_charges_and_a_base,Abrissminen und eine verlassene Basis. Erkennt sonst noch jemand den Zusammenhang?
+a3_m03_dialogue_cal_great_they_are_blowing_the_base,"Na toll! Gute Idee, Clay. 'Wir verstecken uns und finden raus, was sie hier wollen.' Die wollen die Basis in die Luft jagen und uns dazu!"
+a3_m03_dialogue_smith_they_left_the_remote_link_active,Diese armseligen Amateure! Die Fernverbindung zu den Minen sieht nicht sehr stabil aus. Vielleicht lässt sich da was drehen.

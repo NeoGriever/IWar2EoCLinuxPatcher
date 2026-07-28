@@ -1,0 +1,39 @@
+a1_m10_dialogue_clay_hey_call_old_mad,"Lucrecia gab jedem ihrer Offiziere einen Schlüssel, mit dem die Verteidigungssysteme des Schatzverstecks deaktiviert werden können. Aber sie sagte keinem, wo sich der Schatz befand, was einige von ihnen in den Wahnsinn trieb. Wie etwa Mad Bill Dulley. Er hatte einen Schlüssel und nichts Besseres zu tun, als den Rest seines Lebens im System nach dem Schatz zu suchen. Die ganze Aktion kostete ihn 'ne Menge Geld und nicht zuletzt seinen Verstand. Trotzdem, wir sollten auf jeden Fall versuchen, uns den Schlüssel von ihm zu holen. Soweit ich weiß, soll er sich seine Leber in der Bar der Werft von Hoffer's Heel kaputt saufen... "
+a1_m10_dialogue_cal_you_always_said_all_my_grandmas_henchemen_were_dead,"Mad Bill Dulley? Wenn der so drauf ist, glaub' ich kaum, dass er den Schlüssel rausrückt. Hey, du hattest doch gesagt, dass alle Piraten meiner Großmutter tot sind!"
+a1_m10_dialogue_clay_trust_me_when_you_meet_mad_bill_youll_know_why,"Mad Bill ist auch mehr tot als lebendig. Das wirst du mir glauben, wenn du ihn siehst..."
+a1_m10_dialogue_mad_bill_c1_who_are_you,Hä? Wer bist du? Wie hast du mich gefunden?
+
+a1_m10_text_player_c1_option_1_greet_im_cal,"Hallo, ich bin Cal."
+a1_m10_dialogue_player_c1_option_1_greet_im_cal,"Hallo, ich bin Cal Johnston. Jefferson Clay sagte, Sie könnten mir vielleicht helfen."
+
+a1_m10_dialogue_mad_bill_c1_response_1_ahh_clay,"Clay? JEFFERSON Clay? Hah! Wie geht's der alten Blechkiste? Er hat dich bestimmt wegen des Schlüssels zu mir geschickt, was? Früher hätte ich jedem die Milz rausgerissen, der an meinen Schlüssel wollte! Aber das war früher... Du kommst leider zu spät, ich habe das Mistding letzte Woche beim Zocken verloren, drüben im Freizeitkomplex von Hoffer's Heel. Kein Schatz mehr für den armen, alten Mad Bill!"
+
+a1_m10_text_player_c1_option_2_threaten_im_cal,"Ich will mir holen, was mir zusteht!"
+a1_m10_dialogue_player_c1_option_2_threaten_im_cal,"Ich bin Cal Johnston, und ich bin gekommen, um mir zu holen, was mir rechtmäßig zusteht!"
+
+a1_m10_dialogue_mad_bill_c1_response_2_really_and_what,"Ach was? Ich hab' keine Ahnung, wovon du da quasselst! Verpiss dich!"
+
+a1_m10_dialogue_malcomb_tezler_c2_who_are_you,"Wer bist du, und was willst du?"
+
+a1_m10_text_player_c2_option_1_im_cal_device,Ich bin Cal und suche einen Gegenstand.
+a1_m10_dialogue_player_c2_option_1_im_cal_device,"Hallo, ich bin Cal Johnston und auf der Suche nach einem Gegenstand, den Sie kürzlich beim Zocken gewonnen haben."
+
+a1_m10_dialogue_malcomb_tezler_c2_response_1_you_must_mean,"Ah, du meinst bestimmt das komische Ding, das ich dem alten Dulley abgeknöpft habe."
+a1_m10_dialogue_malcomb_tezler_c2_response_1_here_ya_go,Hier hast du's... Mir bringt es ja eh nichts.
+
+a1_m10_text_player_c2_option_2_no_need_to_be_rude,"Kein Grund, gleich unhöflich zu werden..."
+a1_m10_dialogue_player_c2_option_2_no_need_to_be_rude,"Hey, man muss doch nicht gleich unhöflich werden, oder?"
+
+a1_m10_dialogue_malcomb_tezler_c2_response_2_really_bugger_off,"Ach was! Komm, hau ab!"
+
+a1_m10_dialogue_jacob_gareth_we_have_your_friends,"Wir haben deine Freunde. Sie sind in Sicherheit, aber wenn du versuchst zu fliehen, töten wir sie."
+a1_m10_dialogue_jacob_gareth_ok_i_want_you_to,Folge meinem Schiff in enger Formation bis zu unserem Ziel.
+a1_m10_dialogue_jacob_gareth_im_engaging_now,Es geht los...
+a1_m10_dialogue_jacob_gareth_here_we_are,"Da sind wir also. Hol uns jetzt den Schatz, und wir lassen deine Freunde frei."
+a1_m10_dialogue_clay_that_ice_asteroid_looks_like,Der Eisasteroid da sieht ganz nach unserem Ziel aus.
+a1_m10_dialogue_clay_hey_theres_a_failsafe_on_the,"Hey, das Versteck ist vermint! Wenn ich den Schlüssel benutze, geht das Ganze hoch!"
+a1_m10_dialogue_jacob_gareth_what_the,Was zum Teufel...
+a1_m10_dialogue_clay_theres_the_device,Da ist das Gerät! Schnappen wir es uns! Das dürfte die Rettung sein!
+a1_m10_dialogue_clay_weve_got_the_device,Wir haben das Gerät! Jetzt müssen wir nur noch unsere Leute befreien!
+a1_m10_dialogue_lori_what_took_you,Ihr habt euch aber Zeit gelassen! Wir haben uns schon zu Tode gelangweilt... Jetzt holt uns hier raus!!
+a1_m10_dialogue_lori_never_thought_id_be,"Ich hätte nie gedacht, dass mich der Anblick dieses Schrotthaufens so freuen könnte. Ah, und... Cal? Danke für die Rettungsaktion!"

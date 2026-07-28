@@ -1,0 +1,82 @@
+; FILE: Dact1_mission01.csv,
+; Key,
+; FILE NAME,GERMAN TRANSLATION
+;,
+Cargo Area,"Frachtkapseln"
+a1_m01_dialogue_ibuki_well_we_cant,"Wir können uns nicht in diesem Wrack verstecken, bis es den Polizisten und Marshals zu langweilig wird. Wir brauchen einen sicheren Unterschlupf."
+a1_m01_dialogue_lori_yeah_at_least,Eine Dusche wäre nicht schlect. Jafs fängt langsam an zu stinken.
+a1_m01_dialogue_jafs_hey_this_is_natural,"Lori, ihr armen reichen Mädchen wisst einfach nicht, wie ein echter Mann riecht. Aber das lässt sich ändern, und wo du gerade vom Duschen sprichst..."
+a1_m01_dialogue_lori_uggh,Jetzt reicht's! Der Typ fliegt raus!
+a1_m01_dialogue_cal_calm_down,"Hey, hört auf! Ich weiß, wo wir sicher sind: dort, wo meine Großmutter Lucrecia lebte. Dort sind wir absolut sicher, und Duschen gibt es auch."
+a1_m01_dialogue_lori_well_what,"Nun, worauf warten wir dann noch? Auf geht's!"
+;,
+a1_m01_dialogue_smith_uh_oh_looks_like,"Mist! Cal, wir sind nicht alleine!"
+a1_m01_dialogue_marshall_what_do_we_have_here,Was haben wir denn da? Kriminelle auf der Flucht? Ihr habt gerade euren letzten Fehler gemacht!
+;,
+a1_m01_dialogue_smith_o_dear,"Oh-oh, die haben ein Notsignal abgesetzt!"
+a1_m01_dialogue_ibuki_well_thats_just_great,Hier wird's gleich vor Polizei nur so wimmeln! Wir sollten uns auf eine riesige Schießerei gefasst machen!
+a1_m01_dialogue_smith_calm_down,"Moment mal! Maurice... Ja, Maurice, mein alter Knastkumpel... Vor etwa zwei Jahren wegen guter Führung entlassen. Hat seine Beute ausgegraben und sich 'nen kleinen Schuppen gekauft. Ha, ist seitdem ein ehrenwerter Bürger!"
+a1_m01_dialogue_ibuki_and_the_point,"Und was hat das mit uns zu tun, Smith?"
+a1_m01_dialogue_smith_the_point_is,"Ganz einfach: Maurices Schuppen ist zufällig ein Frachterwartungsdepot, das sich im Orbit von Hoffer's Gap befindet. Und zufällig gibt es da die Systeme, die ich brauche, um das IFF-Signal abzuschalten, damit es nicht der ganzen Welt verkündet, dass das hier ein gestohlenes Schiff ist! Und zufällig schuldet mir dieser Maurice noch einen echten Gefallen! DAS hat es mit uns zu tun!"
+a1_m01_dialogue_lori_but_hoffers_gap,Warte... Hoffer's Gap? Da wimmelt es doch nur so vor Polizei.
+a1_m01_dialogue_smith_got_a_better,"Hast du einen besseren Vorschlag? Außerdem wird Cal schon dafür sorgen, dass wir nicht zu nah rankommen, stimmt's?"
+a1_m01_dialogue_jafs_whatever_we_do,"Egal was wir tun, nur schnell muss es sein!"
+;,
+a1_m01_smith_lds_disrupt,Ahh! Eine LDS-Blockier-Rakete hat uns getroffen! Wir können nicht weg! 
+a1_m01_dialogue_piratescout_c1_who_are_you,Wer zum Teufel seid ihr? Was habt ihr hier verloren?
+a1_m01_text_player_c1_option_1_im_the_law,Ich bin das Gesetz.
+a1_m01_dialogue_player_c1_option_1_im_the_law,Ich bin das Gesetz. Dies ist eine Razzia!
+a1_m01_dialogue_piratescout_c1_response_1_holly_cow,Eine Razzia! Hilfe!!!
+a1_m01_text_player_c1_option_2_help_im,Hilfe! Die Polizei ist hinter mir her!
+a1_m01_dialogue_player_c1_option_2_help_im,Die Polizei ist hinter mir her!
+a1_m01_dialogue_piratescout_c1_response_2_shit_boy,Das ist mir ziemlich egal. Dann werdet ihr halt dran glauben müssen!
+a1_m01_text_player_c1_option_3_look_over,Da drüben!
+a1_m01_dialogue_player_c1_option_3_look_over,Da drüben! Ist das nicht ein schutzloser Luxus-Schoner?
+a1_m01_dialogue_piratescout_c1_response_3_eh_what,Was? Wo? Finger weg! Ich hab' ihn zuerst gesehen!
+a1_m01_dialogue_piratescout_c1_response_3_damn_u,"Du Schwein, dafür wirst du bezahlen!"
+a1_m01_dialogue_smith_now_were_in_trouble,"Jetzt gibt's Ärger! Schnell! Zum Ladebereich, vielleicht können wir uns dort verstecken!"
+a1_m01_dialogue_jafs_i_think,Sie haben uns entdeckt! Na toll! Jetzt müssen wir die Jungs halt auf die harte Tour loswerden!
+a1_m01_dialogue_jafs_er_i_think,"Äh, Cal, vielleicht wäre es JETZT langsam mal an der Zeit abzuhauen. Aber leise, wenn's geht!"
+;,
+a1_m01_dialogue_cal_where_is_your_mate,Und wo genau finden wir deinen früheren Knastkumpel?
+a1_m01_dialogue_smith_should_be_any_minute,In der Nähe von Hoffer's Gap. Sollte jeden Moment auf deiner Kontaktliste erscheinen.
+a1_m01_dialogue_smith_ah_there_it_is,"Ahhh, da ist es. Sieht aber nicht gerade wie ein kleiner Schuppen aus. Sobald wir angedockt haben, kann ich mich um die IFF-Sache kümmern, die Innereien rausholen und eine schöne neue Identität reinsetzen."
+a1_m01_dialogue_maurice_smith_you_old_dog,Smith! Altes Haus! Was machst du denn hier?
+a1_m01_dialogue_smith_just_in_the_area,"Auf der Durchreise. Hab' Urlaub. Dachte, ich schau mal rein und seh, wie's meinem alten Kumpel geht. Mal kurz hallo sagen, aufs Klo gehen, deine Systeme benutzen, um mein IFF-Signal zu knacken. Das Übliche halt."
+a1_m01_dialogue_maurice_ha_same_old_smith,"Ha! Immer noch der Alte! Wieder Ärger, he? Nimm dir, was du brauchst, aber erwarte keine tollen Profi-Werkzeuge. Ich bin mittlerweile sauber."
+a1_m01_dialogue_smith_just_be_a_jiffy,"Da hast du wohl Recht, viel Auswahl an Werkzeugen hast du ja nicht gerade... aber das sollte schon gehen. Fangen wir an! Danke, Maurice."
+a1_m01_dialogue_smith_ive_set_a_waypoint,"Cal, ich habe einen Streckenpunkt zu deiner Großmutter gesetzt. Ich habe ihn 'Lucrecias Basis' genannt."
+;,
+a1_m01_dialogue_jafs_the_fuzz,Polizei! Wir sind so gut wie tot!
+a1_m01_dialogue_police_hold_your_positon,"Halten Sie Ihre Position, oder wir schießen!"
+a1_m01_dialogue_police_we_warned_you,Wir haben Sie gewarnt...
+a1_m01_dialogue_police_all_vessels_attack,Alle Schiffe: Angreifen!
+a1_m01_dialogue_police_c2_hm_vessel_mona_lisa,"Achtung, Schiff 'Mona Lisa'. Laut unseren Aufzeichnungen sind Sie als Ausflugsschiff im Eureka-System registriert... Wohl etwas vom Kurs abgekommen, he?"
+a1_m01_option_player_c2_option_1_special_tour,"Äh, eine Sondertour zum Effrit."
+a1_m01_text_player_c2_option_1_special_tour,"Äh, eine Sondertour zum Effrit."
+a1_m01_dialogue_player_c2_option_1_special_tour,"Äh, wir machen eine Sondertour zum Effrit. Soll um diese Jahreszeit besonders schön dort sein."
+a1_m01_text_player_c2_option_2_er_yeah,Wollten nur 'ne Freundin besuchen.
+a1_m01_dialogue_player_c2_option_2_er_yeah,"Meine Freundin ist krank, und ich will sie besuchen."
+a1_m01_dialogue_police_c3_i_see,"Verstehe... und warum gerade 'Mona Lisa' als Name für Ihr Schiff?"
+a1_m01_text_player_c3_option_1_after_my_ex_girlfried,So hieß meine Ex-Freundin.
+a1_m01_dialogue_player_c3_option_1_my_ex_girlfriend,Äh... Ich habe es nach meiner Ex-Freundin benannt.
+a1_m01_text_player_c3_option_2_its_my_favourite,Ist halt mein Lieblingsgemälde.
+a1_m01_dialogue_player_c3_option_2_its_my_favourite,"Äh, das ist mein Lieblingsbild, wissen Sie..."
+a1_m01_dialogue_police_c4_right_so_why,Alles klar... und seit wann benutzt man Gefangenentransporter als Ausflugsschiffe?
+a1_m01_text_player_c4_option_1_my_last_one,Mein anderes hab' ich zu Schrott gefahren...
+a1_m01_dialogue_player_c4_option_1_my_last_one,"Schlimme Geschichte... Hab' meine Korvette-Sonderanfertigung zu Schrott gefahren, und mein Dad hat gesagt, ich muss jetzt mit diesem Ding rumfahren. So schnell gibt's keine neue."
+a1_m01_text_player_c4_option_2_this_is_a_tug,Was? Das ist ein Gefangenentransporter?!
+a1_m01_dialogue_player_c4_option_2_this_is_a_tug,"Was? Das ist ein Gefangenentransporter?! Aber der Händler hat gesagt, das sei eine Korvette!"
+a1_m01_dialogue_police_all_right,"Na gut, hauen Sie ab, aber stellen Sie bloß nichts an!"
+a1_m01_dialogue_police_not_convinced,"Das reicht! Stellen Sie Ihre Systeme ab, und ergeben Sie sich!"
+;,
+a1_m01_text_player_c2_option_3_look_over,Da drüben...
+a1_m01_dialogue_player_c2_option_3_look_over,Da drüben... Ist das nicht ein schutzloses Piratenschiff?
+a1_m01_dialogue_police_c2_response_3_where,Wo? Kein Wort zu jemand anderem! Die Verhaftung geht auf mein Konto!
+a1_m01_dialogue_jafs_lets_move,Schnell! Los jetzt!
+;,
+a1_m01_dialogue_cal_there_it_is,Da ist es... Unser neues Zuhause!
+a1_m01_dialogue_jafs_base_coment,"Ah, deine Grandma stand wohl eher auf Verteidigungsanlagen als auf Jägerzäune!"
+a1_m01_dialogue_lori_lori_base_coment,"Cal, das ist ja eine Festung!"
+a1_m01_dialogue_cal_did_i_neglect_to_mention,"Oh... Hab' ich etwa vergessen zu erwähnen, dass meine Großmutter Piratin war?"
+;,

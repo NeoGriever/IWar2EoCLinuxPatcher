@@ -1,0 +1,735 @@
+; FILE: GUI#3.csv,
+; Key,FRENCH
+;PLEASE NOTE THAT ALL COMMENTS REFER TO THE DIALOGUE IMMEDIATELY FOLLOWING THE COMMENT.,
+;,
+; IN ALL CASES,
+; PLEASE DO NOT CHANGE THIS INSTRUCTION IN ANY WAY!,
+;,
+;THIS IS PART OF THE IN-GAME INTERFACE TEXT,
+;,
+; ONSCREEN TEXT ONLY - NOT SPOKEN,
+; GUI titles and other fancy buttons - 12 character limit,
+;,
+basemenu_hangar,HANGAR
+basemenu_trade,TRANSACTIONS
+basemenu_inventory,INVENTAIRE
+basemenu_recycling,RECYCLAGE
+basemenu_manufacturing,CONSTRUCTION
+basemenu_communications,COMMUNICATIONS
+basemenu_encyclopedia,ENCYCLOPEDIE
+basemenu_starmap,CARTE STELLAIRE
+hangarmenu_launch,LANCEMENT
+hangarmenu_ship,VAISSEAU 
+hangarmenu_loadout,CONFIG.
+hangarmenu_manifest,MANIFESTE
+loadoutmenu_customise,PERSONNALISER
+loadoutmenu_add_cargo,AJOUT. CARGAISON
+loadoutmenu_rearm,RECHARGER
+encyclopaedia_back,RETOUR
+pda,ASSISTANT
+pda_start_new_game,NOUVELLE PARTIE
+pda_load_game,CHARGER PARTIE
+pda_instant_action,ACTION
+pda_multiplayer,MULTIJOUEURS
+pda_options,OPTIONS
+pda_quit_button,ABANDONNER
+pda_save_game,SAUVEGARDER
+pda_resume,REPRENDRE
+pda_quit,ABANDONNER
+
+
+;,
+; ONSCREEN TEXT ONLY - NOT SPOKEN,
+; These ship readiness strings have a 15 character limit,
+;,
+hangarmenu_loadout_not_spaceworthy,INUTILISABLE
+hangarmenu_loadout_check_manifest,VERIF MANIFESTE
+
+
+;,
+; ONSCREEN TEXT ONLY - NOT SPOKEN,
+; The loadout names are limited to just 8 characters,
+; ship readiness description,
+;,
+loadoutmenu_standard,STANDARD
+loadoutmenu_stealth,FURTIF
+loadoutmenu_assault,ASSAUT
+loadoutmenu_ecm,CME
+loadoutmenu_custom,PERSON.
+
+
+;,
+; ONSCREEN TEXT ONLY - NOT SPOKEN,
+; The ship names are limited to 11 characters because of the hangar ship,
+; readiness description.,
+;,
+ship_type_command_section,SECTION CMD
+ship_type_tug,REMORQUEUR
+ship_type_fast_attack_ship,PATCOM
+ship_type_heavy_corvette,CORVETTE
+ship_type_storm_petrel,CORMORAN
+ship_type_no_ship,SANS VAISS.
+
+
+;,
+; ONSCREEN TEXT ONLY - NOT SPOKEN,
+; Tab headings are limited to 15 characters. These headings should be ,
+"; localised as nouns - e.g. 'an offer' not 'they offer'.",
+;,
+gui_item,OBJET
+commsmenu_sender,EXPEDITEUR
+commsmenu_subject,SUJET
+encyclopaedia_topic,DOSSIER
+trading_faction,FACTION
+trading_offer,OFFRE
+trading_want,DEMANDE
+inventory_quantity,QUANTITE
+recycling_value,VALEUR
+manufacturing_cost,PRIX
+
+
+; ,
+; ONSCREEN TEXT ONLY - NOT SPOKEN,
+; Smaller buttons are limited to 17 characters,
+;,
+gui_cancel,ANNULER
+trading_trade,ECHANGER
+recycling_recycle_one,RECYCLER UN
+recycling_recycle_all,RECYCLER TOUS
+manufacturing_manufacture,CONSTRUIRE
+
+
+;,
+; ONSCREEN TEXT ONLY - NOT SPOKEN,
+; Manifest headings are limited to 11 characters,
+;,
+manifest_ship_systems,SYSTEMES
+manifest_ship_armaments,ARMEMENT
+manifest_ship_tfighters,CHASSEURS-T
+manifest_ship_cargo,CARGAISON
+manifest_no_missiles_warning,Vide
+
+
+;,
+; ONSCREEN TEXT ONLY - NOT SPOKEN,
+; The new mail notification must not exceed a total of ???? (8 and 12?),
+;,
+
+; Add a space after the words 'YOU HAVE',
+commsmenu_you_have,VOUS AVEZ 
+
+commsmenu_new_messages,MESSAGES
+commsmenu_new_message,MESSAGE
+
+;,
+; ONSCREEN TEXT ONLY - NOT SPOKEN,
+; GUI miscellanae with max lengths,
+;,
+
+; ONSCREEN TEXT ONLY - NOT SPOKEN,
+; No more than 18 characters,
+commsmenu_read_new_messages,LIRE MESSAGES
+commsmenu_view_archived_messages,VOIR ARCHIVES
+
+; ONSCREEN TEXT ONLY - NOT SPOKEN,
+; Keep this one below 20 characters,
+add_cargo_none,Néant
+
+; ONSCREEN TEXT ONLY - NOT SPOKEN,
+; The introduction to the number of manufacturing units available,
+manufacturing_units,Unités de construction disponibles : 
+
+; ONSCREEN TEXT ONLY - NOT SPOKEN,
+; We split the trade description into three parts - each in introduced by,
+; one of these nouns.,
+trading_faction_lowercase,Faction : ,
+trading_offer_lowercase,Offre : ,
+trading_want_lowercase,Demande : ,
+
+;,
+; ONSCREEN TEXT ONLY - NOT SPOKEN,
+; Trade descriptions - as long as you want (for a change),
+;,
+tradingscreen_cant_satisfy_trade,Vous ne pouvez pas faire cette transaction
+tradingscreen_goods_needed_for_other_trades,Cette transaction nécessite des objets nécessaires à d'autres transactions. Vérifiez que vous n'en avez pas besoin.
+tradingscreen_looks_ok,On dirait que c'est une bonne affaire.
+tradingscreen_our_offer,Notre offre : 
+
+;ADDITIONAL WORDS TO BE TRANSLATED @ 31st AUGUST 2000,
+
+
+;,
+
+mp_network_title,RESEAU
+mp_network_session_select,CHOISIR SESSION
+mp_network_enter_server,ADRESSE SERVEUR
+mp_network_select_server,CHOISIR SERVEUR
+mp_game_scores_title,SCORES
+mp_game_select_team,CHOISIR EQUIPE
+mp_game_player_respawn,Joueur ressuscité
+mp_game_player_join,Joueur a rejoint
+mp_game_player_leave,Joueur a quitté
+mp_game_new,Nouvelle partie
+mp_game_blue_win,L'équipe bleue a gagné
+mp_game_red_win,L'équipe rouge a gagné
+mp_game_our_win,Vous avez gagné
+mp_game_taunt_prompt,Entrer phrase : 
+mp_game_player,Joueur
+mp_game_flags,Drapeaux
+mp_game_frags,Ennemis détruits
+mp_game_team,Equipe
+mp_game_died,Mort
+mp_game_opponent_flag_count,Drapeaux capturés
+mp_options_title,OPTIONS JOUEUR
+mp_options_name,Nom
+mp_options_default_taunt,Provoc. par défaut
+mp_options_ship_selection,Sélection vaisseau
+mp_options_not_host_session,Ne pas organiser
+mp_options_host_session,Organiser session
+mp_lan_game,PARTIE LAN
+mp_internet_game,PARTIE INTERNET
+mp_back_button,RETOUR
+
+;,
+;,
+
+savegame_empty,[vide]
+
+
+savegame_act,ACTE
+
+
+savegame_autosave,SAUVEGARDE AUTO
+
+;,
+
+
+
+customise_surpluspower,Energie en surplus : 
+
+customise_powerrequired,Energ. supp. nécess. : 
+
+
+customise_excessheat,Chaleur excessive : 
+
+customise_heatsafetymargin,Marge sécu. chaleur : 
+
+customise_internalcargospace,Empl. carg. libres : 
+;,
+
+;,
+
+customise_nosystemmounted,Aucun syst. installé
+
+
+customise_cannotflywithoutsystem,Syst. vital manquant
+
+
+customise_powerplantbuiltin,Chgt moteur impossible
+
+
+customise_nofreecpuslots,MEMOIRE CPU PLEINE
+
+
+customise_cannotloadprogram,CHARGEMENT IMPOSS.
+
+
+customise_nomagazineset,Pas de chargeur
+
+
+customise_insufficientcargospace,PAS DE PLACE CARG.
+;,
+
+
+customise_poweroutput,Rendement : 
+
+
+customise_heatdissapation,Refroidissement : 
+
+
+customise_maxpowerusage,Conso. maxi : 
+
+
+customise_heatproduced,Chaleur maxi : 
+
+
+customise_requiredcargospace,Place carg. nécess : 
+
+
+customise_projectiles,projectiles
+
+
+customise_projectile,projectile
+
+
+customise_maximumcapacity,Contenance maxi : 
+
+
+customise_projectiles_in_inventory,Projectiles en stock : 
+
+
+customise_ammunition,Munitions : 
+
+
+customise_maxammunition,Munitions maxi : 
+
+;,
+
+
+customise_empty,[vide]
+
+
+customise_none,[rien]
+
+
+customise_upgrades,EXTENSIONS
+
+
+customise_programs,PROGRAMMES
+
+
+customise_installinternalmagazine,AJOUTER CHARGEUR
+
+
+customise_uninstallinternalmagazine,RETIRER CHARGEUR
+
+
+customise_slot,EMPL.
+
+
+customise_missileslot,EMPL. MISSILE
+
+
+customise_emptyslot,EMPL. VIDE
+
+
+customise_magazine,CHARGEUR
+
+
+customise_shipupgrades,EXTENSIONS VAISSEAU
+
+
+customise_turretfighter,CHASSEUR-TOURELLE
+
+
+customise_pylonhardpoint,POINT D'ATTACHE
+
+
+customise_pylon,PYLONE
+
+
+customise_dockedarmaments,ARMEMENTS AMARRES
+
+
+customise_pyloncannonmountpoint,SUPP. PYLONE CANON
+
+;,
+
+
+
+
+
+customise_systems,SYSTEMES
+
+
+customise_weapons,ARMEMENT
+
+
+customise_offensive,OFFENSIF
+
+
+customise_defensive,DEFENSIF
+
+
+customise_propulsion,PROPULSION
+
+
+customise_general,GENERAL
+
+;,
+
+customise_charge,Charge : 
+
+
+customise_effectiveness,Efficacité : 
+
+
+customise_efficiency,Capacité : 
+
+
+customise_brightness,Indiscrétion : 
+
+
+customise_range,Portée : 
+
+
+customise_sensedbrightness,Sens. indiscrétion : 
+
+
+customise_rampuptime,Temps réponse : 
+
+
+customise_acceleration,Accélération : 
+
+
+customise_maxspeed,Vitesse maxi : 
+
+
+customise_repairrate,Taux réparation : 
+
+
+customise_damage,Dégâts : 
+
+
+customise_duration,Durée : 
+
+
+customise_protection,Protection : 
+
+
+customise_disruption,Disruption : 
+
+
+customise_secs,s
+
+
+customise_memoryslots,Empl. mémoire : 
+
+
+customise_rating,Qualité : 
+
+
+customise_armour,Blindage : 
+;,
+
+
+
+
+
+
+options_on,Oui
+options_off,Non
+
+
+options_low,Faible
+options_medium,Modéré
+options_high,Elevé
+
+
+options_hardware,Matériel
+options_software,Logiciel
+
+
+options_primarydisplaydriver,Pilote affich. princ.
+
+
+options_menu,Menu
+options_targetting,Visée
+options_lateralthrusters,Propulseurs lat.
+
+
+options_graphics,Graphismes
+options_sound,Son
+options_controls,Commandes
+
+
+
+
+
+
+options_modeldetail,Modélisation
+
+
+options_lightingquality,Qualité lumière
+
+
+options_starfieldquality,Qualité espace
+
+
+options_compressedtextures,Text. compressées
+
+
+options_texturequality,Qualité textures
+
+
+options_resolution,Résolution
+
+
+options_antialiasedhudlines,Lissage HUD
+
+
+options_antialiasedorbstalks,Lissage Orbe
+
+
+options_driver,Pilote
+
+
+options_device,Carte
+
+
+
+
+
+
+options_dsound,Son 3D
+
+
+options_maxsoundchannels,Pistes son maxi
+
+
+options_soundfxvolume,Volume effets
+
+
+options_musicvolume,Volume musique
+
+
+options_invertchannels,Stéréo inversée
+
+
+
+
+
+
+options_swaprollandyaw,Echanger roulis/lacet
+
+
+options_keyboardflightcontrols,Commandes clavier
+
+
+customise_hatmode,Bouton multidir.
+
+; ADDED AFTER 1st Sept 2000,FRENCH
+
+options_apply,APPLIQUER
+
+options_windowedmode,MODE FENETRE
+
+pda_training,ENTRAINEMENT
+pda_timetrial,C/ LA MONTRE
+pda_startdemo,DEBUT DEMO
+
+pda_credits,CREDITS
+
+basemenu_messages,MESSAGE(S)
+
+mp_options_internet_server_address,Adresse serveur Internet
+
+
+customise_cpuoptions,OPTIONS
+
+options_gameplay,Jouabilité
+
+options_restoreoptions,Options par défaut
+
+
+options_gamma,Gamma
+
+options_brightness,Luminosité
+
+options_ambientlight,Lumière ambiante
+
+options_detailswitch,Détails
+
+options_tnl,TnL
+
+
+options_eax,EAX
+
+options_speechvolume,Volume dialogues
+
+options_proximityalert,Alerte de proximité
+
+
+options_difficulty,Difficulté
+options_easy,Facile
+options_medium,Modérée
+options_average,Normale
+options_hard,Difficile
+
+options_trafficdensity,Densité du trafic
+options_backgroundtraffic,Trafic de fond
+
+options_animatedfaces,Visages animés
+
+
+basemenu_demo_unavailable,Cette commande n'est pas disponible en mode démo.
+
+
+customise_weaponlinking,LIEN ARMEMENT
+
+customise_weaponlinkingenabled,Lien arm. activé
+customise_weaponlinkingdisabled,Lien arm. désactivé
+
+pda_areyousure,Etes-vous sûr ?
+pda_areyousureyouwanttoquit,Quitter ?
+pda_yes,Oui
+pda_no,Non
+
+basemenu_statistics,STATISTIQUES
+
+pda_language,LANGUE
+pda_italian,ITALIEN
+pda_spanish,ESPAGNOL
+
+customise_propulsioninstructions_1,Choisir
+customise_propulsioninstructions_2,la propulsion et les
+customise_propulsioninstructions_3,systèmes d'énergie
+
+customise_offensiveinstructions_1,Choisir les
+customise_offensiveinstructions_2,systèmes d'armement
+customise_offensiveinstructions_3,
+
+customise_defensiveinstructions_1,Choisir les
+customise_defensiveinstructions_2,systèmes défensifs
+customise_defensiveinstructions_3,
+,
+customise_generalinstructions_1,Choisir les
+customise_generalinstructions_2,autres systèmes
+customise_generalinstructions_3,
+
+customise_upgradesinstructions_1,Choisir d'améliorer
+customise_upgradesinstructions_2,le vaisseau
+customise_upgradesinstructions_3,
+
+customise_on,sur
+
+customise_cpuupgradesinstructions_1,Choisir amélioration
+customise_cpuupgradesinstructions_2,CPU
+
+customise_cpuprogramsinstructions_1,Choisir le logiciel
+customise_cpuprogramsinstructions_2,chargé dans le CPU
+
+customise_remainingmemoryslots,Mémoire restante : 
+
+manifest_ship_upgrades,AMEL. VAISS
+
+mp_network_ping_time,PING
+mp_network_players,JOUEURS
+mp_network_max_players,MAX
+mp_network_game_type,TYPE
+mp_game_type_deathmatch,DEFI
+mp_game_type_capture_the_flag,CDD
+mp_network_refresh,RAFR.
+mp_network_searching,RECH.
+
+
+mp_network_refresh,RAFRAICHIR
+mp_network_searching,RECHERCHE
+mp_options_hosting_session,ORGANIS. PARTIE
+
+mp_server_name,NOM
+mp_server_package,PAQUET
+mp_server_map,CARTE
+mp_server_time_limit,LIMITE TEMPS
+mp_server_frag_limit,LIMITE VICT
+
+mp_server_frag_10_min_game,Défi partie de 10 minutes
+mp_server_frag_15_min_game,Défi partie de 15 minutes
+mp_server_frag_10_frag_game,Défi premier à 10 victoires
+mp_server_flag_15_min_game,Capture du drapeau partie de 15 minutes
+mp_server_flag_10_min_game,Capture du drapeau partie de 10 minutes
+mp_server_flag_5_flags_game,Capture du drapeau premier à 5 victoires
+mp_server_flag_2_up_game,Capture du drapeau 2 drapeaux d'avance
+mp_server_cruiser_15_min_game,Capture du croiseur partie de 15 minutes
+mp_server_roof_15_min_game,Explosion totale partie de 15 minutes
+
+mp_server_frag_10_min_game_abbrev,Défi 10 min
+mp_server_frag_15_min_game_abbrev,Défi 15 min
+mp_server_flag_15_min_game_abbrev,CDD 10 min
+mp_server_flag_5_flags_game_abbrev,CDD 5 drap.
+mp_server_flag_2_up_game_abbrev,CDD 2 d'avance
+mp_server_cruiser_15_min_game_abbrev,CDD 15 min
+mp_server_roof_15_min_game_abbrev,ET 15 min
+
+pda_pause,PAUSE
+pda_keys,TOUCHES
+PDA_keyguide,GUIDE TOUCHE
+
+customise_emptymagazine,CHARGEUR VIDE
+
+customise_category,CATEGORIE
+
+dogfight,missiles de combat
+ldsi,missiles LDSi
+rocket,roquettes
+disruptor,brouilleurs
+areaaffect,effet de zone
+mine,mines
+flare,contre-mesures
+
+movie_playmovie,VOIR FILMS
+movie_movies,FILMS
+
+movie_intro,INTRODUCTION
+movie_act1,LA GRANDE EVASION
+movie_outro,EPILOGUE
+
+options_keyboardlayout,Format clavier
+options_controlstyle,Style commandes
+options_independencewar,Independence War
+options_recommended,Recommandé
+options_default,Par défaut
+options_traditional,Traditionnel
+options_keysonly,Clavier seulement
+options_edgeofchaos,Frontières chaos
+options_standard,Standard
+options_lateralsonhat,Latéraux bouton multidir.
+options_class,Classique
+
+
+; Use the graphics card property of multi-texturing,
+options_multitexture,Multi-textures
+
+; Refresh the screen during vertical blank interval,
+options_vsync,Synchro verticale
+
+; Hardware T n L - use graphics card transform and lighting hardware support,
+options_hardwaretnl,T&L matériel
+
+; GUI Stats screen title
+hud_menu_score,STATISTIQUES
+
+inventory_equipment,EQUIPEMENT
+
+;
+; Weapon linking control and feedback text. 
+;
+
+; HUD menu options...22 character limit?
+toggle_fire_mode,"CHANGER MODE TIR"
+
+; Customised loadout buttons...20 character limit.
+E_ChainFireMode,"MODE TIR ENCHAINE"
+E_SalvoFireMode,"MODE TIR SALVE"
+
+; Log error for missing weapon links
+E_NoWeaponLink,"ERREUR : LIAISON ARMEMENT NON INSTALLEE"
+
+;
+; Wrong disk screen titles and buttons
+;
+
+; Titles (15 character limit)
+wrongdisk_pleaseinsert,VEUILLEZ INSERER
+wrongdisk_playdisk,LE CD JEU
+wrongdisk_musicdisk,LE CD MUSIQUE
+
+; Button (12 characters)
+wrongdisk_retry,REESSAYER
+
+;
+; Possible numbers of turret fighters
+;
+turret_fighters_zero,AUCUN
+turret_fighters_one,UN
+turret_fighters_two,DEUX
+
+neutral,NEUTRE
+access_denied,ACCES REFUSE
+targets_hit,CIBLES TOUCHEES : 
+
+insufficient_ammo,Mun. insuffisantes
+
+add_cargo_launchwithcargopod,Partez avec un conteneur 
+
+trade_in_inventory,Inventaire : ,

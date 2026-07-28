@@ -1,0 +1,294 @@
+; FILE NAMEFAct2_master.csv,FRENCH
+frederick_jackson,"Frederick Jackson"
+a2_master_stc_control,"Poste STC Eureka"
+a2_master_dagda_stc,"Poste STC Dagda"
+a2_master_character_name_indigo,"Indigo"
+a2_master_dialogue_clay_this_place_was_a_snake_pit,"A l'époque de ta grand-mère, le Ritz était un nid de vipères. Ca n'a pas l'air de s'être arrangé. Surveille tes arrières."
+a2_master_dialogue_indigo_word_has_passed_down,"Le commandement MCA m'a demandé d'être extrêmement courtoise envers Monsieur Cal Johnston et de l'aider le plus possible. Franchement, Monsieur Cal Johnston, le commandement peut aller se faire griller dans une nova. Tenter de maintenir nos routes logistiques avec Mwari nous a déjà amenés à nos limites. Je n'ai ni le temps ni les moyens pour tirer d'affaire un ami influent des huiles lourdes. Alors, soyez bref. Qu'est-ce que vous voulez ?"
+a2_master_option_cal_problems_with_marauders,On a besoin de votre aide. On a des problèmes de Marauders.
+a2_master_dialogue_cal_problems_with_marauders,On a besoin de votre aide. On a des problèmes de Marauders.
+a2_master_dialogue_indigo_well_if_you_hadnt_noticed,"Eh bien, au cas où vous n'auriez pas remarqué, nous aussi ! Les Marauders assiègent Mwari ! Mes gens meurent de faim et le gouvernement de l'Amas refuse de nous aider. Nos maigres moyens sont affectés à notre défense. On doit racler les fonds de tiroirs pour engager des truands de deuxième zone tels que ceux que vous voyez ici au Ritz. Alors, désolée, Monsieur Johnston, mais nous ne vous aiderons pas. Et si le commandement veut me saquer pour avoir fait passer mes gens avant les vôtres, qu'il ne se gêne pas !"
+a2_master_dialogue_cal_just_curious,J'aimerais simplement savoir ce qui se passe par ici.
+a2_master_dialogue_indigo_this_fleapit,"Nous essayons de diriger la défense de Mwari depuis ce charmant établissement. Comme le gouvernement de l'Amas se moque du sort de Mwari, la MCA a été contrainte de coordonner l'assistance extérieure depuis ce trou à rats. La MCA embauche les truands qui traînent autour du Ritz pour escorter les convois de soutien qui forcent le blocus des Marauders."
+a2_master_dialogue_cal_tell_me_about_mca,Parlez-moi du travail de la MCA.
+a2_master_dialogue_indigo_mca_stands_for,"MCA signifie Mwari Colonial Alliance. La MCA a pris le système en main après que les corpos nous ont abandonné. Nous avons instauré la démocratie et fait de Mwari une puissance industrielle forte du système, indépendante des corporations et du gouvernement pourri de l'Amas. Mais les Marauders nous ont porté un rude coup et isolé Mwari du reste des Badlands. Avec ce gouvernement qui refuse de nous aider, nous sommes contraints de faire appel à des mercenaires hors de prix."
+a2_master_dialogue_clay_these_mca_folk_are_intense,"Ouah. Ces gars de la MCA ne plaisantent pas. Enfin, je suppose qu'elle a ses raisons. La situation de Mwari est pire que celle de la League."
+a2_master_dialogue_jackson_your_reputation_proceeds_you_my_johnson,"Votre réputation vous a précédé, Monsieur Johnston. Si vous voulez bien vous arrimer à ma modeste demeure, nous pourrons discuter de votre situation."
+a2_master_dialogue_clay_i_recognise_that_voice,Je reconnais cette voix.
+a2_master_dialogue_cal_what_voice,Quelle voix ?
+a2_master_dialogue_clay_frederick_jackson_i_recognise_his_voice,Frederick Jackson. J'ai déjà entendu cette voix quelque part...
+a2_master_dialogue_cal_where,Où ça ?
+a2_master_dialogue_clay_dunno_but_it_must_have_been_a_long_long_time_ago,"Je sais pas, mais ça doit faire un bon bout de temps. Mes cellules de mémoire conservent parfaitement les données sur trente ans, mais au delà, les liens associatifs tendent à s'atrophier. Les souvenirs s'effacent si je n'y pense pas..."
+a2_master_dialogue_cal_great_so_now_i_gotta_listen_to_the_ramblings_of_a_geriatric,"Génial. Si votre vie est en danger, demandez donc conseil à un vieux grille-pain qui perd la mémoire..."
+a2_master_dialogue_clay_i_aint_geriatric_and_i_aint_no_toaster,"Je ne suis pas vieux et je ne suis pas un grille-pain, fiston ! Et je suis sûr qu'on ne sait pas tout sur ce dénommé Jackson... "
+a2_master_dialogue_clay_remember_why_we_are_here,"Souviens-toi, fiston, on est là pour représenter la League. Il faut que nous parlions à ce Jackson."
+a2_master_dialogue_jackson_welcome_mr_johnston,"Bienvenue, Monsieur Johnston. J'attendais votre arrivée. Vos exploits à la Faille de Hoffer ont fait beaucoup de vagues, et je suis sûr que la League ne sera pas déçue de votre gestion de la situation actuelle. Que puis-je faire pour vous aider ?"
+a2_master_option_cal_how_come_you_know_so_much_about_me,Comment se fait-il que vous en sachiez autant sur moi ?
+a2_master_dialogue_cal_how_come_you_know_so_much_about_me,Comment se fait-il que vous en sachiez autant sur moi et sur cette opération ?
+a2_master_dialogue_jackson_i_have_a_scholars_interest_in_the_badlands,"Parce que, mon jeune ami, je porte un intérêt... académique aux affaires des Badlands. J'aime garder un oeil sur les évènements. Vos actions à la Faille de Hoffer vous ont forgé une belle réputation. Et si je ne me trompe, l'opération en cours peut affecter l'avenir des Badlands tout entiers."
+a2_master_option_cal_how_do_my_current_actions_affect_the_badlands,Comment mes actions affecter les Badlands ?
+a2_master_dialogue_cal_how_do_my_current_actions_affect_the_badlands,Comment mes actions pourraient-elles affecter l'avenir des Badlands ?
+a2_master_dialogue_jackson_because_times_are_changing,"Je ne suis pas devin, mais je vois bien que les temps changent. Depuis soixante-dix ans, la propagande corpo pousse les factions des Badlands à l'affrontement. Mais les clans divisés des Badlands ont bien plus en commun que le gouvernement ne leur laisse croire. Cal, vous êtes une des premières personnes à pouvoir faire coopérer ces factions. Un changement s'annonce, et vous êtes en mesure d'en définir l'aspect."
+a2_master_option_cal_are_you_going_to_help_the_league,Vous pourriez aider la League...
+a2_master_dialogue_cal_are_you_going_to_help_the_league,Vous pourriez aider la League à combattre les Marauders.
+a2_master_dialogue_jackson_yes_and_no,"Je crois que vous avez surestimé le système Coyote si vous pensez que nous sommes aussi nombreux et aussi bien organisés que la League, ou même que les Stepson ou les Kong. Nous ne sommes pas en mesure d'apporter une aide militaire à nos alliés. Nos rares vaisseaux passent leur vie à régler nos propres problèmes de Marauders. Mais peut-être pouvons-nous vous fournir quelques conseils. Je vous invite à commencer par contacter la MCA, la Mwari Colonial Alliance. Elle est la faction indépendante la mieux organisée des Badlands. Leur représentant, ou ambassadeur comme ils préfèrent l'appeler, se terre actuellement sur l'Arche Brotherhood, dans le système Santa Romera."
+a2_master_dialogue_cal_tell_me_about_mca_org,"Parlez-moi de la MCA."
+a2_master_dialogue_jackson_the_mca_are_the_mwari_colonial,"La MCA est la Mwari Colonial Alliance, un organisme élu qui gouverne et défend le système Mwari. C'est la faction indépendante la mieux organisée des Badlands. Vous devriez pouvoir trouver leur ambassadeur à l'Arche Brotherhood, dans le système Santa Romera."
+a2_master_dialogue_cal_tell_me_about_coyote,Parlez-moi de Coyote.
+a2_master_dialogue_jackson_coyote_is_the_least_developed,"Coyote est le système le moins développé de l'Amas des Badlands. Il n'a été colonisé qu'après le grand effondrement. Nous avons relativement peu de ressources minérales, donc les grandes corporations ne se sont pas bousculées pour prendre des concessions. De ce fait, nous avons attiré beaucoup d'indépendants. Hélas, notre liberté vis-à-vis des Corpos s'est évanouie. Maas systems a implanté beaucoup d'installations au cours des cinq dernières années. Ces gens se sont regroupés au coeur du système et ont fait en sorte que personne ne vienne les déranger. A part ça, Coyote est un système plutôt calme. On peut même dire que c'est un trou perdu."
+a2_master_dialogue_cal_tell_me_about_coyote_again,Dites m'en plus à propos de Coyote.
+a2_master_option_cal_how_come_you_speak_for_coyote,Pourquoi est-ce vous qui représentez Coyote ?
+a2_master_dialogue_cal_how_come_you_speak_for_coyote,Pourquoi est-ce vous qui représentez tous les indépendants de Coyote ?
+a2_master_dialogue_jackson_not_through_any_design_on_my_part,"Pas par choix, je vous l'assure. Ma carrière politique est finie depuis longtemps. Mais les indépendants me considèrent  comme leur porte-parole, sûrement parce que je l'ouvre plus que les autres. Mais ne vous en faites pas, Cal. Mon coeur est en bonne place."
+a2_master_dialogue_cal_bye_fred,C'est tout.
+a2_master_dialogue_jackson_anything_else,Puis-je encore vous être utile ?
+a2_master_dialogue_jackson_ok_goodbye_cal_and_before_i_forget,"Au revoir, Cal. Revenez quand vous voulez. Oh, et avant que j'oublie, je vois passer pas mal de marchandises. Si vous êtes intéressé par une remise à niveau de vaisseau à prix raisonnable, vous savez où me trouver..."
+a2_master_dialogue_jackson_ok_goodbye_cal,"Au revoir, Cal. Revenez quand vous voulez."
+a2_master_dialogue_stc_hi_there_traffic_control,"Salut. Bienvenue à Eureka, le grenier des Badlands. Vous êtes maintenant dans un système surveillé. Veuillez annoncer vos intentions."
+a2_master_dialogue_cal_looking_for_work,Je cherche juste du travail.
+a2_master_dialogue_stc_you_might_be_a_little_dissapointed,"Eh bien, vous risquez d'être déçu de ce côté-là. J'ai bien peur que la Third Way ait fermé ce système comme une huître. Ils n'aiment déjà pas les étrangers qui visitent leur système, alors ceux qui cherchent du boulot..."
+a2_master_option_cal_representative_from_hoffers_wake,Nous cherchons de l'aide contre les Marauders.
+a2_master_dialogue_cal_representative_from_hoffers_wake,Je représente une faction de la Faille de Hoffer. Nous cherchons de l'aide contre les Marauders.
+a2_master_dialogue_stc_i_think_you_are_in_the_wrong_system,"Vous n'êtes pas dans le bon système. Vous voyez, c'est la Third Way qui gouverne ici, et ils sont plutôt xénophobes. Pas du genre à aider des étrangers."
+a2_master_dialogue_cal_just_wandering,Juste en balade.
+a2_master_dialogue_stc_the_without_being_rude,"Oh, ne le prenez pas mal, mais je vous conseille de trouver un autre système pour vous balader. Ce système est administré par la Third Way, qui n'aime pas vraiment les étrangers."
+a2_master_dialogue_cal_the_third_way,"C'est quoi, cette Third Way ?"
+a2_master_dialogue_stc_youve_never_heard,"Vous n'avez jamais entendu parler de la Third Way ? Eh ben, on voit que vous êtes nouveaux dans le coin !"
+a2_master_dialogue_stc_the_third_way_are,"La Third Way est un cartel qui contrôle toute les industries agro-alimentaires du système. Mais c'est bien plus qu'un simple cartel. Vous voyez, la Third Way a instauré un truc de pureté raciale et de religion basé sur leur, euh, style de vie sain et agraire. Si vous voulez vous faire une idée, allez donc faire un tour sur la planète Eureka."
+a2_master_dialogue_stc_enjoy_your_stay_in_the_eureka_system,Bon séjour dans le système Eureka.
+a2_master_dialogue_stc_why_hello_again,"Ah, vous revoilà ! Je peux faire quelque chose pour vous ?"
+a2_master_dialogue_cal_tell_me_more_about_the_third_way,Dites m'en plus au sujet de cette Third Way.
+a2_master_dialogue_stc_a_strange_bunch,"Qu'est-ce qu'on peut en dire ? C'est un groupe d'insulaires qui prétend, sans la moindre ironie, qu'ils sont supérieurs au reste de l'humanité. Une histoire à propos de leur style de vie agraire qui maintiendrait leur pureté. Le reste du système les ignorerait avec plaisir, mais ils contrôlent plus de quatre-vingt pour cent de la production de nourriture des Badlands. Ils sont très puissants, et il vaut mieux ne pas leur chercher des poux dans la tête."
+a2_master_dialogue_cal_why_are_you_so_chatty,Pourquoi êtes-vous si bavard ?
+a2_master_dialogue_stc_just_enjoy_the_company,Comme ça. J'aime la compagnie. Les types de la Third Way n'aiment pas beaucoup faire la conversation...
+a2_master_dialogue_cal_no_im_fine,Non merci.
+a2_master_dialogue_stc_be_seing_you2,D'accord. Bonjour chez vous !
+a2_master_dialogue_stc_hello_there_again_back_for_another_visit,"Ah, encore vous. Vous revenez voir la belle Eureka ? Eh bien, je peux vous dire que, depuis votre départ, les autochtones ne se sont pas améliorés question convivialité..."
+a2_master_dialogue_stc_hello_again,Re-bonjour.
+a2_master_dialogue_stc_my_captain_johnson_you_seem_to,"Eh, capitaine Johnston. Le système Eureka a l'air de sacrément vous intéresser."
+a2_master_dialogue_stc_welcome_back_commander_johnston,"Heureux de vous revoir à Eureka, capitaine Johnston. Bonne visite."
+a2_master_dialogue_clay_looks_like_we_got_company,On dirait qu'on a de la compagnie...
+a2_master_dialogue_oman_you_are_passing_through_oman_territory,"Appareil non-identifié, vous avez violé le territoire sacré des Oman. Mettez en panne et identifiez-vous."
+a2_master_dialogue_clay_we_better_do_as_these_guys_say,"Je pense que nous ferions mieux de faire ce qu'ils disent, Cal. Nous avons besoin des Oman."
+a2_master_dialogue_oman_what_is_your_business_here,Vous avez franchi le seuil de la zone allouée aux Oman. Nous ne vous y avons pas invité. Quelles sont les raisons de votre intrusion sur notre territoire ?
+a2_master_option_cal_im_looking_for_assistance,Je cherche des alliés pour combattre les Marauders...
+a2_master_dialogue_cal_im_looking_for_assistance,Je cherche des alliés pour combattre les Marauders à la Faille de Hoffer.
+a2_master_dialogue_oman_you_must_speak_with_our_leader,"Pour cela, il vous faudra parler à notre chef, le cheikh Abdul-Hadi. Suivez-nous à Daru el-Salam."
+a2_master_dialogue_cal_i_wish_to_speak_to_your_commander,Je voudrais parler à votre chef.
+a2_master_dialogue_oman_very_well_you_are_clearly_not_a_marauder,"Entendu, car nous avons pu constater que vous n'êtes pas un Marauder. Suivez-nous à Daru el-Salam pour rencontrer le cheikh Abdul-Hadi."
+a2_master_dialogue_cal_dont_mind_me,Ne vous occupez pas de moi. Je ne fais que passer.
+a2_master_dialogue_oman_very_well_but_be_warned_that_the_oman_do_not_tolerate,Très bien. Mais sachez que les Oman ne tolèrent pas sur leur territoire les infidèles qui violent les lois.
+a2_master_dialogue_clay_you_idiot,"On est bien avancés, fiston. On ne devait pas gagner leur soutien ?"
+a2_master_dialogue_main_oman_welcome_to_daru_el_salam,"Bienvenue à Daru el-Salam, estimable étranger. Vous pouvez amarrer."
+a2_master_dialogue_hadi_welcome_stranger_i_am_the_elder,"Que la paix soit avec vous. Bienvenue à Daru el-Salam, le foyer de la paix. Pardonnez l'accueil inhospitalier de ma patrouille, mais nous vivons une époque dangereuse. Je suis le cheikh Abdul-Hadi, guide et ancien des Oman. En quoi puis-je vous aider ?"
+a2_master_option_cal_hoffers_wake_needs_help,Je cherche des alliés pour combattre les Marauders...
+a2_master_dialogue_cal_hoffers_wake_needs_help,Je cherche des alliés pour combattre les Marauders qui harcèlent la Faille de Hoffer.
+a2_master_dialogue_hadi_i_sympathise_but_we_all_have_troubles_with_the_marauders,"Je comprends votre situation. Mais nous sommes, en ces temps sombres, tous harcelés par les atrocités des Marauders."
+a2_master_option_cal_i_represent_the_league,Je représente la League...
+a2_master_dialogue_cal_i_represent_the_league,Je représente la League et nous cherchons des alliés pour combattre les Marauders.
+a2_master_dialogue_hadi_i_know_the_league_and_understand_your_plight_but_we_are_all_having_trouble,Je connais la League et je comprends votre situation. Mais nous sommes tous harcelés par les Marauders ces temps-ci.
+a2_master_dialogue_hadi_we_do_not_have_the_stregnth,Maudite soit notre faiblesse. Nous n'avons pas les moyens de vous aider militairement. Mais ceux qui le méritent peuvent compter sur d'autres formes d'aide...
+a2_master_dialogue_cal_and_how_do_i_prove_myself_worthy,Hmmm. Et comment faire pour les mériter ?
+a2_master_dialogue_hadi_simple_my_friend_all_we_ask_of_you,"C'est simple, mon ami. Tout ce que nous vous demandons est de passer l'épreuve que tout adolescent Oman doit réussir..."
+a2_master_dialogue_clay_i_was_afraid,J'avais peur qu'il dise quelque chose dans le genre.
+a2_master_dialogue_clay_the_oman_are_supposed_to_be_tough_cookies,Les Oman ont la réputation d'être des durs à cuire. Sois prudent.
+a2_master_dialogue_hadi_do_you_wish_to_take_the_test,Voulez-vous passer l'épreuve des Oman ?
+a2_master_dialogue_cal_yes_ill_take_the_test,Oui. Je veux passer l'épreuve.
+a2_master_dialogue_cal_not_just_yet,"Non, pas tout de suite."
+a2_master_dialogue_hadi_very_good,Très bien.
+a2_master_dialogue_hadi_as_you_wish,"Comme vous voulez. Allez en paix, mon ami."
+a2_master_dialogue_hadi_welcome_back,Que la paix soit avec vous. Etes-vous revenu pour passer l'épreuve des Oman ?
+a2_master_dialogue_abdul_welcome_back_Cal_johnston,"Que la paix soit avec vous, Cal Johnston, grand ami Oman. Je suis heureux de vous revoir à Daru el-Salam. En quoi puis-je vous aider ?"
+a2_master_dialogue_cal_tell_me_about_the_oman,Parlez-moi des Oman.
+a2_master_dialogue_abdul_we_are_descendents_of_the_bedoin,"Nous sommes un peuple soufi issu des tribus de bédouins de Proxima du Centaure, qui descendent eux-mêmes des bédouins de la vieille Terre. Nous sommes venus dans ce cluster des Badlands avec les premiers immigrants et nous nous sommes installés ici, dans le système de Kompira. La richesse minérale convenait à nos besoins en ressources. Le climat inhospitalier correspondait à notre amour pour la beauté de la nature sauvage, et nous a permis de repousser les agents de l'injustice, ceux qui vénèrent le luxe. Ici, nous sommes libres de combattre l'oppression qui vient du fond de soi, et dépasse celle qui vient des autres. Nous vivons selon les enseignements du Prophète et subvenons à nos besoins grâce à la mine, au commerce et à la construction de composants spécialisés pour vaisseaux spatiaux... que nous pourrons vous proposer à un tarif très intéressant. Depuis la fondation de ce système, nous avons vécu en harmonie avec notre inhospitalière mais magnifique étoile... jusqu'à la tourmente introduite d'abord par les énormes machines de la maudite Maas Corporation, puis par notre conflit avec les infidèles Marauders."
+a2_master_dialogue_cal_tell_me_about_the_oman_again,Parlez-moi encore des Oman.
+a2_master_dialogue_cal_have_you_had_much_marauder_trouble_recently,Avez-vous subi des attaques de Marauders récemment ?
+a2_master_dialogue_hadi_there_have_been_marauder_incidents_but_we_have_dealt_with_them,"Plusieurs incidents ont eu lieu récemment, mais nous les avons réglés... à notre manière."
+a2_master_dialogue_cal_how_did_you_deal_with_the_marauders,Comment vous en êtes-vous occupé ?
+a2_master_dialogue_abdul_we_use_their_own_tactics_agaisnt_them,"Nous utilisons leurs propres stratégies à notre avantage. En observant leurs attaques, nous découvrons leurs faiblesses et lançons les ripostes adaptées. Si ton ennemi est un chacal, pose des pièges à chacal... Ils s'en prennent aux vaisseaux désemparés, alors nous en utilisons comme appâts, et nous les faisons exploser à l'approche des Maraudeurs. Ils utilisent de faux vaisseaux de police pour que nous nous attaquions à la police, alors nous utilisons de faux navires corpos contre eux pour qu'ils détournent leur attention. Jusqu'ici, nos ruses ont fonctionné. En dehors de leurs premières attaques, les Marauders n'ont pas réussi à nous faire beaucoup de mal."
+a2_master_dialogue_cal_any_problems_i_can_help_you_with,Avez-vous des problèmes que je pourrais résoudre ?
+a2_master_dialogue_abdul_we_we_have_nothing_requiring_your_skills_cal_johnston,"Nous n'avons rien qui corresponde à vos compétences, Cal Johnston, mais si les Oman ont besoin de vos services, nous vous en informerons."
+a2_master_dialogue_cal_bye,"Au revoir, cheikh Abdul Hadi."
+a2_master_dialogue_hadi_then_farewell_cal_johnston_peace_be_with_you,"Adieu pour l'instant, Cal Johnston. Que la paix soit avec vous."
+a2_master_dialogue_cal_we_need_pilots_to_fight_the_Marauders,Nous avons besoin de pilotes pour combattre les Marauders.
+a2_master_dialogue_cal_the_league_and_the_marauders,"O grand cheikh, les MCA et la League ont uni leurs forces pour stopper les Marauders. Mais il nous manque un grand nombre de pilotes pour équiper nos navires. Pouvez-vous nous aider ?"
+a2_master_dialogue_abdul_i_already_have_heard_rumours_of_such_an_action,"J'ai entendu des rumeurs indiquant que les peuples divisés de cet amas oeuvraient enfin en commun pour nous débarrasser des oppresseurs. Cal Johnston, les Oman fourniront cent de leurs meilleurs pilotes à votre respectable entreprise."
+a2_master_dialogue_dagda_stc_attention_arriving_vessel,"Attention, vaisseau en approche, vous êtes entré sans autorisation dans un système d'accès restreint. Veuillez rester dans un rayon de cinq kilomètres autour du point Lagrange. Si vous besoin de temps pour recharger votre condensateur de saut capsulaire, avancez jusqu'au Point d'approche 1. Le non-respect de ces consignes constituera un acte hostile et sera traité comme tel. Merci de votre coopération."
+a2_master_dialogue_dagda_stc_attention_vessel_you_are_in_violation,"Attention, vaisseau, vous avez maintenant enfreint la section 36 du code de colonisation Dagda. L'usage de la force envers votre vaisseau est désormais autorisé. Veuillez demeurer à l'intérieur de la zone d'approche, dans un rayon de cinq kilomètres autour du Point Lagrange. Merci de votre coopération."
+a2_master_dialogue_dagda_stc_warning,"Attention, vaisseau, vous êtes sorti de la zone d'approche de Dagda. Vous avez dix secondes pour corriger votre cap. A défaut, nous prendrons les mesures appropriées."
+a2_master_dialogue_jarvis_howdy,"Salut, étranger. Premier séjour à Dagda ?"
+a2_master_dialogue_cal_yeah_whats_the_score_with_all_this_entry_permit_stuff,"Ouais. C'est quoi, cette histoire d'autorisation ?"
+a2_master_dialogue_jarvis_this_whole_system_is_owned_by_the_maas_corporation,"Eh bien, vous voyez, le système tout entier appartient à la Maas Corporation. Ils extraient du neutronium ici. Le neutronium est certainement le truc le plus précieux qu'on puisse récolter, et ils le protègent par tous les moyens. De vous à moi, et à tous ceux qui sont sur cette fréquence, la vraie raison est que des milliers de travailleurs sous contrat léonin ne pensent qu'à se tirer d'ici. Le travail est si épouvantable et dangereux que Maas doit recourir à ce type de main-d'oeuvre. Nombre d'entre eux ont la pauvreté pour seul crime. Sans mon vaisseau, j'aurais pu être l'un d'eux. Pour les empêcher de tous s'enfuir, Maas a implanté ce réseau de défenses mortel. Alors, à moins d'être très fort ou très stupide, il vaut mieux ne pas quitter cette zone de sécurité."
+a2_master_dialogue_cal_youre_not_maas_how_come_youre_here,"Votre vaisseau n'appartient pas à Maas. Et vous n'avez pas l'air de suivre la ligne du parti Maas. Alors, qu'est-ce que vous faites ici ?"
+a2_master_dialogue_jarvis_jarvis_fokker_at_your_service_freelance_vending_machine_engineer_at_your_service,"Jarvis Fokker, ingénieur indépendant en distributeurs automatiques, pour vous servir. Je suis ici parce que je suis le seul technicien de maintenance de tout l'Amas à savoir faire marcher les épaves qui servent de distributeurs de bouffe dans les quartiers des contractuels. Je ne suis pas plus fier que ça de les aider à exploiter ces pauvres bougres de contractuels, mais il faut bien gagner sa croûte, et les types de Maas paient bien."
+a2_master_dialogue_trashman_would_you_please_stop_insulting_my_employer_over_an_open_channel,"Voudriez-vous arrêter d'insulter notre employeur sur un canal ouvert, Jarvis ? Je trouve ça très déplacé..."
+a2_master_dialogue_jarvis_i_wondered_how_long_it_would_take,"Je me demandais combien de temps tu mettrais pour réagir, l'éboueur. Ils peuvent bien me virer s'ils n'aiment pas ce que je raconte. Tu verras ce qui se passera si les contractuels n'ont pas à bouffer ! Mais j'oublie la politesse ! Oh, le nouveau, voici l'éboueur, le glorieux transporteur de déchets. A l'entendre, on croirait qu'il dirige la Maas Corporation... alors qu'il ne fait que transporter le contenu de leurs égouts ! Hé, hé. Hein ?"
+a2_master_dialogue_trashman_i_resent_that,"Je vous en prie, Jarvis. Je m'appelle Tarquin, pas l'éboueur. Et je suis choqué par votre dénigrement constant de Maas Systems. Les contractuels ne sont pas des esclaves. Ce sont des condamnés qui ont préféré ce statut à la prison ! Et Maas assure des revenus essentiels au groupe des Badlands, même si ce n'est pas du goût de tout le monde."
+a2_master_dialogue_jarvis_convicted_of_poverty,"Condamnés ? Ouais, ici, être fauché est un crime. Attends un peu qu'ils fassent de la crédulité un délit, mon bel éboueur."
+a2_master_dialogue_clay_talking_to_these_jokers,"Cal, discuter avec ces rigolos ne mène à rien. Il est clair que nous n'irons nulle part dans ce système sans une escadre avec nous. Ou un de leurs permis. Cassons-nous."
+a2_master_dialogue_cal_your_right_clay,"T'as raison, Clay."
+a2_master_dialogue_cal_thanks_for_your_help,"Merci de votre aide, Jarvis. Tarquin. A plus tard."
+a2_master_dialogue_mca_you_have_entered_mca_space,Vous avez pénétré dans l'espace MCA. Annoncez vos intentions !
+a2_master_option_cal_looking_for_allies,Je viens chercher des alliés...
+a2_master_dialogue_cal_looking_for_allies,Je viens chercher des alliés pour combattre les Marauders dans le système de la Faille de Hoffer.
+a2_master_dialogue_mca_maybe_you_hadnt_noticed,"Alors vous avez fait beaucoup de chemin pour rien. Vous ne l'avez peut-être pas remarqué, mais nous avons nos propres problèmes avec les Marauders. Nous ne pouvons pas vous aider."
+a2_master_dialogue_cal_come_to_fight_marauders,Je viens combattre les Marauders.
+a2_master_dialogue_mca_then_good_luck_to_you,Alors vous êtes venus au bon endroit. Vous en trouverez plein dans ce système. Bonne chance.
+a2_master_dialogue_cal_mca_just_passing,Juste de passage.
+a2_master_dialogue_mca_then_i_recomend_you_turn_around,Alors je recommande que vous passiez en vitesse. Mwari est en état de guerre et nous n'avons pas de temps à perdre avec les touristes.
+a2_master_dialogue_mca_you_again,"Encore vous ! Pourquoi ne vous rendez-vous pas utiles en escortant un convoi dans le système, plutôt que de traîner ici ?"
+a2_master_dialogue_mca_your_prescence_here_is_unwelcome,Votre présence ici n'est pas la bienvenue. Veuillez partir.
+a2_master_dialogue_mca_so_you_have_finally_made_yourself_useful,"Alors, vous vous êtes finalement rendus utiles ?"
+a2_master_dialogue_mca_thank_you,Merci de vous être assurés que ce convoi atteigne Mwari sain et sauf. Chaque convoi qui passe permet de prolonger la guerre contre ces bouchers de Marauders !
+a2_master_dialogue_mca_unfortunately_the_situation_with_the_marauders,"Le chef du convoi nous a parlé de votre situation au sein de la League et de votre désir de vous allier pour combattre les Marauders. Malheureusement, la situation actuelle de la MCA est telle que nous ne pouvons apporter une aide directe à la League."
+a2_master_dialogue_cal_tell_me_about_the_mca,Parlez-moi de la MCA.
+a2_master_dialogue_mca_we_are_a_democracy,"Ce système a été colonisé par la Jardin Corporation, mais ils sont partis alors qu'ils n'avaient qu'à moitié terraformé quatre planètes. Il nous fallait stabiliser Mwari, alors, après référendum, nous avons formé la MCA. Nous sommes autonomes vis-à-vis du gouvernement des Badlands, ce qui nous convient tout à fait. En contrepartie, cela signifie hélas que nous ne pouvons espérer d'aide directe du gouvernement pour combattre les incursions des Marauders."
+a2_master_dialogue_cal_tell_me_about_the_marauders,Parlez-moi des Marauders.
+a2_master_dialogue_mca_the_marauders_have_been,"Cela fait deux ans que les Marauders harcèlent Mwari. Ils contrôlent la majeure partie du système à l'exception des quatre grands centres de population de Garden, Longshot, Sinecure et Cassandra. Ceci est en partie dû à l'étrange positionnement, en fond de système, du point de saut interstellaire vers Santa Romera. Désolée de ne pouvoir vous aider davantage."
+a2_master_dialogue_mca_anything_else,Autre chose ?
+a2_master_dialogue_mca_sorry_we_cannot_be_of_further_help,"Désolée, nous ne pouvons pas vous aider davantage pour l'instant."
+a2_master_dialogue_jafs_phew_things_seem_to_have_got_a_little_intense,"Ouah ! Attends, Cal ! Ne te laisse pas entraîner, d'accord ? Je veux dire, ça commence à devenir un peu trop intense. On commençait à gagner notre vie honnêtement en tant que pirates et voilà ! On se retrouve en plein milieu d'une guerre totale ! C'est dangereux, les guerres !"
+a2_master_dialogue_smith_yeah_so_what_you_gonna_say_we_just_walk_away,"Ouais ? Et alors ? Tu veux juste te tirer ? Alors, tire-toi ! Espèce de lâche. Il y avait des ENFANTS sur cette station ! Des gens qui voulaient seulement vivre mieux, et maintenant ils sont MORTS. Moi, je ne veux pas rester à regarder ces maudits Marauders tout détruire. Pas si je peux leur botter le train !"
+a2_master_dialogue_jafs_hey_you_got_me_wrong,"Ouah ! Eh ! Tu te trompes sur moi. Je ne suis pas un lâche. Mais passer de la piraterie à la guerre, c'est vraiment changer de métier ! Et je n'en vois pas l'intérêt. Hmmm... Quoique, c'est dans les guerres qu'on fait les plus gros bénefs. Oh, d'accord, j'en suis. Mais pas de missions-suicide, OK ? Et ne me traite plus de lâche !"
+a2_master_dialogue_ibuki_count_me_in,"Lâche. Et toi, Smith, je ne savais pas que tu avais ce côté sensible. Tu peux compter sur moi, Cal. C'est le genre de missions que j'attendais. Patrouiller dans le système Coyote est un bon début."
+a2_master_dialogue_lori_me_too,"Moi aussi, je vote pour tout ce qui pourra faire la différence. Il est temps de se battre pour autre chose que du butin."
+a2_master_dialogue_cal_so_its_decided_then,C'est décidé. Cherchons des alliés. J'aimerais bien pouvoir faire plus...
+a2_master_dialogue_clay_back_in_yer_grandmas_day_mwari,"Du temps de ta grand-mère, Mwari, c'était quelque chose. A l'époque, les gens pensaient pouvoir en faire un paradis. Ils ont tenté d'achever la terraformation de la capitale, Sinecure, sans le soutien des corporations. Maintenant, j'ai l'impression que c'est devenu un enfer."
+a2_master_dialogue_clay_firefrost_be_careful_in_this_system_cal,"Ta grand-mère et moi, on a passé un moment ici à Firefrost. C'est tellement grand qu'on pourrait y perdre une douzaine d'escadres. C'était parfait pour jouer profil bas quand ça chauffait. En parlant de chaleur, ne t'approche pas trop de l'étoile principale. Fais comme tout le monde et reste à la périphérie du système."
+a2_master_dialogue_clay_keep_your_eyes_peeled,"Garde aussi l'oeil ouvert côté pirates. La loi ne régnait pas à Firefrost du temps de ta grand-mère, et ça m'étonnerait qu'il y ait eu une épidémie d'honnêteté depuis."
+a2_master_dialogue_clay_dont_worry_if_your_electronics,"Oh, et ne t'inquiète pas si l'électronique délire un peu. Il y a un bruit de fond de radiations énorme par ici."
+a2_master_dialogue_cal_spare_the_lecture_clay,"Arrête les cours, Clay. Au cas où tu n'aurais pas remarqué, je suis un grand garçon."
+a2_master_dialogue_clay_hey_kid_just_offering_a_little_advice,"Eh, fiston, je t'offre juste des conseils. Tu te prends peut-être pour un champion sur ton bolide spatial, mais Firefrost n'est pas pour les gamins. Et c'est ton premier séjour ici."
+a2_master_dialogue_cal_im_sorry_youre_right_youve_been_here_before,"Désolé. T'as raison. Alors, où doit aller le petit nouveau du système ?"
+a2_master_dialogue_clay_ok_thats_more_like_it,"Je préfère ça. Un peu de respect ne fait de mal à personne. Eh bien, du temps de ta grand-mère, l'endroit où traînaient les indépendants locaux était le club Blue Note, autour de Hyrokkin Beta. C'est une des planètes de l'étoile Firefrost III."
+a2_master_dialogue_cal_sounds_as_good_a_place,Ce n'est pas plus mal qu'ailleurs pour commencer à chercher.
+a2_master_dialogue_clay_me_and_your_grandma_didnt_spend_much_time_here,"Ta grand-mère et moi, on n'a pas passé beaucoup de temps dans le système Kompira. Juste assez pour voir à quel point c'est pourri. Les planètes sont soit des fournaises, soit des boules de glace, et les clans locaux sont les pires qu'on puisse rencontrer dans tout l'Amas. Ca mérite le titre de coin le plus déprimant des Badlands, et peut-être même de tout l'espace connu."
+a2_master_dialogue_cal_ever_thought_of_a_career_as_a_travel_guide,Tu as déjà pensé à une carrière de guide touristique ? T'es vraiment doué pour ça.
+a2_master_dialogue_clay_this_is_santa_romera,"Voici Santa Romera, la capitale de l'Amas des Badlands. Fais gaffe ici, Cal, ça regorge de flics et de sécurité corpo. On n'apprécie pas trop les pirates dans le coin."
+a2_master_dialogue_smith_ah_cal_got_something_here_you_might_be_interested_in,"Ah, Cal, j'ai bidouillé un peu et je suis tombé sur un truc qui pourrait t'intéresser..."
+a2_master_dialogue_cal_dont_tell_me_youve_re_wired_the_coffee_machine_again,Ne me dis pas que tu as encore reconstruit la machine à café. J'ai eu un sale un goût dans la bouche pendant toute une semaine.
+a2_master_dialogue_smith_better_than_that_ive_been_listening_to_sub_space_comms_channels,"Je te l'ai dit. C'était pas la machine à café. C'était le réchauffeur de lubrifiant pour ma prothèse de bras. Bon, j'ai espionné les canaux de comms spatiales, et je crois que j'ai trouvé quelque chose."
+a2_master_dialogue_cal_listening_to_ther_folks_private_conversations,"Ce n'est pas pour une histoire d'écoutes que tu as atterri en prison, Smith ?"
+a2_master_dialogue_smith_yeah_but_this_is_sweet,"Ouais. Et alors ? Bon, je séparais les meilleures transmissions de tous les trucs lourds... tu sais, la bourse, les infos, tous les messages avec 'Coucou Maman', et je me suis aperçu que certaines de ces transmissions employaient un canal supplémentaire. Et crypté avec la toute dernière technologie. Sûrement militaire. Je me suis penché sur leur schéma de transmission et, devine quoi ? Tous ces messages viennent de zones infestées de Marauders ou sur le point de l'être."
+a2_master_dialogue_cal_so_what_do_these_messages_say,Que disent ces messages ? Est-ce qu'on peut les décrypter ?
+a2_master_dialogue_smith_well_theres_the_problem,"C'est bien le problème. Impossible de les déchiffrer avant de mettre la main sur un des appareils de cryptage. Le mieux que je puisse faire pour l'instant est de savoir quand un message Marauder est envoyé pas loin. Je peux modifier tes systèmes de comms pour rechercher ces messages cachés, ce qui devrait nous prévenir que des Marauders opèrent dans un rayon de, disons, 500 kilomètres."
+a2_master_dialogue_cal_well_thats_better_than_nothing,"C'est mieux que rien. Bien joué, Smith. Modifie mon système de comms. Ca ne fait jamais de mal de savoir si l'ennemi est là."
+a2_master_dialogue_smith_now_that_youve_retreived_that_marauder_encryption_device,"Maintenant que tu as récupéré cet appareil de cryptage Marauder, j'ai fait passer toutes mes informations sur leur canal caché aux binoclards de la League. Ces experts ont peut-être le temps et les moyens de s'amuser avec de la cryptographie, mais pas moi."
+a2_master_dialogue_clay_the_blue_note_social,"Le voilà. Le club Blue Note. A l'époque de ta grand-mère, tous les mecs un peu importants devaient s'y montrer. Je pourrais t'en raconter, des histoires..."
+a2_master_dialogue_cal_save_it,"Plus tard, Clay. On dirait que ça ne s'est pas arrangé avec le temps. Mais ça a l'air plus calme que tu l'annonçais..."
+a2_master_dialogue_mariana_welcome_to_the_blue_note_social_can_i_help_you,"Bienvenue au Blue Note. Qu'est-ce que je peux faire pour toi, beau gosse ?"
+a2_master_option_cal_im_looking_for_help_in_fighting_the_marauders,Je cherche de l'aide pour combattre les Marauders...
+a2_master_dialogue_cal_im_looking_for_help_in_fighting_the_marauders,Je cherche de l'aide pour combattre les Marauders à la Faille de Hoffer.
+a2_master_dialogue_cal_im_looking_to_recruit_pilots,Je voudrais recruter quelques bons pilotes.
+a2_master_dialogue_mariana_wouldnt_know_about_that_speak_to_the_sherrif,"Ca, je n'y connais rien. Tu ferais mieux d'en parler au Shérif."
+a2_master_dialogue_cal_where_can_i_find_this_sherriff,"Où est-ce que je peux le trouver, ce Shérif ?"
+a2_master_dialogue_cal_kind_of_quiet,C'est plutôt calme par ici.
+a2_master_dialogue_mariana_well_your_freind_aint_been_here_for_some_time,"Ce club était toujours bondé dans le temps. Maintenant, je vais probablement devoir fermer si les affaires ne reprennent pas."
+a2_master_dialogue_cal_so_where_did_everyone_go,Où sont-ils tous passés ?
+a2_master_dialogue_mariana_guess_folks_have_more_important_things_on_their_mind,"Soit les gens montent la garde contre les Marauders, soit ils ont été ruinés par les attaques des Marauders, soit ils ont été tués par les Marauders. J'espère que la bande du Shérif va les exterminer ! On pourra refaire la fête ici !"
+a2_master_dialogue_cal_a_freind_of_mine,"Un de mes amis venait souvent ici, mais ça a l'air plus calme que dans ses souvenirs."
+a2_master_dialogue_cal_tell_me_about_firefrost,Parlez-moi de Firefrost.
+a2_master_dialogue_mariana_well_as_youve_seen_this_is_one_big_system,"Eh bien, comme tu l'as vu, Firefrost est un sacré gros système. Mais il n'a pas l'ombre de la population des autres systèmes. C'est assez cruel par ici, surtout pour les imprudents. Les gens qui choisissent de vivre ici sont durs à cuire, désespérés, ou les deux. Récemment, les choses sont devenues encore plus dangereuses à cause de l'arrivée des Marauders. Voyager dans une bonne part du système intérieur était déjà risqué, mais maintenant c'est carrément du suicide."
+a2_master_dialogue_cal_goodbye,Au revoir.
+a2_master_dialogue_mariana_ok_be_seeing_you,"D'accord, à la prochaine, beau gosse."
+a2_master_dialogue_mariana_anything_else,Autre chose ?
+a2_master_dialogue_clay_well_i_guess_this_is_the_sherrifs_place,On dirait que c'est la bicoque du Shérif. On s'amarre et on va voir s'il est là ?
+a2_master_dialogue_kane_what_can_i_do_for_you_boy,"Salut. Je suis le Shérif Kane. Qu'est-ce que je peux faire pour vous, mon garçon ?"
+a2_master_dialogue_kane_id_like_to_help_you_boy,"Eh bien, j'aimerais bien pouvoir vous aider, mon garçon, ça c'est sûr. Mais nous aussi on a des problèmes, de sacrés problèmes."
+a2_master_dialogue_cal_what_troubles,Quel genre de problèmes ?
+a2_master_dialogue_kane_well_boy_we_got_ourselves_hurt_real_bad,"Eh bien, cette vermine de Marauders nous a porté de sales coups. Ils ont détruit près d'une demi-douzaine de propriétés dans le système et anéanti deux patrouilles expédiées à leurs trousses. Ce système n'est pas comme les autres : on n'a pas de police ou de garnison de marine. On doit se débrouiller par nous-mêmes. J'organise une autre patrouille pour leur faire payer. J'vais vous dire... Puisque vous détestez les Marauders, je vous laisse venir avec nous."
+a2_master_dialogue_cal_sure,"Bien sûr, où est-ce qu'on signe ?"
+a2_master_dialogue_kane_thats_ma_boy_you_scrath_our_back,"Parfait, mon garçon. On n'oubliera pas de sitôt votre aide. Voilà le plan : on va aller patrouiller quelques zones où on a vu ces Marauders, et on on leur frottera la couenne si on les trouve ! Ma patrouille se rassemble près de la lune de Fort Brooklyn autour de la planète Gefjon. Pendons-les haut et court !"
+a2_master_dialogue_cal_im_busy,"Désolé, mais je suis occupé en ce moment..."
+a2_master_dialogue_kane_suit_yourself,Comme vous voudrez. Bonne chance contre les Marauders de votre côté.
+a2_master_dialogue_cal_tell_me_about_this_mission,Parlez-moi de cette patrouille que vous organisez.
+a2_master_dialogue_kane_were_getting_a_posse_together,"On monte une patrouille pour éclater des Marauders et en traîner un ou deux en justice. Si vous voulez en être, rejoignez les autres à Fort Brooklyn. C'est une lune de la planète Gefjon. On va visiter les coins où on a vu des Marauders, et leur botter les fesses !"
+a2_master_dialogue_cal_people_around_here_seem_to_think_youre_in_charge_of_the_system,Les gens d'ici disent que vous dirigez ce système.
+a2_master_dialogue_kane_hell_no_boy,"Oh, ça non, mon gars ! Personne ne dirige Firefrost. C'est la foire d'empoigne, ici. Moi, je me contente d'essayer d'éviter l'anarchie totale."
+a2_master_dialogue_kane_this_is_the_plum_biggest,"Eh bien, c'est le plus gros système de l'espace connu. Il y a déjà plus de trois cents planètes au catalogue, et ça se limite aux endroits qu'on peut explorer. Vous voyez, l'étoile principale de Firefrost est une bestiole aussi chaude et radioactive que l'enfer. C'est pour ça que les gens restent plutôt à la périphérie du système. On a une sale réputation de ville-frontière, et elle est méritée. Il y a des mecs ici qui se feraient virer de n'importe quelle autre ville. Mais quand même, les gens de Firefrost se serrent les coudes. Il y a eu des bagarres, mais rien de très sérieux. Jusqu'à ce que ces maudits Marauders se pointent."
+a2_master_dialogue_kane_well_what_do_ya_wanna_know,"Eh bien, qu'est-ce que vous voulez savoir ?"
+a2_master_dialogue_kane_well_were_all_fighting_the_marauders_boy_i_appreciate_you_helping_us,"Et bien, on se bat tous contre les Marauders. Ces putois s'attaquent à tout le monde. J'aimerais bien vous aider, vraiment. Mais je ne peux pas me passer d'un seul vaisseau en ce moment. Désolé, fiston. Tant qu'on n'aura pas réglé cette histoire de Marauders, on ne pourra vous offrir que des échanges."
+a2_master_dialogue_kane_ive_heard_on_the_grapeving_that_there_was_gonna_be_a_big_rukus,"J'avais entendu dire que quelqu'un commençait à chercher des crosses aux Marauders. Si on pouvait leur coller une raclée ! Eh bien, si vos potes MCA ont besoin de pilotes, nous on en a quelques-uns, et des meilleurs. Moi et une centaine de mes meilleurs garçons, on sera vos hommes !                                          "
+a2_master_dialogue_kane_anything_else_boy,"Autre chose, mon garçon ?"
+a2_master_dialogue_third_way_get_lost_1,"Vaisseau non-identifié, sachez que cette station est la propriété de la Third Way Organisation, qui représente le peuple supérieur des Badlands. Vous violez notre espace aérien. Quittez cette zone immédiatement, membre des castes inférieures. "
+a2_master_dialogue_third_way_get_lost_2,"Vous avez pénétré dans l'espace aérien de la Third Way Organisation. Quittez cette zone immédiatement, membre des castes inférieures."
+a2_master_dialogue_third_way_get_lost_3,"Membre des castes inférieures, vous avez violé l'espace aérien de la Third Way Organisation. N'approchez pas de cette station ou des mesures préventives SERONT prises."
+a2_master_dialogue_third_way_please_go_away_1,"Toute aide à la Third Way ne rend pas votre présence plus acceptable, membre des castes inférieures. Quittez ce secteur."
+a2_master_dialogue_third_way_please_go_away_2,"Les attaques des Marauders ne gênent plus nos envois de nourriture. Votre présence n'est plus nécessaire, membre des castes inférieures. Veuillez quitter le secteur."
+a2_master_dialogue_third_way_please_go_away_3,Nous considérons toute aide des castes inférieures comme inutile. Veuillez quitter le secteur.
+a2_master_dialogue_cal_now_you_just_listen_here,"Ecoute-moi bien, mon pote. Ca va bien, les conneries. Vous autres culs-terreux prétentieux et fanatiques devriez commencer à piger qu'il y une guerre en ce moment, et que si on ne se serre pas les coudes, les Marauders vont la gagner. Maintenant, on a besoin de pilotes pour combattre. Si vous ne nous aidez pas, on s'en ira et on laissera les Marauders vous laminer. Pigé ?"
+a2_master_dialogue_clay_ungrateful_sons_of_bitches,"Lâches et ingrats. On les aide à botter le cul des Marauders, et voilà comment on est remercié..."
+a2_master_dialogue_third_way_erm_got_to_the_headquarters,"Euh... Je ne suis pas habilitée à ... Euh, discuter de ça avec un membre d'une, euh, d'une caste inférieure. Si vous désirez aborder ce sujet, il vous faudra parler aux anciens. A l'administration du système, en orbite autour de la planète Eureka."
+a2_master_dialogue_third_way_elders_go_away,"Comme nous l'avons déjà indiqué, votre présence dans ce système constitue une intrusion envers notre harmonie pastorale. Vous n'êtes pas les bienvenus ici ou dans le reste d'Eureka. Veuillez partir."
+a2_master_dialogue_cal_just_a_damn_minute,"Attendez une minute. J'ai des problèmes sérieux à discuter, qui touchent de près à la sécurité de votre système. Je traîne depuis un moment dans ce système paumé en me faisant insulter par des culs-terreux qui se prennent pour des demi-dieux. Maintenant, je peux retourner voir mes alliés pour leur dire de vous laisser vous débrouiller avec les Marauders. On verra si les traiter de 'castes inférieures' vous protègera ! Ou alors, je peux rester et discuter des moyens de vous protéger. A vous de choisir."
+a2_master_dialogue_third_way_elders_i_find_you_tone_insulting_and_offensive,"Je trouve votre ton insultant et déplacé ! Mais... Si vous désirez parler de sujets pouvant servir la Third Way, je pourrai oublier vos infractions. Amarrez-vous et nous jugerons de la valeur de vos paroles."
+a2_master_dialogue_third_way_elders_we_have_provided_you_with_pilots_to_defeat_the_marauders,Peu de castes inférieures ont reçu l'aide de la Third Way. Vous pouvez vous estimer privilégié.
+a2_master_dialogue_third_way_elders_so_what_do_you_wish_to_discuss,Vous êtes vraiment une personne de caste inférieure obstinée et ennuyeuse. Que voulez-vous ?
+a2_master_dialogue_cal_mwari_needs_third_way_pilots,Mwari a besoin de pilotes.
+a2_master_dialogue_cal_mwari_is_where_the_decisive_battle_agaisnt_the_marauders,"Il est temps de payer vos dettes envers nous pour avoir chassé les Marauders d'Eureka. Mwari a besoin de pilotes pour combattre les Marauders, et il nous faut un contingent de la Third Way."
+a2_master_dialogue_third_way_elders_is_that_so_a_little_respect,"Vraiment, membre des castes inférieures ? Comment osez-vous exiger quelque chose de ceux qui vous sont supérieurs ?"
+a2_master_dialogue_cal_i_apoligise_for_my_harsh_words,Désolé pour mes propos un peu durs.
+a2_master_dialogue_cal_i_apoligise_for_the_harshenss_of_my_words,"Je vous demande d'excuser mon langage, mais la situation presse et les politesses devront attendre. Les Marauders se préparent à lancer une attaque massive sur le système Mwari, et nous avons besoin de soutiens pour le défendre."
+a2_master_dialogue_third_way_elders_this_is_perhaps_appreciated,Merci... peut-être. Mais quel est le rapport avec la Third Way ?
+a2_master_dialogue_cal_im_sorry_for_offending_you,Désolé de vous avoir offensé, ça n'arrivera plus.
+a2_master_dialogue_third_way_elders_only_to_be_expected,"C'est bien le moins. Encore que je doute que vous puissiez tenir cette promesse. Vous, gens des castes inférieures, offensez la Third Way par votre seule présence. Vous êtes écoeurants."
+a2_master_dialogue_cal_only_the_third_way_can_help,La Third Way est la seule faction capable d'apporter une aide.
+a2_master_dialogue_cal_only_the_third_way_can_help_the_sitation,"Seule la Third Way peut nous aider. Mwari a besoin de pilotes du meilleur niveau pour combattre la menace Marauder. Votre discipline et votre dévouement vous permettent de fournir ce type de personnels. Nous ne attendons pas à ce que vous agissiez par bonté d'âme. Mais sachez que si Mwari devait tomber, les Marauders n'en seraient que plus forts, et votre système pourrait bien être la prochaine cible de leur volonté de mainmise sur les Badlands."
+a2_master_dialogue_cal_your_arrogance_is_getting_us_nowhere_1,Votre arrogance ne nous avance à rien.
+a2_master_dialogue_cal_your_arrogance_is_getting_us_nowhere_2,Votre arrogance ne nous avance à rien. Descendez un peu de vos grands chevaux et écoutez ! On a besoin de votre aide de toute urgence.
+a2_master_dialogue_third_way_elders_im_listening_then_mr_johnstone_just_hope_its_worthwhile,"Je vous écoute, Monsieur Johnston. J'espère pour vous que ce que vous avez à dire mérite attention."
+a2_master_dialogue_cal_tell_me_about_the_third_way,Parlez-moi de la Third Way.
+a2_master_dialogue_third_way_elders_none_of_your_business,"La Third Way ne vous regarde en rien, membre des castes inférieures."
+a2_master_dialogue_third_way_elders_how_dare_you_dock_to_this_station,Membre des castes inférieures ! Comment osez-vous souiller notre station en vous y amarrant ! Retirez-vous immédiatement !
+a2_master_dialogue_third_way_elders_you_are_an_niteresting_character_for_a_lower_caste,"Pour un membre des castes inférieures, vous êtes un personnage intéressant, Cal Johnston. Et une bonne part de ce que vous dites est vrai. Peut-être pourrions-nous vous fournir un certain nombre de pilotes. Mais seulement parce que les Marauders représentent une menace plus grande que la contamination idéologique que subiront nos pilotes au contact de vos chasseurs de castes inférieures. Nous vous fournirons une centaine de nos meilleurs pilotes. Maintenant, partez, Cal Johnston."
+a2_master_dialogue_third_way_elders_good_riddance,Bon débarras.
+a2_master_dialogue_clay_looks_like_the_locals_have_spotted_us,On dirait que les gens du coin nous ont repérés. J'espère qu'ils sont sympas...
+a2_master_dialogue_freelancer_ho_there_stranger_heave_too,"Holà, étranger. Ici la milice de Coyote. Mettez en panne et identifiez-vous !"
+a2_master_dialogue_clay_they_dont_look_like_marauders_perhaps_we_should_do_as_they_say,"Ces gars n'ont pas l'air de Marauders. On ferait mieux de faire ce qu'ils disent, mais garde un oeil ouvert au cas où ils tenteraient quelque chose."
+a2_master_dialogue_freelancer_what_is_your_business_here,"Salut, étranger. On n'a pas beaucoup de visiteurs par ici. Et la plupart des étrangers qui viennent dans le coin cherchent les ennuis. Qu'est-ce que vous voulez ?"
+a2_master_dialogue_freelancer_join_the_club_pal,"Bienvenue au club, mec ! Vous croyez que ça nous amuse de parcourir les Points-L pour embêter les nouveaux venus ? Les Marauders nous ont pourris. Plein de mecs bien y ont laissé leur peau."
+a2_master_dialogue_freelancer_sright_we_aint_soliders,"C'est vrai, on n'est pas des soldats. On a juste été enrôlés pour les patrouilles par Freddie Jackson."
+a2_master_dialogue_cal_freddie_jackson,Freddie Jackson ? C'est qui ?
+a2_master_dialogue_freelancer_freddie_jackson_knows_more_about_the_goings_on_around_here,"Freddie Jackson en sait plus long que bien des gens sur ce qui se passe ici. C'est lui qui a eu l'idée de nous faire patrouiller les Points-L. Comme ça, on est pas surpris par les raids de Marauders. Si vous êtes nouveaux dans le coin, vous voudrez sûrement lui parler. Il est à son chantier naval, autour de Penacook."
+a2_master_dialogue_freelancer_you_aint_just_gonna_let_him_go,"Eh, Cletus, tu vas pas le laisser filer comme ça ? Jackson nous a dit de fouiller tous les vaisseaux qui entrent ici."
+a2_master_dialogue_freelancer_shoot_elmo_if_we_search_everything,"Cool, Elmo ! Si on fouille chaque vaisseau, on sera coincés ici jusqu'à la fin des temps. Est-ce qu'il a l'AIR d'un Marauder ? Non. Son vaisseau n'est pas peint en noir. Est-ce qu'il AGIT comme un Marauder ? Non. Il n'a pas essayé de nous flinguer."
+a2_master_dialogue_freelancer_shoot_listen_to_this_feller_cleitus,"Ecoute ce mec, Elmo. On dirait qu'il nous prend pour des bidasses !"
+a2_master_dialogue_freelancer_sure_think_he_does_elmo,"Ca, c'est vrai, Cletus."
+a2_master_dialogue_freelancer_well_stranger_i_think_your_mistaken,"Eh bien, étranger, vous vous fourrez le doigt dans l'oeil si vous croyez qu'on a un chef. On est juste de braves gens qui se protègent des Marauders. Ce qui ressemblerait le plus à un chef, chez nous, ce serait le vieux Freddie Jackson."
+a2_master_dialogue_freelancer_just_you_wait_one_minute_boy,"Eh, une minute, mon gars ! Comment être sûrs que vous n'êtes pas des Marauders ?"
+a2_master_dialogue_cal_well_erm,"Eh bien, je..."
+a2_master_dialogue_freelancer_ah_shoot_elmo_he_aint_not_marauder,"Ca va, Elmo, c'est pas un Marauder. Freddie Jackson a dit que tous les navires Marauders étaient peints en noir. En plus, tu crois pas qu'il nous aurait déjà allumés ?"
+a2_master_dialogue_freelancer_guess_yer_lucky_boy,"Z'avez de la chance, mon vieux. Si d'après les critères de Jackson, vous n'êtes pas un Marauder, c'est que vous ne devez pas en être un. Le vieux Freddie n'est pas tombé de la dernière pluie, alors, pour moi, ça ira..."
+a2_master_dialogue_accelerator_control_unidentified_ship_this_area_is_restricted_to_corporate_traffic_please_state_your_business,"Attention, appareil non-identifié. Cette zone est réservée au trafic corpo. Annoncez vos intentions immédiatement."
+a2_master_dialogue_cal_just_signtseeing,Juste en balade.
+a2_master_dialogue_accelerator_control_as_i_said_this_is_restricted_coporate,Cette zone est réservée aux corpos. Cet accélérateur est une installation privée. Interdit aux touristes. Quittez le secteur immédiatement.
+a2_master_dialogue_clay_these_folks_aint_too_freindly,"Quand on sait que l'accélérateur est le seul moyen d'entrer et de sortir des Badlands, ils ne sont pas très hospitaliers. On dirait que les corpos veulent empêcher les gens normaux de se rendre dans les systèmes centraux."
+a2_master_dialogue_cal_how_do_i_get_through_the_accelerator,Comment emprunte-t-on l'accélérateur ?
+a2_master_dialogue_accelerator_control_in_a_word_buddy_you_dont,"Pas question, mon vieux ! Cet accélérateur de saut est une installation privée. Le passage est réservée aux cargos autorisés. Vous pouvez acheter un droit de passage. C'est trois MILLIONS de crédits ! Bien plus qu'un type comme vous n'en verra dans toute sa vie. Maintenant, dégagez avant que j'appelle la sécurité."
+a2_master_dialogue_cal_just_want_to_know_about_the_accelerator,Je voudrais en savoir plus au sujet de cet accélérateur.
+a2_master_dialogue_accelerator_control_there_isnt_nothing_much_to_know_buddy,"Y a rien à savoir, mon vieux. C'est la seule sortie de l'Amas des Badlands. Une installation privée faite pour séparer la racaille dans votre genre des gens honnêtes. Vous ne pourriez pas vous offrir le passage, même en volant la retraite de votre grand-mère jusqu'à la fin des temps."
+a2_master_dialogue_cal_just_passing_through,On ne fait que passer.
+a2_master_dialogue_accelerator_control_the_just_pass_through_somewhere_else,Vous ne pouvez pas passer par ici. C'est une installation privée. Quittez immédiatement le secteur.
+a2_master_dialogue_league_patrol_wassup_cal,"Qu'est-ce qu'il y a, Cal ?"
+a2_master_dialogue_clay_looks_like_one_of_our_patrols,On dirait une de nos patrouilles. Ils doivent chercher la base Marauder. Voyons ce qu'ils veulent.
+a2_master_dialogue_league_patrol_didnt_expect_to_see_you_around_these_parts_cal,"Je m'attendais pas à vous voir par ici, Cal. On peut faire quelque chose ?"
+a2_master_option_cal_any_sign_of_the_marauders,"Avez-vous trouvé la base des Marauders?"
+a2_master_dialogue_cal_any_sign_of_the_marauders,"Eh bien, vous pourriez me dire que vous avez trouvé la base des Marauders."
+a2_master_dialogue_league_patrol_not_a_sasuage_had_a_few_run_ins_with_their_patols,"On a fait chou blanc. On a eu quelques escarmouches avec des patrouilles Marauders, mais aucun signe de leur base. C'est comme s'ils s'étaient envolés."
+a2_master_dialogue_league_patrol_weve_turned_this_system_upside_down,"On a fouillé cette saleté de système de fond en comble, et on n'a rien trouvé."
+a2_master_dialogue_league_patrol_ninety_nine_percent_sure_that_there_ait_no_marauder_base_here,"Eh bien, on est à 90 pour cent certains qu'il n'y pas de grosse base Marauder par ici."
+a2_master_dialogue_league_patrol_reackon_theres_no_marauder_bases,Ca m'étonnerait qu'il y ait des bases Marauder par ici.
+a2_master_dialogue_cal_hows_things,Pas vraiment. Quoi de neuf ?
+a2_master_dialogue_league_patrol_oh_yknow_could_be_better,"Oh, ça pourrait aller mieux. Je pourrais être à la maison en train de me boire une bière, d'apprendre à mes gosses à pêcher, et de me les rouler. Mais non, à la place de ça, je fouille l'espace à la recherche d'une base Marauder qui n'existe pas."
+a2_master_dialogue_league_patrol_things_would_be_a_whole_lot_better,Tout irait mieux si nous pouvions trouver cette saleté de base Marauder.
+a2_master_dialogue_league_patrol_pretty_good_we_whooped_a_marauder_patrol,"Ca va pas mal. Hier, on a éclaté une patrouille de Marauders sans perdre personne. Si seulement on pouvait trouver leur saleté de base...."
+a2_master_dialogue_league_patrol_looking_up_now_we_got_the_marauders_on_the_run,"On a tenu la dragée haute aux Marauders. Du coup, ça va plutôt bien..."
+a2_master_dialogue_league_patrol_things_are_good_cal_and_would_be_better_of_we_could_find_that_damn_marauder_base,"Vraiment bien, Cal. VRAIMENT bien ! Le moral est bon et nos chasseurs brûlent d'en découdre avec les Marauders. Mais ce serait quand même mieux si on pouvait localiser leur satanée base."
+a2_master_dialogue_league_patrol_dont_ask,Question suivante.
+a2_master_dialogue_league_patrol_gotta_fly_weve_got_a_few_more_places_to_search,"Bon, à plus tard. On a du pain sur la planche. Soyez prudent, Cal."
+,
+a2_master_kiwi,"The Kiwi"
+a2_master_waste_not,"Waste Not"
+a2_master_mca_control,"MCA STC"
+Third_Way_Elders,"Anciens de la Third Way"
+accelerator_control,"Contrôle d'Accélérateur de saut"

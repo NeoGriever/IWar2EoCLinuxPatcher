@@ -1,0 +1,40 @@
+; FILE: FAct2_mission20.csv,
+; Key,FRENCH
+;,
+a2_m20_dialogue_mca_good_to_see_you_cal,"Contente de vous voir, Cal. Bien, commençons. Je vous envoie vos ailiers. Votre tâche consiste à sauter dans le Point-L et à protéger la zone avant l'arrivée du convoi de pilotes."
+a2_m20_dialogue_mca_c1_which_lpoint,De quel Point-L devons-nous approcher ?
+a2_m20_text_player_c1_option_1_santa_romera,Point-L principal - Santa Romera
+a2_m20_dialogue_player_c3_option_1_santa_romera,Je crois que nous devrions frapper à l'entrée principale. Santa Romera.
+a2_m20_text_player_c1_option_2_dagda,Point-L porte de service - Dagda
+a2_m20_dialogue_player_c3_option_2_dagda,Je crois que nous devrions passer par derrière. Dagda.
+a2_m20_dialogue_mca_ok_good_luck,"Okay, bonne chance. On se verra de l'autre côté !"
+a2_m20_dialogue_clay_the_convoys_coming_through,Le convoi traverse ! Fais gaffe !
+a2_m20_dialogue_convoy_convoy_to_support_wing,Convoi à flottille de soutien. Nous nous dirigeons vers la base MCA. Couvrez-nous !
+a2_m20_dialogue_clay_watch_out_here_com,Attention ! Voilà une autre vague !
+a2_m20_dialogue_stock_were_under_attack,Nous sommes attaqués !
+a2_m20_dialogue_stock_incoming_enermy_fighter,Des chasseurs ennemis approchent !
+a2_m20_dialogue_stock_looks_like_weve_got,On dirait qu'on a de la compagnie !
+a2_m20_dialogue_stock_incoming,Attention !
+a2_m20_dialogue_forthope_good_to_see_you,Content de vous voir. On dirait que vous vous êtes battus sur la route !
+a2_m20_dialogue_forthope_one,Un seul transporteur est arrivé avec vous ? Ca va être dur !
+a2_m20_dialogue_forthope_two,"Excellent, deux transporteurs sont arrivés. Je crois que ça devrait aller."
+a2_m20_dialogue_forthope_three,Fantastique ! Tous les transporteurs sont arrivés ! On va pouvoir faire payer les Marauders.
+a2_m20_dialogue_forthope_marauder_attack_wave,"Une vague d'attaque Marauder s'approche. Tous les chasseurs, à l'attaque !"
+a2_m20_dialogue_forthope_you_better_dock_theyll,Vous feriez mieux de vous amarrer. Ils vont revenir avec des renforts !
+a2_m20_dialogue_forthope_you_here_use_this,"Tenez. Pour vous remercier de votre aide, voici une corvette lourde. Elle vous donnera plus de puissance de feu !"
+a2_m20_dialogue_forthope_another_wave,"Une autre vague de Marauders approche. Chasseurs restants, à l'attaque !"
+a2_m20_dialogue_clay_whoa_whats_going_on,"Ouah, qu'est-ce qui se passe ? On a des problèmes d'électricité !"
+a2_m20_dialogue_forthope_hold_tight_cal,"Tenez bon, Cal. Nous vous envoyons un vaisseau de sauvetage à l'instant."
+a2_m20_dialogue_recoveryvessel_ok_weve_got_you,Bien. Nous vous tenons. Nous allons vous embarquer et rentrer à la base.
+a2_m20_dialogue_repairvessel_coming_over,Nous venons nous occuper de vous...
+a2_m20_dialogue_repairvessel_looks_like,On dirait que la section de commandement était mal alignée. C'est comme neuf maintenant.
+a2_m20_dialogue_forthope_more_marauders,"ENCORE des Marauders ?! Tous les chasseurs restants, tentez de les retenir le plus longtemps possible !"
+a2_m20_dialogue_hoffer_looks_like_you,"On dirait que vous avez besoin d'un coup de main, Cal."
+a2_m20_dialogue_clay_yee_ha,Ouah ! Voilà la cavalerie !
+a2_m20_dialogue_vessel1_arriving_fort_hope,Arrivée à Fort Hope. Transfert des pilotes.
+a2_m20_dialogue_vessel2_arriving_fort_faith,Arrivée à Fort Faith. Transfert des pilotes.
+a2_m20_dialogue_vessel3_arriving_fort_charity,Arrivée à Fort Charity. Transfert des pilotes.
+a2_m20_dialogue_forthope_ok_all_pilots_transfered,"C'est bon, tous les pilotes ont été transférés !"
+,
+,
+,

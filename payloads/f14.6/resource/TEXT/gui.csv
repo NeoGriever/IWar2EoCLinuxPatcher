@@ -1,0 +1,900 @@
+;Key Phrase_to_localise Comments,
+;,
+;PLEASE NOTE THAT ALL COMMENTS REFER TO THE DIALOGUE IMMEDIATELY FOLLOWING THE COMMENT.,
+;,
+;THIS IS PART OF THE IN-GAME INTERFACE TEXT,
+;,
+; ONSCREEN TEXT ONLY - NOT SPOKEN,
+; GUI titles and other fancy buttons - 12 character limit,
+;,
+basemenu_hangar,HANGAR
+basemenu_trade,TRADE
+basemenu_inventory,INVENTORY
+basemenu_recycling,RECYCLING
+basemenu_manufacturing,MANUFACTURING
+basemenu_communications,COMMUNICATIONS
+basemenu_encyclopedia,ENCYCLOPEDIA
+basemenu_starmap,STARMAP
+hangarmenu_launch,LAUNCH
+hangarmenu_ship,SHIP
+hangarmenu_loadout,LOADOUT
+hangarmenu_manifest,MANIFEST
+loadoutmenu_customise,CUSTOMIZE
+loadoutmenu_add_cargo,ADD CARGO
+loadoutmenu_rearm,REARM
+encyclopaedia_back,BACK
+pda,PDA
+pda_start_new_game,START NEW GAME
+pda_load_game,LOAD GAME
+pda_instant_action,INSTANT ACTION
+pda_multiplayer,MULTIPLAYER
+pda_options,OPTIONS
+pda_quit_button,QUIT
+pda_save_game,SAVE GAME
+pda_resume,RESUME
+pda_quit,QUIT
+
+
+;,
+; ONSCREEN TEXT ONLY - NOT SPOKEN,
+; These ship readiness strings have a 15 character limit,
+;,
+hangarmenu_loadout_not_spaceworthy,NOT SPACEWORTHY
+hangarmenu_loadout_check_manifest,CHECK MANIFEST
+
+
+;,
+; ONSCREEN TEXT ONLY - NOT SPOKEN,
+; The loadout names are limited to just 8 characters, because of the hangar
+; ship readiness description,
+;,
+loadoutmenu_standard,STANDARD
+loadoutmenu_stealth,STEALTH
+loadoutmenu_assault,ASSAULT
+loadoutmenu_ecm,ECM
+loadoutmenu_custom,CUSTOM
+
+
+;,
+; ONSCREEN TEXT ONLY - NOT SPOKEN,
+; The ship names are limited to 11 characters because of the hangar ship,
+; readiness description.,
+;,
+ship_type_command_section,COMMAND SECTION
+ship_type_tug,TUG
+ship_type_fast_attack_ship,ADVANCED PATCOM
+ship_type_heavy_corvette,HEAVY CORVETTE
+ship_type_storm_petrel,STORM PETREL
+ship_type_no_ship,NO SHIP
+
+
+;,
+; ONSCREEN TEXT ONLY - NOT SPOKEN,
+; Tab headings are limited to 15 characters. These headings should be ,
+; localised as nouns - e.g. ""an offer"" not ""they offer"".",
+;,
+gui_item,ITEM
+commsmenu_sender,SENDER
+commsmenu_subject,SUBJECT
+encyclopaedia_topic,TOPIC
+trading_faction,FACTION
+trading_offer,OFFER
+trading_want,REQUEST
+inventory_quantity,QUANTITY
+recycling_value,RECYCLE VALUE
+manufacturing_cost,COST
+
+
+; ,
+; ONSCREEN TEXT ONLY - NOT SPOKEN,
+; Smaller buttons are limited to 17 characters,
+;,
+gui_cancel,CANCEL
+trading_trade,TRADE
+recycling_recycle_one,RECYCLE ONE
+recycling_recycle_all,RECYCLE ALL
+manufacturing_manufacture,MANUFACTURE
+
+
+;,
+; ONSCREEN TEXT ONLY - NOT SPOKEN,
+; Manifest headings are limited to 11 characters,
+;,
+manifest_ship_systems,SYSTEMS
+manifest_ship_armaments,ARMAMENTS
+manifest_ship_tfighters,TURRET FIGHTERS
+manifest_ship_cargo,CARGO
+manifest_no_missiles_warning,Empty
+
+
+;,
+; ONSCREEN TEXT ONLY - NOT SPOKEN,
+; The new mail notification must not exceed a total of ???? (8 and 12?),
+;,
+
+; Add a space after the words 'YOU HAVE',
+commsmenu_you_have,YOU HAVE 
+
+commsmenu_new_messages,NEW MESSAGES
+commsmenu_new_message,NEW MESSAGE
+
+;,
+; ONSCREEN TEXT ONLY - NOT SPOKEN,
+; GUI miscellanae with max lengths,
+;,
+
+; ONSCREEN TEXT ONLY - NOT SPOKEN,
+; No more than 18 characters,
+commsmenu_read_new_messages,READ NEW MESSAGES
+commsmenu_view_archived_messages,VIEW ARCHIVED MESSAGES,
+
+; ONSCREEN TEXT ONLY - NOT SPOKEN,,
+; Keep this one below 20 characters,,
+add_cargo_none,None,
+add_cargo_launchwithcargopod,Launch with cargo pod: ,
+
+; ONSCREEN TEXT ONLY - NOT SPOKEN,,
+; The introduction to the number of manufacturing units available,,
+manufacturing_units,Current manufacturing units available: , 
+
+; ONSCREEN TEXT ONLY - NOT SPOKEN,,
+; We split the trade description into three parts - each in introduced by,,
+; one of these nouns.,,
+trading_faction_lowercase,Faction: ,
+trading_offer_lowercase,Offer: ,
+trading_want_lowercase,Request: ,
+
+;,
+; ONSCREEN TEXT ONLY - NOT SPOKEN,
+; Trade descriptions - as long as you want (for a change),
+;,
+tradingscreen_cant_satisfy_trade,You can't satisfy this trade
+tradingscreen_goods_needed_for_other_trades,Making this trade will use goods needed for other trades. Make sure that you don't need them
+tradingscreen_looks_ok,This trade looks OK to me.
+tradingscreen_our_offer,Our offer: 
+
+;,
+; ONSCREEN TEXT ONLY - NOT SPOKEN,
+; Carl's multiplayer stuff,
+;,
+
+mp_network_title,NETWORK,sound:/
+mp_network_session_select,SELECT SESSION,sound:/
+mp_network_enter_server,ENTER SERVER ADDRESS,sound:/
+mp_network_select_server,SELECT SERVER,sound:/
+mp_game_scores_title,SCORES,sound:/
+mp_game_select_team,SELECT TEAM,sound:/
+mp_game_player_respawn,Player respawned,sound:/
+mp_game_player_join,Player joined game,sound:/
+mp_game_player_leave,Player left game,sound:/
+mp_game_new,NEW GAME,sound:/
+mp_game_blue_win,The Blue team has won the game,sound:/
+mp_game_red_win,The Red team has won the game,sound:/
+mp_game_our_win,You have won the game,sound:/
+mp_game_taunt_prompt,Enter phrase: ,sound:/
+mp_game_player,PLAYER,sound:/
+mp_game_flags,FLAGS,sound:/
+mp_game_frags,FRAGS,sound:/
+mp_game_team,TEAM,sound:/
+mp_game_died,DIED,sound:/
+mp_game_opponent_flag_count,Opponent flag captures,sound:/
+mp_options_title,OPTIONS,sound:/
+mp_options_name,NAME,sound:/
+mp_options_default_taunt,DEFAULT TAUNTS,sound:/
+mp_options_ship_selection,SHIP SELECTION,sound:/
+; deleted mp_options_not_hosting_session,,
+mp_options_host_session,HOST SESSION,sound:/
+mp_lan_game,LAN GAME,sound:/
+mp_internet_game,INTERNET GAME,sound:/
+mp_back_button,BACK,sound:/
+
+;,,
+;,,
+; ANY ADDITIONAL WORDS OR PHRASES WILL BE ENTERED HERE (PLEASE IGNORE FOR NOW),
+
+; To display in place of a saved game name for empty slots,
+savegame_empty,[Empty]
+
+; The word for act - keep it short since it's part of a filename.,
+savegame_act,ACT
+
+; Just in case we need it for an autosave slot,
+savegame_autosave,AUTOSAVE
+
+;,
+; Customised loadout screen,
+;,
+
+;,
+; There is a text box displaying the ship's loadout state with regard to,
+; heat, power and spare cargo space (some systems take up lots of the ship's
+; cargo space).,
+; The limit for these phrases is 20 characters,
+;,
+
+; How much more power can the ship's reactor supply?,
+customise_surpluspower,Surplus power:
+
+; How much more drain is there on the power plant than it can handle?,
+customise_powerrequired,Extra power required:
+
+; How much more heat are the ship systems producing than the heatsink can,
+; dissapate?,
+customise_excessheat,Excess heat:
+
+; How much more heat could the ship systems safely create?,
+customise_heatsafetymargin,Heat safety margin:
+
+; Some ship systems are huge and take up space in the ship's hold. How many,
+; more of these systems can the ship currently fit?,
+customise_internalcargospace,Unused cargo slots:
+
+;,
+; These phrases are used to describe a currently focused ship system to give,
+; more information about it,
+; The limit for these is 20 characters.,
+;,
+
+; There is no system currently mounted on this mountpoint - e.g. there is ,
+; a space for a CPU, but none is currently loaded.
+customise_nosystemmounted,No system mounted
+
+; A vital system, the ship's drive for example, is missing
+customise_cannotflywithoutsystem,Vital system missing,
+
+; The powerplant is built into the ship and so cannot be swapped for a ,,
+; different system, unlike most other systems.,
+customise_powerplantbuiltin,Ship powerplant cannot be changed,
+
+; To warn the player if there are no free CPU memory slots left.,,
+customise_nofreecpuslots,CPU MEMORY FULL,
+
+; Explain to the player than there is no more memory space and so they cannot,,
+; load any more programs into the ship CPU,,
+customise_cannotloadprogram,CANNOT LOAD PROGRAM,
+
+; Notify the player that the focused missile magazine slot is currently empty,,
+customise_nomagazineset,No magazine in this slot.
+
+; Warn the player that they cannot have the focused system/upgrade because,
+; the ship's internal cargo space is full.,
+customise_insufficientcargospace,NO CARGO SPACE
+;,
+; These phrases are also used to describe the focused system, but because 
+; they need to leave space for a numerical value, the limit is 17 characters
+;,
+
+; What is the power output of this system?,
+customise_poweroutput,Power output: 
+
+; How much heat can this system dissapate? Used to describe the effectiveness,
+; of a heatsink.,
+customise_heatdissapation,Heat loss rate: 
+
+; How much power will this system use when running at full pelt?,
+customise_maxpowerusage,Max. power usage: 
+
+; How much heat does this system generate?,
+customise_heatproduced,Max. heat output: 
+
+; How many internal cargo slots does this system require?,
+customise_requiredcargospace,Required cargo space: 
+
+; How many projectiles are in the currently selected missile magazine - ,
+; basically an ammunition count,
+customise_projectiles,projectiles
+
+; If there is only one projectile we need the singular,
+customise_projectile,projectile
+
+; What is the maximum capacity of a missile magazine - i.e. the ammunition,
+; level when full up.,
+customise_maximumcapacity,Maximum capacity: 
+
+; Display the number of the projectiles in the player's inventory which would,
+; fit the currently selected missile magazine.,
+customise_projectiles_in_inventory,Projectiles in inventory: 
+
+; Alternative wording for 'projectiles',
+customise_ammunition,Ammo: 
+
+; Alternative wording for 'maximum capacity',
+customise_maxammunition,Max. ammo: 
+
+;,
+; Choices on the customised loadout screen are all named buttons. These are,
+; some of the the titles of those buttons. There is a 20 character limit,
+; on them.,
+;,
+
+; Used to indicate empty missile slots,
+customise_empty,[Empty]
+
+; Used to give to option of no system on a given mountpoint.,
+customise_none,[None]
+
+; To take you to a menu of upgrades to a system.,
+customise_upgrades,UPGRADES
+
+; The ship CPU has a certain memory space into which programs can be loaded.,
+; This option allows you to choose those programs,
+customise_programs,PROGRAMS
+
+; Missile launchers can contain a certain number of missile magazines. These,
+; launchers can be upgraded with a feed from the ship's cargo space. This ,
+; vastly increases the missile capacity of a missile launcher. This option,
+; allows player to install this missile magazine,
+customise_installinternalmagazine,ADD INTERNAL MAGAZINE
+
+; This option allows the player to uninstall the missile magazine,
+customise_uninstallinternalmagazine,REMOVE INTERNAL MAGAZINE
+
+; Used to name buttons selecting a missile launcher's various missile magazine,
+; slots.,
+customise_slot,SLOT
+
+; Alternative wording...specify that it's a missile slot.,
+customise_missileslot,MISSILE SLOT,
+
+; If the slot is currently empty,,
+customise_emptyslot,EMPTY SLOT,
+
+; To identify and select a magazine - alternative wording to 'slot',,
+customise_magazine,MAGAZINE,
+
+; To select upgrades not to the ship systems, but to the ship itself, e.g.
+; extra hull armour.,,
+customise_shipupgrades,SHIP UPGRADES,
+
+; To select and loadout a pylon mounted turret fighter,,
+customise_turretfighter,TURRET FIGHTER,
+
+; Instead of a turret fighter on the side of the ship, you can have an extra,
+; weapon mount.,,
+customise_pylonhardpoint,PYLON HARDPOINT,
+
+; Used to identity one of the two pylons - will be constructed into ""PYLON 1""",,
+; or ""PYLON 2""",,
+customise_pylon,PYLON,
+
+; The ship can have an extra turret or a remote fighter docked to it. These,,
+; weapons can be undocked during the mission. This option allows these,,
+; weapons to be loaded out.,,
+customise_dockedarmaments,DOCKED ON ARMAMENTS,
+
+; If the pylon is used for an extra weapon hardpoint instead of for a turret,,
+; fighter then you can attach more weapons to the pylon. Certain kinds,,
+; of weapons, when added to this new hardpoint, support an additional 
+; missile launcher to be attached to them in turn. This option allows the,,
+; customisation of this extra missile launcher,
+customise_pyloncannonmountpoint,PYLON CANNON MOUNT
+
+;,
+; Extra loadout customised keys which may be useful for making the customised,
+; loadout screen prettier. Not currently used, but it's better to get them
+; localised now and ignore them than to need them later!,
+
+;,
+; These are button titles and so a 20 character limit applies,
+;,
+
+; To access a list of ship systems to customise,
+customise_systems,SYSTEMS
+
+; To access a list of ship weaponary to customise,
+customise_weapons,WEAPONARY
+
+; To access a list of offensive systems to customise,
+customise_offensive,OFFENSIVE
+
+; To access a list of defensive systems to customise,
+customise_defensive,DEFENSIVE
+
+; To access a list of propulsion systems to customise,
+customise_propulsion,PROPULSION
+
+; To access a list of general systems to customise,
+customise_general,GENERAL
+
+;,
+; The 17 character limit applies here.,
+;,
+
+; The level of charge of energy based weapons or systems like the LDS drive,
+customise_charge,Charge: 
+
+; The effectiveness of a system, i.e. how good it is at what it does
+customise_effectiveness,Effectiveness: 
+
+; The efficiency of a system, i.e. how close to optimum performance it runs
+customise_efficiency,Efficiency: 
+
+; The brightness of a system is it's sensor visibility,
+customise_brightness,Brightness: 
+
+; The range of a sensor system and perhaps a weapon as well,
+customise_range,Range: 
+
+; The level of sensor brightness that the ship sensors can pick up,
+customise_sensedbrightness,Sensed brightness:
+
+; The ramp-up time of the LDS drive, i.e. how long between hitting the 'go'
+; key and the drive starting up,
+customise_rampuptime,Ramp-up time: 
+
+; The acceleration of an LDS drive,
+customise_acceleration,Acceleration: 
+
+; The max speed of an LDS drive,
+customise_maxspeed,Max. speed: 
+
+; The auto-repair rate - how good the autorepair system is ,
+customise_repairrate,Repair rate: 
+
+; The damage done by a weapon,
+customise_damage,Damage: 
+
+; The duration, possibly the duration of a shield once activated or the 
+; duration of a disruption effect,
+customise_duration,Duration: .
+
+; The level of protection offered, possibly a percentage of incoming shots
+; deflected by a shield or something like that,
+customise_protection,Protection: 
+
+; The level of disruption caused by a disrupting system - e.g. sensor ,
+; disruptors (which scramble enemy sensor systems),
+customise_disruption,Disruption: 
+
+; The abbreviation for seconds - as short as possible,
+customise_secs,s
+
+; The number of memory slots in a ship CPU,
+customise_memoryslots,Memory slots: 
+
+; The word 'rating' - might be useful to describe the quality of a system,
+; where 'effectiveness' or something similar is not appropriate,
+customise_rating,Rating: 
+
+; The number of 'armour points' of the ship,
+customise_armour,Armour: 
+
+
+;,
+; OPTIONS SCREEN - all option names have a 25 character limit...,
+;,
+
+;,
+; Option values,
+;,
+
+; On and off,
+options_on,On
+options_off,Off
+
+; Low, medium and high
+options_low,Low
+options_medium,Medium
+options_high,High
+
+; Hardware and software,
+options_hardware,Hardware
+options_software,Software
+
+; The graphics device choice might have this option,
+options_primarydisplaydriver,Primary display driver
+
+; The control menu might use these hat control modes,
+options_menu,Menu
+options_targetting,Targetting
+options_lateralthrusters,Lateral thrusters
+
+; Options section headings,
+options_graphics,Graphics
+options_sound,Sound
+options_controls,Controls
+
+; ,
+; Graphics options,
+;,
+
+; Game model detail,
+options_modeldetail,Model detail
+
+; In-game lighting quality,
+options_lightingquality,Lighting quality
+
+; Starfield quality,
+options_starfieldquality,Starfield quality
+
+; Compressed textures,
+options_compressedtextures,Compressed textures
+
+; Texture quality,,
+options_texturequality,Texture quality,
+
+; Resolution (as in 640x480, 800x600, ...)
+options_resolution,Resolution,
+
+; Anti-aliased HUD lines - makes the 3D lines on the HUD prettier, but more,
+; power hungry,,
+options_antialiasedhudlines,Anti-aliased HUD lines,
+
+; Anti-aliased ORB stalks - make the stalks representing contacts on the ORB,,
+; radar prettier,,
+options_antialiasedorbstalks,Anti-aliased ORB stalks, 
+
+; The graphics driver,,
+options_driver,Driver,
+
+; The graphics device to use - that is, the video card,
+options_device,Device,
+
+;,,
+; Sound options,,
+;,,
+
+; What mode of 3D sound do we want?,,
+options_dsound,3D Sound,
+
+; Maximum sound channels,,
+options_maxsoundchannels,Max. sound channels
+
+; Sound effects volume,
+options_soundfxvolume,Effects volume
+
+; Music voume,
+options_musicvolume,Music volume
+
+; Invert left and right channels,
+options_invertchannels,Invert stereo
+
+;,
+; Control options,
+;,
+
+; Swap the roll and yaw axis on the joystick,
+options_swaprollandyaw,Swap roll and yaw
+
+; Enable keyboard flight controls - otherwise the keyboard keypad is used,
+; for camera movements,
+options_keyboardflightcontrols,Keyboard flight controls
+
+; What will the joystick hat control - the menu, the targetting or the 
+; ship's lateral thrusters,
+customise_hatmode,Hat function
+
+
+
+;,
+; ADDED AFTER 1st Sept 2000,
+;,
+
+; For the apply button for the options screen,
+options_apply,APPLY
+
+; When we are in windowed mode,
+options_windowedmode,WINDOWED MODE
+
+; More window titles that we might need for the demo. 12 character limit.,
+pda_training,TRAINING
+pda_timetrial,TIME TRIAL
+pda_startdemo,START DEMO
+
+; Credits - as in people who wrote the game, as opposed to space currency or something. 12 characters
+pda_credits,CREDITS
+
+; Messages - as in game email messages to read. 12 character limit. ,
+basemenu_messages,MESSAGES
+
+; Option to allow a user to explicitly set an internet address for multiplay,
+; Edit box tile: 25 character limit,
+mp_options_internet_server_address,Internet Server Address
+
+;,
+; ADDED AFTER 19th Sept 2000,
+;,
+
+; Title for the CPU customisation screen,
+customise_cpuoptions,OPTIONS
+
+; In case we need a gameplay options screen,
+options_gameplay,Gameplay
+
+; To restore options to their defaults,
+options_restoreoptions,Restore options
+
+;,
+; More graphics options,
+;,
+
+; Gamma...i.e. brightness,
+options_gamma,Gamma
+
+; Screen brightness,
+options_brightness,Brightness
+
+; In-space ambient light,
+options_ambientlight,Ambient light
+
+; Graphical detail switch,
+options_detailswitch,Detail switch
+
+; TnL - graphics card transform and lighting hardware support,
+options_tnl,TnL
+
+;,
+; More sound options,
+;,
+
+; Creative Labs environmental audio support,
+options_eax,EAX
+
+; Speech volume,
+options_speechvolume,Speech volume
+
+; Turn off the proximity alert (which goes off when the ship is on a ,
+; collision course) which might get on players' nerves,
+options_proximityalert,Proximity alert
+
+;,
+; Possible gameplay options,
+;,
+
+; Game difficulty level,
+options_difficulty,Difficulty
+options_easy,Easy
+options_medium,Medium
+options_average,Average
+options_hard,Hard
+
+; Tuning the level of in-game traffic,
+options_trafficdensity,Traffic density
+options_backgroundtraffic,Background traffic
+
+; Turning off the animated faces used in the communications windows,
+options_animatedfaces,Animated faces
+
+
+;,
+; Added after 19th Sept,
+;,
+
+; Added by Kim 20th Sept,
+basemenu_demo_unavailable,Sorry: this feature is unavailable in the demo.
+
+; Weapon linking button for the customised loadout screen (20 character limit),
+; If the player has two weapons of the same type pointing in the same direction,
+; then he can install 'weapon links' so that the guns fire together. This ,
+; button toggles whether or not these weapons are linked or not.,
+customise_weaponlinking,WEAPON LINKING
+
+; More text to describe whether or not the weapon linking is being used. 20,
+; character limit.,
+customise_weaponlinkingenabled,Weapon linking enabled
+customise_weaponlinkingdisabled,Weapon linking disabled
+
+; Are you sure you want to quit type screen.,
+pda_areyousure,Are you sure?
+pda_areyousureyouwanttoquit,Are you sure you want to quit?
+pda_yes,Yes
+pda_no,No
+
+; Added a title for the to-do statistics screen,
+basemenu_statistics,STATISTICS
+
+; The language selection screen - only for Italian, Spanish SKU
+pda_language,LANGUAGE
+pda_italian,ITALIAN
+pda_spanish,SPANISH
+
+; Instructions about selecting a customised loadout button. 20,
+; characters per line. ,
+customise_propulsioninstructions_1,Select to loadout propulsion
+customise_propulsioninstructions_2,and power systems
+customise_propulsioninstructions_3,,
+
+; Instructions about selecting a customised loadout button. 20,
+; characters per line. ,
+customise_offensiveinstructions_1,Select to loadout weapon
+customise_offensiveinstructions_2,systems
+customise_offensiveinstructions_3,,
+
+; Instructions about selecting a customised loadout button. 20,
+; characters per line. ,
+customise_defensiveinstructions_1,Select to loadout defensive
+customise_defensiveinstructions_2,systems
+customise_defensiveinstructions_3,,
+
+; Instructions about selecting a customised loadout button. 20,
+; characters per line. ,
+customise_generalinstructions_1,Select to loadout other ship
+customise_generalinstructions_2,systems
+customise_generalinstructions_3,,
+
+; Instructions about selecting a customised loadout button. 20,
+; characters per line. ,
+customise_upgradesinstructions_1,Select to choose upgrades to
+customise_upgradesinstructions_2,the ship itself
+customise_upgradesinstructions_3,,
+
+; The word 'on' to make up the description of a weapon on a ,
+; hardpoint in the form: ""COMMUNICATION LASER on LIGHT HARDPOINT""",
+customise_on,on
+
+; Instructions about selecting a customised loadout button. 20,
+; characters per line. Use the blank lines if needed.,
+customise_cpuupgradesinstructions_1,Select to upgrade CPU
+customise_cpuupgradesinstructions_2,,
+
+; Instructions about selecting a customised loadout button. 20,
+; characters per line. Use the blank lines if needed.,
+customise_cpuprogramsinstructions_1,Select to choose software
+customise_cpuprogramsinstructions_2,loaded into CPU
+
+; The number of remaining memory slots in a ship CPU - 20 char. limit,
+customise_remainingmemoryslots,Remaining memory slots: 
+
+; 11 character limited ship upgrades heading for the manifest,,
+manifest_ship_upgrades,SHIP UPGRADES,
+
+; multiplayer server session info - 10 character limit per item,,
+mp_network_ping_time,PING,sound:/
+mp_network_players,PLAYERS,sound:/
+mp_network_max_players,MAX PLAYERS,sound:/
+mp_network_game_type,TYPE,sound:/
+mp_game_type_deathmatch,DM,sound:/
+mp_game_type_capture_the_flag,CTF,sound:/
+
+; Button titles, 17 character limit",,
+mp_network_refresh,REFRESH,sound:/
+mp_network_searching,SEARCHING,sound:/
+mp_options_hosting_session,HOSTING SESSION,sound:/
+
+; multiplayer server options,
+; Edit box titles - 17 character limit,
+mp_server_name,NAME
+mp_server_package,PACKAGE
+mp_server_map,MAP
+mp_server_time_limit,TIME LIMIT
+mp_server_frag_limit,FRAG_LIMIT
+
+; Descriptions of package options, 40 character limit,
+mp_server_frag_10_min_game,Death Match 10 Minute Game
+mp_server_frag_15_min_game,Death Match 15 Minute Game
+mp_server_frag_10_frag_game,Death Match First to 10 Frags
+mp_server_flag_15_min_game,Capture the Flag 15 Minute Game
+mp_server_flag_10_min_game,Capture the Flag 10 Minute Game
+mp_server_flag_5_flags_game,Capture the Flag - Race to Win 5 Flags
+mp_server_flag_2_up_game,Capture the Flag - 2 Flag Lead
+mp_server_cruiser_15_min_game,Capture the Cruiser 15 Minute Game
+mp_server_roof_15_min_game,Raise the Roof 15 Minute Game
+
+; Abbreviated descriptions for buttons - 12, character limit
+mp_server_frag_10_min_game_abbrev,DM 10 Mins
+mp_server_frag_15_min_game_abbrev,DM 15 Mins
+mp_server_flag_15_min_game_abbrev,CTF 10 Mins
+mp_server_flag_5_flags_game_abbrev,CTF 5 Flags
+mp_server_flag_2_up_game_abbrev,CTF 2UP
+mp_server_cruiser_15_min_game_abbrev,CTC 15 Mins
+mp_server_roof_15_min_game_abbrev,RTF 15 Mins
+
+; Possible title for a pause screen, which may also be used to display 
+; a control guide. ,
+pda_pause,PAUSE
+pda_keys,KEYS
+PDA_keyguide,KEY GUIDE
+
+; Empty missile magazine title. 20 character limit.,
+customise_emptymagazine,EMPTY MAGAZINE
+
+; Title for missile category choice page in customised loadout,
+customise_category,CATEGORY
+
+; Class of missile - 20 character limit,
+dogfight,dogfighting missiles
+ldsi,LDSi missiles
+rocket,rockets
+disruptor,disruptors
+areaaffect,area effect
+mine,mines
+flare,countermeasures
+
+;,
+; Added on or after 2nd October,
+;,
+
+; Support for the movie playing screen - possible titles and movie names. ,
+; Title gets the same limit as any other title (12 is it?), the movie names
+; get the same as inverse video button titles, so the same as the 
+; loadout type names.,
+
+; titles,
+movie_playmovie,PLAY MOVIES
+movie_movies,MOVIES
+
+; movie names,
+movie_intro,INTRODUCTION
+movie_act1,THE GREAT ESCAPE
+movie_outro,OUTRO
+
+; Guesses for control layout keys.17 character limit.,
+options_keyboardlayout,Keyboard Layout
+options_controlstyle,Control Style
+options_independencewar,Independence War
+options_recommended,Recommended
+options_default,Default
+options_traditional,Traditional
+options_keysonly,Keyboard Only
+options_edgeofchaos,Edge Of Chaos
+options_standard,Standard
+options_lateralsonhat,Laterals On Hat
+options_class,Classic
+
+;
+; Options screen labels
+;
+; 25 characters max
+;
+
+; Use the graphics card property of multi-texturing
+options_multitexture,"Multi-texture"
+
+; Refresh the screen during vertical blank interval
+options_vsync,"Vertical Sync."
+
+; Hardware T n L - use graphics card transform and lighting hardware support
+options_hardwaretnl,"Hardware T&L"
+
+;
+; Menu options - 22 character limit
+;
+
+; Statistics and player score screen
+hud_menu_score,"STATISTICS"
+
+inventory_equipment,EQUIPMENT
+
+;
+; Weapon linking control and feedback text. 
+;
+
+; HUD menu options...22 character limit?
+toggle_fire_mode,"TOGGLE FIRE MODE"
+
+; Customised loadout buttons...20 character limit.
+E_ChainFireMode,"CHAIN FIRE MODE"
+E_SalvoFireMode,"SALVO FIRE MODE"
+
+; Log error for missing weapon links
+E_NoWeaponLink,"ERROR: WEAPON LINK NOT INSTALLED"
+
+;
+; Wrong disk screen titles and buttons
+;
+
+; Titles (15 character limit)
+wrongdisk_pleaseinsert,PLEASE INSERT
+wrongdisk_playdisk,PLAY DISK
+wrongdisk_musicdisk,MUSIC DISK
+
+; Button (12 characters)
+wrongdisk_retry,RETRY
+
+;
+; Possible numbers of turret fighters
+;
+turret_fighters_zero,ZERO
+turret_fighters_one,ONE
+turret_fighters_two,TWO
+
+neutral,NEUTRAL
+access_denied,ACCESS DENIED
+targets_hit,TARGETS HIT:
+
+insufficient_ammo,Insufficient ammo
+
+; Number of a cargo type already in the inventory:
+trade_in_inventory,Inventory: ,
+
+

@@ -1,0 +1,48 @@
+; FILE: FAct2_mission10.csv,
+; Key,
+; FILE NAME,FRENCH
+a2_m10_target_waypoint,Cible - Station Nymas
+a2_m10_meeting_place,Point de rendez-vous
+a2_m10_pod_store,Entrepôt de conteneurs
+a2_m10_third_man,Troisième homme
+a2_m10_cannon_pod,Canon longue portée
+a2_m10_security_one,Patrouille de sécurité Alpha 2
+a2_m10_security_two,Patrouille de sécurité Omega 7
+a2_m10_security_three,Patrouille de sécurité Beta 5
+a2_m10_security_four,Patrouille de sécurité Delta 9
+a2_m10_security_five,Patrouille de sécurité Delta 5
+a2_m10_waste,Déchets
+a2_m10_books,Livres
+a2_m10_larry,Larry
+a2_m10_curly,Curly
+a2_m10_moe,Moe
+a2_m10_Gold,Gold
+a2_m10_window,Fenêtre de la salle de réunion
+a2_m10_clay,Clay
+a2_m10_text_player_c1_option_1_yes,Oui
+a2_m10_text_player_c1_option_2_no,Non
+a2_m10_dialogue_player_c1_option_1_yes,Oui. Il va crever.
+a2_m10_dialogue_player_c1_option_2_no,Non. Je ne suis pas un assassin.
+a2_m10_dialogue_thirdman_c1_will_you_do_it,"C'est un plaisir de vous rencontrer, Monsieur Johnston. Nous avons besoin de vous pour éliminer un agent infiltré qui travaille pour la sécurité Maas. Il a dérobé de nombreux secrets de la MCA. Pouvez-vous l'arrêter si nous vous fournissons les armes et ses coordonnées ? Cela vaut trois conteneurs d'or."
+a2_m10_dialogue_thirdman_c1_response_2_keep_quiet,Très bien. Nous comptons sur votre discrétion. N'en parlez à personne.
+a2_m10_dialogue_thirdman_c1_response_1_good,Bien. Le traître se trouve sur la Station de sécurité Nymas à Santa Romera où il attend d'être débriefé.
+a2_m10_dialogue_thirdman_c1_response_1_beacon,"Un de nos agents a placé une balise sur la station, près de la pièce où se trouve le traître. Quand vous serez sur place, notre agent activera la balise, ce qui vous permettra de faire exploser cette pièce avec ce canon à longue portée."
+a2_m10_dialogue_thirdman_c1_response_1_pod_of_books,"Vous trouverez un canon à longue portée dans ce conteneur. Prenez-le et installez-le sur votre vaisseau. Nous avons laissé les munitions du canon et les codes de balise dans un conteneur marqué 'Livres' dans l'entrepôt près de la station."
+a2_m10_dialogue_thirdman_c1_response_1_dock,"Quand vous vous amarrerez au conteneur 'Livres', le canon se chargera automatiquement et la balise s'activera. Ce sera à vous de jouer. Si vous échouez, les conséquences seront très graves pour la MCA."
+a2_m10_dialogue_thirdman_c1_response_1_payoff,"Quand vous aurez terminé, rentrez ici. Votre or vous attendra auprès de transporteurs indépendants que je connais."
+a2_m10_dialogue_clay_fit_the_weapon,Vivement que nous rentrions à la base installer ce canon. Smith va l'adorer.
+a2_m10_dialogue_clay_careful_of_the_zone,Ils ont une zone d'exclusion de 25 kilomètres. Tu ferais mieux de te tenir à l'écart jusqu'à ce que tu sois prêt à tirer.
+a2_m10_dialogue_corp_security_back_off,Vous venez de pénétrer une zone interdite. Partez immédiatement.
+a2_m10_dialogue_clay_need_the_sniper,"Hé, fiston. S'il faut qu'on s'occupe de cet espion Maas, on va avoir besoin du canon à longue portée."
+a2_m10_dialogue_corp_security_c2_first_warning,Cette zone de la Sécurité Maas est interdite. Partez immédiatement.
+a2_m10_dialogue_corp_security_c2_second_warning,Cette zone est interdite. Partez immédiatement ou nous ouvrons le feu.
+a2_m10_dialogue_corp_security_c2_attack_warning,Nous sommes désormais autorisés à tuer.
+a2_m10_dialogue_cargo_haulers_c2_ah_mr_johnson,"Ah, vous devez être Monsieur Johnston."
+a2_m10_dialogue_cargo_haulers_c2_gold_delivery,"Nous avons une grosse cargaison pour vous. J'espère que vous n'y verrez pas d'inconvénient, mais nous avons scanné ces conteneurs en vous attendant."
+a2_m10_dialogue_cargo_haulers_c2_doublecross,"En fait, il y avait tellement d'or que nous avons décidé de le garder pour nous. Adieu."
+,
+,
+,
+,
+,
+,

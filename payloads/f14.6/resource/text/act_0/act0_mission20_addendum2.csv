@@ -1,0 +1,26 @@
+; FILE: Dact0_mission20_addendum2.csv,
+; Key,GERMAN TRANSLATION
+;,
+a0_m20_name_elapsed_time,Abgelaufene Zeit:
+a0_m20_name_penalty,Zeitstrafe: 5 x
+a0_m20_name_total_time,Gesamtzeit:
+a0_m20_name_training_grnd,Übungsstrecke
+a0_m20_name_weapons_training,Waffenübungsgelände
+
+a0_m20_dialogue_clay_tough,"Pech gehabt, Kleiner, gegen die Drohne hattest du keine Chance, was?"
+a0_m20_dialogue_clay_wow,"Mann, der Drohne hast du aber nur noch den Rücken gezeigt!"
+
+a0_m20_dialogue_clay_ok_this,"Das ist also das Übungsgelände. Um die Prüfung zu bestehen, musst du die Ringe, die du vor dir siehst in der Reihenfolge durchfliegen, in der sie auf deiner Kontaktliste erscheinen. Hört sich leicht an? Du hast höchstens zwei Minuten. Immer noch zu leicht für einen Hitzkopf wie dich? Auf der Strecke befinden sich einige Ziele. Versuch mal, sie abzuschießen. Sie werden alle beim Start sichtbar sein. Wenn du eins triffst, bewegt es sich nicht mehr und verschwindet von deiner Kontaktliste. Alle Ziele, die am Ende übrig bleiben, werden zu einer Zeitstrafe umgerechnet. "
+a0_m20_dialogue_clay_theres,"In der Nähe der Basis liegt ein Übungsgelände, auf dem Lucrecia ihre neuen Rekruten ausgebildet hat. 'Ne Menge Möchtegernpiraten sind daran gescheitert. Ich hoffe, du schlägst dich besser. Bevor du die Storm Petrel fliegen darfst, musst du die Prufung auf den Ubungsgelende stehen. Ich habe dafur einen Streckenpunkt eingegeben. Außerdem solltest du dich mit den Waffen vertraut machen... Das kannst du im Waffenübungsgelände, flieg einfach zum Streckenpunkt, den ich markiert habe."
+
+a0_m20_name_remote,Schulschiff
+a0_m20_dialogue_clay_at_groud,Da wären wir - das Waffenübungsgelände.  Hier kannst du einige deiner Waffen an den Zielen ausprobieren und  einige nützliche Kampftaktiken erlernen.
+a0_m20_dialogue_clay_around,"In diesem Gelände findest du 5 Ziele und ein Schulschiff. Die Ziele sind auf deiner Kontaktliste momentan als feindlich aufgeführt, also kannst du sie ganz leicht anvisieren, indem du die Taste 'nächster Gegner' drückst. Das Schulschiff hat eine aktive Fernlenk- oder REM-Verbindung, also kannst du die Verbindung einschalten und es fliegen."
+a0_m20_dialogue_clay_target_training,"Auf deinem Schiff stehen dir zwei Arten von Waffen zur Verfügung: primäre und sekundäre. Primärwaffen benutzen meist Energie oder Munition, während Sekundärwaffen raketengestützt sind. Gehe die Liste deiner Primär- und Sekundärwaffen durch, indem du die entsprechenden Wahltasten bedienst und probiere die unterschiedlichen Waffen an den Zielen aus. Hast du ein Ziel getroffen, ist es dir freundlich gesinnt und wird auf deiner Kontaktliste blau markiert. Hast du alle Ziele getroffen, werden sie wieder als feindlich eingestellt."
+a0_m20_dialogue_clay_you_made,"Gut, Kleiner, du hast eine REM-Verbindung zum Schiff hergestellt. Flieg jetzt ein bisschen damit. Wie du siehst, kannst du die meisten seiner Systeme steuern, aber pass auf, dass du es nicht zu weit von deinem Schiff wegsteuerst, sonst verlierst du das Verbindungssignal. Du kannst die Verbindung jederzeit durch erneutes Drücken der REM-Verbindungstaste abbrechen."
+a0_m20_dialogue_clay_all_hit,"Gut, du hast alle Ziele getroffen. Ich stelle sie wieder ein, dann kannst du's noch mal versuchen."
+
+a0_m20_dialogue_clay_dont,"Denk daran, du solltest den Übungsparcours fliegen!!"
+a0_m20_dialogue_clay_isnt,Wird es nicht langsam Zeit, den Übungsparcours zu fliegen?!
+
+a0_m20_dialogue_clay_refer,Schau dir die Details in der Tastaturbelegung nochmal an.

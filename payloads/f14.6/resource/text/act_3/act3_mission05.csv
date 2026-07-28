@@ -1,0 +1,57 @@
+; FILE: Dact3_mission05.csv,
+; Key,
+ ACT 3 MISSION 5 - DEEP COVER,
+; FILE NAME,GERMAN TRANSLATION
+a3_m05_name_scout_waypoint,Erkundungstrupp-Treffpunkt
+a3_m05_name_red,Red Baron
+a3_m05_name_fire,Fire & Brimstone
+a3_m05_name_cyclone,Cyclone
+a3_m05_name_stc,Marine-RFK-Station
+a3_m05_name_transmitter,Transmitter - 
+a3_m05_dialogue_league_cal_what,Cal? Was tun Sie da?! Sie können mit diesem Schiff nicht zu den Anlagen! Sonst fliegt Ihre Tarnung auf!!
+a3_m05_dialogue_league_c1_ah_cal,"Ah. Cal Johnston, nicht wahr? Sie sind gekommen, um diesen IFF abzuholen?"
+a3_m05_dialogue_league_c1_your_back,"Nochmals willkommen, Mr. Johnston. Wollen Sie jetzt den IFF?"
+a3_m05_text_c1_option_1_yes,Ja
+a3_m05_dialogue_player_c1_option_1_yes,Ja. Ich nehme ihn jetzt.
+a3_m05_text_c1_option_2_no,Nein
+a3_m05_dialogue_player_c1_option_2_no,Nö. Ich schau mich nur um.
+a3_m05_dialogue_league_c1_response_1_ok,Gut. Docken Sie an und ich bereite alles vor.
+a3_m05_dialogue_league_c1_response_1_ready,"Alles bereit. Begeben Sie sich zum Marine-RFK-Systemhauptquartier von Moore im Owen's-Star-System. Dort müssen Sie zunächst hin, um einen Zulassungskode für das Gebiet zu erhalten. Viel Glück!"
+a3_m05_dialogue_league_c1_response_1_alright_well,"Gut, wir werden hier warten."
+a3_m05_dialogue_station_repair_vessel,Reparaturschiff B45. Was haben Sie in diesem Gebiet zu tun?
+a3_m05_dialogue_cal_were_here,Wir sollen das Kommunikationssystem hier im Abschnitt warten, und brauchen einen Zulassungskode."
+a3_m05_dialogue_station_dock,"Docken Sie an der Station an, damit Ihre Identität überprüft werden kann. Schönen Tag noch."
+a3_m05_dialogue_station_iff_code,IFF-Kode gültig. Sie dürfen zur Kommunikationsstation. Ihr Zulassungskode lautet 35VB89. Fliegen Sie weiter zum Standort der Kommunikationsstation.
+a3_m05_dialogue_smith_hmm,"Hmmmm, 35VB89. Das war echt einfach. Ich hätte eigentlich damit gerechnet, dass wir Gewalt anwenden müssten. Verdient hätten sie's ja. Jetzt können wir Kurs aufs Marine-RFK-Systemhauptquartier in Moore nehmen, ohne jemanden getötet zu haben."
+a3_m05_dialogue_security_c1_this_is,Dies ist eine Sperrzone. Sie können nur mit Zulassungskode einfliegen.
+a3_m05_text_c1_option_1_35vb89,Zulassungskode 35VB89.
+a3_m05_dialogue_c1_cal_option_1_35vb89,Wir haben Zulassungskode 35VB89.
+a3_m05_dialogue_security_c1_response_1_very_well,In Ordnung. Sie können vorbei.
+a3_m05_text_c1_cal_option_2_clearence,Zulassungskode GT4001.
+a3_m05_dialogue_cal_c1_option_2_clearence,"Wir, äh, haben Zulassungskode GT4001."
+a3_m05_dialogue_security_c1_response_2_invalid,"Das ist ein ungültiger Zulassungskode. Verlassen Sie die Zone, oder wir eröffnen das Feuer!"
+a3_m05_text_c1_option_3_oops,"Ups, nur auf der Durchreise"
+a3_m05_dialogue_cal_c1_option_3_oops,Ups. Wir sind nur auf der Durchreise. Entschuldigung!
+a3_m05_dialogue_security_c1_response_3_leave,Bitte verlassen Sie sofort diese Zone!
+a3_m05_dialogue_security_we_warned,Wir haben Sie gewarnt! Alle Schiffe angreifen!
+a3_m05_dialogue_smith_those_are,"Das sind die Sender. Du wirst andocken müssen, damit wir an die Datenkanäle kommen."
+a3_m05_dialogue_smith_ill_explain,"Ich erklär mal, wie das funktioniert. Sobald ich an den Datenleitungen dran bin, müssen wir bei einer davon einen Umleiter anbringen. Das Ganze ist reine Glückssache. Außer dem Techniker, der die Dinger verlegt hat, weiß nämlich niemand, welche Leitung die Daten sendet. Wir werden's allerdings ziemlich schnell machen, wenn wir falsch liegen!"
+a3_m05_dialogue_smith_im_bringing,"Ich hole jetzt die Leitung raus... Also gut, tapferer Anführer. Welche soll ich nehmen?"
+a3_m05_dialogue_smith_im_brin,Ich hole jetzt die... oh! Das ist wohl einer von diesen neumodischen Sendern. Er hat 4 Leitungen. Welche soll ich nehmen?
+a3_m05_text_red,Rot
+a3_m05_text_green,Grün
+a3_m05_text_blue,Blau
+a3_m05_text_yellow,Gelb
+a3_m05_dialogue_smith_that_worked,"Meine Fresse! Es funktioniert. Also los, schnell weiter!"
+a3_m05_dialogue_smith_damn,Mist. Wir haben das Sicherheitssystem aktiviert.
+a3_m05_dialogue_security_c2_whats_going,Hier spricht die Marinesicherheit! Was geht da vor?!
+a3_m05_text_c2_option_1_spanner,Schraubenschlüssel runtergefallen
+a3_m05_dialogue_player_c2_option_1_spanner,Huch! Ich hab meinen Elektro-Schraubenschlüssel ins System fallen lassen!
+a3_m05_text_c2_option_1_spanner_ag,Schon wieder!
+a3_m05_dialogue_player_c2_option_1_spanner_ag,Ist das zu FASSEN? Ich hab den blöden Schraubenschlüssel schon wieder fallen lassen. Sagen Sie das bitte nicht meinem Chef.
+a3_m05_text_c2_option_2_rumbled,Ich wurde durchschaut - STIRB
+a3_m05_dialogue_player_c2_option_2_rumbled,"Ha, du hast mich durchschaut! Ich bin gar kein Techniker. STIRB!"
+a3_m05_dialogue_security_c2_repsonse_2_ok,"Na gut, aber wir wollen aus dieser Ecke hier keinen Mucks mehr hören."
+a3_m05_dialogue_security_you_wont,Hier kommt ihr nicht lebend raus!!
+a3_m05_dialogue_security_right,Jetzt reicht's! Das ist kein Wartungsschiff! Vernichtet die Saboteure!
+a3_m05_dialogue_smith_thats_all,"Das wären alle. Hauen wir ab und fliegen zurück zur Basis... Wollen mal sehen, ob das überhaupt funktioniert hat."

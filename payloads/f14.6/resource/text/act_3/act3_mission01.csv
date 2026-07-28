@@ -1,0 +1,44 @@
+; FILE: Dact3_mission01.csv,
+; Key,
+; FILE NAME,GERMAN TRANSLATION
+a3_m01_email_sender,Die League
+a3_m01_email_subject,"Schweren Schaden."
+a3_m01_name_marine_leader,Anführer der Marines
+a3_m01_dialogue_marine_leader_intro_1,"Willkommen auf der Party, Cal."
+a3_m01_dialogue_marine_leader_intro_2,"Unsere Aufgabe ist es, die Basis der Unternehmen in einem Überraschungsangriff unter Kontrolle zu kriegen. Wir teilen unsere Streitkräfte in zwei Gruppen auf."
+a3_m01_dialogue_marine_leader_intro_3,"Die erste Gruppe ist unser vorgelagertes Kommando. Es wird Überfälle durchführen und so den Gegner ablenken. Die zweite Gruppe ist unser Sicherungskommando. Während der Gegner durch das vorgelagerte Kommando abgelenkt ist, fungiert das Sicherungskommando als 'menschlicher Schild' und schützt die Landungsschiffe der Marines, während sie unsere Truppen in die Basis schleusen."
+a3_m01_dialogue_marine_leader_intro_4,"Sobald die Landungsschiffe angedockt sind, müssen die Jäger der Unternehmen beschäftigt werden, bis wir die Gunstars ausgeschaltet haben. Die Schiffe der Marines sind ein leichtes Ziel für die Gunstars, also ist es wichtig, dass auch diese abgelenkt werden."
+a3_m01_dialogue_marine_leader_intro_5,"Ist die erste Überraschung vorbei, versuchen wir, die Oman um Hilfe zu bitten."
+a3_m01_dialogue_marine_leader_intro_6,Der Streckenpunkt ist allen Angriffseinheiten bekannt. Zeit zum Aufbruch. Viel Glück.
+a3_m01_dialogue_smith_base_intro,"Da ist sie, Cal. Unsere neue Basis. Hoffentlich gibt's da auch 'ne heiße Dusche. Oder, wie unsere Freunde von den Marines sagen würden, eine beheizte Naßzelle."
+a3_m01_dialogue_clay_base_intro,"Man soll den Tag nicht vor dem Abend loben, Smith. Erst recht nicht, wenn sie eine riesige Kanone auf dich richten."
+a3_m01_name_corporate_base_traffic_control,Verkehrskontrolle der Sicherheitsstation
+a3_m01_dialogue_Security_Base_Corporate_warning,"Najran-Basis an ankommende Schiffe. Dies ist eine Sperrzone. Wenn ihr näher kommt, zerstören wir euch."
+a3_m01_dialogue_Cal_lets_go,"Na dann, Jungs und Mädels. Jagen wir diesen Typen den Schreck ihres Lebens ein. Aber versucht, die Gunstars unversehrt zu lassen. Die könnten wir später noch gebrauchen."
+a3_m01_name_Raiding_Party_members,Angriffskommando
+a3_m01_dialogue_Raiding_Party_Members_war_cry,Jippiiieeeehh!
+a3_m01_dialogue_marine_leader_approaching_dock,"Deine Ablenkungstaktik ist sehr erfolgreich, Cal. Der Landungstrupp ist im Anflug. Dockt gleich an. Lenk die Gunstars weiter ab."
+a3_m01_dialogue_marine_leader_docked,Landungstrupp der Marines an alle Schiffe. Wir sind in die Basis eingedrungen und stürmen jetzt die Abwehreinrichtungen.
+a3_m01_dialogue_marine_leader_conquered_base,"Landungstrupp der Marines an alle Schiffe. Die Najran-Basis gehört jetzt zum Territorium der League. Die Gunstars wurden deaktiviert. Gebt uns Deckung, während wir andocken und ihre Ausrichtung 'korrigieren'."
+a3_m01_dialogue_clay_advise_guard_gunstars,"Meinst du nicht, wir sollten bei dem Schiff der Marines bleiben, Cal? Wenn wir die Gunstars nicht auf unserer Seite haben, können wir die Station nicht lange halten!"
+a3_m01_dialogue_marine_leader_1st_gunstar_reprogrammed,Gunstar eins neu ausgerichtet.
+a3_m01_dialogue_marine_leader_2nd_gunstar_reprogrammed,Gunstar zwei neu ausgerichtet.
+a3_m01_dialogue_marine_leader_3rd_gunstar_reprogrammed,Gunstar drei neu ausgerichtet.
+a3_m01_dialogue_smith_you_finish_the_gunstars_1,Na toll! Das Landungsschiff der Marines ist in die Luft geflogen. Ohne die Hilfe der Gunstars können wir uns die Unternehmen nicht vom Hals halten.
+a3_m01_dialogue_smith_you_finish_the_gunstars_2,"Wir haben eine klitzekleine Chance. Cal, du musst bei den Gunstars andocken, und ich leite ihre Aktivierung dann selbst ein. Es ist ein bisschen riskant, aber wir haben keine andere Wahl. Die als neutral markierten sind noch deaktiviert."
+a3_m01_dialogue_smith_gunstar_online_next,"Okay, Cal, Gunstar bereit. Bring uns schnell zum nächsten."
+a3_m01_dialogue_marine_leader_last_gunstar_reprogrammed,"Gut, das waren alle Gunstars. Ich aktiviere sie ... jetzt."
+a3_m01_dialogue_smith_gunstar_last_gunstar_reprogrammed,Das waren alle Gunstars - ich aktiviere sie jetzt.
+a3_m01_dialogue_smith_corporate_runaway,"Anscheinend jagen wir den Angsthasen der Firmen einen schönen Schrecken ein! Erledigen wir noch die Nachzügler, und dann kann ich endlich unter die Dusche."
+a3_m01_dialogue_clay_not_enough_gunstars,"Wir haben nicht genügend Gunstars, um die Basis richtig zu verteidigen. Das wird kein Kinderspiel!"
+a3_m01_dialogue_smith_corporate_suicide_attack,"Cal! Diese Schwachköpfe wollen die Basis zerstören! Halt sie auf, oder diese Mission ist gelaufen! "
+a3_m01_name_league_base_traffic_control,Verkehrskontrolle der Sicherheitsstation Najran
+a3_m01_dialogue_Security_Base_League_Bye_Bye,"Hier spricht die League-Sicherheitsbasis Najran. Gute Arbeit, allerseits! Wir haben die Basis komplett unter Kontrolle, und Verstärkung zur Sicherung der Basis ist schon unterwegs."
+a3_m01_dialogue_Security_Base_League_Refuel,"Du musst hier nicht mehr bleiben, Cal, aber wenn du dein Schiff neu bewaffnen willst, dock an."
+a3_m01_dialogue_smith_started_refuelling,"Ich kümmere mich um die Bewaffnung, Cal."
+a3_m01_dialogue_smith_done_refuelling,Alles fertig.
+a3_m01_waypoint_initial_meeting,Leaguetreffpunkt
+a3_m01_waypoint_security_base_approach,Sicherheitsbasis
+a3_m01_marine_troop_carrier,Truppentransporter der Marines
+a3_m01_ship_name_resolute,Resolute
+a3_m01_Gunstar,Gunstar

@@ -1,0 +1,614 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Edge Of Chaos Technical FAQ</title>
+</head>
+
+<body>
+
+<h1>Independence War 2: Edge Of Chaos Technical FAQ</h1>
+              <p> This FAQ contains the most frequently asked technical and configuration 
+                questions about <b>Edge Of Chaos</b> </p>
+              <p> Please read this FAQ to see if it can help any problems you 
+                may have before you contact us.</p>
+              <p>If you experience any crashes, graphical corruption, or poor 
+                performance while playing the game, we recommend the following:</p>
+              <ul>
+                <li>Reset your computer before continuing play.</li>
+                <li>Contact your graphics card manufacturer to obtain up-to-date 
+                  drivers and install them.</li>
+                <li>Contact your sound card manufacturer to obtain up-to-date 
+                  drivers and install them.</li>
+                <li>Turn off your screen saver.</li>
+                <li>Turn off your virus scanner / monitor.</li>
+                <li>Turn off power saving.</li>
+                <li>Remove any unnecessary programs from the windows systray.</li>
+                <li>Ensure that no other programs are running in the background.</li>
+                <li>Run <b> Scandisk</b> to check your hard disk for errors.</li>
+              </ul>
+              <p>The latest version of this FAQ can be found on <a href="http://www.independencewar.com">www.independencewar.com</a>.
+              Click <a href="http://www.independencewar.com/downloadsandsupport/IWAR2/technical_faq.htm" target="_blank">here</a>
+              to view it.</p>
+<hr>
+              <h2><a name="Questions"></a>Questions</h2>
+              <h3><font size="4">General Issues</font></h3>
+              <p><b><a href="#MP3Problem">Q. The game crashes back to the desktop 
+                frequently / The music is corrupted. Why is this?</a></b></p>
+              <p><b><a href="#Freezing">Q. My computer keeps freezing while playing 
+                the game. How can I fix this?</a></b></p>
+              <p><b><a href="#MovieStuttering">Q. The movies are stuttering, how 
+                can I improve movie playback?</a></b></p>
+              <p><b><a href="#Pausing">Q. The game keeps pausing during play, 
+                why is this?</a></b> </p>
+              <h3>&nbsp;</h3>
+              <h3>&nbsp;</h3>
+              <h3><b><font size="4">Video Issues</font></b></h3>
+              <p>We recommend using the most recent driver available for your 
+                video card, particularly if you are experiencing any graphical 
+                problems running the game. These will usually be available from 
+                your video card manufacturer's website - refer to your video card 
+                documentation or consult your vendor for details. </p>
+              <p>If you still experience problems after updating, you can try 
+                using <i>reference drivers</i> provided by the manufacturer of 
+                your card's <i>chipset</i>. These drivers are generally not supported 
+                by the card manufacturer, and you install them at your own risk. 
+                If in doubt, consult your video card manufacturer's technical 
+                support department before proceeding. 
+              <p> Refer to your video card documentation or vendor for details 
+                of the chipset your video card uses. 
+              <p><b><a href="#NvidiaFlickering">Q. I see flickering around the 
+                edges of objects with my NVidia GeForce Card. How can I fix this?</a></b> 
+              <p><b><a href="#VoodooProblem">Q. There graphical glitches when 
+                playing the game on my Voodoo based Card. Why is this?</a></b> 
+              <h3>&nbsp;</h3>
+              <h3>&nbsp;</h3>
+              <h3><b><font size="4">Sound Issues</font></b></h3>
+              <p>We recommend using the most recent driver available for your 
+                sound card, particularly if you are experiencing any audio problems 
+                running the game. These will usually be available from your sound 
+                card manufacturer's website - refer to your sound card documentation 
+                or consult your vendor for details. 
+              <p><b><a href="#SoundCorrupted">Q. The sound and / or music is corrupted. 
+                Why is this?</a></b></p>
+              <p><b><a href="#NoSpeech">Q. I can't hear any speech. How can I 
+                fix this?</a></b></p>
+              <h3>&nbsp;</h3>
+              <h3>&nbsp;</h3>
+              <h3><b><font size="4">Controller Issues</font></b></h3>
+              <p>As with Graphics and Audio drivers we recommend you use the most 
+                recent driver for your game controller, particularly if you're 
+                having problems getting the controller to work. You can usually 
+                obtain these from your game controller manufacturer's website.</p>
+              <p><b><a href="#ControllerNotWorking">Q. My game controller / joystick 
+                does not work, why is this?</a></b></p>
+              <p><b><a href="#Moving">Q. My ship keeps moving, turning or rolling 
+                slowly without me moving the game controller, How can I fix this? 
+                </a><br>
+                <br>
+                <a href="#DeadZone">Q. How can I alter the game controller's dead 
+                zone?</a></b></p>
+              <p><b><a href="#ShiftKey">Q. Can I map a controller button as a 
+                shift key instead of SHIFT or ALT?</a></b></p>
+              <p><b><a href="#Profiler">Q. My Joystick Profiler / Voice recognition 
+                software doesn't work with the game. How can I fix this?</a></b></p>
+              <h3>&nbsp;</h3>
+              <h3>&nbsp;</h3>
+              <h3><b><font size="4">Multiplayer Issues</font></b></h3>
+              <p><b><a href="#MultiplayerConnectProblem">Q. I am connected to 
+                the Internet but I cannot connect to the multiplayer servers. 
+                How can I fix this?</a></b></p>
+              <p>&nbsp;</p>
+<hr>
+              <h2><b>Answers</b></h2>
+              <h3> <font size="4">General Issues</font></h3>
+              <p><b><a name="MP3Problem"></a>Q. The game quits back to the desktop 
+                frequently / The music is corrupted. Why is this?</b>
+              </p>
+              <p>A.<b> </b>The game uses MP3 files for its music. Some programs 
+                install MP3 playback drivers - called codecs - that aren't compatible 
+                with directsound, and can cause the demo to crash or corrupt the 
+                music.</p>
+              <p> You can test if it's an MP3 playback problem by renaming the 
+                game <b>music</b> directory so the game can't find any MP3 files. 
+                This will disable MP3 playback.</p>
+              <p> If the game works with no music then an incompatible MP3 codec 
+                is the problem. We've found the following programs are the most 
+                likely causes:</p>
+              <ul>
+                <li>Xing Media Player</li>
+                <li>Xing DVD Player</li>
+                <li>WinDVD</li>
+                <li>Divx codec</li>
+              </ul>
+              <p> In most cases uninstalling the program with the incompatible 
+                codec fixes the problem. </p>
+              <p>Users with a Hercules Game Theater XP can try turning off MP3 
+                acceleration in the HGT XP settings to fix the problem.</p>
+              <p>Another way to fix the problem is to alter the priority of the 
+                incompatible codec in the multimedia control panel. Unfortunately 
+                some programs do not install their codecs in the multimedia control 
+                panel so this solution will not work in all cases. This solution 
+                is for Windows 98/ME</p>
+              <ul>
+                <li>Click the Windows <b>Start</b> button</li>
+                <li>Click <b>Settings</b></li>
+                <li>Click&nbsp; <b>Control Panel&nbsp;</b></li>
+                <li> Double click the<b> Multimedia control panel</b> icon&nbsp;</li>
+                <li> Click the <b>Devices</b> tab</li>
+                <li>Click the <b>Audio Compression</b>&nbsp;section.</li>
+              </ul>
+              <p>Look for an MP3 codec that <b>doesn't </b>have <i>Fraunhofer</i> 
+                in its title (the Fraunhofer codecs are the most compatible and 
+                reliable), or a Divx codec.</p>
+              <p> If you find such a codec then you can change its priority by 
+                clicking on it, then clicking the priority button. Change the 
+                priority number to a higher value and click OK. Please note you 
+                should have also a compatible MP3 codec installed for this to 
+                work. You can install one by downloading Media Player from Microsoft.</p>
+              <p> <a href="#Questions">Back to index</a></p>
+              <p>&nbsp;</p>
+              <p><b><a name="Freezing"></a>Q. My computer keeps freezing while 
+                playing the game. How can I fix this?</b></p>
+              <p>A. Several different configuration issues may cause the game 
+                to hang / freeze your PC.</p>
+              <p class="MsoNormal" style="margin-left:18.0pt;text-indent:-18.0pt;mso-list:l1 level1 lfo3;
+tab-stops:list 18.0pt;mso-layout-grid-align:none;text-autospace:none">1)<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                </span>Radeon graphics boards have been known to cause the game 
+                to hang for a variety of reasons.&nbsp;<o:p> </o:p> </p>
+              <p class="MsoNormal" style="margin-left:36.0pt;text-indent:-18.0pt;mso-list:l1 level2 lfo3;
+tab-stops:list 36.0pt;mso-layout-grid-align:none;text-autospace:none">a)<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                </span>Radeon graphics boards have been known to hang when the 
+                monitor driver is either incorrect or not installed. Installing 
+                a specific Windows monitor driver for your monitor will fix this 
+                problem.</p>
+              <p class="MsoNormal" style="margin-left:36.0pt;text-indent:-18.0pt;mso-list:l1 level2 lfo3;
+tab-stops:list 36.0pt;mso-layout-grid-align:none;text-autospace:none">b)<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                </span>Some early Radeon graphics board drivers could cause the 
+                computer to hang. Try installing the latest drivers for your graphics 
+                board.</p>
+              <p class="MsoNormal" style="margin-left:36.0pt;text-indent:-18.0pt;mso-list:l1 level2 lfo3;
+tab-stops:list 36.0pt;mso-layout-grid-align:none;text-autospace:none">c)<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                </span>32 bit mode on Radeon boards has been known to cause problems, 
+                especially on early drivers with the demo version of Edge Of Chaos. 
+                <span style="mso-spacerun:
+yes">&nbsp;</span>Set the game display mode to a 16-bit mode, or install the latest 
+                drivers.</p>
+              <p class="MsoNormal" style="margin-left:36.0pt;text-indent:-18.0pt;mso-list:l1 level2 lfo3;
+tab-stops:list 36.0pt;mso-layout-grid-align:none;text-autospace:none">d)<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                </span>32-bit Z-Buffers has been known to cause problems, especially 
+                on early drivers with the demo version of Edge Of Chaos. <span style="mso-spacerun: yes">&nbsp;</span>Try 
+                setting the Radeon Z-Buffer option in the Radeon D3D properties 
+                to 16 bit only.&nbsp;<o:p> </o:p> </p>
+              <p class="MsoNormal" style="margin-left:18.0pt;text-indent:-18.0pt;mso-list:l1 level1 lfo3;
+tab-stops:list 18.0pt;mso-layout-grid-align:none;text-autospace:none">2)<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                </span>VIA Motherboard Chipsets</p>
+              <p class="MsoNormal" style="margin-left:36.0pt;text-indent:-18.0pt;mso-list:l1 level2 lfo3;
+tab-stops:list 36.0pt;mso-layout-grid-align:none;text-autospace:none">a)<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                </span>The default VIA chipset drivers supplied with Windows do 
+                not properly support VIA chipsets. If the motherboard drivers 
+                are out of date then your PC could crash or bluescreen during 
+                graphic intensive operations, such as running Edge Of Chaos.<br>
+                <br>
+                In most cases updating the VIA motherboard drivers fixes this 
+                problem. You can download the latest VIA 4-in-1 motherboard drivers 
+                from: <a href="http://www.viahardware.com/download/index.shtm" target="_blank">www.viahardware.com/download/index.shtm</a>&nbsp;<o:p> 
+                </o:p> </p>
+              <p class="MsoNormal" style="margin-left:36.0pt;text-indent:-18.0pt;mso-list:l1 level2 lfo3;
+tab-stops:list 36.0pt;mso-layout-grid-align:none;text-autospace:none">b)<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                </span>Some VIA chipset based motherboards have been known to 
+                be unstable if the AGP settings in the bios are set to maximum 
+                performance.<br>
+                <br>
+                You may find that reducing your AGP aperture size, changing the 
+                AGP support from 4x to 2x or 1x, or turning off / down the high 
+                performance AGP options in your computers bios fixes the problem.&nbsp;<o:p> 
+                </o:p> </p>
+              <p class="MsoNormal" style="margin-left:18.0pt;text-indent:-18.0pt;mso-list:l1 level1 lfo3;
+tab-stops:list 18.0pt;mso-layout-grid-align:none;text-autospace:none">3)<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                </span>Overclocking your video card can cause the game to hang 
+                due to the large graphics throughput. If your video card is overclocked 
+                and you are experiencing lock-ups while playing the game,<span style="mso-spacerun: yes">&nbsp; 
+                </span>try turning overclocking off.<o:p> </o:p> </p>
+              <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><a href="#Questions">Back 
+                to index</a></p>
+              <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">&nbsp; </p>
+              <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><b><a name="MovieStuttering"></a>Q. The movies are stuttering, 
+                how can I improve movie playback?</b> </p>
+              <p>A. &nbsp;This is normally due to a problem with the CD-ROM/DVD 
+                Rom reading the movies. There are a couple of ways it can be caused.</p>
+              <p>1)<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                </span>If your drive is using <i>programmed input/output </i>(PIO) 
+                mode, it may place too high a load on the CPU and cause the movie 
+                playback to stutter. To fix this problem, you will need to change 
+                your CD-ROM/DVD-ROM drive transfer mode to <i>direct memory access 
+                </i>(DMA).<o:p></o:p></p>
+              <p><b>For Windows'95, Windows'98, and Windows ME:</b></p>
+              <ul>
+                <li>Right click on <b>My Computer</b></li>
+                <li>Click <b>Properties</b></li>
+                <li>Select the <b>Device Manager</b> tab</li>
+                <li>Select <b>CD-Rom</b></li>
+                <li>Double click on your CD-ROM or DVD-ROM drive.</li>
+                <li>Select <b>Settings</b> page</li>
+                <li>Ensure the box labeled <b>DMA</b> is checked.</li>
+                <li>Click <b>OK </b>and restart your computer when Windows asks 
+                  you to.</li>
+              </ul>
+              <p><b>For Windows 2000:</b></p>
+              <ul>
+                <li>Right click on <b> My Computer</b></li>
+                <li>Select <b>Manage</b></li>
+                <li>Select <b>Device Manager</b></li>
+                <li>Select <b>IDE ATA/ATAPI Channel</b> and pick the IDE channel 
+                  to which your CD-ROM or DVD-ROM drive is assigned (this will 
+                  usually be the secondary IDE channel)</li>
+                <li>Go to the <b>Advanced Settings</b> page</li>
+                <li>Change <b> Transfer Mode</b> to <b>DMA if Available</b></li>
+                <li>Click <b>OK </b> and restart your computer when Windows asks 
+                  you to.</li>
+              </ul>
+              <p>You may need to have administrator privileges to perform this 
+                operation on Windows 2000. If you do not have administrator privileges, 
+                or are not sure what to do, you should contact your system administrator.</p>
+              <p>2)<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                </span>If your CD-ROM/DVD-ROM drive re-ahead cache setting in 
+                the System control panel is reduced or turned off you may experience 
+                stuttering movie playback. To fix this problem you will need to 
+                enable or increase the CD-ROM Read-ahead cache settings.</p>
+              <p> Note that this problem &amp; solution is for Windows 95, 98 
+                and ME only.</p>
+              <ul>
+                <li>Right click on <b>My Computer</b></li>
+                <li>Click <b>Properties</b></li>
+                <li>Select the <b>Performance</b> tab</li>
+                <li>Click the<b>File system </b>button</li>
+                <li>Click the <b>CD-ROM</b> tab</li>
+                <li>Move the <b>Supplemental Cache Size</b> slider all the way 
+                  to the right</li>
+                <li>Select <b>Quad-speed or higher</b> in the <b>Optimize access 
+                  pattern</b> box.</li>
+                <li>Click <b>OK</b></li>
+                <li>Click <b>OK </b>again<b> </b>and restart your computer when 
+                  Windows asks you to.</li>
+              </ul>
+              <p><a href="#Questions">Back to index</a></p>
+              <p>&nbsp;</p>
+              <p><b><a name="Pausing"></a>Q. The game keeps pausing during play, 
+                why is this?</b></p>
+              <p> A. There are a couple of reasons why this could happen.</p>
+              <p>1) It can be caused by <i>fragmentation</i> of your hard disk. 
+                We recommend defragmenting your hard disk before installing the 
+                game.</p>
+              <p>2) If your hard drive is using <i>programmed input/output </i>(PIO) 
+                mode, it may place too high a load on the CPU and cause the game 
+                to pause. To fix this problem, you will need to change your Hard 
+                drive transfer mode to <i>direct memory access </i>(DMA).<o:p></o:p></p>
+              <p><o:p></o:p><b>For Windows'95, Windows'98, and Windows ME:</b></p>
+              <ul>
+                <li>Right click on <b>My Computer</b></li>
+                <li>Click <b>Properties</b></li>
+                <li>Select the <b>Device Manager</b> tab</li>
+                <li>Select <b>CD-Rom</b></li>
+                <li>Double click on the Hard Disk where the game is installed. 
+                </li>
+                <li>Select <b>Settings</b> page</li>
+                <li>Ensure the box labeled <b>DMA</b> is checked.</li>
+                <li>Click <b>OK </b>and restart your computer when Windows asks 
+                  you to.</li>
+              </ul>
+              <p><b>For Windows 2000:</b></p>
+              <ul>
+                <li>Right click on <b> My Computer</b></li>
+                <li>Select <b>Manage</b></li>
+                <li>Select <b>Device Manager</b></li>
+                <li>Select <b>IDE ATA/ATAPI Channel</b> and pick the IDE channel 
+                  to which your Hard Drive containing the game is assigned.</li>
+                <li>Go to the <b>Advanced Settings</b> page</li>
+                <li>Change <b> Transfer Mode</b> to <b>DMA if Available</b></li>
+                <li>Click <b>OK </b> and restart your computer when Windows asks 
+                  you to.</li>
+              </ul>
+              <p>You may need to have administrator privileges to perform this 
+                operation on Windows 2000. If you do not have administrator privileges, 
+                or are not sure what to do, you should contact your system administrator.</p>
+              <p><a href="#Questions">Back to index</a></p>
+              <h3>&nbsp; </h3>
+              <h3>&nbsp; </h3>
+              <h3><b><font size="4">Video Issues</font></b> </h3>
+              <p><br>
+                <b><a name="NvidiaFlickering"></a>Q. I see flickering around the 
+                edges of objects with my NVidia GeForce Card. How can I fix this?</b></p>
+              <p>A. This is caused by the use of a 16-bit screen mode. This problem 
+                is easily fixed by selecting a 32-bit screen mode from the options 
+                screen.</p>
+              <p><a href="#Questions">Back to index</a></p>
+              <p>&nbsp;</p>
+              <p><b><a name="VoodooProblem"></a>Q. There graphical glitches when 
+                playing the game on my Voodoo based card. Why is this?</b></p>
+              <p>Some versions of Voodoo drivers, especially those for the Voodoo 
+                Banshee / Voodoo3 can cause graphic problems in <b>Edge Of Chaos</b>.</p>
+              <p>We've investigated this issue, and found that the drivers themselves 
+                are faulty as they don't properly support some DirectX features 
+                the game relies upon.</p>
+              <p>Switching to an earlier or later driver may fix this problem, 
+                but we are unable to offer a fix ourselves, as faulty drivers 
+                are the cause of the problem.</p>
+              <p>Recently NVidia bought all 3Dfx's assets, including their Voodoo 
+                card technology, and discontinued the Voodoo line of graphic cards.</p>
+              <p> NVidia are not providing any technical or driver support for 
+                Voodoo based cards, which unfortunately means that there is little 
+                or no prospect of any new Voodoo driver updates to fix these graphical 
+                problems.</p>
+              <p><a href="#Questions">Back to index</a></p>
+              <h3>&nbsp; </h3>
+              <h3>&nbsp; </h3>
+              <h3><b><font size="4">Sound Issues</font></b> </h3>
+              <p><b><a name="SoundCorrupted"></a>Q. The sound and / or music is 
+                corrupted. Why is this?</b></p>
+              <p>A. This can be for a variety of reasons:</p>
+              <p class="MsoNormal" style="margin-left:36.0pt;text-indent:-18.0pt;mso-list:l0 level1 lfo1;
+tab-stops:list 36.0pt">1)<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                </span>Out of date audio drivers. Try updating your audio drivers 
+                to the latest version. In most cases this will fix the problem.&nbsp;<o:p> 
+                </o:p> </p>
+              <p class="MsoNormal" style="margin-left:36.0pt;text-indent:-18.0pt;mso-list:l0 level1 lfo1;
+tab-stops:list 36.0pt">2)<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                </span>Missing or incompatible codecs. The game requires special 
+                audio drivers known as codecs to be installed. If these are missing 
+                or you have incompatible versions then you may hear audio distortion, 
+                or the game could even crash.<br>
+                <br>
+                In most cases installing the latest version of Windows Media Player 
+                will fix this problem. You can download Windows Media Player from 
+                <a href="http://windowsmedia.com/download/download.asp" target="_blank">here</a>. 
+              </p>
+              <p>However, in some cases these fixes may not work. For extra help 
+                with this problem please see the question:<br>
+                <b><a href="#MP3Problem">The game quits back to the desktop frequently 
+                / The music is corrupted. Why is this?</a></b> </p>
+              <p><a href="#Questions">Back to index</a></p>
+              <p>&nbsp; </p>
+              <p><b><a name="NoSpeech"></a>Q. I can't hear any speech. How can 
+                I fix this?</b> </p>
+              <p>The game uses the Microsoft ADPCM codec to play the speech. If 
+                this codec is not installed you may not hear speech in the game.</p>
+              <p><b>WINDOWS 95/98/ME </b></p>
+              <p>To fix this problem you will need to install the Micosoft ADPCM 
+                codec. </p>
+              <ul>
+                <li> 
+                  <p>From the <b>START</b> menu select <b>Settings</b> and then<b> 
+                    Control Panel</b> 
+                </li>
+                <li> 
+                  <p>Double-click the <b>Add New Hardware</b> icon 
+                </li>
+                <li> 
+                  <p>Click the<b> Next</b> button 
+                </li>
+                <li> 
+                  <p>Select the<b> No</b> option at the <b>search for new hardware</b> 
+                    prompt 
+                </li>
+                <li> 
+                  <p>Click the<b> Next</b> button 
+                </li>
+                <li> 
+                  <p>From the <b>Hardware Type</b> list select <b>Sound, video, 
+                    and game controllers</b> 
+                </li>
+                <li> 
+                  <p> Click the <b>Next</b> button 
+                </li>
+                <li> 
+                  <p> From the <b>Manufacturers</b> list select <b>Microsoft Audio 
+                    Codecs</b> 
+                </li>
+                <li> From the <b>Models</b> list select <b>ADPCM CODEC</b></li>
+                <li>Click the <b>Next</b> button</li>
+                <li> Click the <b>Finish</b> button</li>
+              </ul>
+<p>&nbsp;</p>
+              <p><b>WINDOWS 2000</b></p>
+              <p>To fix this problem you may need to completely uninstall then 
+                re-install the audio codecs. You may need Administrator rights 
+                to do this.</p>
+              <p>First, restart the computer in safe mode:</p>
+              <ul>
+                <li>Restart the computer</li>
+                <li>Press F8 for advanced startup options</li>
+                <li>Choose Safe Mode and press ENTER</li>
+              </ul>
+              <p>Then remove the audio codecs:</p>
+              <ul>
+                <li>Right-click the My Computer icon and choose Manage.</li>
+                <li> Click Device Manager.</li>
+                <li> Click the + next to Sound, Video and Game Controllers.</li>
+                <li> Right-click Audio Codecs and choose Uninstall.</li>
+                <li> Click Ok to confirm device removal. This may take several 
+                  minutes.</li>
+                <li> Close the Computer Management window and restart your computer.</li>
+              </ul>
+              Finally, re-install the audio codecs: 
+              <ul>
+                <li> Click Start, Settings, Control Panel.</li>
+                <li> Open Add/Remove Hardware.</li>
+                <li> Click Next and then choose Add/Troubleshoot a device and 
+                  click Next.</li>
+                <li> Choose Add a new device, and then click Next.</li>
+                <li> Choose Yes, search for new hardware, and then click next.</li>
+                <li> The Audio Codecs should be listed. Click Next, and then click 
+                  Finish. </li>
+              </ul>
+              <p><a href="#Questions">Back to index</a></p>
+              <h3>&nbsp; </h3>
+              <h3>&nbsp; </h3>
+              <h3><b><font size="4">Controller Issues</font></b> </h3>
+              <p><b><a name="ControllerNotWorking"></a>Q. My game controller / 
+                joystick does not work, why is this?</b></p>
+              <p> A. This can be for a variety of reasons:</p>
+              <p> 
+              <blockquote> 
+                <ol>
+                  <li>You have the wrong control configuration selected in the 
+                    <b>Controls</b> menu of the game. Please ensure you are not 
+                    running the <b>Keyboard Only</b> control configuration, as 
+                    this has no game controller support.<br>
+                    <br>
+                  </li>
+                  <li>The controller isn't installed as the first controller in 
+                    the Windows list of controllers. This can happen on computers 
+                    that have multiple controllers attached, or that have had 
+                    different models of controller attached at different times.<br>
+                    <br>
+                    Edge of Chaos always assigns Joystick 1 to the first controller 
+                    in Windows' list of controllers. To solve the problem, you 
+                    will need to move the controller you want to use to the top 
+                    of the list:
+                  </li>
+                </ol>
+                <blockquote>
+                    <ul>
+                      <li>Open the <b>Start Menu</b> and select <b>Settings </b>then 
+                        <b>Control Panel.</b> </li>
+                      <li>Double-click the <b>Gaming Options </b>icon.</li>
+                      <li>Click the <b>Controller IDs</b> tab and assign the ID 
+                        <b>1</b> to the controller you wish to use with Edge of 
+                        Chaos.</li>
+                      <li>Click OK and close the window.
+                      </li>
+                    </ul>
+                </blockquote>
+                <ol start="3">
+                  <li>In some cases the joystick may not be detected correctly, 
+                    and the game may incorrectly select keyboard only input.<br>
+                    <br>
+                    The solution is to rename or delete the <b>keyboard_only.ini 
+                    </b>control config file, which is located in the game's configs 
+                    folder. This will ensure that the game can only choose the 
+                    default ( joystick ) control configuration.<br>
+                    <br>
+                    Please make sure you back up the <b>keyboard_only.ini</b> 
+                    file first.</li>
+                </ol>
+              </blockquote>
+              <p><a href="#Questions">Back to index</a></p>
+              <p>&nbsp;</p>
+              <p><b><a name="Moving"></a>Q. My ship keeps moving, turning or rolling 
+                slowly without me moving the game controller, how can I fix this? 
+                </b></p>
+              <p>This can be for a variety of reasons:</p>
+              <blockquote> 
+                <ol>
+                  <li>The game controller drivers are not installed correctly, 
+                    or are out of date. Please ensure you have the latest drivers 
+                    for your game controller, and that they are installed correctly.
+                    <br>
+                  </li>
+                  <li>The controller isn't installed as the first controller in 
+                    the Windows list of controllers. See <b>'<a href="#ControllerNotWorking">My 
+                    game controller / joystick does not work, why is this?</a>'</b> 
+                    for details of how to fix this.
+                    <br>
+                  </li>
+                  <li>The dead-zone ( the amount the controller must move before 
+                    the game detects it has moved ) is too small and should be 
+                    increased. See <b><a href="#DeadZone">How can I alter the 
+                    game controller's dead zone?</a></b></li>
+                </ol>
+              </blockquote>
+<p><a href="#Questions">Back to index</a> 
+</p>
+              <p>&nbsp;</p>
+              <p><b><a name="DeadZone"></a>Q. How can I alter the game controller's 
+                dead zone?</b></p>
+              <p>A. You can do this by editing the game's configuration file, 
+                <b>flux.ini</b>. This text file is located in the folder where 
+                <b>Edge Of Chaos</b> is installed.</p>
+              <p><i>Please note that the <b>flux.ini</b> contains important configuration 
+                data for <b>Edge Of Chaos</b> and you edit the file at your own 
+                risk! It's a good idea to make a backup of the file before making 
+                any changes.</i></p>
+              <p>To change the controller dead zone:</p>
+              <blockquote> 
+                <ul>
+                  <li>Edit the <b>flux.ini</b> file.</li>
+                  <li> Find the section marked <b>[fcInputDeviceDI]</b></li>
+                  <li>You will see some dead zone entries. There's a separate 
+                    dead-zone entry for each controller axis.
+                  </li>
+                </ul>
+                <blockquote> dead_zone_x = 0.175<br>
+                  dead_zone_y = 0.175<br>
+                  dead_zone_z = 0.175<br>
+                  dead_zone_rx = 0.175<br>
+                  dead_zone_ry = 0.175<br>
+                  dead_zone_rz = 0.175 </blockquote>
+              <ul>
+                <li>Increase the values to increase the controller dead-zone, 
+                  decrease to reduce the controller dead-zone. Note that the valid 
+                  range for dead-zones is between 0 and 1.</li>
+              </ul>
+              </blockquote>
+              <p><a href="#Questions">Back to index</a> </p>
+              <p>&nbsp;</p>
+              <p><b><a name="ShiftKey"></a>Q. Can I map a controller button as 
+                a shift key instead of using SHIFT or ALT?</b></p>
+              <p>You can map up to four custom shift buttons in a custom control 
+                configuration. For details of how to create a custom control config, 
+                see the readme file that came with the game.</p>
+              <p>To add a custom shift button:</p>
+              <ul>
+                <li>Add a section near the top of the ini file called: [Shift1]</li>
+                <li>Add in the key / button you want to add as a shift e.g.:</li>
+              </ul>
+              <ul>
+                <blockquote> 
+                  <p>[Shift1]<br>
+                    Joystick1, JoyButton5</p>
+                </blockquote>
+                <li> Use Shift1 as the shift name&nbsp; for the function you want 
+                  to shift, e.g.:</li>
+                <blockquote><br>
+                  [icPlayerPilot.LateralX]<br>
+                  Joystick1, JoyXAxis, Shift1<br>
+                  <br>
+                  [icPlayerPilot.LateralY]<br>
+                  Joystick1, JoyYAxis, Shift1</blockquote>
+              </ul>
+              <p> You can map up to 4 different shift keys / buttons by changing 
+                the Shift1 key to Shift2, Shift3, or Shift4. <br>
+                Note that using keys to shift may not work in some cases because 
+                of the way keyboards work. You'll also need to ensure that the 
+                shift key / button isn't used for any other function.</p>
+              <p><a href="#Questions">Back to index</a> </p>
+              <p>&nbsp;</p>
+              <p><b><a name="Profiler"></a>Q. My joystick profiler / voice recognition 
+                software doesn't work with the game. How can I fix this?</b></p>
+              <p>A. If your joystick profiler / voice recognition software requires 
+                you to specify the location of the game's executable file, then 
+                you will need to point the software to this file to get the software 
+                to work correctly with the game:</p>
+                <blockquote>&lt;Install Folder&gt;/bin/release/loader.exe</blockquote>
+              <p><a href="#Questions">Back to index</a> </p>
+              <h3>&nbsp;</h3>
+              <h3>&nbsp;</h3>
+              <h3><b><font size="4">Multiplayer Issues</font></b></h3>
+              <p> <b><a name="MultiplayerConnectProblem"></a>Q. I am connected 
+                to the Internet but I cannot connect to the multiplayer servers. 
+                How can I fix this?</b></p>
+              <p>A. Some people have experienced problems connecting to internet 
+                games through a firewall, proxy server or while using <i>Internet 
+                Connection Sharing </i> (ICS). You should consult <a href="http://support.microsoft.com/support/kb/articles/Q240/4/29.ASP">Microsoft 
+                Knowledge Base Article <b> Q240429</b></a> which advises you on 
+                how to set up your network to allow DirectPlay to work over these 
+                types of connection.</p>
+              <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><a href="#Questions">Back 
+                to index</a></p>
+
+</body>
+
+</html>

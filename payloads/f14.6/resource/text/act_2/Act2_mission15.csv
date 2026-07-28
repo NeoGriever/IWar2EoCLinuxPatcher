@@ -1,0 +1,142 @@
+; FILE: FAct2_mission15.csv,
+; Key,
+; FILE NAME,FRENCH
+;,
+;,
+,
+,
+a2_m15_email_subject,Nous avons craqué le code !
+a2_m15_character_blake,Natashia Blake
+a2_m15_wingman_one,Alice Lephayette
+a2_m15_wingman_two,Nell Lephayette
+a2_m15_wingman_three,Lance Shaylyn
+a2_m15_character_descrambler,Décrypteur
+a2_m15_waypoint_intercepted,Source du message intercepté
+a2_m13_shipname_akela,Akela
+a2_m13_shipname_akela_support_one,Akela Soutien un
+a2_m13_shipname_akela_support_two,Akela Soutien deux
+a2_m13_shipname_akela_umbilical_one,Akela Ombilical un
+a2_m13_shipname_akela_umbilical_two,Akela Ombilical deux
+a2_m15_name_red_1,Fléau rouge
+a2_m15_name_red_2,Sort rouge
+a2_m15_name_red_3,Sang rouge
+a2_m15_name_red_4,Bique rouge
+a2_m15_name_red_5,Fouet rouge
+a2_m15_name_red_6,Mort rouge
+a2_m15_name_red_7,Destin rouge
+a2_m15_name_red_8,Rouge écarlate
+a2_m15_name_red_9,Veuve rouge
+a2_m15_name_red_10,Dédain rouge
+a2_m15_name_red_11,Marteau rouge
+a2_m15_name_red_12,Poison rouge
+a2_m15_name_red_13,Calice rouge
+a2_m15_name_red_14,Peste rouge
+a2_m15_name_red_15,Ruine rouge
+a2_m15_name_red_16,Plaie rouge
+a2_m15_name_red_17,Terreur rouge
+a2_m15_name_red_18,Tourment rouge
+a2_m15_name_grey_1,Deuil gris
+a2_m15_name_grey_2,Ombre grise
+a2_m15_name_grey_3,Apparition grise
+a2_m15_name_grey_4,Empire gris
+a2_m15_name_grey_5,Fantôme gris
+a2_m15_name_grey_6,Crinières grises
+a2_m15_name_grey_7,Casseur gris
+a2_m15_name_grey_8,Couronne grise
+a2_m15_name_grey_9,Lumière grise
+a2_m15_name_grey_10,Spectre gris
+a2_m15_name_grey_11,Folie grise
+a2_m15_name_grey_12,Acolyte gris
+a2_m15_name_grey_13,Revenant gris
+a2_m15_name_grey_14,Fantasme gris
+a2_m15_name_grey_15,Ombrage gris
+a2_m15_name_blue_1,Film bleu
+a2_m15_name_blue_2,Main bleue
+a2_m15_name_blue_3,Bête bleue
+a2_m15_name_blue_4,Ruine bleue
+a2_m15_name_blue_5,Tourbillon bleu
+a2_m15_name_blue_6,Dilapidateur bleu
+a2_m15_name_blue_7,Soleil bleu
+a2_m15_name_blue_8,Décimateur bleu
+a2_m15_name_blue_9,Armageddon bleu
+a2_m15_name_blue_10,Massacre bleu
+a2_m15_name_blue_11,Bleu et noir
+a2_m15_name_blue_12,Régicide bleu
+a2_m15_name_blue_13,Lune bleue
+a2_m15_name_blue_14,Exécuteur bleu
+a2_m15_name_blue_15,Esclavage bleu
+a2_m15_name_black_1,Calice noir
+a2_m15_name_black_2,Mort noire
+a2_m15_name_black_3,Cadavre noir
+a2_m15_name_black_4,Sang noir
+a2_m15_name_black_5,Bête noire
+a2_m15_name_black_6,Passage noir
+a2_m15_name_black_7,Peste noire
+a2_m15_name_black_8,Bile noire
+a2_m15_name_black_9,Démon noir
+a2_m15_name_black_10,Velours noir
+a2_m15_name_black_11,Cyanure noir
+a2_m15_name_black_12,Noir et bleu
+a2_m15_name_black_13,Futur noir
+a2_m15_name_black_14,Fléau noir
+a2_m15_name_black_15,Nuage noir
+a2_m15_dialogue_test_one,
+a2_m15_dialogue_test_two,
+a2_m15_dialogue_blake_we_have_the_descrambler,"Bonne nouvelle, Cal. Nos équipes techniques ont déchiffré la technique de cryptage des Marauders. Nous voulons que vous preniez le décrypteur et que vous écoutiez."
+a2_m15_dialogue_smith_descrambled,Cal ! Il y a une transmission qui passe au décrypteur. Voilà ce que c'est...
+a2_m15_dialogue_smith_marked_as_waypoint,"J'ai réglé un point de passage à partir de son point d'origine intitulé 'Source du message intercepté'."
+a2_m15_dialogue_smith_too_far_away,Nous sommes trop loin pour que je puisse l'accrocher. Désolé. Il faut que tu te rapproches de la source.
+,
+,
+a2_m15_dialogue_red_to_grey_hunt_hw_td,"Ici Chien rouge, j'appelle Chien gris. Nous confirmons la chasse à FH-TD."
+a2_m15_dialogue_red_to_grey_brickwall_hw_td,Chien rouge pour Chien gris. Muraille à FH-TD prête pour l'action.
+a2_m15_dialogue_red_to_grey_pavlov_hw_td,Chien rouge pour Chien gris. Nous faisons un Pavlov à FH-TD.
+a2_m15_dialogue_red_to_grey_hunt_hw_gb,Chien rouge pour Chien gris. Prêt pour la chasse à FH-GB.
+a2_m15_dialogue_red_to_grey_brickwall_hw_gb,Ici Chien rouge pour Chien gris. Construction muraille à FH-GB.
+a2_m15_dialogue_red_to_grey_pavlov_hw_gb,Chien rouge appelle Chien gris. Pavlov à FH-TD confirmé.
+a2_m15_dialogue_red_to_grey_hunt_hw_co,"Ici Chien rouge pour Chien gris. Chasse à FH-CO, bien reçu."
+a2_m15_dialogue_red_to_grey_brickwall_hw_co,Chien rouge pour Chien gris. Muraille prête à FH-CO.
+a2_m15_dialogue_red_to_grey_pavlov_hw_co,Chien rouge pour Chien gris. Prêt pour le Pavlov à FH-CO.
+a2_m15_dialogue_red_to_grey_hunt_sr_hr,Chien rouge appelle Chien gris. Nous confirmons la chasse à SR-HR.
+a2_m15_dialogue_red_to_grey_brickwall_sr_hr,Chien rouge pour Chien gris. Nous confirmons la muraille à SR-HR.
+a2_m15_dialogue_red_to_grey_pavlov_sr_hr,Ici Chien rouge pour Chien gris. Nous faisons un Pavlov à SR-HR.
+a2_m15_dialogue_red_to_grey_hunt_ek_ke,Chien rouge pour Chien gris. Nous confirmons la chasse à EK-KE.
+a2_m15_dialogue_red_to_grey_brickwall_ek_ke,Chien rouge pour Chien gris. Muraille prête à EK-KE.
+a2_m15_dialogue_red_to_grey_pavlov,Chien rouge pour contact Chien gris. Nous sommes Pavlov à EK-KE.
+a2_m15_dialogue_red_to_grey_hunt_ff_nj,Chien rouge pour Chien gris. Nous sommes prêt pour la chasse à FF-NJ.
+a2_m15_dialogue_red_to_grey_brickwall_ff_nj,Chien rouge appelle Chien gris. Muraille dressée à FF-NJ.
+a2_m15_dialogue_red_to_grey_pavlov_ff_nj,Chien rouge à Chien gris. Bon pour le Pavlov à FF-NJ.
+a2_m15_dialogue_red_to_grey_hunt_ff_al,Chien rouge à Chien gris. Commençons la chasse à FF-AL.
+a2_m15_dialogue_red_to_grey_brickwall_ff_al,Chien rouge à Chien gris. Commençons la muraille à FF-AL.
+a2_m15_dialogue_red_to_grey_pavlov_ff_al,Chien rouge à Chien gris. Nous faisons un Pavlov à FF-AL.
+a2_m15_dialogue_red_to_grey_hunt_co_sh,Ici Chien rouge pour Chien gris. Nous confirmons la chasse à CO-SH.
+a2_m15_dialogue_red_to_grey_brickwall_co_sh,Chien rouge qui appelle Chien gris. Nous confirmons la muraille à CO-SH.
+a2_m15_dialogue_red_to_grey_pavlov_co_sh,Ici Chien rouge qui appelle Chien gris. Nous sommes prêts pour le Pavlov à CO-SH.
+a2_m15_dialogue_red_to_grey_hunt_co_ck,Chien rouge à Chien gris. Nous confirmons la chasse à CO-CK.
+a2_m15_dialogue_red_to_grey_brickwall_co_ck,Ici Chien rouge pour Chien gris. Construction muraille à CO-CK.
+a2_m15_dialogue_red_to_grey_pavlov_co_ck,Chien rouge à Chien gris. Nous faisons un Pavlov à CO-CK.
+a2_m15_dialogue_grey_to_blue_hw_td,Ici Chien gris pour Chien bleu. Rendez-vous à FH-TD.
+a2_m15_dialogue_grey_to_blue_hw_gb,Chien gris appelle Chien bleu. Retrouvez-nous à FH-TD.
+a2_m15_dialogue_grey_to_blue_hw_co,Ici Chien gris pour Chien bleu. Retrouvez-nous à FH-CO..
+a2_m15_dialogue_grey_to_blue_sr_hr,Ici Chien gris pour Chien bleu. Rendez-vous à SR-HR.
+a2_m15_dialogue_grey_to_blue_ek_ke,Ici Chien gris pour Chien bleu. Rejoignez-nous à EK-KA.
+a2_m15_dialogue_grey_to_blue_ff_nj,Chien gris pour Chien bleu. Contact à FF-NJ.
+a2_m15_dialogue_grey_to_blue_ff_al,Chien gris pour Chien bleu. Rendez-vous à FF-AL.
+a2_m15_dialogue_grey_to_blue_co_sh,Ici Chien gris pour Chien bleu. Rendez-vous à CO-SH.
+a2_m15_dialogue_grey_to_blue_co_ck,Chien bleu appelle Chien bleu. Rejoignez-nous à CO-CK.
+a2_m15_dialogue_blue_to_black_1,Ici Chien bleu pour Chien noir. Nous revenons pour un ravitaillement.
+a2_m15_dialogue_blue_to_black_2,Chien bleu appelle Chien noir. Prêt à rentrer à la maison.
+a2_m15_dialogue_blue_to_black_3,Chien bleu pour Chien noir. Nous serons bientôt là pour recharger.
+a2_m15_dialogue_blue_to_black_4,Ici Chien bleu pour Chien noir. Nous arrivons à la maison.
+a2_m15_dialogue_known_grey_to_red_1,"Chien gris pour Chien rouge. Surveillez vos arrières, Chien rouge. Le Véto a encore frappé."
+a2_m15_dialogue_known_grey_to_red_2,Chien gris pour tous les Chiens rouges. Faites gaffe. Il y a quelqu'un dans le coin.
+a2_m15_dialogue_known_grey_to_black_1,Ici Chien gris pour Chien noir. Le Véto a encore castré un jeune Chien rouge.
+a2_m15_dialogue_known_grey_to_black_2,Ici Chien gris qui appelle Chien noir. Nous allons avoir besoin de logistique pour nous occuper du Véto.
+a2_m15_dialogue_clay_there_she_is,"C'est bon, Cal ! On a réussi."
+a2_m15_dialogue_clay_dont_play_hero,"Ne joue pas les héros, Cal. On ne peut pas s'occuper de tous."
+a2_m15_shipname_akela,Akela
+a2_m15_shipname_akela_support_one,Akela Soutien un
+a2_m15_shipname_akela_support_two,Akela Soutien deux
+a2_m15_shipname_akela_umbilical_one,Akela Ombilical un
+a2_m15_shipname_akela_umbilical_two,Akela Ombilical deux
+

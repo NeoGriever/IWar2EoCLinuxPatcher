@@ -1,0 +1,43 @@
+; FILE: Fact1_mission05.csv,
+; Key,
+; FILE NAME,FRENCH
+a1_m05_ship_miner_1,Oregon
+a1_m05_ship_miner_2,Yoric
+a1_m05_ship_miner_3,Tinkerbell
+a1_m05_ship_marauder_freighter,Transcarg X45-3
+a1_m05_ship_asteroid,Mine astéroïde N° 874394
+a1_m05_ship_marauder_1,Pointe
+a1_m05_ship_marauder_2,Echarde
+a1_m05_ship_marauder_3,Epine
+a1_m05_ship_marauder_4,Barberousse
+a1_m05_ship_marauder_5,Barbe-Noire
+a1_m05_ship_marauder_6,John Silver
+;,
+a1_m05_ship_cargo_pod,Conteneur de cargaison
+a1_m05_waypoint_meeting,Point de rendez-vous
+a1_m05_waypoint_cache,Emplacement balise
+;,
+a1_m05_dialogue_miner_who_goes_there,Qui est là ? Qu'est-ce que vous voulez ?
+;,
+a1_m05_dialogue_player_its_cal_what_did_you_want,"C'est Cal Johnston. Vous m'avez appelé, non ?"
+a1_m05_dialogue_miner_i_have_some_marauder_info,"Cal Johnston. L'homme qui s'attaque aux Marauders. Eh ben, je connais quelque chose qu'ils n'aimeraient pas que vous sachiez. Mais je risque gros, alors ça va vous coûter cher."
+a1_m05_dialogue_miner_oh_no_its_the_marauders,Attendez ! Vous êtes venus à plusieurs vaisseaux ? Je détecte... Des Marauders ! Des Marauders arrivent ! Ils ont du me traquer ! A l'aide !
+a1_m05_dialogue_miner_help_the_marauders_are_here,Mayday ! Des Marauders m'attaquent ! S'il vous plaît ! Ils...
+a1_m05_dialogue_miner_arrrghhh,Aarrhh !
+a1_m05_dialogue_clay_we_cant_help_him_now,"Eh bien, on ne peut plus rien pour lui, fiston. Je me demande ce qu'il voulait..."
+a1_m05_dialogue_clay_darn_the_marauders_got_him,Merde ! Les Marauders l'ont eu !
+a1_m05_dialogue_clay_we_messed_up_there,"On n'a pas assuré sur ce coup, fiston..."
+a1_m05_dialogue_miner_thanks,"Oh mon Dieu. Merci Monsieur Johnston. Pour la peine, je vais vous dire gratuitement ce que je sais à propos des Marauders."
+a1_m05_dialogue_miner_i_found_a_marauder_supply_cache,"J'explorais une nouvelle mine quand j'ai trouvé un tas de conteneurs flottant dans la ceinture d'astéroïdes. Une bande de Marauders m'a pourchassé, mais j'ai réussi à implanter une balise minière avant de partir. Comme ça je pouvais revenir plus tard, quand je me sentirais plus... en confiance. Mais j'ai pas envie de retomber sur les Marauders. J'allais vous vendre l'emplacement du magot mais, allez, je vous le donne. Vous n'avez plus beaucoup de temps pour trouver cette cache, car la balise va bientôt être à plat. J'aurais dû agir plus vite, hein ?"
+a1_m05_dialogue_miner_ive_transmitted_you_the_waypoint,Je vous transmets le code de la balise. Faites attention aux Marauders !
+a1_m05_dialogue_clay_well_we_avenged_him_for_what_its_worth,"Eh bien, on l'aura vengé... Maigre consolation."
+a1_m05_dialogue_clay_hey_kid_check_your_sensors,"C'est bizarre... Eh, fiston, regarde tes contacts. Je reçois une balise minière. Le signal est faible, mais bien présent. La signature est la même que celle de notre ami le mineur."
+a1_m05_dialogue_clay_there_it_is,Voilà. On dirait une cache logistique... et un cargo en plein chargement. Ils essaient d'emporter la cargaison !
+a1_m05_dialogue_clay_that_took_care_of_the_marauders,"Bon, voilà qui règle le cas des Marauders. Jetons un oeil pour voir si on peut trouver ce qui intéressait le mineur."
+a1_m05_dialogue_clay_the_freighters_running_for_it,"Cal, le transporteur va s'en aller !"
+a1_m05_dialogue_clay_the_freighters_escaped,Saloperie ! Le cargo a filé !
+a1_m05_dialogue_clay_darn_the_beacons_gone,Aaah...! La balise n'émet plus. On ne la retrouvera jamais dans ce tas de cailloux...
+
+
+a1_m05_dialogue_clay_uhoh_marauders_ahead,"Réveil, les mecs ! Marauders en approche, et ils ne sont pas venus danser le tango !"
+

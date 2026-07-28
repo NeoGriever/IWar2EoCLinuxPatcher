@@ -1,0 +1,50 @@
+; FILE: Dicapturetheflag#3.csv,
+; Key,
+; FILE NAME,GERMAN TRANSLATION
+;,
+mp_flag_team_a,ALPHA
+mp_flag_team_b,BETA
+mp_flag_a_flag_name,ALPHA-FLAGGE
+mp_flag_b_flag_name,BETA-FLAGGE
+mp_flag_a_flag_gate_name,Flaggentor ALPHA
+mp_flag_b_flag_gate_name,Flaggentor BETA
+mp_flag_a_gunstar_name,Alpha-Gunstar
+mp_flag_b_gunstar_name,Beta-Gunstar
+mp_flag_a_fighter_name,Alpha-Jäger
+mp_flag_b_fighter_name,Beta-Jäger
+mp_flag_a_ring_name,Alpha-Ring
+mp_flag_b_ring_name,Beta-Ring
+mp_flag_player_left,: Hat uns verlassen
+mp_flag_player_falling,Du fällst vom Rand der Welt
+mp_flag_player_transported,Du wurdest zurück zur Basis transportiert.
+mp_flag_player_stuffed_you,Erwischt!
+mp_flag_player_killed,%s hat %s umgelegt
+mp_flag_flag_returned,Zur Basis zurückgekehrt
+mp_flag_team_b_captured_flag,Vom ALPHA-Team erobert
+mp_flag_player_picked_up_a, hat jetzt die ALPHA-Flagge
+mp_flag_player_picked_up_b, hat jetzt die BETA-Flagge
+mp_flag_team_a_captured_flag, vom BETA-Team erobert
+mp_flag_team_a_got_b_flag, hat jetzt die BETA-Flagge
+mp_flag_team_b_got_a_flag, hat jetzt die ALPHA-Flagge
+mp_flag_joined_team_a, ist dem ALPHA-Team beigetreten
+mp_flag_joined_team_b, ist dem BETA-Team beigetreten
+mp_flag_player_won_flag_a,Ihr habt die ALPHA-Flagge gewonnen
+mp_flag_player_won_flag_b,Ihr habt die BETA-Flagge gewonnen
+mp_flag_team_a_wins,Das ALPHA-Team hat gewonnen
+mp_flag_team_b_wins,Das BETA-Team hat gewonnen
+mp_flag_team_draw,Unentschieden
+mp_flag_ammo_power_up,Munitionsstärke gesteigert um:
+mp_kill_message_1,%s hat %s eine Abreibung verpasst.
+mp_kill_message_2,%s wurde von %s haushoch geschlagen.
+mp_kill_message_3,%s wurde von %s zerstört.
+mp_kill_message_4,%s wurde von %s ordentlich versohlt.
+mp_bomb_kill_message_1,"Aua, mein Kopf!"
+mp_bomb_kill_message_2,Das war zu viel!
+mp_bomb_warning_message,Sekunden bis zur Explosion:
+mp_health_message,Steigerung der Lebensenergie (%):
+mp_speed_message_up,Steigerung der Maximalgeschwindigkeit (%):
+mp_speed_message_down,Neueinstellung Maximalgeschwindigkeit
+mp_station_name,Spondonium
+,
+mp_flag_ammo_power_up,Zusätzliche Waffe
+mp_flag_graveyard,Friedhof

@@ -1,0 +1,44 @@
+; FILE: DGUI_addendum5.csv,
+; Key,GERMAN TRANSLATION
+;,
+customise_usedcargospace,Belegter Laderaum:
+mp_pda_team_alpha,ZU ALPHA-TEAM
+mp_pda_team_beta,ZU BETA-TEAM
+mp_game_type_dm,DEATH-MATCH
+mp_game_type_ctf,CAPTURE THE FLAG
+mp_game_type_tdm,TEAM-DEATH-MATCH
+mp_game_type_bt,DIE BOMBE
+mp_loading_package,SPIEL-SKRIPT:
+mp_cd_key_invalid,Ungültiger CD-Schlüssel
+mp_cd_key_enter,CD-SCHLÜSSEL!
+mp_rejected_by_server,SERVER LEHNT AB
+options_warning,Warnung: Diese Optionen sind ausschließlich für fortgeschrittene Benutzer vorgesehen.
+options_3d_sound,3D-SOUND
+options_max_3d_sounds,3D-SOUNDKANÄLE
+options_max_2d_sounds,2D-SOUNDKANÄLE
+options_eax,EAX
+options_movie_volume,FILM-LAUTSTÄRKE
+options_mipmapping,MIP-MAPPING
+options_advanced,ERWEITERTE OPTIONEN
+options_antialiasing,ANTI-ALIASING
+options_alpha_test,ALPHA-TEST
+options_anistropic_filtering,ANISOTROP. FILTER
+options_fog,NEBEL
+options_static_vbs,STAT.-VERTEX-BUFFER
+options_wbuffer,W-BUFFERING
+options_hud,HUD-OPTIONEN
+options_network_hud,NETZWERK-HUD
+options_contact_list_size,LÄNGE DER KONTAKTLISTE
+options_mfd_detail,ZIELANZEIGE-DETAIL
+options_hide_orb,ORB-RADAR AN/AUS
+options_hide_shields,SCHILD-STATUS AN/AUS
+options_hide_contactlist,KONTAKTLISTE AN/AUS
+options_hide_clock,UHR AN/AUS
+options_hide_weapons,WAFFEN-STATUS AN/AUS
+options_hide_mfd,ZIEL-ANZEIGE AN/AUS
+options_hide_system_lights,SYSTEM-STATUS AN/AUS
+options_hide_messages,E-MAILS AN/AUS
+options_hide_grid,BEWEG.LINIEN AN/AUS
+options_hide_contrails,SCHIFFSSPUREN AN/AUS
+options_hide_brackets,ZIELKLAMMERN AN/AUS
+addcargo_removecargo,FRACHT ENTFERNEN

@@ -1,0 +1,39 @@
+; FILE: Dact1_wingmen_training.csv,
+; Key,GERMAN TRANSLATION
+a1_training_waypoint_training_point,Wingmen-Übungsgelände
+a1_training_name_dock,Andockplattform
+a1_training_name_mine,Mine
+a1_training_name_mine_layer,Minenleger
+a1_training_time_remain,Verbleibende Zeit:
+a1_training_clay_try_them_out,"Also, wenn du die neuen Jäger ausprobieren willst, kannst du das an ein paar Minen außerhalb der Basis tun. Ich gebe einen Streckenpunkt für deinen Start ein."
+a1_training_clay_just_fly,"Flieg einfach zum Streckenpunkt 'Wingmen-Übungsgelände' um das Training zu starten."
+a1_training_dialogue_clay_at_course,"Da wären wir. Dies ist das Testgelände für die Kanonenjäger. Smith hat die Wingmen-Steuerung jetzt auf dein HUD übertragen, also hast du über den Kommunikationsabschnitt des 'Befehle'-Menüs Zugriff auf die Jäger... Wo sollen wir anfangen?"
+a1_training_text_cal_about,Über Kanonenjäger...
+a1_training_dialogue_cal_about,Sag mir etwas über die Fähigkeiten dieser neuen Jäger...
+a1_training_dialogue_clay_about_tfighters,"Also gut. Diese neuen Kanonenjäger sind auf dem neuesten Stand der Technik... Du kannst sie auf zwei Arten einsetzen. Wenn sie angedockt sind, fungieren sie wie selbständig drehbare Türme, die Feinde vor und hinter dir ausschalten können. Ansonsten sind es Wingmen. Du kannst die Jäger vom Schiff lösen und ihnen dann Ziele geben, die sie angreifen oder verteidigen oder an denen sie andocken können. Während du den Kurs fliegst, übermittele ich dir Tipps und weise auf nützliche Steuerungsbefehle auf deinem HUD hin."
+
+a1_training_text_cal_fastest,Bestzeit...
+a1_training_dialogue_cal_fastest,Sag mir die Bestzeit...
+a1_training_dialogue_clay_the_fastest,Die Bestzeit für diesen Kurs liegt bei:
+
+a1_training_text_cal_start,Kurs beginnen...
+a1_training_dialogue_cal_start,Lass mich den Kurs gleich fliegen...
+,
+a1_training_dialogue_clay_ok,"Gut, fangen wir an. Aber sei vorsichtig, diese Minen sind aktiv und zertrümmern deine Rumpfplatten, wenn du nicht aufpasst. Wenn ich das Signal gebe, aktiviere ich die Minen und du hast 90 Sekunden, um sie alle zu zerstören und die Kanonenjäger an die Andockplattform zu führen. Möchtest du die Übung beenden, bevor alle Minen zerstört sind, dann dock die Jäger an der Plattform an."
+a1_training_dialogue_clay_ok2,"Gut, fangen wir an. Aber sei vorsichtig, diese Minen sind aktiv und zertrümmern deine Rumpfplatten, wenn du nicht aufpasst. Wenn ich das Signal gebe, aktiviere ich die Minen, und du hast 120 Sekunden, um sie alle zu zerstören und die Kanonenjäger an die Andockplattform zu führen. Möchtest du die Übung beenden, bevor alle Minen zerstört sind, dann dock die Jäger an die Plattform an."
+,
+a1_training_dialogue_clay_alt_ok,"Gut, fangen wir an. Aber sei vorsichtig, diese Minen tun dir zwar nicht weh, wenn du ihnen zu nahe kommst, aber sie können dein Schiff für kurze Zeit außer Gefecht setzen. Wenn ich das Signal gebe, aktiviere ich die Minen und du hast 90 Sekunden, um sie alle zu zerstören und die Kanonenjäger an die Andockplattform zu führen. Möchtest du die Übung beenden, bevor alle Minen zerstört sind, dann dock die Jäger an die Plattform an."
+a1_training_dialogue_clay_alt_ok2,"Gut, fangen wir an. Aber sei vorsichtig, diese Minen tun dir zwar nicht weh, wenn du dich ihnen näherst, aber sie können dein Schiff für kurze Zeit außer Gefecht setzen. Wenn ich das Signal gebe, aktiviere ich die Minen und du hast 120 Sekunden, um sie alle zu zerstören und die Kanonenjäger an die Andockplattform zu führen. Möchtest du die Übung beenden, bevor alle Minen zerstört sind, dann dock die Jäger an die Plattform an."
+
+a1_training_text_cal_nothing,Nichts...
+a1_training_dialogue_cal_nothing,"Ich glaube, das langt..."
+,
+a1_training_dialogue_clay_go,Los!
+a1_training_dialogue_clay_lets_see,"Mal sehen, wie du abgeschnitten hast..."
+a1_training_dialogue_clay_good,"Gut - du hast alle Minen in der vorgegebenen Zeit zerstört. He, das ist ein neuer Rekord!"
+a1_training_dialogue_clay_good_bad,Gut - du hast alle Minen in der vorgegebenen Zeit zerstört. Leider konntest du deine letzte Bestzeit nicht unterbieten!
+a1_training_dialogue_clay_tough_luck,"Pech gehabt, Junge, du musst dich mehr anstrengen, um den Kurs innerhalb der vorgegebenen Zeit zu schaffen."
+a1_training_dialogue_clay_whats_wrong,Was ist los? Sind diese alten Minen zu viel für dich?
+a1_training_dialogue_clay_reseting,Ich stelle die Minen jetzt neu ein.........
+a1_training_dialogue_clay_ready,"Gut, der Kurs ist wiederhergestellt und bereit....."
+a1_training_dialogue_clay_wait,"Immer mit der Ruhe, Junge, die Minen müssen noch gelegt werden...."

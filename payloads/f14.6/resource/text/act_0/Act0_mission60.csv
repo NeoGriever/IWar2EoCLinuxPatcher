@@ -1,0 +1,24 @@
+; FILE: FAct0_mission60.csv,
+; Key,FRENCH
+a0_m60_name_lockup,Garage
+a0_m60_name_maas,Caleb Maas
+a0_m60_name_eye,Eye of the Storm
+a0_m60_name_bruiser,Bruiser
+a0_m60_dialogue_clay_ok_kid,"Voilà, fiston. J'ai inséré un point de passage pour le dépôt et les codes d'accès pour le garage de ton père. Ils apparaîtront dans ta liste de contacts lorsque tu t'approcheras du Trou de Hoffer. Bonne chance. Hé, fiston ! Sois prudent, tu seras seul."
+a0_m60_dialogue_young_cal_right_ill,"Bien, je vais commencer à décharger le drone."
+a0_m60_dialogue_caleb_i_think,Je crois que vous verrez que le contenu de cette caisse m'appartient.
+a0_m60_dialogue_young_cal_you_killed,"Vous avez tué mon père, salaud !"
+a0_m60_dialogue_caleb_ah_the,Ah... Le même ton charmant que Johnston père. Un arbre pourri ne peut donner que des pommes pourries...
+a0_m60_dialogue_caleb_c1_any,Un message pour la postérité ?
+a0_m60_text_c1_option1_who,Qui êtes-vous ?
+a0_m60_dialogue_player_c1_option1_who,Qui êtes-vous ?
+a0_m60_dialogue_caleb_c1_response1_im_caleb,"Je suis Caleb Maas. Un... comment dire... associé de longue date de votre père, et le prochain dirigeant de la Maas Corporation."
+a0_m60_text_c1_option2_why,Pourquoi avez-vous tué mon père ?
+a0_m60_dialogue_player_c1_option2_why,Pourquoi avez-vous tué mon père ?
+a0_m60_dialogue_caleb_c1_respose2_ah_yes,"Ah oui... C'est bien triste. J'ai eu le malheur d'être le créditeur de ce bon à rien. Votre père avait une dette envers moi, qu'il n'a pas daigné honorer. Sa vie fut une maigre compensation comparée à mes pertes financières."
+a0_m60_text_c1_option3_kill,Je vais vous tuer
+a0_m60_dialogue_player_c1_option3_kill,Je vais vous tuer !
+a0_m60_dialogue_caleb_this_conversation,"Cette conversation devient lassante. Si vous saviez combien il m'est déplaisant de parler à des gens obligés de TRAVAILLER pour vivre. Mais je suis sûr que vous serez ravi de payer la dette de votre père en devenant travailleur sous contrat. Abattez-le, messieurs."
+a0_m60_dialogue_police_ah_what,"Alors, qu'est-ce qui se passe, ici ? Un casse-pieds ? Ce vaisseau vous ennuie, Monsieur Maas ?"
+a0_m60_dialogue_caleb_yes_i,Oui. Je réglais quelques affaires avec des amis lorsque ce voyou nous est tombé dessus.
+a0_m60_dialogue_police_i_see,"Je vois. Et bien, nous allons nous assurer qu'il n'embêtera plus personne à l'avenir. Par ici, mon gars. Tu vas venir à la station avec nous. Vous n'entendrez plus jamais parler de ce dangereux personnage, Monsieur Maas. Il sera jugé en tant qu'adulte, et ne reverra pas les étoiles avant au moins un siècle, s'il vit jusque là !"

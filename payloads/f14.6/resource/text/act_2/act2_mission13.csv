@@ -1,0 +1,250 @@
+; FILE: Dact2_mission13.csv,
+; Key,
+; FILE NAME,GERMAN TRANSLATION
+;,
+a2_m13_shipname_special_investigator,James Hewitt-Earl
+a2_m13_shipname_wingman_one,Wingman Eins
+a2_m13_shipname_wingman_two,Wingman Zwei
+a2_m13_shipname_wingman_three,Wingman Drei
+a2_m13_shipname_wingman_four,Wingman Vier
+a2_m13_shipname_kong_leader,Jet Kong
+a2_m13_shipname_kong_freighter,Chang Fi Kong
+a2_m13_shipname_kong_escort_one,Lee Chung
+a2_m13_shipname_kong_escort_two,Jing Li Quar
+a2_m13_shipname_kong_escort_three,Ming Fi
+a2_m13_shipname_kong_escort_four,Jackie Kong
+a2_m13_shipname_akela,Akela
+a2_m13_shipname_akela_support_one,Akela Support Eins
+a2_m13_shipname_akela_support_two,Akela Support Zwei
+a2_m13_shipname_akela_umbilical_one,Akela Umbilical Eins
+a2_m13_shipname_akela_umbilical_two,Akela Umbilical Zwei
+
+a2_m13_character_blake,Natashia Blake
+a2_m13_character_jet,Jet
+a2_m13_character_jing,Jing Li
+a2_m13_character_chang,Chang Fi
+a2_m13_character_james,Hewitt-Earl
+a2_m13_character_freetown,Freetown-Station
+a2_m13_email_subject,Besorgniserregende Neuigkeiten von den Kong - Dringend
+a2_m13_dialogue_base_you_have_important_mail,TO BE IGNORED
+a2_m13_dialogue_blake_glad_you_are_here,"Gut, dass du da bist, Cal. Komm rüber und dock an, und wir werden dich mit Disruptor-Raketen ausstatten."
+a2_m13_dialogue_blake_kludge,TO BE IGNORED
+a2_m13_dialogue_blake_special_officer_james_hewitt_earl,"Dies ist der politische Offizier James Hewitt-Earl, Sonderermittlung. Er begleitet uns, um die Regierung in dieser Mission zu repräsentieren. Wir haben dir außerdem vier unserer besten Wingmen unterstellt."
+a2_m13_dialogue_james_greetings,"Ich habe schon viel von Ihnen gehört, Mr. Johnston. Es ist mir eine Freude und Ehre, Sie endlich kennenzulernen."
+a2_m13_dialogue_cal_er_yeah,"Äh, ja, ebenso."
+a2_m13_dialogue_smith_no_time_to_faf,"Oh, ja, wir sind alle stolz auf unseren kleinen Ex-Knacki. Los, Cal! Wir haben keine Zeit, um Nettigkeiten mit diesem  piekfeinen Diplomaten auszutauschen."
+a2_m13_dialogue_james_head_for_alexander,"Aha, der schillernde Mr. Smith. Nun ja, Ich glaube, der verehrte Herr hat Recht. Wir sollten zum Alexander-L-Punkt eilen, und auf Ärger warten."
+a2_m13_dialogue_clay_hey_youve_never_been_esteemed_before,"He, Smith, ich wette dich hat noch nie einer so ehrerbietig behandelt."
+a2_m13_dialogue_cal_or_a_gentleman,Oder 'verehrter Herr' genannt.
+a2_m13_dialogue_smith_shut_it,"Sehr witzig. Ha, ha. Halt's Maul!."
+a2_m13_dialogue_james_what_are_you_doing,"Was machen Sie da, Mr Johnston? Ich habe gerade gehört, dass Sie durch den L-Punkt gekommen sind. Beeilung!"
+a2_m13_dialogue_smith_there_they_are,"Kampfbereit machen, Jungs und Mädels. Wir haben Besuch!"
+a2_m13_dialogue_scripter_kludge,TO BE IGNORED
+a2_m13_dialogue_jet_ok_we_will_talk,"In Ordnung! Wir sind bereit, zu verhandeln. Was wollt ihr?"
+,
+a2_m13_text_diplomacy_cal_a1,"Dass du aufhörst, dich wie ein Idiot aufzuführen"
+a2_m13_text_diplomacy_cal_a2,"Siehst du nicht, dass das falsch ist?"
+a2_m13_text_diplomacy_cal_a3,Ich möchte euch nicht weh tun
+a2_m13_text_diplomacy_cal_a1_b1,Ich wollte niemanden beleidigen
+a2_m13_text_diplomacy_cal_a1_b2,Da muss ich ja mal lachen
+a2_m13_text_diplomacy_cal_a1_b3,"Bitte, gib nach"
+a2_m13_text_diplomacy_cal_a1_b1_c1,Wer hat was getan?
+a2_m13_text_diplomacy_cal_a1_b1_c2,Niemand verdient so was
+a2_m13_text_diplomacy_cal_a1_b1_c3,Die Menschen in der Station sind unschuldig!
+a2_m13_text_diplomacy_cal_a1_b1_c3_d1,Zweimal Unrecht ergibt kein Recht
+a2_m13_text_diplomacy_cal_a1_b1_c3_d2,Ich verstehe nicht
+a2_m13_text_diplomacy_cal_a1_b1_c3_d3,Sonst töte ich dich
+a2_m13_text_diplomacy_cal_a2_b1,Vergeltung? Wofür?
+a2_m13_text_diplomacy_cal_a2_b2,Das nennst du Gerechtigkeit?
+a2_m13_text_diplomacy_cal_a2_b1_c1,Lass sie ruhig streiten.
+a2_m13_text_diplomacy_cal_a2_b1_c2,Streiten bringt uns nicht weiter
+a2_m13_text_diplomacy_cal_a2_b1_c3,Die Kong sind zu dumm zum Leben!
+a2_m13_text_diplomacy_cal_a3_b1,"Was soll das, James?"
+a2_m13_text_diplomacy_cal_a3_b2,Beruhige dich 
+a2_m13_text_diplomacy_cal_a3_b3,Da muss ein Missverständnis vorliegen
+a2_m13_text_diplomacy_cal_a3_b1_c1,"Ich glaube, da gibt es ein Missverständnis"
+a2_m13_text_diplomacy_cal_a3_b1_c2,Die Kong sind offensichtlich total verrückt
+a2_m13_text_diplomacy_cal_a3_b2_c1,Ich wollte niemanden beleidigen
+a2_m13_text_diplomacy_cal_a3_b2_c2,Du verhältst dich so
+a2_m13_text_diplomacy_cal_a3_b2_c3,"Ach, werd erwachsen, Dummkopf!"
+a2_m13_dialogue_diplomacy_cal_a1,"Wir wollen, dass du aufhörst dich wie ein Vollidiot zu benehmen."
+a2_m13_dialogue_diplomacy_cal_a2,"Mann! Siehst du nicht, dass das falsch ist? Bitte lass uns darüber reden."
+a2_m13_dialogue_diplomacy_cal_a3,"Es tut mir leid, Jet, alter Freund. Ich möchte nicht gegen dich kämpfen, aber ich kann dir das nicht durchgehen lassen."
+a2_m13_dialogue_diplomacy_cal_a1_b1,"Tut mir leid, Jet, ich wollte niemanden beleidigen. Ich bin nur ein bisschen angespannt."
+a2_m13_dialogue_diplomacy_cal_a1_b2,"Da muß ich ja mal lachen, Jet. Du bist technisch und waffenmäßig unterlegen. Ich habe mich nur aus Loyalität zurückgehalten."
+a2_m13_dialogue_diplomacy_cal_a1_b3,"Gib nach, Jet. Ich habe die besseren und größeren Waffen. Wenn wir kämpfen, wirst du verlieren."
+a2_m13_dialogue_diplomacy_cal_a1_b1_c1,"Wer hat was getan? Ich weiß nicht, wovon du sprichst."
+a2_m13_dialogue_diplomacy_cal_a1_b1_c2,Niemand verdient so ein Schicksal.
+a2_m13_dialogue_diplomacy_cal_a1_b1_c3,Die Menschen in der Station haben dich nicht angegriffen. Sie sind unschuldig.
+a2_m13_dialogue_diplomacy_cal_a1_b1_c3_d1,Zweimal Unrecht ergibt kein Recht.
+a2_m13_dialogue_diplomacy_cal_a1_b1_c3_d2,"Ich verstehe nicht. Behauptest du, die Regierung wäre für den Angriff verantwortlich?"
+a2_m13_dialogue_diplomacy_cal_a1_b1_c3_d3,"Weil ich dir, wenn du es nicht tust, deinen lächerlichen Arsch versohlen werde!"
+a2_m13_dialogue_diplomacy_cal_a2_b1,Vergeltung? Wofür?
+a2_m13_dialogue_diplomacy_cal_a2_b2,"Du nennst Tausende durch eine radioaktive Explosion niederzumetzeln 'Gerechtigkeit'? Du machst mich krank, Jet."
+,
+a2_m13_dialogue_diplomacy_cal_a2_b1_c2,"Meine Herren, bitte. Streiten bringt uns nicht weiter. Da muss irgendein Missverständnis vorliegen. Lassen sie uns an einen Ort gehen, wo wir das besprechen können."
+a2_m13_dialogue_diplomacy_cal_a2_b1_c3,"Ich hätte nicht vergessen dürfen, dass ich es mit den Kong zu tun habe. Das einzige Volk, das zu dumm ist, seine eigenen Feinde zu kennen! Na dann mal los, bekämpft uns! Wir werden dem Sternsystem einen Gefallen tun, indem wir es von eurer Unwissenheit befreien!"
+a2_m13_dialogue_diplomacy_cal_a3_b1,"Wovon reden die, Officer? Haben Sie davon gewusst?"
+a2_m13_dialogue_diplomacy_cal_a3_b2,"Beruhige dich, lass uns das mal vernünftig betrachten."
+a2_m13_dialogue_diplomacy_cal_a3_b3,"Hier muss irgendein Fehler oder Missverständnis vorliegen. Lass uns irgendwo hingehen, wo wir reden können."
+a2_m13_dialogue_diplomacy_cal_a3_b1_c1,"Ich denke, es ist klar, dass hier irgendein Missverständnis vorliegt. Vielleicht sollten wir irgendwo hingehen, wo wir darüber reden können."
+a2_m13_dialogue_diplomacy_cal_a3_b1_c2,Sind alle Kong so geisteskrank wie du?
+a2_m13_dialogue_diplomacy_cal_a3_b2_c1,"Entschuldigung. Ich wollte niemanden beleidigen, sondern bloß einen Konflikt vermeiden."
+a2_m13_dialogue_diplomacy_cal_a3_b2_c2,"Wirklich? Du verhältst dich, als wärest du es."
+a2_m13_dialogue_diplomacy_cal_a3_b2_c3,"Ach, werd erwachsen, du lächerlicher Idiot!"
+a2_m13_dialogue_diplomacy_jet_a1,"Was denkst du, wer du bist, Cal? Du kannst die Kong nicht wie ungezogene Kinder herumkommandieren!"
+a2_m13_dialogue_diplomacy_jing_a1,"Gib's ihnen, Jet!"
+a2_m13_dialogue_diplomacy_jet_a2,"Wir sind hier, um Gerechtigkeit zu schaffen. Wir fliegen im Namen der gerechten Vergeltung für unsere gefallenen Brüder und Schwestern. Daran kann ich nichts Falsches entdecken."
+a2_m13_dialogue_diplomacy_jet_a3,"Ich habe auch nicht das Bedürfnis, gegen dich zu kämpfen, Cal. Wir sind immer wie Waffenbrüder gewesen. Dass die Welt uns gegeneinander aufbringt, ist eine der größten Absurditäten dieses Krieges. Sprich also! Ich werde zuhören."
+a2_m13_dialogue_diplomacy_cal_2_a3,"Danke, Jet, du bist ein guter Mann. Ich verstehe trotzdem nicht, weshalb du deinen Zorn an der Regierung auslässt."
+a2_m13_dialogue_diplomacy_jet_2_a3,"Dein Sonderermittlerfreund hat Geheimnisse vor dir. Hat er dir nicht vom Angriff seiner Polizei auf unsere Häuser erzählt? Vom Abschlachten unschuldiger Menschen? Wir sind zurückgekommen, um sie zu rächen und unsere Rache in Blut zu schreiben."
+a2_m13_dialogue_diplomacy_jing_a3,Niemand vergießt Blut der Kong und bleibt am Leben!
+a2_m13_dialogue_diplomacy_jet_a1_b1,"Deine Manieren sind eine Schande, Cal: Dass du so zu einem alten Freund sprichst, entehrt dich. Ich werde dich nur sprechen lassen, weil ich unsere Freundschaft, die du verschmähst, respektiere."
+a2_m13_dialogue_diplomacy_jet_2_a1_b1,"Sprich also! Du hast eine einzige Chance zu erklären, weshalb ich nicht Rache üben sollte an denen, die uns das angetan haben."
+a2_m13_dialogue_diplomacy_jing_a1_b2,"Wie kannst du es wagen, so mit Jet Kong zu reden! Stirb, Verräter!"
+a2_m13_dialogue_diplomacy_jet_a1_b2,Lass sie in einem Flammenmeer untergehen!
+a2_m13_dialogue_diplomacy_jet_a1_b3,Der Gerechte wird immer über den Törichten siegen.
+a2_m13_dialogue_diplomacy_chang_a1_b3,Wir werden euch Verräter bis zum Ende unserer Tage bekämpfen.
+a2_m13_dialogue_diplomacy_jet_2_a1_b3,"Es tut mir leid, dass es so kommen musste, Cal. Aber du lässt mir keine Wahl."
+a2_m13_dialogue_diplomacy_jet_a1_b1_c1,Wir haben immer wieder unter den brutalen Angriffen der Polizeikräfte gelitten! Viele meiner Leute wurden von ihnen getötet.
+a2_m13_dialogue_diplomacy_james_a1_b1_c1,Wir haben nichts dergleichen getan.
+a2_m13_dialogue_diplomacy_jet_a1_b1_c2,"Du magst keine Menschen haben, die du liebst oder für die du Rache üben könntest. Aber ich. Und ich werde meine Rache bekommen!"
+a2_m13_dialogue_diplomacy_jing_a1_b1_c2,Ich werde den Tod meines Bruders rächen!
+a2_m13_dialogue_diplomacy_james_a1_b1_c2,"Wir haben Ihren Bruder nicht getötet, Jing Li Quar."
+a2_m13_dialogue_diplomacy_jing_2_a1_b1_c2,Lügner! Eure Schiffe haben uns angegriffen! Und dein Volk wird dafür bezahlen!
+a2_m13_dialogue_diplomacy_jet_a1_b1_c3,War mein Volk denn weniger unschuldig? Hat sie das aufgehalten?
+a2_m13_dialogue_diplomacy_jing_a1_b1_c3,Nein!
+a2_m13_dialogue_diplomacy_jet_2_a1_b1_c3,"Genau. Also, warum sollte ich die Unschuld ihres Volkes noch respektieren?"
+a2_m13_dialogue_diplomacy_jet_a1_b1_c3_d1,Du beleidigst mich mit deinem belanglosen Geschwätz! Ich werde keine Unverschämtheiten mehr hinnehmen.
+a2_m13_dialogue_diplomacy_jet_a1_b1_c3_d2,"Nein. Aber die Schiffe, die uns angegriffen haben, waren Polizeischiffe."
+a2_m13_dialogue_diplomacy_james_a1_b1_c3_d2,Niemals! Unsere Männer haben Sie nie angerührt!
+a2_m13_dialogue_diplomacy_chang_a1_b1_c3_d3,"Wie können Sie es wagen, so zu sprechen!"
+a2_m13_dialogue_diplomacy_jing_a1_b1_c3_d3,"Dein abgewrackter Nichtsnutz von einem Vater hat dir wohl keinen Respekt beigebracht! Was er nicht schaffte, werde ICH dir beibringen."
+a2_m13_dialogue_diplomacy_jet_a2_b1,"Für die Abschlachtung meines Volkes durch die Lakeien der Regierungspolizei! Beleidige uns nicht, indem du so tust als ob du von nichts wüsstest, Hewitt-Earl!"
+a2_m13_dialogue_diplomacy_james_a2_b1,"Sie irren, Mr. Kong. Wir haben keinen Befehl erteilt, Sie anzugreifen."
+a2_m13_dialogue_diplomacy_jing_a2_b1,Er lügt! Er spricht mit der verlogenen Zunge eines Bürokraten!
+a2_m13_dialogue_diplomacy_james_2_a2_b1,"Wie können Sie es wagen, so mit mir zu sprechen!"
+a2_m13_dialogue_diplomacy_jet_a2_b2,"Deine Unfähigkeit, auch nur das geringste Verständnis für Ehre aufzubringen, erstaunt mich, Cal. Falls du nicht hier sterben willst, verlasse diesen Ort sofort."
+a2_m13_dialogue_diplomacy_james_a2_b1_c1,Für diese Beleidigung werden Sie zahlen.
+a2_m13_dialogue_diplomacy_chang_a2_b1_c1,"Das will ich sehen, du dicker Sesselfurzer!"
+a2_m13_dialogue_diplomacy_jing_a2_b1_c1,"Verbrenne in der Hölle, du meuchelnder Bastard!"
+a2_m13_dialogue_diplomacy_jing_a2_b1_c2,"Missverständnis? Ich habe nichts missverstanden, als das Blut meines Bruders von ihren Mördertrupps direkt auf meine Füße vergossen wurde!"
+a2_m13_dialogue_diplomacy_jet_a2_b1_c2,"Jing Li! Beruhige dich. Vielleicht hat er Recht. Wir sollten es zumindest prüfen. Also gut, Cal, folge uns nach Freetown und wir diskutieren dort, auf meinem Grund und Boden."
+a2_m13_dialogue_diplomacy_james_a2_b1_c2,"Das würde den Kong im Kampf die Oberhand einbringen. Aber ich werde es riskieren, um eine Einigung aushandeln zu können. Auf geht's."
+a2_m13_dialogue_diplomacy_james_a3_b1,"Sie glauben ihnen? Wie können Sie nur?! An so etwas auch nur zu denken, ist unerträglich!"
+a2_m13_dialogue_diplomacy_jing_a3_b1,"Ich hoffe, du bist bereit vor deinen Schöpfer zu treten, Hewitt-Earl-der-Mörder."
+a2_m13_dialogue_diplomacy_jet_a3_b1,"Jing Li! Schweig. Bestreitest du, dass es deine Schiffe waren, die uns den Tod gebracht haben, Hewitt-Earl?"
+a2_m13_dialogue_diplomacy_james_2_a3_b1,Natürlich bestreite ich das! Das waren wir nicht.
+a2_m13_dialogue_diplomacy_jet_a3_b2,"Wir sind keine Kinder, die du herblassend behandeln kannst."
+a2_m13_dialogue_diplomacy_jet_a3_b3,"Also gut, ich werde deinen Kompromiss akzeptieren. Lass uns nach Freetown gehen, und wir können die Sache dann näher besprechen, sobald wir dort sind."
+a2_m13_dialogue_diplomacy_james_a3_b3,"Das hört sich nach einem großartigen Vorschlag an. Auch wenn es den Kong im Kampf die Oberhand geben würde, ist es ein Risiko, das ich auf mich nehme, um eine Einigung auszuhandeln."
+a2_m13_dialogue_diplomacy_jing_a3_b1_c2,STIRB!
+a2_m13_dialogue_diplomacy_jet_a3_b2_c1,"Weil ich merke, dass deine Worte gut gemeint waren, werde ich mit Rücksicht auf die angespannte Lage deine Entschuldigung annehmen."
+a2_m13_dialogue_diplomacy_cal_2_a3_b2_c1,Warum besprechen wir das nicht an einem anderen Ort weiter?
+a2_m13_dialogue_diplomacy_jet_2_a3_b2_c1,"Abgemacht. Wir werden nach Freetown fliegen, um alles näher zu besprechen."
+a2_m13_dialogue_diplomacy_jet_a3_b2_c2,"Für einen, der zu beschränkt war, um dem Gefängnis fernzubleiben, bist du ein bisschen vorlaut, meinst du nicht?"
+a2_m13_dialogue_diplomacy_jet_a3_b2_c3,Lächerlich?!
+a2_m13_dialogue_diplomacy_jet_formate_with_me,"Schließt euch meiner Formation an, und ich werde euch nach Freetown führen."
+a2_m13_dialogue_jet_hurry_up,"Los jetzt, Cal, beeil dich und schließ dich mir an."
+a2_m13_dialogue_jet_hurry_up_2,Cal? Kommst du oder nicht? Flieg in meiner Formation!
+a2_m13_dialogue_chang_strange_ldsi_is_too_strong,Das ist merkwürdig. Keines unserer LDS-Blockier-Felder ist so stark.
+a2_m13_dialogue_freetown_distress_signal,"An alle Schiffe, hier spricht Freetown. Wir werden angegriffen! Wiederhole! Wir werden angegriffen!"
+a2_m13_dialogue_jet_on_our_way,Hier spricht Jet Kong. Wir sind auf dem Weg. Gegen wen kämpft ihr?
+a2_m13_dialogue_freetown_they_are_police,Schon wieder diese verdammten Polizeischiffe!
+a2_m13_dialogue_james_but,Aber...
+a2_m13_dialogue_jing_told_you_so,"Arghhh! Habe ich dir nicht gesagt, dass sie lügen?"
+a2_m13_dialogue_jet_this_was_a_low_deception,"Cal, du bist wirklich tief gesunken, uns so zu täuschen."
+a2_m13_dialogue_james_we_wouldnt_do_this,"Das können nicht unsere Schiffe sein, wir würden doch nie . . .wir KÖNNTEN nie. . . .Wir. . . "
+a2_m13_dialogue_jet_i_dont_want_to_hear_it,"Halt's Maul! Keine unverschämten Lügen mehr aus deinem Bürokratenmund!"
+a2_m13_dialogue_jet_call_to_arms,Wachen! Kommt mit mir!
+a2_m13_dialogue_james_i_dont_understand,Ich verstehe nicht. Wir würden so etwas nicht tun. Ich... 
+a2_m13_dialogue_cal_you_have_some_explaining_to_do,Hewitt-Earl. Sie werden einiges erklären müssen.
+a2_m13_dialogue_james_bring_us_closer,Aber ich... Warten Sie! Bringen Sie uns näher an diese Schiffe ran.
+a2_m13_dialogue_james_those_arent_ours,Hab ich's mir doch gedacht! Das sind keine Polizeischiffe! Nicht mal im Traum könnten wir uns so eine Ausrüstung leisten.
+a2_m13_dialogue_smith_theres_something_big_out_there,"Hey, Cal, ich unterbreche deine so ach-so-erfolgreichen Verhandlungen nur ungern, aber ich habe ein Schiff entdeckt, das sich bisher aus dem Kampf raushält. Ich kann es aus dieser Entfernung nicht genau erkennen, aber es ist riesig."
+a2_m13_dialogue_smith_its_a_marauder_support_ship,"Auf jeden Fall irgendein Marauderschiff. Sieht aus, wie ein Basisschiff."
+a2_m13_dialogue_james_i_can_see_clearly_now,Natürlich! Es muss das Basisschiff für diesen Angriff sein! Es erzeugt das LDS-Blockier-Feld. Die 'Polizisten' sind in Wirklichkeit getarnte Marauder.
+a2_m13_dialogue_cal_maybe_if_we_attack_the_akela,"Vielleicht können wir sie vertreiben, indem wir dieses Schiff angreifen."
+a2_m13_dialogue_cal_hailing_jet,Jet!
+a2_m13_dialogue_jet_stop_bothering_me,Stör mich nicht! Ich muss Freunde retten!
+a2_m13_dialogue_cal_but_i_know_whats_happening,"Aber, Jet, ich glaube, ich weiss, was da vor sich geht."
+a2_m13_dialogue_jet_make_it_good_cal,Du hast zehn Sekunden. Sei überzeugend.
+,
+a2_m13_text_diplomacy_two_cal_a1,Da ist ein riesiges Marauderschiff
+a2_m13_text_diplomacy_two_cal_a2,"Das sind Marauder, du Schwachkopf"
+a2_m13_text_diplomacy_two_cal_a3,Das sind keine Polizeischiffe
+a2_m13_text_diplomacy_two_cal_a1_b1,Denk mal drüber nach
+a2_m13_text_diplomacy_two_cal_a1_b2,Schweigen
+a2_m13_text_diplomacy_two_cal_a1_b3,"Wenn sie es getan hätten, hätten wir niemals gesiegt / Wir hätten es nie so weit geschafft, wenn sie es gewesen wären"
+a2_m13_text_diplomacy_two_cal_a1_b3_c1,Um die Allianz zu spalten
+a2_m13_text_diplomacy_two_cal_a1_b3_c2,"Weil du zu blöd bist, es zu merken"
+a2_m13_text_diplomacy_two_cal_a1_b3_c3,Ich habe keine Ahnung
+a2_m13_text_diplomacy_two_cal_a3_b1,Sieh dir das riesige Schiff an
+a2_m13_text_diplomacy_two_cal_a3_b2,Die Polizei besitzt so was nicht
+a2_m13_text_diplomacy_two_cal_a3_b2_c1,"Hör auf ihn, Jet"
+a2_m13_text_diplomacy_two_cal_a3_b2_c2,Sieh dir das riesige Schiff an
+a2_m13_text_diplomacy_two_cal_a3_b2_c3,Was jeder mit ein wenig Cleverness bemerkt hätte
+
+a2_m13_dialogue_diplomacy_two_cal_a1,"Da ist ein riesiges Marauderschiff, das sich aus dem Kampf raushält."
+a2_m13_dialogue_diplomacy_two_cal_a2,"Die Schiffe, die du bekämpfst, sind Marauder, du schwachsinniger Idiot."
+a2_m13_dialogue_diplomacy_two_cal_a3,Das sind keine Polizeischiffe - das ist ein Maraudertrick.
+a2_m13_dialogue_diplomacy_two_cal_a1_b1,"Denk mal nach, Jet, es ergibt einen Sinn."
+a2_m13_dialogue_diplomacy_two_cal_a1_b2,. . . 
+a2_m13_dialogue_diplomacy_two_cal_a1_b3,"Wäre es ihnen gelungen, ... / Wenn sie wären, hätten wir es nie bis hierhin geschafft."
+a2_m13_dialogue_diplomacy_two_cal_a1_b3_c1,Um die Allianz zu spalten und uns gegeneinander kämpfen zu lassen.
+a2_m13_dialogue_diplomacy_two_cal_a1_b3_c2,"Weil die Kong zu blöd sind, so einen billigen Trick zu durchschauen."
+a2_m13_dialogue_diplomacy_two_cal_a1_b3_c3,"Ich hab keinen blassen Schimmer, aber offensichtlich haben sie es getan."
+a2_m13_dialogue_diplomacy_two_cal_a3_b1,"Schau mal, da drüben. Dieses riesige Marauderschiff."
+a2_m13_dialogue_diplomacy_two_cal_a3_b2,Die Polizei besitzt so was nicht.
+a2_m13_dialogue_diplomacy_two_cal_a3_b2_c1,"Hör ihm zu, Jet. Was er sagt, macht Sinn."
+a2_m13_dialogue_diplomacy_two_cal_a3_b2_c2,"Wenn du dort hinüber schaust, wirst du ein riesiges Basisschiff der Marauder sehen, das sich aus dem Kampf raushält."
+a2_m13_dialogue_diplomacy_two_cal_a3_b2_c3,"Was du gemerkt hättest, wenn die Kong nicht so ein Haufen voreiliger Idioten wären."
+a2_m13_dialogue_diplomacy_two_jet_a1,Da sind also Marauder? Und...?
+a2_m13_dialogue_diplomacy_two_james_a1,Und wir haben keine Schiffe wie diese da.
+a2_m13_dialogue_diplomacy_two_jing_a1,"Hör nicht auf ihre Lügen, Jet. Bitte."
+a2_m13_dialogue_diplomacy_two_jet_a2,"Wenn ich mit diesen Regierungsschiffen fertig bin, nehme ich mir euch vor."
+a2_m13_dialogue_diplomacy_two_jing_a3,"Hör nicht auf ihn, Jet, er versucht nur uns abzulenken."
+a2_m13_dialogue_diplomacy_two_jet_a3,"Sprich weiter, Cal."
+a2_m13_dialogue_diplomacy_two_jet_a1_b1,Es macht aber Sinn. Wenn sie uns gegen euch aufbringen könnten...
+a2_m13_dialogue_diplomacy_two_cal_2_a1_b1,"Könnten sie ihre Feinde zwingen, gegeneinander zu kämpfen!"
+a2_m13_dialogue_diplomacy_two_jet_2_a1_b1,Und sich selbst damit den Weg zum Sieg freimachen. Spalten und Erobern.
+a2_m13_dialogue_diplomacy_two_james_a1_b1,Genau.
+a2_m13_dialogue_diplomacy_two_jet_3_a1_b1,"Krieger der Kong! Greift das Marauderschiff an. Cal, lass uns noch einmal Seite an Seite kämpfen."
+a2_m13_dialogue_diplomacy_two_jet_a1_b2,"Du hast recht, Jing Li."
+a2_m13_dialogue_diplomacy_two_jet_2_a1_b2,"Ich bin enttäuscht von dir, Cal. Deine Seele an solche wie die zu verkaufen!"
+a2_m13_dialogue_diplomacy_two_jet_a1_b3,"Möglich. Ich war ja schon oft mit der Polizei konfrontiert, aber noch nie so."
+a2_m13_dialogue_diplomacy_two_cal_2_a1_b3,Genau meine Rede.
+a2_m13_dialogue_diplomacy_two_jet_2_a1_b3,Aber warum würden die sich so viel Mühe geben?
+a2_m13_dialogue_diplomacy_two_jet_a1_b3_c1,"Ich schäme mich, Cal. Ich fürchte, ich muss mich bei euch allen entschuldigen."
+a2_m13_dialogue_diplomacy_two_james_a1_b3_c1,"Darum können wir uns später kümmern. Schließen wir uns erst einmal zusammen, um unseren gemeinsamen Feind zu bekämpfen."
+a2_m13_dialogue_diplomacy_two_jet_2_a1_b3_c1,Krieger der Kong! Folgt mir!
+a2_m13_dialogue_diplomacy_two_jet_a1_b3_c2,Für deine Beleidigungen wirst du bezahlen!
+a2_m13_dialogue_diplomacy_two_jet_a1_b3_c3,"Ja, da liegst du richtig."
+a2_m13_dialogue_diplomacy_two_chang_a1_b3_c3,"Die haben wahrscheinlich probiert, uns gegeneinander kämpfen zu lassen."
+a2_m13_dialogue_diplomacy_two_james_a1_b3_c3,Und sie hätten es beinahe geschafft.
+a2_m13_dialogue_diplomacy_two_jet_2_a1_b3_c3,"Die haben nicht nur unsere Brüder und Schwestern abgemetzelt, sondern uns auch noch zum Narren gehalten!"
+a2_m13_dialogue_diplomacy_two_jet_a3_b1,"Mein Gott, Cal, du könntest Recht haben."
+a2_m13_dialogue_diplomacy_two_clay_a3_b1,Und das kommt nicht so oft vor.
+a2_m13_dialogue_diplomacy_two_cal_2_a3_b1,Konzentriert das Feuer auf das Basisschiff. Wir können sie vielleicht in die Flucht schlagen!
+a2_m13_dialogue_diplomacy_two_jet_2_a3_b1,Krieger der Kong! Zu Cal! Schlagt das Basisschiff in die Flucht.
+a2_m13_dialogue_diplomacy_two_jet_a3_b2,Und seit wann bist du in Regierungsgeheimnisse eingeweiht?
+a2_m13_dialogue_diplomacy_two_james_a3_b2,"Er mag es nicht sein, aber ich bin es. Und ich sage Ihnen, das sind nicht unsere Schiffe."
+a2_m13_dialogue_diplomacy_two_jet_a3_b2_c1,Es ist wahr. Ich habe es noch nie mit solchen Polizeischiffen zu tun gehabt.
+a2_m13_dialogue_diplomacy_two_james_a3_b2_c1,"Wenn Sie mal da rüber schauen, werdn Sie eigentliche Quelle dieser Grausamkeiten entdecken. Das Basisschiff der Marauder. "
+a2_m13_dialogue_diplomacy_two_jet_2_a3_b2_c1,"Ich. . . Oh, Gott. . ."
+a2_m13_dialogue_diplomacy_two_cal_2_a3_b2_c1,"Los, Jet, lass uns denen mal zeigen, woraus wir gemacht sind. Jetzt kannst du dein Volk wirklich rächen!"
+a2_m13_dialogue_diplomacy_two_jet_3_a3_b2_c1,Krieger der Kong! Mir nach! Lasst Akela in einem Feuerregen untergehen!
+a2_m13_dialogue_diplomacy_two_jet_a3_b2_c2,Mein Gott! Fast hätten wir all diese Menschen getötet. Wie konnten wir nur so dumm sein?
+a2_m13_dialogue_diplomacy_two_jet_a3_b2_c2b,Krieger der Kong! Zu mir! Konzentriert das Feuer auf die Akela! Wir schlagen sie in die Flucht.
+a2_m13_dialogue_diplomacy_two_jing_a3_b2_c3,"Voreilig? Voreilig! Du wagst es, die Kong voreilig zu nennen?"
+a2_m13_dialogue_jet_we_won,Sie fliehen! Wir haben gewonnen. Wir haben Freetown gerettet.
+a2_m13_dialogue_jet_thank_you,"Danke, Cal. Dein kühler Kopf und dein tapferes Herz haben unser Volk gerettet."
+a2_m13_dialogue_cal_it_was_nothing,"Jederzeit, Jet, kein Problem."
+a2_m13_dialogue_jet_i_owe_you,"Es war ein großes Problem. Und dafür stehe ich in deiner Schuld. Falls du irgendetwas brauchst, musst du nur fragen."
+a2_m13_dialogue_james_my_thanks_also,"Ich muss Ihnen ebenfalls meine tiefste Dankbarkeit aussprechen, Mr. Johnston. Sie haben mit größter Kompetenz und Sorgfalt gehandelt."
+a2_m13_dialogue_james_im_leaving_now,"Ich werde Sie nun verlassen. Aber ich hoffe, wir werden irgendwann wieder gemeinsam fliegen. Seite an Seite."
+a2_m13_dialogue_wingman_heading_home,"Wenn das alles wäre, Sir, werden wir uns auf den Heimweg machen. Gute Arbeit, Sir."
+a2_m13_dialogue_james_what_a_waste,"Was für eine Vergeudung. Wir waren so nah' dran. Naja. Sie haben die Station gerettet und das war am allerwichtigsten. Wir werden denen keinen zweiten Versuch geben. Auf Wiedersehen, Mr. Johnston."
+a2_m13_dialogue_wingman_dont_take_it_too_hard_sir,"Nehmen Sie es nicht zu schwer, Sir, das war ein harter Brocken. Und Sie haben ja tatsächlich die Station gerettet. Tja, es ist Zeit für uns zu verschwinden."
+a2_m13_dialogue_wingman_it_wasnt_so_bad,"Es war doch gar nicht so schlimm, Sir. Wir haben vielleicht die Kong nicht wieder auf unsere Seite bringen können, aber wir haben die Leute in Freetown gerettet und verhindert, dass die Station in die Luft gejagt wurde. Ich hoffe, wir können irgendwann mal wieder gemeinsam fliegen, Sir."
+a2_m13_dialogue_wingman_that_was_pointless,"Was für eine sinnlose Vergeudung... Es gibt Tage, da hasse ich diesen Job. Also, auf Wiedersehen, Sir."

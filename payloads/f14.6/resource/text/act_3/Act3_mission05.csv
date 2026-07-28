@@ -1,0 +1,56 @@
+; FILE: FAct3_mission05.csv,
+; Key,
+; FILE NAME,FRENCH
+a3_m05_name_scout_waypoint,Point de rendez-vous groupe de reconnaissance
+a3_m05_name_red,Baron rouge
+a3_m05_name_fire,Fire & Brimstone
+a3_m05_name_cyclone,Cyclone
+a3_m05_name_stc,Coordonnées STC naval
+a3_m05_name_transmitter,Transmetteur -
+a3_m05_dialogue_league_cal_what,Cal ? Qu'est-ce que vous faites ?! Vous ne pouvez pas rejoindre l'installation dans ce vaisseau ! Vous allez griller votre couverture !
+a3_m05_dialogue_league_c1_ah_cal,"Ah. Cal Johnston, je crois. Vous êtes là pour prendre cet IFF ?"
+a3_m05_dialogue_league_c1_your_back,"Heureux de vous revoir, Monsieur Johnston. Prêt pour cet IFF ?"
+a3_m05_text_c1_option_1_yes,Oui
+a3_m05_dialogue_player_c1_option_1_yes,Oui. Je le prends maintenant.
+a3_m05_text_c1_option_2_no,Non
+a3_m05_dialogue_player_c1_option_2_no,Non. Je suis en balade.
+a3_m05_dialogue_league_c1_response_1_ok,Bien. Amarrez-vous à moi et je l'installerai.
+a3_m05_dialogue_league_c1_response_1_ready,Prêt à partir. Dirigez-vous vers le QG naval STC Moore dans le système de l'Etoile d'Owen. Vous devez y passer pour obtenir un code de sécurité pour la zone. Bonne chance !
+a3_m05_dialogue_league_c1_response_1_alright_well,Très bien. Nous attendrons ici.
+a3_m05_dialogue_station_repair_vessel,Vaisseau de réparation B45. Annoncez vos intentions dans cette zone.
+a3_m05_dialogue_cal_were_here,Nous sommes là pour la maintenance du réseau d'émetteurs du secteur et nous avons besoin d'un code de sécurité.
+a3_m05_dialogue_station_dock,Amarrez-vous à la station pour un contrôle d'identité. Bonne journée.
+a3_m05_dialogue_station_iff_code,Code IFF accepté. Vous pouvez vous rendre à la station de transmission. Votre code est 35VB89. Rejoignez la station de transmission.
+a3_m05_dialogue_smith_hmm,"Hmmm, 35VB89. Fastoche. Je croyais qu'on allait être obligé de les éclater, ce qu'ils auraient mérité. Bonne journée, c'est sûr. On peut aller à la station de transmission navale STL sans avoir tué personne."
+a3_m05_dialogue_security_c1_this_is,Cette zone est interdite. Il vous faut une autorisation pour entrer.
+a3_m05_text_c1_option_1_35vb89,Code de sécurité 35VB89.
+a3_m05_dialogue_c1_cal_option_1_35vb89,Nous avons le code de sécurité 35VB89.
+a3_m05_dialogue_security_c1_response_1_very_well,Très bien. Vous pouvez passer.
+a3_m05_text_c1_cal_option_2_clearence,Code de sécurité GT4001.
+a3_m05_dialogue_cal_c1_option_2_clearence,"Euh, nous avons le code de sécurité GT4001a."
+a3_m05_dialogue_security_c1_response_2_invalid,Ce code sécurité n'est pas valable. Quittez cette zone ou nous ouvrons le feu !
+a3_m05_text_c1_option_3_oops,"Oups, juste de passage"
+a3_m05_dialogue_cal_c1_option_3_oops,Oups. Juste de passage. Désolé !
+a3_m05_dialogue_security_c1_response_3_leave,Veuillez quitter cette zone immédiatement !
+a3_m05_dialogue_security_we_warned,"Nous vous avons averti ! Tous les vaisseaux, à l'attaque !"
+a3_m05_dialogue_smith_those_are,Voilà les transmetteurs. Tu dois t'y amarrer pour que nous puissions accéder à leurs câbles de données.
+a3_m05_dialogue_smith_ill_explain,"Bon, voilà le topo. En reconnectant les câbles de données, j'installerai un routeur sur l'un d'eux. Mais c'est du pile ou face. Seuls les concepteurs de la station savent quel câble expédie les données. On va vite être fixé !"
+a3_m05_dialogue_smith_im_bringing,"Je remonte les câbles maintenant... Okay, grand chef. Lequel je choisis ?"
+a3_m05_dialogue_smith_im_brin,"Je remonte le... Ouah ! Ca doit être un de ces nouveaux modèles d'émetteur. Il y a quatre câbles. Alors, lequel je choisis ?"
+a3_m05_text_red,Rouge
+a3_m05_text_green,Vert
+a3_m05_text_blue,Bleu
+a3_m05_text_yellow,Jaune
+a3_m05_dialogue_smith_that_worked,"Que le grand cric me croque ! Ca a marché. Allez, en route !"
+a3_m05_dialogue_smith_damn,Perdu. Je viens d'activer le verrou de sécurité.
+a3_m05_dialogue_security_c2_whats_going,Ici la Sécurité navale ! Qu'est-ce qui se passe par ici ?!
+a3_m05_text_c2_option_1_spanner,Pince tombée
+a3_m05_dialogue_player_c2_option_1_spanner,Oups ! J'ai laissé tomber mon électro-pince dans le système !
+a3_m05_text_c2_option_1_spanner_ag,Encore une fois !
+a3_m05_dialogue_player_c2_option_1_spanner_ag,"Vous y croyez à CA ? J'ai encore laissé tomber cette pince ! Ne le dites pas à mon patron, s'il vous plaît."
+a3_m05_text_c2_option_2_rumbled,Démasqué - MEURS
+a3_m05_dialogue_player_c2_option_2_rumbled,"Arh, je suis démasqué ! Je ne suis pas un réparateur. Bon, ben maintenant, il faut que tu meures..."
+a3_m05_dialogue_security_c2_repsonse_2_ok,"D'accord, mais je ne veux plus rien entendre par ici."
+a3_m05_dialogue_security_you_wont,Vous ne partirez pas d'ici vivants !!
+a3_m05_dialogue_security_right,"Oui, c'est ça ! Vous n'êtes pas un vaisseau de réparation ! Détruisez ces saboteurs !"
+a3_m05_dialogue_smith_thats_all,C'est tout. Partons d'ici et retournons à la base... Pour voir si ça a vraiment marché.

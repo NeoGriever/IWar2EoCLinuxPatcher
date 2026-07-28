@@ -1,0 +1,123 @@
+; FILE: FAct2_mission24.csv,
+; Key,
+; FILE NAME,FRENCH
+a2_m24_dialogue_clay_well_were_in_and_they_havent_spotted_us,Bien. On a réussi à entrer dans le système Dante sans se faire exploser. Ta cascade à la noix a même marché.
+a2_m24_dialogue_cal_smith_try_to_tap_into_their_comms,"Merci de ta confiance, Clay. Smith, tu penses pouvoir capter les comms du convoi ?"
+a2_m24_dialogue_smith_gimme_a_sec_got_it,"Si je pense pouvoir ? Les voilà, leurs comms. Et si tu me proposais un vrai défi la prochaine fois ?"
+a2_m24_dialogue_freighter_to_escorts_thanks_for_the_escort_guys,"...procédures de sécurité terminées. Trans-cargo aux escorteurs. Merci pour l'escorte, les gars."
+a2_m24_dialogue_escort_no_problem_were_heading_back_to_base,Pas de problème. Nous retournons à Malthus.
+a2_m24_dialogue_megafreighter_roger_that_were_ok_to_continue_our_run_to_the_supply_depot,Bien compris. Nous reprendrons contact après notre passage à Valia.
+a2_m24_dialogue_clay_the_escorts_are_flying_off,"Parfait. Les escorteurs retournent à la base, en laissant ce gros transporteur rassuré et tout seul pour que nous puissions nous décrocher en toute tranquillité."
+a2_m24_dialogue_clay_wed_better_wait_until_theyre_gone,Mais nous ferions mieux d'attendre que ces escorteurs soient loin avant de désamarrer. Ou ce sera un très court voyage.
+a2_m24_dialogue_clay_records_say_the_other_lpoint_was_at_faust,Il faut que nous trouvions l'autre Point-L. Hmm... Je crois que les archives disaient qu'il se trouve près de Faust. Nous devrions commencer à chercher là-bas.
+a2_m24_dialogue_smith_just_undock_when_you_want_to_leave,"J'ai trafiqué ce conteneur pour qu'il s'ouvre quand tu vas te désamarrer. A toi de jouer, Cal."
+a2_m24_dialogue_clay_remember_stay_at_least_5km_from_any_ships,"Voyons ça. Nous sommes derrière les lignes ennemies sans propulseur capsulaire. Et si nous passons à moins de cinq bornes de ces truands, nous déclencherons leurs alarmes sans pouvoir nous échapper. Mais nous sommes tous avec toi. Si CA c'est pas de la confiance !"
+a2_m24_warning,ATTENTION !
+a2_m24_enemy_ship_in_range,Vaisseau ennemi en approche
+a2_m24_dialogue_cal_damn_theyve_detected_us,Chiotte ! Je me suis trop approché ! Ils nous ont détectés.
+a2_m24_dialogue_clay_jackpot_looks_like_weve_found_their_hq,Bingo ! On dirait leur quartier général !
+a2_m24_dialogue_smith_locking_a_waypoint,Je saisis un point de passage.
+a2_m24_dialogue_clay_look_their_maintaining_their_antenna,Plein de constructions en cours... Ils doivent travailler sur leur réseau d'antennes.
+a2_m24_dialogue_smith_cal_that_antenna_could_do_the_job,Hé ! Des pièces de rechange d'antenne ! Ca pourrait faire l'affaire !
+a2_m24_dialogue_clay_we_cant_get_near_the_station,Si c'est pas nous qui faisons leur affaire. On ne peut pas s'approcher de la base sans être détectés.
+a2_m24_dialogue_smith_we_need_a_maintenance_ship,On pourrait entrer et sortir comme un ver dans une pomme si on avait une de ces chaloupes de maintenance.
+a2_m24_dialogue_clay_you_got_it,C'est pas une mauvaise idée. On dirait que notre ingénieur mérite son salaire après tout.
+a2_m24_dialogue_smith_dock_it,Amarre juste l'antenne à la section de commandement et je la brancherai au transmetteur FTL.
+a2_m24_dialogue_clay_could_be_a_cargo_depot,Hmmm... Des conteneurs. On dirait un entrepôt logistique...
+a2_m24_dialogue_smith_cal_those_pods_contain_field_generators,Et pas des conteneurs standard ! Regardez ! Ils ont des générateurs de champ !
+a2_m24_dialogue_cal_and,Et alors ?
+a2_m24_dialogue_smith_we_can_use_them_to_boost_the_signal,"Si tu étais aussi malin que tu le prétends, tu aurais compris qu'on peut utiliser un générateur pour amplifier le signal FTL !"
+a2_m24_dialogue_smith_dock_to_a_pod_and_ill_get_one,Amarre-nous à un conteneur et je piquerai un générateur.
+a2_m24_dialogue_clay_hold_on_a_sec,Attends une seconde !
+a2_m24_dialogue_clay_watch_out_for_those_ships,Ces vaisseaux ont l'air d'inspecter les conteneurs. Il faut que tu coordonnes parfaitement cette petite manoeuvre si tu ne veux pas qu'ils nous inspectent aussi !
+a2_m24_dialogue_smith_ill_fetch_the_generator,"Dur, l'amarrage, Cal. Tu m'as bien secoué les boulons. Bon. J'ai un générateur de champ maintenant. Leur 'contribution' à notre cause..."
+a2_m24_dialogue_smith_got_it_im_undocking_the_pod,"Le générateur est en place. Tu peux larguer le conteneur, maintenant."
+a2_m24_dialogue_clay_looks_like_their_shipyard,On dirait que nous avons trouvé leur chantier naval...
+a2_m24_dialogue_clay_look_its_a_cruiser,"Un croiseur ! Où est-ce que ces salauds ont trouvé CA ? S'ils l'activent, tu peux dire adieu à la League."
+a2_m24_dialogue_clay_arent_those_maintenance_ships,"Hé, Smith ! Tu vois ce que je vois ? Ce ne sont pas des chaloupes de maintenance ?"
+a2_m24_dialogue_smith_yes_we_could_use_those_to_get_the_antenna,"Ouais. Un vaisseau d'aide à la cambriole, c'est vraiment beau. Grâce à ça, je pourrai 'libérer' une antenne."
+a2_m24_dialogue_smith_dock_to_one_and_ill_hotwire_it,Les chaloupes sont inactives. Je pourrai en activer une dès que nous serons amarrés.
+a2_m24_dialogue_smith_ok_im_boarding_now,"Okay, je monte à bord. Attends deux secondes."
+a2_m24_dialogue_smith_the_controls_are_locked_out,"Merde. Les commandes sont verrouillées. Désolé, Cal. Ce coucou ne volera pas."
+a2_m24_dialogue_cal_is_there_anything_you_can_do,"Fais-le voler. Tu as dit que tu voulais un défi, Smith."
+a2_m24_dialogue_smith_i_can_frig_it_so_you_can_rem_it,Vachement marrant... Heu... Attends deux secondes ! Je peux bidouiller cette chaloupe pour que tu puisses la télépiloter.
+a2_m24_dialogue_clay_we_will_have_to_tow_it,"Il faudrait quand même la remorquer jusqu'au Q.G. Ces chaloupes n'ont pas de propulseur LDS. Qu'est-ce que ça donne, Smith ?"
+a2_m24_dialogue_smith_ok_its_done,"T'énerve pas. Bon. Ca y est. Essaie-le, Cal. C'est aussi facile qu'avec les jouets que t'avais quand t'étais gosse. Un petit gosse qui a appris à flinguer les gros bosses. Hé, hé, hé..."
+a2_m24_dialogue_smith_lpoint_dead_ahead,"Je scanne... Ouais, c'est le Point-L devant nous."
+a2_m24_dialogue_smith_we_will_need_to_get_closer,Le soleil fait vachement d'interférences électromagnétiques. Il faut qu'on s'approche.
+a2_m24_dialogue_smith_we_are_close_enough,"Je parie que les Marauders ont laissé tomber ce Point-L à cause de toutes ces radiations solaires. Bon, on est assez près pour faire une lecture maintenant."
+a2_m24_dialogue_cal_smith_get_the_coordinates,Scanne les coordonnées de saut.
+a2_m24_dialogue_smith_scanning_got_em,"Je scanne... Je les ai ! Je les ai eus, ces... Hé ! Ce point mène tout droit à la Faille de Hoffer !"
+a2_m24_dialogue_clay_gentlemen_weve_got_a_back_door,"Messieurs, on dirait que nous avons trouvé la porte de service du système Marauder !"
+a2_m24_dialogue_cal_send_the_ftl,On fera la fête plus tard. Envoyons le FTL. Je crois qu'il est temps de filer.
+a2_m24_dialogue_smith_theres_too_much_em_interference,"Je transmets, je transmets... Non. Trop d'interférences électromagnétiques. Le signal ne veut pas passer."
+a2_m24_dialogue_smith_we_need_to_boost_the_signal,Il faut amplifier le signal pour qu'il parvienne au Point-L. J'ai besoin d'un système de comms plus puissant.
+a2_m24_dialogue_clay_i_dont_see_any_ftl_comms_stores_around_here,"Smith, si tu ne peux pas appeler notre vaisseau de secours avec ce système de comms, alors tu as intérêt à nous sortir un propulseur capsulaire de ton chapeau ! Pas vrai, Cal ?"
+a2_m24_dialogue_cal_maybe_we_should_ask_the_marauders_to_lend_us_something,Non. Il est temps que les Marauders fassent un don à la League.
+a2_m24_dialogue_clay_thats_not_a_bad_idea,Ce n'est pas une mauvaise idée. Fouinons un peu. On peut peut-être libérer quelque chose...
+a2_m24_dialogue_smith_ive_locked_a_waypoint_so_we_can_find_the_lpoint_again,"Ca y est ! J'ai saisi un point de passage pour ce Point-L. La prochaine fois, on n'aura pas besoin de tâtonner dans le noir pour le trouver."
+a2_m24_dialogue_cal_smith_try_sending_the_ftl,"Smith, envoie le FTL."
+a2_m24_dialogue_smith_were_not_getting_through,Grrr ! Ca ne marche TOUJOURS pas !
+a2_m24_dialogue_smith_we_need_larger_antenna_to_focus_the_signal,Il nous faut une plus grosse antenne pour focaliser le signal.
+a2_m24_dialogue_cal_smith_try_the_ftl_again,"Smith, réessaie ce FTL."
+a2_m24_dialogue_smith_the_powers_not_enough,"Non, toujours pas assez de puissance. Ca ne passera que si on peut amplifier le signal."
+a2_m24_dialogue_cal_ok_this_should_do_it,"Okay, ça devra faire l'affaire. Renvoie-le, Smith !"
+a2_m24_dialogue_smith_sending,Je l'envoie...
+a2_m24_dialogue_smith_got_it_a_ship_is_on_its_way,Je l'ai ! Signal envoyé... Et... On a une réponse ! Ils envoient un vaisseau tout de suite !
+a2_m24_dialogue_smith_the_jump_point_sensor_is_ramping_up,Détecteur de point de saut en action !
+a2_m24_dialogue_rescue_about_time_too_we_were_worried,"Content de vous voir, Johnston. Il était temps. On commençait à s'inquiéter !"
+a2_m24_dialogue_cal_well_we_had_to_go_shopping,"Eh bien, il nous a fallu collecter de charitables dons pour la cause Indie."
+a2_m24_dialogue_rescue_dock_and_lets_get_out_of_here,"Vous voulez rire, pas vrai ? Bon, amarrez-vous à moi et on filera d'ici."
+a2_m24_dialogue_cal_roger_that,Bien compris. Et merci.
+; 
+a2_m24_ship_megafreighter,Trans-Cargo XP90-467
+a2_m24_ship_escort1,Sword-Alpha
+a2_m24_ship_escort2,Sword-Beta
+a2_m24_ship_flitter_hq,HQ-Eng
+a2_m24_ship_fighter_hq_1,HQ-DF-1
+a2_m24_ship_fighter_hq_2,HQ-DF-2
+a2_m24_ship_fighter_hq_3,HQ-DF-3
+a2_m24_ship_antenna,Antenna-REP-2345
+a2_m24_ship_flitter_cargo,Cargo-Eng
+a2_m24_ship_cargo_patrol,Inspection Cargo
+a2_m24_ship_flitter_shipyard,SY-Eng
+a2_m24_ship_flitter_maintenance,SY-Maintenance
+a2_m24_ship_rescue,Jafs
+a2_m24_ship_cruiser,Inconnu
+a2_m24_ship_flitter_cruiser,CRU-Eng
+a2_m24_ship_patrol,Patrouille de sécurité
+a2_m24_email_sender_league,League
+a2_m24_email_subject_covert_dante_mission,Dante
+ship_no_1,Alpha
+ship_no_2,Beta
+ship_no_3,Gamma
+ship_no_4,Delta
+ship_no_5,Epsilon
+ship_no_6,Zeta
+ship_no_7,Eta
+ship_no_8,Theta
+ship_no_9,Iota
+ship_no_10,Kappa
+ship_no_11,Lambda
+ship_no_12,Mu
+ship_no_13,Nu
+ship_no_14,Xi
+ship_no_15,Omicron
+ship_no_16,Pi
+ship_no_17,Rho
+ship_no_18,Sigma
+ship_no_19,Tau
+ship_no_20,Upsilon
+ship_no_21,Phi
+ship_no_22,Chi
+ship_no_23,Psi
+ship_no_24,Omega
+;,
+; *** WAYPOINTS ***,
+;,
+a2_m24_waypoint_lpoint,Point Lagrange
+a2_m24_waypoint_hq,"Point de QG Marauder"
+a2_m24_waypoint_cargo,"Point de Marauder Cargo Yard"
+a2_m24_waypoint_shipyard,Point de chantier naval Marauder
+a2_m24_waypoint_antenna,Antenna Point
+
