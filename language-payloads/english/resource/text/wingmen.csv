@@ -1,0 +1,32 @@
+; FILE: DWingmen.csv,
+; Key,
+; FILE NAME,GERMAN TRANSLATION
+;,
+wingmen_id,WINGMEN
+wingmen_you,DU
+wingmen_acknowledged,BESTÄTIGT
+wingmen_status,WINGMEN-STATUS
+wingmen_not_available,KEINE WINGMEN VERFÜGBAR
+wingmen_cannot_comply_no_target,NICHT MÖGLICH - KEIN ZIEL
+wingmen_cannot_comply_friendly_target,NICHT MÖGLICH - KEIN FEINDL. ZIEL
+wingmen_cannot_comply_target_wingman,NICHT MÖGLICH - ZIEL IST WINGMAN
+wingmen_cannot_comply_enemy_target,NICHT MÖGLICH - FEINDLICHES ZIEL
+wingmen_awaiting_orders,ERWARTET BEFEHLE
+wingmen_attacking,ANGRIFF
+wingmen_defending_player,VERTEIDIGEN DICH
+wingmen_defending,VERTEIDIGUNG
+wingmen_docking_to,DOCKT AN
+wingmen_retreating,RÜCKZUG
+wingmen_approaching,ANFLUG
+wingmen_undocking,ABKOPPELN
+wingmen_tfighters,K-JÄGER
+wingmen_no_tfighters_available,KEINE K-JÄGER VERFÜGBAR
+wingmen_tfighters_detaching,LEGT AB
+wingmen_tfighters_attaching,LEGT WIEDER AN
+wingmen_tfighters_cannot_comply_no_dockport,NICHT MÖGLICH - TRÄGER NICHT FREI
+wingmen_tfighter_1,K-JÄGER - LORI
+wingmen_tfighter_2,K-JÄGER - AZ
+wingmen_tfighters_acknowledged,K-JÄGER - BESTÄTIGT
+wingmen_tfighters_firing_at_will,FEUER FREI
+wingmen_tfighters_holding_fire,FEUER EINGESTELLT
+wingmen_tfighters_not_attached,NICHT MÖGLICH - NICHT ANGELEGT

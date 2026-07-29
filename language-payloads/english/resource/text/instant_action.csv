@@ -1,0 +1,9 @@
+; FILE: Dinstant_action.csv,
+; Key,GERMAN TRANSLATION
+;,
+instant_action_text_current,Aktueller Punktestand:
+instant_action_text_new,Neuer Level:
+instant_action_text_supply,Versorgungsschiff
+instant_action_text_arrive,Versorgungsschiff im Anflug
+instant_action_text_rearm,Schiff wird bestückt:
+instant_action_text_repair,Schiff wird repariert:

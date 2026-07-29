@@ -1,0 +1,14 @@
+;,,
+; Cargo systems Addendum,,
+;,,
+Cargo_PowerUpRegularHealth,Energie-Power-Up,Energie 
+Cargo_PowerUpSuperHealth,Super-Energie-Power-Up,Super-Energie
+Cargo_PowerUpSpeedTimesTwo,Tempo-x2-Power-Up,Tempo x2
+Cargo_PowerUpSpeedTimesThree,Tempo-x3-Power-Up,Tempo x3
+Cargo_PowerUpSpeedDivTwo,Tempo-x2-Power-Down,1/2-Tempo
+Cargo_PowerUpBomb,Bomben-Power-Up,Bombe
+
+; Antimatter remote missile pack
+Cargo_AntimatterRemotePack,Antimaterie-REM-Bündel,A-M-REM-Bündel
+Cargo_LDSClass3Drive,LDS Klasse 3,LDS Klasse 3
+

@@ -1,0 +1,20 @@
+; FILE: Dact0_mission10_addendum2.csv,
+; Key,GERMAN TRANSLATION
+;,
+a0_m10_prompt_activate_hud,HUD-Menü öffnen
+a0_m10_prompt_explore_hud,"Menü-Stamm wählen, um mehr herauszufinden"
+a0_m10_prompt_activate_waypoint,Streckenpunktfilter aus HUD-Menü wählen
+a0_m10_prompt_select_waypoint,Clays Streckenpunkt aus Kontakten wählen
+a0_m10_prompt_fly_towards,Zu Clays Streckenpunkt fliegen
+a0_m10_prompt_activate_approach,"Ziel wählen und Autopilot 'Anflug' aktivieren"
+a0_m10_prompt_activate_formate,"Ziel wählen und Autopilot 'Formieren' aktivieren"
+a0_m10_prompt_activate_starmap,Sternkarte im HUD-Menü öffnen
+a0_m10_prompt_select_griffon,Planet Griffon auf Sternkarte wählen
+a0_m10_prompt_use_approach,"Mit Autopilot 'Anflug' nach Griffon fliegen"
+a0_m10_prompt_select_effrit,Effrit auf Sternkarte wählen
+a0_m10_prompt_fly_to_effrit,"Mit Autopilot 'Anflug' zum Effrit fliegen"
+a0_m10_prompt_follow_waypoints,Streckenpunkten zu Lucrecias Basis folgen
+
+a0_m10_dialogue_clay_new_cmd_menu,"Dies ist das Befehle-Menü. Von hier aus gelangst du zum Dokumentations-Menü, zum Kommunikations-Menü und zur REM-Verbindung mit anderen Schiffen."
+a0_m10_dialogue_clay_doc_menu,"Dies ist das Dokumentations-Menü. Von hier aus hast du Zugang zu den Einsatzziel-, Log- und Statistik-Bildschirmen."
+a0_m10_dialogue_clay_hud_menu2,"Beim Fliegen wird dir das HUD- Menü eine große Hilfe sein. Wenn du es aufrufst und es benutzt, kläre ich dich über die einzelnen Abschnitte auf."

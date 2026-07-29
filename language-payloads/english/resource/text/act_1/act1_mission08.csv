@@ -1,0 +1,26 @@
+; FILE: Dact1_mission08.csv,
+; Key,
+; FILE NAME,GERMAN TRANSLATION
+a1_m08_dialogue_league_c1_cal_there_you,"Cal Johnston, wir bieten dir die Vollmitgliedschaft in der League an. Bist du bereit für deine Aufnahme?"
+a1_m08_text_player_c1_option_1_yes,Ja.
+a1_m08_dialogue_player_c1_option_1_yes,Klar. Was soll ich tun?
+a1_m08_dialogue_league_c1_response_1_good_we_want,Hier ist deine Aufgabe...
+a1_m08_dialogue_league_c1_response_1_we_have_been,"Der neue Gouverneur von Hoffer's Wake unternimmt eine offizielle Inspektion der Militäreinrichtungen rund um Memnon bei Alexander, und wir möchten ihn mit einem kleinen Gruß ehren. Es ist zwar nur eine Routineinspektion, aber das Ganze wird zu einem Medienspektakel aufgebauscht, um unsere Anhänger einzuschüchtern. Du sollst unsere Farbdrohne ins Verteidigungsdock Memnons schmuggeln, das Flaggschiff ein bisschen verschönern und die Drohne sicher wieder rausholen - ohne entdeckt zu werden natürlich. Also lass dein Triebwerke nicht zu laut aufheulen!"
+a1_m08_dialogue_league_c1_response_1_heres_the_droid,"Hier ist die Drohne. Vergiss nicht, sie zurückzubringen!"
+a1_m08_text_player_c1_option_2_no,Nein.
+a1_m08_dialogue_player_c1_option_2_no,"Nee, ich fühle mich irgendwie noch nicht bereit..."
+a1_m08_dialogue_league_c1_response_2_well_be_waiting,"Gut, dann warten wir halt noch..."
+a1_m08_clay_well_done,"Gut gemacht, Kleiner! Sei nur auf dem Rückweg vorsichtig!"
+a1_m08_clay_that_munitions_store,Das Munitionslager sieht nach einer guten Operationsbasis aus. 
+;,
+a1_m08_security_alert,Alarm! Eindringling entdeckt! Alle Schiffe: Angreifen!
+;,
+a1_m08_dialogue_league_c2_did_you_do,Hast du's geschafft?
+a1_m08_text_player_c2_option_1_yes,Ja.
+a1_m08_dialogue_player_c2_option_1_yes,Bei der Routineinspektion des Gouverneurs geht's gerade richtig lustig zu!
+a1_m08_dialogue_league_c2_response_1_what_have_you_done,"Toll! Aber was ist mit unserer Drohne passiert? Ich hätte dir ja gerne eine Belohnung gegeben, aber jetzt, da wir die Drohne ersetzen müssen, ist eine Belohnung nicht drin."
+a1_m08_dialogue_league_c2_response_1_and_the_drone,Du hast sogar die Drohne zurückgebracht! Hier ist deine Belohnung: ein Tarnprogramm-Upgrade. Obwohl du dich schon jetzt ziemlich gut tarnen kannst...
+a1_m08_dialogue_league_c2_response_1_welcome,Was soll ich sagen? Willkommen in der League!
+a1_m08_text_player_c2_option_2_no,Nein.
+a1_m08_dialogue_player_c2_option_2_no,"Nein, das ist zu schwierig."
+a1_m08_dialogue_league_c2_response_2_failed,"Auch wenn du's nicht geschafft hast, du hast dein Bestes gegeben. Willkommen in der League!"

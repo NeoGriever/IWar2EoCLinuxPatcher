@@ -1,0 +1,56 @@
+; FILE: Dact0_mission40.csv,
+; Key,
+; FILE NAME,GERMAN TRANSLATION
+a0_m40_name_waypoint_charl, Standort Charlesworth
+a0_m40_name_wolf,Wolfgang Spielman
+a0_m40_name_princeton,Princeton
+a0_m40_name_waypoint_junkyard,Standort Schrottplatz
+a0_m40_name_waypoint_belrano_intercept,Belrano Abfangpunkt
+a0_m40_name_belrano,Belrano
+a0_m40_name_drunken,Drunken Master
+
+
+a0_m40_dialogue_wolfgang_ah_cal,"Ah, Cal, schön, dass du kommen konntest. Dock an der Station an und wir können uns unterhalten..."
+a0_m40_dialogue_wolfgang_c1_so_what,"Also, was kann ich für dich tun?"
+a0_m40_text_c1_option1_charlesworth,Es geht um Charlesworth
+a0_m40_dialogue_cal_c1_option1_charleswoth,Erzähl mir etwas von Charlesworth...
+a0_m40_dialogue_wolfgang_c1_response1_in_this,"An diesem schönen Ort, mein Freund, kannst du alles erwerben, was das Herz begehrt.... für einen gewissen Preis. Dahinter steckt das Carva-Kartell, also sollte man sich hier keine Feinde machen!"
+a0_m40_text_c1_option2_business,Zu Wolfgangs Geschäft
+a0_m40_dialogue_cal_c1_option2_business,Sag mir etwas über dein Geschäft...
+a0_m40_dialogue_wolfgang_c1_response2_well_you,"Also, man könnte es eine Import/Export-Firma nennen; Ich..... beschaffe Gegenstände von Leuten und verkaufe sie dann weiter."
+a0_m40_text_c1_option3_job,Es geht um den Job
+a0_m40_dialogue_cal_c1_option3_job,Sag mir mehr über diesen Job...
+a0_m40_text_c1_option3_job2,Es geht um den anderen Job
+a0_m40_dialogue_cal_c1_option3_job2,Erzähl mir was von diesem anderen Job...
+a0_m40_dialogue_wolfgang_c1_response3_ah_yes,"Ja, genau... Ich könnte einen einfachen Boten gebrauchen. Als Bezahlung rüste ich deine TSKs auf."
+a0_m40_dialogue_wolfgang_c1_response3_ah_yes2,Ich muss etwas Eigentum wiederbeschafft haben... Für deine Mühe kriegst du ein paar Disruptoren von mir.
+a0_m40_dialogue_wolfgang_c2_interested,Interesse?
+a0_m40_text_c2_option1_yes,Ja...
+a0_m40_dialogue_cal_c2_option1_yes,"Ja, sag mir mehr..."
+a0_m40_dialogue_wolfgang_c2_response1_this_is,"Du müsstest folgendes tun: begib dich zum L-Punkt bei Alexander und warte dort auf den Frachter 'Princeton', der eine Ladung transportiert, die zum Schrottplatz in der Nähe des Systemzentrums geliefert werden muss. Ganz einfach, also... Allerdings enthält die Lieferung wichtige Daten, die der Konkurrenz sehr viel wert sein könnten. Halt also die Augen nach verdächtigen Vorgängen auf."
+a0_m40_dialogue_wolfgang_c2_response1_job2_this_is,"Ich habe erfahren, dass ein alter Konkurrent von mir wertvolle Antiquitäten verschifft, die er sich von mir erschwindelt hat.... Ich will nicht noch mehr Aufmerksamkeit auf mich lenken, also wäre ich froh, wenn du den Gauner abfangen und ihm seine Fracht abnehmen könntest. Er reist in einem Schiff namens 'Belrano'. Ich schicke dir einen Streckenpunkt rüber; bring die Fracht hierher zurück, und du kriegst deinen Lohn.... Frohes Jagen!"
+a0_m40_text_c2_option2_no,Nein...
+a0_m40_dialogue_cal_c2_option2_no,"Nein, im Moment nicht......"
+a0_m40_text_c1_option4_nothing,Nichts.....
+a0_m40_dialogue_cal_c1_option4_nothing,Im Moment nichts...
+a0_m40_dialogue_wolfgang_ok_come,"Gut, dann komm zurück, wenn du bereit bist."
+a0_m40_dialogue_wolfgang_congrats1,"Saubere Arbeit, Cal. Die Junkers haben mir von der Lieferung berichtet, und wie versprochen habe ich eine Schnellfeuer-TSK an deine Basis geschickt. Danke noch mal."
+a0_m40_dialogue_wolfgang_congrats2,"Super! Diese Disruptoren werden sich bestimmt als nützlich erweisen. Sie sollten bereits bei deiner Basis eingetroffen sein. Danke Cal, ich werde dir das nicht vergessen..."
+a0_m40_dialogue_wolfgang_what,"Was hast du mit der Ware gemacht?? Du kriegst die Disruptoren erst, wenn ich die Ware habe...."
+a0_m40_dialogue_princeton_this_is,"Hier spricht die Princeton... Sie scheinen das Schiff zu sein, mit dem wir hier Kontakt aufnehmen sollten. Fliegen Sie bitte heran, Sie können dann andocken. "
+a0_m40_dialogue_princeton_right_guess,"Gut... Du bist wohl der Richtige. Nimm diese Lieferung und bring sie zu den Junkers beim Schrottplatz, die werden sich dann bei Spielman melden. Sei vorsichtig - nicht, dass das noch schiefgeht...."
+a0_m40_dialogue_clay_wooa,Oooh! Wir sind von einer LDS-Blockier-Rakete getroffen - wir werden angegriffen!!
+a0_m40_dialogue_clay_damn,"Verdammt war das knapp, gut gemacht, Junge......"
+a0_m40_dialogue_clay_hey_thats,"He! Da ist so ein Reaktor, den wir brauchen, um die Station wieder in Schuss zu kriegen, da drüben auf dem Schrottplatz! Wenn wir das Schiff mit ein paar Disruptoren und mehr Feuerkraft ausstatten könnten, könnten wir ihn uns vielleicht schnappen."
+a0_m40_dialogue_junkers_ah_you,Ah... Du bist wohl unser Mann. Dock an und gib die Lieferung ab. Ich sag Wolfgang Bescheid.
+a0_m40_dialogue_junkers_thanks,"Danke. Du kannst gehen - mach dich auf den Weg nach Charlesworth, dort wartet deine Belohnung."
+a0_m40_dialogue_clay_ok_kid,"Na gut Junge, da ist das Schiff. Sieh zu, dass du schnell die Oberhand gewinnst und lass uns dann abhauen. Wenn du dich auf ein Gefecht einlässt, wird die Polizei nicht lange auf sich warten lassen."
+a0_m40_dialogue_belrano_approaching,Schiff im Anflug.... Wer sind Sie und was wollen Sie??
+a0_m40_text_cal_c1_option1,Gestohlene Ladung zurückholen.....
+a0_m40_dialogue_cal_c1_option1,"Ich bin hier um etwas zurückzuholen, dass du von Wolfgang Spielman gestohlen hast."
+a0_m40_dialogue_belrano_response1,"Schickt er seine Spießgesellen, he?? Du kannst das Zeug haben... ABER NUR ÜBER MEINE LEICHE!!!"
+a0_m40_text_cal_c1_option2,Dich töten....
+a0_m40_dialogue_cal_option2,Ich bin hier um dich zu töten....
+a0_m40_dialogue_belrano_response2,Ach wirklich?? Dich dreh ich durch den Wolf!!!!
+a0_m40_dialogue_police_piracy,In diesem Abschnitt wird Piraterie nicht hingenommen: Mach dich auf deine Hinrichtung gefasst.
+a0_m40_dialogue_clay_theyve,"Sie haben die Ladung abgeworfen! Schnappen wir sie uns, und dann nichts wie weg...."

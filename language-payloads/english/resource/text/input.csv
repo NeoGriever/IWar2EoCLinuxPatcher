@@ -1,0 +1,203 @@
+modifier_text_inverse,Umkehrung
+modifier_text_ctrl,STRG
+modifier_text_alt,ALT
+modifier_text_shift,UMSCHALT
+modifier_text_shift1,UMSCHALT 1
+modifier_text_shift2,UMSCHALT 2
+modifier_text_shift3,UMSCHALT 3
+modifier_text_shift4,UMSCHALT 4
+device_text_keyboard,Tastatur
+device_text_mouse,Maus
+device_text_joystick,Joystick
+object_text_mousexaxis,x-Achse
+object_text_mouseyaxis,y-Achse
+object_text_mousezaxis,Rad
+object_text_mouseabsxaxis,x-Achse (absolut)
+object_text_mouseabsyaxis,y-Achse (absolut)
+object_text_mousebutton1,Taste 1
+object_text_mousebutton2,Taste 2
+object_text_mousebutton3,Taste 3
+object_text_mousebutton4,Taste 4
+object_text_joyxaxis,x-Achse
+object_text_joyyaxis,y-Achse
+object_text_joyzaxis,z-Achse
+object_text_joyuaxis,Schub
+object_text_joyvaxis,v-Achse
+object_text_joyrxaxis,Rotation auf x-Achse
+object_text_joyryaxis,Rotation auf y-Achse
+object_text_joyrzaxis,Rotation auf z-Achse
+object_text_joyruaxis,Schub
+object_text_joyrvaxis,v-Achse
+object_text_joypov1up,HAT hoch
+object_text_joypov1down,HAT runter
+object_text_joypov1left,HAT links
+object_text_joypov1right,HAT rechts
+object_text_joypov2down,HAT 2 runter
+object_text_joypov2left,HAT 2 links
+object_text_joypov2right,HAT 2 rechts
+object_text_joypov3up,HAT 3 hoch
+object_text_joypov3down,HAT 3 runter
+object_text_joypov3left,HAT 3 links
+object_text_joypov3right,HAT 3 rechts
+object_text_joypov4up,HAT 4 hoch
+object_text_joypov4down,HAT 4 runter
+object_text_joypov4left," 'HAT 4 links'"
+object_text_joypov4right," 'HAT 4 rechts'"
+object_text_joybutton1,Taste 1
+object_text_joybutton2,Taste 2
+object_text_joybutton3,Taste 3
+object_text_joybutton4,Taste 4
+object_text_joybutton5,Taste 5
+object_text_joybutton6,Taste 6
+object_text_joybutton7,Taste 7
+object_text_joybutton8,Taste 8
+object_text_joybutton9,Taste 9
+object_text_joybutton10,Taste 10
+object_text_joybutton11,Taste 11
+object_text_joybutton12,Taste 12
+object_text_joybutton13,Taste 13
+object_text_joybutton14,Taste 14
+object_text_joybutton15,Taste 15
+object_text_joybutton16,Taste 16
+object_text_joybutton17,Taste 17
+object_text_joybutton18,Taste 18
+object_text_joybutton19,Taste 19
+object_text_joybutton20,Taste 20
+object_text_joybutton21,Taste 21
+object_text_joybutton22,Taste 22
+object_text_joybutton23,Taste 23
+object_text_joybutton24,Taste 24
+object_text_joybutton25,Taste 25
+object_text_joybutton26,Taste 26
+object_text_joybutton27,Taste 27
+object_text_joybutton28,Taste 28
+object_text_joybutton29,Taste 29
+object_text_joybutton30,Taste 30
+object_text_joybutton31,Taste 31
+object_text_joybutton32,Taste 32
+
+;,
+; Input mapper key text,
+;,
+
+key_text_escape,ESC
+key_text_1,1
+key_text_2,2
+key_text_3,3
+key_text_4,4
+key_text_5,5
+key_text_6,6
+key_text_7,7
+key_text_8,8
+key_text_9,9
+key_text_0,0
+key_text_minus,-
+key_text_equals,=
+key_text_backspace,Rücktaste
+key_text_tab,TAB
+key_text_Q,Q
+key_text_W,W
+key_text_E,E
+key_text_R,R
+key_text_T,T
+key_text_Y,Y
+key_text_U,U
+key_text_I,I
+key_text_O,O
+key_text_P,P
+key_text_leftbracket,[
+key_text_rightbracket,]
+key_text_return,Eingabe
+key_text_leftcontrol,STRG links
+key_text_A,A
+key_text_S,S
+key_text_D,D
+key_text_F,F
+key_text_G,G
+key_text_H,H
+key_text_J,J
+key_text_K,K
+key_text_L,L
+key_text_semicolon,;
+key_text_apostrophe,'
+key_text_backquote,`
+key_text_leftshift,UMSCHALT links
+key_text_backslash,\
+key_text_Z,Z
+key_text_X,X
+key_text_C,C
+key_text_V,V
+key_text_B,B
+key_text_N,N
+key_text_M,M
+key_text_comma,","
+key_text_dot,.
+key_text_slash,/
+key_text_rightshift,UMSCHALT rechts
+key_text_numpadstar,Num *
+key_text_leftalt,ALT links
+key_text_space,LEERTASTE
+key_text_capslock,FESTSTELLTASTE
+key_text_F1,F1
+key_text_F2,F2
+key_text_F3,F3
+key_text_F4,F4
+key_text_F5,F5
+key_text_F6,F6
+key_text_F7,F7
+key_text_F8,F8
+key_text_F9,F9
+key_text_F10,F10
+key_text_numlock,Num-Taste
+key_text_scrolllock,Rollen
+key_text_numpad7,Num 7
+key_text_numpad8,Num 8
+key_text_numpad9,Num 9
+key_text_numpadminus,Num -
+key_text_numpad4,Num 4
+key_text_numpad5,Num 5
+key_text_numpad6,Num 6
+key_text_numpadplus,Num +
+key_text_numpad1,Num 1
+key_text_numpad2,Num 2
+key_text_numpad3,Num 3
+key_text_numpad0,Num 0
+key_text_numpaddot,Num .
+key_text_F11,F11
+key_text_F12,F12
+key_text_F13,F13
+key_text_F14,F14
+key_text_F15,F15
+key_text_kana,Kana
+key_text_convert,Convert
+key_text_noconvert,No Convert
+key_text_yen,Yen
+key_text_numpadequals,Num =
+key_text_circumflex,"	'^'"
+key_text_at,@
+key_text_colon,:
+key_text_underline,_
+key_text_kanji,Kanji
+key_text_stop,Untbr
+key_text_ax,Ax
+key_text_unlabelled,Unbeschriftet
+key_text_numpadreturn,Num Eingabe
+key_text_rightcontrol,STRG rechts
+key_text_numpadcomma,"Num ,"
+key_text_numpadslash,Num /
+key_text_printscreen,Druck
+key_text_pause,Pause
+key_text_rightalt,ALT rechts
+key_text_home,Pos1
+key_text_up,Cursor hoch
+key_text_pageup,Bild hoch
+key_text_left,Cursor links
+key_text_right,Cursor rechts
+key_text_end,Ende
+key_text_down,Cursor runter
+key_text_pagedown,Bild runter
+key_text_insert,Einfg
+key_text_delete,Entf
+key_text_leftwin,Windows-Taste links
+key_text_rightwin,Windows-Taste rechts
+key_text_appmenu,Anwendungstaste

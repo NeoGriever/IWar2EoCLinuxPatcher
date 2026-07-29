@@ -1,0 +1,64 @@
+; FILE: Dact2_mission05.csv,
+; Key,
+; FILE NAME,GERMAN TRANSLATION
+;,
+a2_m05_dialogue_clay_remind_about_meeting,"Wenn du dir schnell ein paar Mäuse verdienen willst, können wir  die MCA-Frachter beim St. George-L-Punkt treffen.  "
+a2_m05_dialogue_smith_initial_meeting_waypoint_created,Die MCA-Frachter warten auf uns. Ich habe dir den Streckenpunkt gesetzt. Hört sich nach einem guten Geschäft an.
+a2_m05_dialogue_freighter_leader_welcome,Mr. Johnston. Schön Sie zu sehen. Das ist also die letzte angeheuerte Hilfe auf die wir noch gewartet haben. Fangen wir mit dem Briefing an.
+a2_m05_dialogue_freighter_leader_initial_brief_1,"Ich hoffe, Sie sind auf eine Schlacht gefasst. Es wird nämlich hart. Die Marauder haben Mwari eingenommen. Sie haben eine Vorliebe für unsere Nachschubwege entwickelt und unsere Schiffe sind ihre bevorzugte Beute. "
+a2_m05_dialogue_freighter_leader_initial_brief_2,"Der Toadskin-L-Punkt ist der einzige brauchbare Eingang nach Mwari. Wir können uns also so gut wie sicher sein, dass dort ein paar Aasgeier auf schnelle Beute warten."
+a2_m05_dialogue_freighter_leader_initial_brief_3,"Mr Johnston, Sie gehen zuerst rein. Damit rechnen sie bestimmt nicht. Wir geben Ihnen ein paar Minuten, um sie zu verjagen, dann kommen wir mit dem restlichen Konvoi nach."
+a2_m05_dialogue_freighter_leader_initial_brief_4,Danach geht's in Formation zur MCA-Basis. Auf dem Weg müssen wir mit Widerstand der Marauder rechnen.
+a2_m05_dialogue_freighter_leader_initial_brief_5,"Viel Glück, Jungs und Mädels. Passt da draußen gut auf euch auf."
+a2_m05_dialogue_mercenary_leader_we_will_follow_you_st_george,"Alles bereit, Cal. Wir werden Ihnen folgen."
+a2_m05_dialogue_mercenary_leader_dont_wander_off,"He, Cal! Keine Zeit für Spazierflüge! Wir müssen Toadskin sichern. Wir nehmen den L-Punkt in St. George."
+a2_m05_dialogue_mercenary_leader_were_not_following,"Das ist weit genug, Cal. Wir haben keine Zeit, uns mit Ihnen auf Besichtigungstour zu begeben. "
+a2_m05_dialogue_clay_you_blew_that_mission_1,"Du hast den Einsatz vergeigt, Cal. Wir können es uns nicht leisten, solche Gelegenheiten ungenutzt zu lasssen!"
+a2_m05_dialogue_mercenary_sarcifice_dies,Teufel nochmal! Das ist ein Minensperre! Arrgh!
+a2_m05_dialogue_mercenary_leader_quite_a_blockade_clear_this_before_freighters_arrive,"Verdammt! Sie haben uns erwartet! Wenn wir die Blockade nicht durchbrechen, bevor die Frachter ankommen, sind wir alle tot!"
+a2_m05_dialogue_mercenary_leader_well_be_your_wingmen,"Cal, kümmern Sie sich um die Minen! Wir beschäftigen solange die Marauder!"
+a2_m05_dialogue_freighter_leader_arrived_in_mwari_1,"Seien Sie gegrüßt, Mr Johnston! Anscheinend haben Sie hier alles unter Kontrolle. Beschäftigen Sie sie bitte, bis wir die Frachter durch das Minensperre gelotst haben!"
+a2_m05_dialogue_freighter_leader_aargh_we_have_all_died_1,Aarrrrgh!
+a2_m05_dialogue_clay_freighters_all_dead_1,"Verdammt, Kleiner! Du wusstest, dass die Frachter sich nicht selbst verteidigen können!"
+a2_m05_dialogue_clay_a_freighter_dead_1,"Wir haben einen Frachter verloren und unseren Profit gleich mit. Schlaf mir da draußen nicht ein, Kleiner."
+a2_m05_dialogue_cal_a_marauder_dead_1,Ja! Noch ein Marauder!
+a2_m05_dialogue_freighter_leader_escort_brief,"Gut gezielt. Da waren ein paar schöne Feuerbälle dabei! Jetzt aber nichts wie weg, bevor noch mehr Marauder auftauchen."
+a2_m05_dialogue_freighter_leader_escort_reminder,An alle Schiffe: Bitte mit Frachtern in Formation gehen.
+a2_m05_dialogue_freighter_leader_were_under_attack_from_marauders_A,Mayday! Mayday! Wir werden von Maraudern angegriffen! Erbitten Hilfe!
+a2_m05_dialogue_freighter_leader_were_under_attack_from_marauders_B,Eine LDS-Blockier-Rakete der Marauder hat uns erwischt. In Gefechtsbereitschaft begeben!
+a2_m05_dialogue_freighter_leader_were_under_attack_from_marauders_C,Marauder kommen in Reichweite. Macht sie fertig!
+a2_m05_dialogue_freighter_leader_aargh_we_have_all_died_2,Aarrrrgh!
+a2_m05_dialogue_clay_all_freighters_dead_3,"Verdammt, Kleiner! Du wusstest, dass die Frachter sich nicht selbst verteidigen können."
+a2_m05_dialogue_clay_all_freighters_dead_4,"Wie man Schiffe zerstört, weißt du offensichtlich, aber nicht wie man sie beschützt. Diesen Einsatz kann die League wohl als Niederlage abhaken. "
+a2_m05_dialogue_freighter_leader_all_marauders_dead_A,"Gut gemacht, Jungs. Das war der Letzte!  "
+a2_m05_dialogue_freighter_leader_all_marauders_dead_B,Mit Leuten wie uns können es diese Marauder nicht aufnehmen! 
+a2_m05_dialogue_clay_a_freighter_dead_4,"Wir haben noch einen Frachter verloren und deinen Profit gleich mit. Sei vorsichtig, Cal."
+a2_m05_dialogue_cal_a_marauder_dead_2,Buuummm-! Noch ein Marauder weniger!
+a2_m05_dialogue_freighter_leader_thank_goodness_nearly_there,Befinden uns im Anflug auf die Basis. Hier werden uns wohl keine Marauder mehr begegnen.
+a2_m05_dialogue_freighter_leader_base_in_sight,Die Basis ist in Sichtweite. Gott sei Dank ist es vorbei!
+a2_m05_dialogue_freighter_leader_ready_to_dock,"Nachschubkonvoi ist bereit zum Andocken, Longshot HQ."
+a2_m05_dialogue_MCA_Longshot_HQ_pleased_to_see_you_dock_now,"Junge, sind wir froh euch zu sehen. Dockt schnellstens an und wir beginnen mit dem Ausladen."
+a2_m05_dialogue_mercenary_leader_bye,"Hat Spaß gemacht, mit Ihnen zu fliegen, Cal. Bis zum nächsten Mal."
+a2_m05_dialogue_MCA_Longshot_HQ_poor_job,"Hallo Cal. Der Nachschub kommt gerade rechtzeitig. Schade, dass du nicht mehr Frachter durchbringen konntest."
+a2_m05_dialogue_MCA_Longshot_HQ_medium_job,"Willkommen in der Longshot-Station, Cal. Wir sind echt dankbar für den Nachschub."
+a2_m05_dialogue_MCA_Longshot_HQ_good_job,"Großartig, dass du all den Nachschub durchgebracht hast, Cal. Das wird uns sehr helfen!  "
+a2_m05_dialogue_MCA_Longshot_HQ_dock_and_rearm_and_talk_about_reward,"Gut, Cal. Wenn du an der Station andockst, können wir dein Schiff wieder bewaffnen und über deine Bezahlung reden."
+a2_m05_dialogue_MCA_Longshot_HQ_rearming_your_ship,"Während dein Schiff wieder bewaffnet wird, können wir über deine Bezahlung reden."
+a2_m05_dialogue_MCA_Longshot_HQ_payment_method,"Wir können hier leider nichts entbehren, aber wir werden in einem Lager in Santa Romera etwas für dich bereithalten."
+a2_m05_dialogue_smith_ill_get_jafs_to_pick_that_up,"Wusste ich's doch, dass da was faul dran ist wenn sie deine Bezahlung nich sofort rausrücken. Lausige, stinkige, geizige Drecksäcke ..."
+a2_m05_dialogue_cal_ill_get_jafs_to_pick_that_up,"Kein Problem. Ich schicke einfach meinen Leuten 'ne E-Mail, dass sie die Sachen abholen sollen, während ich auf dem Rückweg bin."
+a2_m05_dialogue_clay_cargo_will_be_home_when_you_get_there,"Genau, und so wie du fliegst, wird Jafs früher mit der Ladung zu Hause sein als du! "
+a2_m05_dialogue_MCA_Longshot_HQ_no_more_offers,Mehr haben wir im Moment nicht anzubieten.
+a2_m05_dialogue_cal_thanks_for_cargo,Danke.
+a2_m05_dialogue_clay_you_jumped_to_the_wrong_place_1,"Cal, wir sind hier falsch!"
+a2_m05_dialogue_clay_you_blew_that_mission_2,"Oh, gut gemacht! Bist du zu reich, um Güter der MCA anzunehmen? Hoffentlich vergessen sie deine Unfähigkeit bis zum nächsten Einsatz."
+a2_m05_dialogue_clay_you_jumped_to_the_wrong_place_2,"He! Sollten wir nicht im Mwari-System sein? Du weißt schon, unsere Frachter vor der Zerstörung retten?"
+a2_m05_dialogue_clay_you_blew_that_mission_3,Hoffentlich vergessen sie deine Unfähigkeit bis zum nächsten Einsatz.
+
+a2_m05_dialogue_cal_first_choice,Was kann ich haben?
+a2_m05_dialogue_cal_subsequent_choices,Na gut. Was habt ihr sonst noch anzubieten?
+
+a2_m05_ship_Mine,Mine
+a2_m05_waypoint_initial_meeting,Frachterkonvoi-Treffpunkt
+a2_m05_mca_base,"MCA-Verteidigungshauptquartier, Longshot"
+a2_m05_freighter_convoy,Konvoi

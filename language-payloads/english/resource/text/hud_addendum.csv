@@ -1,0 +1,11 @@
+hud_untagging_docked_pod,MARKIERUNG AN GELADENER KAPSEL WIRD AUFGEHOBEN 
+hud_cant_summon_jafs_enemies_near,JAFS NICHT VERFÜGBAR: FEINDLICHE SCHIFFE IN DER NÄHE
+hud_jafs_summoned,JAFS IM ANFLUG
+hud_jafs_unavailable,JAFS NICHT VERFÜGBAR - KEINE ANTWORT
+hud_tag_error_no_pods_in_fov,NICHT MÖGLICH: KEINE KAPSELN IN SICHT
+hud_tag_error_no_cargo_in_pod,NICHT MÖGLICH: LEERE KAPSEL
+hud_tag_error_pod_is_loading,NICHT MÖGLICH: KAPSEL WIRD GELADEN
+hud_tag_error_pod_is_docked,NICHT MÖGLICH: KAPSEL IST ANGEDOCKT
+hud_tag_error_no_free_tags,NICHT MÖGLICH: KEINE MARKIERUNGEN MEHR VORHANDEN
+hud_pod_tagged,KAPSEL ZUM ABHOLEN MARKIERT
+hud_pod_untagged,MARKIERUNG AUFGEHOBEN

@@ -1,0 +1,17 @@
+;Key Phrase_to_localise Sound_file_URL Comments
+; Utilities localised file,
+;,
+utils_text_no_ta,"Don't Skip"
+utils_dial_no_ta, "No"
+utils_text_sure_thing,"Skip"
+utils_dial_sure_thing,"Ok"
+utils_particle_employee,"DEBUG: "
+utils_dial_wanna_skip,"Skip mission "
+utils_bool_g_act1_stepsons_intro,"Set piracy rating to maximum?"
+utils_g_act1_Marauders_Encountered,"Skip 'waiting for the Marauder' encounter?"
+utils_skipper_got_there,"We've reached the mission you wanted"
+utils_skipper_not_yet,"Auto-skipping this mission: "
+utils_super_welcome,"Welcome to the multi-mission skipper."
+utils_super_which_act,"Which act do you want to skip into?"
+utils_super_which_mission,"Which mission do you want to run?"
+utils_want_to_super_skip,"Would you like to use the advanced mission skipper?"

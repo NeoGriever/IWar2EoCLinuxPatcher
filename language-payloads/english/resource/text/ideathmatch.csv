@@ -1,0 +1,22 @@
+; FILE: Dideathmatch#2.csv,
+; Key,
+; FILE NAME,GERMAN TRANSLATION
+;,
+mp_frag_player_spawned,Ist im Spiel.
+mp_frag_player_left,Hat das Gebäude verlassen.
+mp_frag_player_falling,Sie nähern sich dem Ende der Welt.
+mp_frag_player_transported,Sie wurden zur Basis zurückgebracht.
+mp_frag_player_stuffed_you,Dir hab' ich's gegeben!
+mp_flag_player_killed,%s hat %s abgeschossen.
+mp_frag_ammo_power_up,Munitionsstärke gesteigert um:
+mp_kill_message_1,%s hat %s eine Abreibung verpasst.
+mp_kill_message_2,%s wurde von %s haushoch geschlagen.
+mp_kill_message_3,%s wurde von %s zerstört.
+mp_kill_message_4,%s wurde von %s ordentlich versohlt.
+mp_bomb_kill_message_1,"Aua, mein Kopf!"
+mp_bomb_kill_message_2,Das war zu viel!
+mp_bomb_warning_message,Sekunden bis zur Explosion:
+mp_health_message,Steigerung der Lebensenergie (%):
+mp_speed_message_up,Steigerung der Maximalgeschwindigkeit (%):
+mp_speed_message_down,Neueinstellung Maximalgeschwindigkeit
+mp_station_name,Spondonium

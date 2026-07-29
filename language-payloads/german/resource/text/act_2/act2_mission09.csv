@@ -1,0 +1,79 @@
+; FILE: Dact2_mission09.csv,
+; Key,
+; FILE NAME,GERMAN TRANSLATION
+;,
+a2_m09_text_player_c1_option_1_yes,Ja
+a2_m09_text_player_c1_option_2_no,Nein
+a2_m09_dialogue_player_c1_option_1_yes,Voll bewaffnet und startklar. Lasst uns die Basis plattmachen. 
+a2_m09_dialogue_player_c1_option_2_no,Nein. Ich muss vorher noch was erledigen.
+a2_m09_dialogue_mca_leader_c1_are_you_ready,"Das Sensorenschiff ist voll ausgestattet und jetzt bereit, die Basis der Marauder trigonometrisch zu berechnen. Seid ihr bereit zur Jagd?"
+a2_m09_dialogue_mca_leader_c1_response_then_get_ready,Dann erledige es aber bitte schnell. Wir warten.
+a2_m09_dialogue_mca_leader_c1_response_then_lets_go,"Na also, los jetzt! Vier und Fünf, ihr seid Cals Wingmen."
+a2_m09_dialogue_freighter_mayday,Mayday! Mayday! Wir stehen unter Beschuss...
+a2_m09_dialogue_freighter_thanks_were_off,Danke für die Hilfe. Wir hauen ab!
+a2_m09_dialogue_signal_group1_under_attack,"Befehlszentrale, MCA-Schiffe im Anflug. Fordere Verstärkung an."
+a2_m09_dialogue_signal_base_support,"Patrouille Dreiundzwanzig, Verstärkung ist unterwegs."
+a2_m09_dialogue_sensorship_we_have_lock,Wir können sie orten!
+a2_m09_dialogue_marauders_attacked,Wir werden angegriffen!
+a2_m09_dialogue_marauder_command,"Tut mir leid, Eins-Fünf. Wir haben keine Reserven in der Gegend. Zurückziehen. "
+a2_m09_dialogue_marauders_fighting,"Vor den MCA-Schwächlingen in ihren Schrottkisten abhauen? Auf keinen Fall, Zentrale. Die schaffen wir schon."
+a2_m09_dialogue_sensorship_lock_on_that,Wir orten das Signal.
+a2_m09_dialogue_sensorship_got_that,Wir haben das Signal!
+a2_m09_dialogue_sensorship_ambushed,Hinterhalt!
+a2_m09_dialogue_marauder_ambushers,"Hab ich euch! Befehlszentrale, wir haben sie."
+a2_m09_dialogue_marauder_command_wipe_them_out,Gut gemacht. Löscht sie aus.
+a2_m09_dialogue_sensorship_triangulating,Berechnen...
+a2_m09_dialogue_sensorship_location,Wir haben ihn! Wir haben den Standort der Marauderbasis. Wir übermitteln den Streckenpunkt.  
+a2_m09_dialogue_mca_command,Hier spricht die MCA-Befehlszentrale! Cal hat's geschafft! Alle Kampfschiffe zum Angriff auf die Marauder-Basis. 
+a2_m09_dialogue_mca_assault,"Cal, du musst für uns den Zielanflug des Rammschiffes decken."
+a2_m09_dialogue_ramship_powering_up,Rammschiff beschleunigt.
+a2_m09_dialogue_ramship_pods_away,"Kapseln los! Lust auf heiße Felsen, Marauder-Schweine?!"
+a2_m09_dialogue_mca_victory,Das sollte dem Marauder-Problem ein für allemal ein Ende bereiten.
+a2_m09_MCA_patrol_force, "MCA-Patrouille"
+
+a2_m09_Patrol_Waypoint_One,"Patrouillen-Streckenpunkt 1"
+a2_m09_Patrol_Waypoint_Two,"Patrouillen-Streckenpunkt 2"
+a2_m09_Patrol_Waypoint_Three,"Patrouillen-Streckenpunkt 3"
+a2_m09_Patrol_Waypoint_Four,"Patrouillen-Streckenpunkt 4"
+a2_m09_Patrol_Waypoint_Five,"Patrouillen-Streckenpunkt 5"
+
+a2_m09_Marauder_base_location,"Lage der Marauder-Basis"
+a2_m09_Distress_Signal,"Notsignal"
+
+;Ships
+a2_m09_MCA_Force_leader,"Anführer der MCA-Streitkräfte"
+a2_m09_MCA2,"MCA 2"
+a2_m09_MCA3,"MCA 3"
+a2_m09_MCA4,"MCA 4"
+a2_m09_MCA5,"MCA 5"
+a2_m09_Sensor_ship,"Sensorenschiff"
+a2_m09_Havoc,"Havoc"
+a2_m09_Ruin,"Ruin"
+a2_m09_Oubiliette,"Oubliette"
+a2_m09_Fatal,"Fatal"
+a2_m09_Escaton,"Eschaton"
+a2_m09_Eviscerate,"Eviscerate"
+a2_m09_Spear,"Spear"
+a2_m09_Chainblade,"Chainblade"
+a2_m09_Razor_Blade,"Razor Blade"
+a2_m09_Necrosis,"Necrosis"
+a2_m09_Flagellent,"Flagellant"
+a2_m09_Destructor,"Destructor"
+a2_m09_Sword,"Sword"
+a2_m09_Ripsaw,"Ripsaw"
+a2_m09_Sorrow,"Sorrow"
+a2_m09_Lament,"Lament"
+a2_m09_Screwfly,"Screwfly"
+a2_m09_Hookworm,"Hookworm"
+a2_m09_MCA_Assault_leader,"Anführer des MCA-Angriffs"
+a2_m09_MCA_Assault_1,"MCA-Angriff 1"
+a2_m09_MCA_Assault_2,"MCA-Angriff 2"
+a2_m09_MCA_Assault_3,"MCA-Angriff 3"
+a2_m09_MCA_Assault_4,"MCA-Angriff 4"
+a2_m09_MCA_Cargo_Ram_ship,"MCA-Fracht-Rammschiff"
+a2_m09_Cargo_Pod,"Cargo Pod"
+a2_m09_Freighter,"Frachter"
+a2_m09_Marauder_base,"Marauder-Basis"
+a2_m09_MCA_Command,"MCA-Befehlszentrale"
+a2_m09_Distress_Signal,"Notsignal"
+

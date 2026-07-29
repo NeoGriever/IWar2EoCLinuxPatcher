@@ -1,0 +1,22 @@
+; FILE: Dstock_addendum.csv,
+; Key,GERMAN TRANSLATION
+;,
+stock_clay_critical_player_attack_1,Cal! Feuer einstellen! Wir sollen sie doch beschützen!
+stock_clay_critical_player_attack_2,Dummkopf! Wir brauchen dieses Schiff!
+stock_clay_critical_player_attack_3,Wieso schießt du denn auf die?! Spinnst du?
+stock_clay_critical_player_attack_4,Hast du den Verstand verloren?! Feuer einstellen!
+,
+stock_clay_critical_enemy_attack_1,"Aufgepasst, Sie werden angegriffen!"
+stock_clay_critical_enemy_attack_2,"Jetzt mach schon, Sie brauchen deine Hilfe!"
+stock_clay_critical_enemy_attack_3,He! Sie werden angegriffen!
+stock_clay_critical_enemy_attack_4,Pass auf! Sie stehen unter Beschuss.
+,
+stock_clay_critical_ship_destroyed_1,"Verdammt, Cal! Wir sind hier um sie zu beschützen!"
+stock_clay_critical_ship_destroyed_2,Mist! Um die müssen wir uns keine Sorgen mehr machen.
+stock_clay_critical_ship_destroyed_3,"Das haben wir ganz schön verbockt, Junge."
+stock_clay_critical_ship_destroyed_4,Na großartig... Nimm den Bösen doch einfach die ganze Arbeit ab!
+,
+stock_restart_mission,Einsatz neu starten
+stock_restart_from_base,Neustart vom Stützpunkt aus
+stock_quit_or_load,Spiel beenden/laden
+stock_quit,Spiel beenden 

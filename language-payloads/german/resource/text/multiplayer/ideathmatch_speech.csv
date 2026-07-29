@@ -1,0 +1,7 @@
+; FILE: Dideathmatch_speech.csv,
+; Key,GERMAN TRANSLATION
+mp_time_limit_two_minutes,Noch 2 Minuten
+mp_time_limit_one_minute,Noch 1 Minute
+mp_frag_limit_1,Noch ein Frag
+mp_frag_limit_2,Noch zwei Frags
+mp_frag_limit_3,Noch drei Frags

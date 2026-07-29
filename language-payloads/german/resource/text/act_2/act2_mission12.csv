@@ -1,0 +1,45 @@
+; FILE: Dact2_mission12.csv,
+; Key,
+; FILE NAME,GERMAN TRANSLATION
+;,
+;,
+a2_m12_character_survivor,Captain Boothe
+a2_m12_character_league,Leaguehauptquartier
+a2_m12_shipname_vladimir,Vladimir
+a2_m12_shipname_drone,Ferngelenkte Drohne
+
+
+a2_m12_dialogue_league_greetings_cal,"Cal. Gut, dass du es geschafft hast!  Docke an und wir werden dein Schiff mit Disruptorraketen austatten."
+a2_m12_dialogue_league_this_is_captain_boothe,"Das ist Captain Boothe. Er ist der einzige, der dem Schiff bisher begegnet ist. Hast du irgendwelche Fragen an ihn?"
+a2_m12_text_cal_yes,Ja
+a2_m12_dialogue_cal_yes,"Ja. Erzählen Sie mir, was Sie gesehen haben."
+a2_m12_text_cal_no,Nein
+a2_m12_dialogue_cal_no,"Nein. Was auch immer da draussen ist, ich werde es einfach abschießen."
+a2_m12_dialogue_league_ok_your_choice,"Na gut, es ist Ihre Entscheidung."
+a2_m12_dialogue_survivor_that_i_am,"Hallo, Sir. Ja, ich bin bisher der einzige, der das Schiff gesehen hat und noch lebt, um davon zu berichten."
+a2_m12_dialogue_survivor_im_no_slouch_but,"Ich bin keine Niete, Sir. Glauben Sie bloß nicht, dass ich ein Feigling sei oder so. Ich fliege seit über zwanzig Jahren. Hab' auch schon einiges erlebt. Aber so ein Monster? Noch nie hab ich so was gesehen, Sir"
+a2_m12_dialogue_survivor_came_at_us_from_nowhere,"Ich und die Jungs, naja, wir waren gerade dabei, das Wrack zu durchsuchen. Geschützt von zwei kleinen Schiffen. War'n schon 'ne  Weile da, bevor es aufkreuzte. Wir hatten uns gerade 'n bisschen beruhigt und dachten, dass die Sache mit der anderen Mannschaft wohl ein Unfall war."
+a2_m12_dialogue_survivor_took_us_down_like_flies,"Die beiden kleinen Schiffe neben uns waren ruckzuck zerstört. Ich sah nur, dass das Geisterschiff wie aus dem Nichts auftauchte und bumm-bumm! Die Schiffchen waren verschwunden. Ich sag Ihnen, das Ding ist kaum auf unseren Instrumenten aufgetaucht."
+a2_m12_dialogue_survivor_i_know_when_to_run,"Ich würde nicht mehr leben, wenn ich nicht wüsste wann es Zeit zum Abhauen ist, Sir. Ich war ja nicht in nem GTR wie meinem. Also sagte ich: 'Flieht, Jungs!' Das Monster zerstörte Steven und George als wären sie nichts. Ich und Bens gaben Vollgas.  Aber dem Geisterschiff konnten wir nicht entkommen."
+a2_m12_dialogue_survivor_i_got_away,"Ben sagt, er will ihm wenigstens noch ins Gesicht spucken, bevor er stirbt. Er dreht seinen GTR herum und zielt. Ich schwöre, es war unmöglich dem Schuss auszuweichen, aber es machte ihm keine Mühe. Ben ging in einem Feuerball auf. Aber er hat mir wertvolle Zeit verschafft. Ich konnte gerade noch rechtzeitig auf LDS schalten. Wenn ich Ihnen einen Rat geben darf, dann bleiben Sie Haven fern, Sir. Bleiben Sie dem Geist fern!"
+a2_m12_text_cal_i_can_handle_it,Ich werde mit ihm fertig.
+a2_m12_dialogue_cal_i_can_handle_it,"Machen Sie sich keine Sorgen, Mann, ich werd schon mit ihm fertig."
+a2_m12_dialogue_survivor_yeah_sure,"Ja, sicher doch. Wird ja nur Ihre Beerdigung."
+a2_m12_text_cal_what_did_it_look_like,Wie sah es aus?
+a2_m12_dialogue_cal_what_did_it_look_like,Wie sah dieses Schiff aus?
+a2_m12_dialogue_survivor_youll_know_it,"Irgendeine Art umgerüstetes Marauder-Begleitschiff. Sie werden es schon erkennen, wenn Sie es sehen, es war absolut unverwechselbar..."
+a2_m12_text_cal_you_mentioned_others,Sie haben noch eine andere Mannschaft erwähnt?
+a2_m12_dialogue_cal_you_mentioned_others,Sie haben noch eine andere Mannschaft erwähnt? Was für eine Mannschaft war das?
+a2_m12_dialogue_survivor_thats_right_another_group,Noch eine andere Crew von Wrackplünderern war vor uns dort. Sie hatten keine Begleitschiffe. Nie wieder was von denen gehört.
+a2_m12_text_cal_did_it_come_from_the_wreckage,Kam das Monster aus dem Wrack?
+a2_m12_dialogue_cal_did_it_come_from_the_wreckage,Kam Ihr Monsterschiff aus dem Wrack?
+a2_m12_dialogue_survivor_i_guess,Ich glaub schon. Weißnich. Irgendwie tauchte es plötzlich auf.
+a2_m12_text_cal_thanks,Danke für Ihre Hilfe.
+a2_m12_dialogue_cal_thanks,"Danke für Ihre Hilfe, das wäre alles."
+a2_m12_dialogue_survivor_no_problem,"Kein Problem. Aber hören Sie auf meinen Rat, Sir, und bleiben Sie Haven fern. Es ist verflucht!"
+a2_m12_dialogue_cal_what_the_hell,Was zum Teufel war das?
+a2_m12_dialogue_clay_search_me,"Es sieht so aus, als hätten wir das Geisterschiff gefunden. He, wo ist es hin?"
+a2_m12_dialogue_clay_quick_dock_to_him,"Sieht aus, als hätten wir es lahmgelegt. Schnell! Docken wir an, solange es außer gefecht ist. Schnappen wir uns diesen Geist."
+a2_m12_dialogue_league_head_home_captured,"Gut gemacht, Cal. Wir werden ein paar Schiffe aussenden, um ihn zu holen. Du kannst dich jetzt auf den Heimweg machen. Wir schicken eine Belohnung zu deiner Basis."
+a2_m12_dialogue_clay_we_did_it,Ja! Volltreffer!
+a2_m12_dialogue_league_head_home_killed,"Gut gemacht, Cal. Schade, dass du ihn nicht lebend fangen konntest. Wir werden das Wrack durchsuchen und sehen, ob wir irgendetwas Wertvolles finden."

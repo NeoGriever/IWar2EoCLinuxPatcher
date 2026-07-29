@@ -1,0 +1,13 @@
+; FILE: Dact1_mission09_addendum.csv,
+; Key,
+; Addendum - extra points to be added to the missions.,
+;,
+; FILE NAME,GERMAN TRANSLATION
+,
+a1_m09_name_lor,Wartungsplattform
+a1_m09_name_security,Sicherheit
+a1_m09_name_droid,Schneidedrohne
+a1_m09_name_hab_module,Unterkunftsmodul
+a1_m09_name_league_waypoint,League-Treffpunkt
+a1_m09_name_lor_waypoint,Standort Wartungsplattform 
+a1_m09_dialogue_security_alert,Achtung! Eindringling entdeckt! Alle umliegenden Schiffe: Angriff!

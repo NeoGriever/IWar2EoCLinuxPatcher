@@ -1,0 +1,110 @@
+; FILE: Dact1_master.csv,
+; Key,
+; FILE NAME,GERMAN TRANSLATION
+;,
+a1_master_dialogue_picked_up_distress_1,"Cal, sieh dir das an. Die Sensoren der Basis haben ein Notsignal auf Firmenfrequenz aufgefangen, das direkt aus dem Effrit kommt. Ich habe den Streckenpunkt auf deine Kontaktliste gesetzt, falls du Lust hast, dir das mal anzusehen."
+a1_master_dialogue_picked_up_distress_2,
+a1_master_dialogue_picked_up_distress_3,
+a1_master_dialogue_picked_up_distress_4,
+a1_master_dialogue_jafs_signal_coment_1,"Ich wette, das ist ein großer, saftiger Frachter, den wir uns einverleiben können! Dank der Interferenzen im Effrit dürfte das Notsignal nicht sehr weit kommen, wahrscheinlich haben sogar nur wir es empfangen. So was würden die Firmenbosse wohl ein kalkulierbares Risiko nennen!"
+a1_master_dialogue_jafs_signal_coment_2,
+a1_master_dialogue_jafs_signal_coment_3,
+a1_master_spirit_of_capitalism,Spirit of Capitalism
+a1_master_dialogue_victim_threat_1,"Achtung, unbekanntes Schiff! Hier spricht das Maas Transportschiff 'Spirit of Capitalism'. Das Schiff ist Eigentum von Maas Systems. Die Firma setzt ein hohes Kopfgeld auf jeden aus, der sich uns gegenüber feindselig verhält. Halten Sie Abstand, und erklären Sie Ihre Absichten."
+a1_master_dialogue_victim_threat_2,
+a1_master_dialogue_victim_threat_3,
+a1_master_player_option_1,Ich will euch ausrauben.
+a1_master_player_option_2,Haben Sie Schwierigkeiten?
+a1_master_player_option_3,Ich habe Ihr Notsignal empfangen.
+a1_master_player_option_4,"Keine Angst, wir sind nur auf der Durchreise."
+a1_victim_comment_1,Typen wie ihr können mir keine Angst einjagen!
+a1_victim_comment_2,Das Maas Bergungsschiff wird hier jede Minute eintreffen.
+a1_victim_comment_3,Wir brauchen keine Hilfe von Typen wie euch.
+a1_victim_comment_4,Wir haben alles unter Kontrolle.
+a1_victim_comment_5,Dann verlassen Sie sofort diesen Bereich.
+a1_victim_plea_1,"Das war der größte Fehler, den ihr in eurem kurzen, erbärmlichen Leben je gemacht habt!"
+a1_victim_plea_2,"Nehmt die verdammte Ladung, und lasst uns in Ruhe. Bitte!"
+a1_victim_plea_3,MAYDAY! MAYDAY! HILFE!
+a1_master_dialogue_victim_question_2,Feuer einstellen! Was zum Teufel soll das?
+a1_master_player_option_5,"Ich will eure ganze Ladung, und zwar SOFORT!"
+a1_master_player_option_6,"Ich will euch sterben sehen, ihr Maas-Schweine!"
+a1_master_player_option_7,"Tut mir leid, ich hab' manchmal so nervöse Zuckungen."
+a1_victim_plea_4,"Habt Mitleid, dieses Schiff ist unbewaffnet!"
+a1_victim_plea_5,"Na gut, ich bin noch einmal gnädig und hetze die Maas-Sicherheitsleute diesmal nicht auf euch. Aber jetzt haut ab! "
+a1_master_clay_hes_bluffing,"Der blufft nur! Wir haben das Signal ja schon kaum empfangen, geschweige denn jemand anders."
+a1_master_tiger_lilly,Tiger Lily
+a1_master_tl_player_affirmative,Klar.
+a1_master_player_tl_player_negative,"Nein... Nein, danke."
+a1_master_tl_want_to_go_to_haven_station,Sollen wir euch zur Haven-Station mitnehmen?
+a1_master_tl_then_dock_to_me,Dann dockt an.
+a1_master_tl_hold_on_tight,Gut festhalten!
+a1_master_suit_yourself,Ganz wie ihr wollt.
+a1_master_welcome_haven_station,Willkommen in der Haven-Station. Bitte abkoppeln und mit mäßiger Geschwindigkeit weiterfliegen. Schönen Aufenthalt noch!
+a1_master_tl_want_to_go_to_hoffers_wake_alpha,Sollen wir euch bis Hoffer's Wake Alpha mitnehmen?
+a1_master_welcome_hoffers_alpha,Willkommen in Jeffersons Gießerei. Bitte abkoppeln.
+;,
+a1_master_sure_got_ourselves,"Ich fass' es nicht! Was für ein Ort! Da hat sich deine Großmutter aber wirklich Mühe gegeben. Hier haben wir alles, was wir brauchen: Komplette Reparaturvorrichtung, Maschinenwerkstatt, einfach alles."
+a1_master_and_fitted_out_with_eveything_a_man_like_me,
+a1_master_ive_already_has_a_play,"Ich hab' mich schon mal um die Blechbüchse gekümmert, mit der wir hergekommen sind. Hab' die Kommandokapsel gegen eine ausgetauscht, die deine Grandma hier noch im Hangar rumliegen hatte. Das Ding dürfte sich jetzt viel leichter fliegen."
+a1_master_reackon_itll_fly_like_a_dream,"Fliegen dürfte jetzt ein Kinderspiel sein! Nur die Waffensysteme müssten mal überholt werden, aber dazu fehlen mir im Moment die Teile. Vielleicht solltest du mit der Blechbüchse mal auf Plündertour gehen!"
+a1_master_only_thing_she_needs_now_is_a_name,"Was jetzt noch fehlt, ist ein Name. Cal, wie sieht's aus?"
+a1_master_lamb_chop,"'Lamb Chop'?"
+a1_master_lamb_chop_how_about_that,"Was sagst du zu 'Lamb Chop'?"
+a1_master_southern_cross,'"Southern Cross'?"
+a1_master_the_southern_cross_thats_a_good_name,'"Southern Cross', das ist ein klasse Name."
+a1_master_crazy_horse,'"Crazy Horse'?"
+a1_master_how_about_crazy_horse,"Wie wär's mit 'Crazy Horse'?"
+a1_master_jolly_roger,'"Jolly Roger'?"
+a1_master_what_about_jolly_roger,"Wie wär's mit 'Jolly Roger'? Das ist ein guter Name für ein Piratenschiff."
+a1_master_black_pig,'"Black Pig'?"
+a1_master_mmmm_black_pig_is_a_good_name,"Hmm, vielleicht 'Black Pig'?"
+a1_master_lambchop_what_kind_of_stupid_name_is_that,'"Lamb Chop'? Was ist das denn für ein bescheuerter Name?"
+a1_master_well_you_did_ask,"Nun, wenn du mich so fragst, 'Lamb Chop' find' ich okay."
+a1_master_sigh_lambchop_it_is,"Du spinnst ja! <Seufz> Na gut, von mir aus 'Lamb Chop'."
+a1_master_good_name,"Guter Name - 'Southern Cross'."
+a1_master_crazy_horse_good_has_a_fugative_edge,'"Crazy Horse'... War das nicht ein Freiheitskämpfer auf der Erde? Gefällt mir, hat so was von Abenteuer."
+a1_master_well_its_not_the_most_subtle,"Na ja, besonders einfallsreich ist der Name zwar nicht, aber egal."
+a1_master_black_pig_well_its_you_who_will_flying_it,'"Black Pig'? Na, ich muss ja nicht damit fliegen, also nenn es, wie du willst."
+a1_master_smith_want_to_use,Möchtest du das Programm zur Positionsbestimmung starten?
+a1_master_player_yes,Ja.
+a1_master_player_no,Nein.
+a1_master_smith_thats_right,"Ich glaub', es hat geklappt. Es zeigt auf einen Asteroiden: Zauis im Asteroidengürtel. Verdammt, dort ist die Basis der Angels!"
+a1_master_lori_look_outside,"Äh, Cal? Wirf mal einen Blick nach draußen. NSO-Schiffe!"
+a1_master_smith_thats_wrong,Nein... Das kann nicht stimmen.
+a1_master_smith_email,"Cal, du hast deine E-Mail noch nicht gelesen. Hampel also nicht rum und lies sie!"
+a1_master_lori_now_what,"Also, wir haben ein Versteck und ein paar Schiffe. Und weiter? Hier bleiben, bis wir der Polizei zu langweilig werden oder an Altersschwäche sterben?"
+a1_master_cal_I_have_a_plan,Weder noch. Ich will in die Fußstapfen meiner Großmutter treten. Wer ist dabei?
+a1_master_jafs_space_pirates,"Ja-har! Das Piratenleben! Dort draußen gibt es genügend saftige Firmenschiffe, die nur darauf warten, ausgenommen zu werden! Und ich kenne ein paar Leute, die alles versilbern können, was wir ihnen bringen."
+a1_master_lori_ok_im_in,"Cool! Ich bin dabei. Vielleicht könnten wir nebenbei auch noch ein paar Schiffe meiner Familie plattmachen. Das wäre meine Rache dafür, dass sie mich zu lauter Schurken und Ganoven in die Badlands geschickt haben."
+a1_master_ibuki_well_our,"Als einer dieser Schurken und Ganoven weise ich darauf hin, dass wir vorsichtig sein müssen. Piraterie ist ein Kapitalverbrechen und kein Kaffeeklatsch für rachsüchtige Debütanten!"
+a1_master_smith_ibuki_right,"Az hat Recht. Ich würde gerne ein paar fette Handelsschiffe ausnehmen, aber eines sollten wir nicht vergessen: Deine Großmutter hatte eine ganze Flotte erstklassiger Schiffe, und wir haben nur einen lahmen Transporter und einen Haufen Ersatzteile."
+a1_master_cal_youre_right,"Ihr habt beide Recht, aber wir haben keine große Wahl. Wenn wir klein anfangen und im Rahmen unserer Möglichkeiten arbeiten, können wir uns irgendwann einen Sprungantrieb leisten. Wenn euch was Besseres einfällt, wie wir an genügend Geld kommen können, bitte..."
+a1_master_smith_ok_kid,"Nee, stimmt schon. Wir haben das Know-how, wir haben die Mittel, und wir haben eindeutig genügend offene Rechnungen zu begleichen. Worauf warten wir noch?"
+a1_master_jafs_hey_cal,"Hey, Cal, ich hab' da eine Idee. Du erinnerst dich an das Such- und Bergungsschiff im Trockendock? Smith meint, er kann es zum Transport von Frachtkapseln umbauen. Wenn du also Beute und so was absetzen willst, könnte ich sie abholen und zur Basis bringen. Tolle Idee, was?"
+a1_master_cal_while_you,DU holst die Beute ab?
+a1_master_jafs_yeah_while_i,Warum nicht? Außerdem bin ich nebenbei ausgebildeter Bergungspilot. Und warum solltest du den ganzen Piratenruhm ganz alleine ernten Mann?
+a1_master_jafs_ive_been_looking,"Ich habe mich nach Leuten umgesehen, die unsere Beute verticken könnten, aber im Moment reißen sich nicht viele um heiße Ware. Und die wenigen, die's machen würden, zahlen miserabel.  "
+a1_master_cal_i_thought_you_had_contacts,"Aber Jafs, ich dachte, du könntest so gut wie alles an den Mann bringen."
+a1_master_jafs_times_have_changed,"Ja, Mann, aber die Zeiten ändern sich. Die Kartelle haben die kleinen Fische aus dem Geschäft gedrängt. Das sind die besten Angebote, die ich momentan kriegen kann."
+a1_master_jafs_tick_off,"Hey, und was soll das für eine grandiose Idee sein, das havarierte Maas Schiff zurückzulassen? Von noch leichterer Beute können wir nur träumen! So kommen wir aus diesem Niemandsland nie raus!"
+a1_master_jafs_bad_news,"Schlechte Neuigkeiten, Cal. Ich habe versucht, einen Abnehmer für unsere Beute zu finden, der uns einen guten Preis macht... oder wenigstens nur ein bisschen übers Ohr haut. Aber niemand will was mit uns zu tun haben. Die großen Bosse im System mögen keine 'freien Unternehmer'. Wir können uns höchstens diesem Stepsons-Clan anschließen."
+a1_master_cal_brand_new_turret_fighters,"Wir haben jetzt zwei brandneue, supermoderne Kanonenjäger. Uns fehlen nur noch Piloten. Wie sieht's aus, Az?"
+a1_master_ibuki_what_do_you_think,"Na endlich! Ich bin schon ganz scharf aufs Fliegen, seit wir hier sind."
+a1_master_cal_what_about_you,"Wie steht's mit dir, Lori? Traust du dir zu, so einen Jäger zu fliegen?"
+a1_master_lori_listen_up,"Nicht so herablassend, Herr Weltraumpirat! Nur weil du seit deiner Kindheit Firmenhaie vom Himmel holst, heißt das noch lange nicht, dass wir nicht fliegen können! So gut wie du bin ich allemal."
+a1_master_cal_ok_ok_im_sorry,"Schon gut! Entschuldige... Sobald Smith die Halterungen am Hauptschiff angebracht hat, kannst du einen Testflug machen."
+a1_master_smith_my_buddy_maurice,"Hey, Cal. Mein Kumpel Maurice hat eben eine Nachricht geschickt, die dich interessieren dürfte."
+a1_master_maurice_mail_sender,Maurice Herzog
+a1_master_ibuki_latest_mails,"Laut neuesten Informationen wurden die Marauder geschlagen. Wir wissen aber auch, dass sie versuchen werden, von Hoffer's Gap abzulenken. Was ist da los?"
+a1_master_smith_dunno_but_im_inclined_to_think,"Keine Ahnung, aber die Marauder sind harte Jungs. Ein paar ihrer Stützpunkte auszuschalten allein wird sie nicht abhalten... von was auch immer sie vorhaben."
+a1_master_cal_and_thats_the_problem,"Und genau da liegt das Problem. Niemand weiß, was sie vorhaben, außer dem gesamten System Schaden zuzufügen. Die Frage ist nur: Was tun wir?"
+a1_master_jafs_how_about_exploit_the_situation,Ich hab's! Wir nutzen die Lage geschickt aus und werden reich!
+a1_master_cal_not_quite_the_plan,"Das glaube ich kaum, Jafs. Am besten unternehmen wir erst mal gar nichts und behalten die Situation weiter im Auge..."
+a1_master_league_mail_sender,League
+a1_master_jafs_lucrecias_horde_hey_aint_lucrecia_your_grandma,"Lucrecias Schatz? Oh, wie gerne würde ich mir diesen fetten Geldsack schnappen! Hey, Cal, ist da was dran?"
+a1_master_cal_yup_thats_her_but_I_dont_know_what_this_horde_is_all_about,"Gute Frage! Clay, kannst du uns was dazu sagen?"
+a1_master_clay_before_she_dissapeared_your_grandma_stashed_a_good_portion_of_her_loot,"Vielleicht ist was dran... Lucrecia verschenkte viel Geld. Ihr eigentliches Ziel aber war eine echte Revolution, deshalb legte sie Geldreserven zurück. Keine Ahnung, wo das Geld geblieben ist... Ich hütete damals gerade deinen Vater, als Lucrecia verschwand. Sie sagte nur, dass sie das Geld in Hoffer's Wake verstecken wollte. Sie hat es offensichtlich ziemlich gut versteckt, denn viele geübte Schatzsucher haben hier schon rumgeschnüffelt, und soweit ich weiß sind sie alle mit leeren Händen wieder abgezogen."
+a1_master_cal_so_we_know_where_both_the_locations_to_triangulate_from_are_but_what_about_the_date,"Aber wir sind ihnen einen Schritt voraus. Wir wissen nämlich, wo Lucrecias Geheimbasis ist. Aber um den Schatz zu orten, brauchen wir genaue Daten. Irgendwelche Anhaltspunkte, Clay?"
+a1_master_clay_i_dont_know_as_i_could_be_hacked_she_trusted_me_even_less,"Nicht die geringsten! Weißt du, eine Brain-Box wie mich kann man leicht knacken. Auch wenn Lucrecia mir deinen Vater zum Großziehen anvertraute, über den Ort des Schatzes hat sie mir nie etwas verraten. Nicht einmal ihren Offizieren vertraute sie in diesem Punkt."
+a1_master_jafs_you_dumb_piece_of_jumk_think,"Oh, komm schon, du blöder Blechkasten! Willst du mir etwa weismachen, du hast nicht heimlich mal in ihrem Tagebuch gelesen? Nie und nimmer warst du ihre rechte Hand! Höchstens ihr Toaster Mann ..."
+;,

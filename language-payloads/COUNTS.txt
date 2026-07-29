@@ -1,0 +1,4 @@
+files=333
+german_fallbacks=6
+english_fallbacks=316
+english_f14_base=17

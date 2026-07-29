@@ -1,0 +1,49 @@
+; FILE: Dact2_mission18.csv,
+; Key,
+; FILE NAME,GERMAN TRANSLATION
+;,
+a2_m18_ship_escort_1,Skydive 1
+a2_m18_ship_escort_2,Skydive 2
+a2_m18_ship_escort_3,Skydive 3
+a2_m18_ship_escort_4,Skydive 4
+a2_m18_ship_fighter_1,F-Jäger 1
+a2_m18_ship_fighter_2,F-Jäger 2
+a2_m18_ship_fighter_3,F-Jäger 3
+a2_m18_ship_freighter_1,Versorgung-X345-A
+a2_m18_ship_freighter_2,Versorgung-X345-B
+a2_m18_waypoint_rendezvous,Konvoi-Treffpunkt
+
+
+a2_m18_dialogue_escort_1_greetings_glad_you_could_make_it,"Cal, schön dass dus geschafft hast."
+a2_m18_dialogue_escort_1_the_plan_is_to_head_for_hoffers_gap,Wir sind bereit. Wir wollen nach Hoffer's Gap vordringen. Mit etwas Glück greifen die Marauder auf dem Weg an. Dann führst du den Gegenangriff.
+a2_m18_dialogue_escort_1_ok_formate_with_us_and_lets_go,"Cal, geh mit einem der Frachter in Formation, dann kann's losgehen."
+a2_m18_dialogue_escort_1_setting_course_for_hoffers_gap,Kurs auf Hoffer's Gap. Viel Glück allerseits.
+a2_m18_dialogue_escort_1_our_ldsi_drives_have_cut_out,Unser LDS-Antrieb ist ausgefallen!
+a2_m18_dialogue_escort_1_watch_out_for_marauders,Haltet Ausschau nach Maraudern!
+a2_m18_dialogue_escort_1_cal_where_the_heck_are_you,Cal? Cal! Wo zum Teufel steckst du?
+a2_m18_dialogue_escort_1_marauders_incoming,Marauder im Anflug!
+a2_m18_dialogue_escort_1_theyre_going_for_the_freighters,Sie sind hinter den Frachtern her. Wir halten sie auf und du machst das LDS-Blockier-Schiff ausfindig.
+a2_m18_dialogue_escort_1_were_releasing_the_remote_fighters_now,Wir starten jetzt die ferngelenkten Jäger.
+a2_m18_dialogue_clay_weve_lost_a_freighter,Wir haben gerade einen Frachter verloren!
+a2_m18_dialogue_clay_dammit_there_goes_the_other_one,Verdammt! Wir haben den anderen Frachter verloren!
+a2_m18_dialogue_smith_ive_traced_the_ldsi_field_source,"Cal, ich habe die Quelle des LDS-Blockierfelds gefunden. Du wirst es nicht glauben, aber das Blockierfeld ist etwa 250 Kilometer weit entfernt."
+a2_m18_dialogue_cal_thats_huge,Was? Wie kann es denn so groß sein?
+a2_m18_dialogue_clay_must_be_one_big_ship_generating_that_field,Vielleicht kommt es von einem großen Schiff. Wahrscheinlich von der Akela. Statten wir ihr einen Besuch ab.
+a2_m18_dialogue_smith_waypoint_locked_in,Streckenpunkt eingegeben.
+a2_m18_dialogue_smith_hey_ive_lost_the_ldsi_signal,He! Ich habe das LDS-Blockier-Signal verloren! Ich empfange hier garnichts!
+a2_m18_dialogue_smith_that_megafreighter_must_be_loaded_with_ldsi_field_generators,Dieser Superfrachter muss randvoll mit LDS-Blockierfeldgeneratoren sein. Er kann selbst nie und nimmer genügend Energie für ein so großes Feld generieren! Warte mal. Anscheinend versorgen ihn die Frachter mit Energie.
+a2_m18_dialogue_clay_so_thats_how_theyre_doing_it,SO machen die das also.
+a2_m18_dialogue_clay_those_power_freighters_could_be_the_key,"Junge, vielleicht sind die Energiefrachter des Rätsels Lösung."
+a2_m18_dialogue_smith_the_ships_are_too_well_shielded,Die Schiffe sind zu gut abgeschirmt.
+a2_m18_dialogue_clay_weve_got_to_shut_off_the_power_somehow,Wir müssen die Energieversorgung des Frachters ausschalten!
+a2_m18_dialogue_smith_the_ldsi_field_is_down,Das LDS-Blockierfeld ist aus!
+a2_m18_dialogue_smith_that_did_it_their_shields_are_down,"Das war's, Cal! Wunderschön! Ein linker Haken aus dem Nichts! Ihre Schilde sind aus. Jetzt haben wir sie genau da, wo wir sie haben wollen!"
+a2_m18_dialogue_smith_its_launching_ships,Was zum Teufel? Er startet Schiffe! Das ist ein verdammter Träger!
+a2_m18_dialogue_clay_way_to_go,"Gut gemacht, Kleiner!"
+a2_m18_dialogue_clay_i_think_i_think_the_league_owe_you,Die League ist dir was schuldig.
+a2_m18_dialogue_freighter_what_the_hell_do_you_think_youre_doing,Was zum Teufel machst du da?
+a2_m18_dialogue_freighter_are_you_crazy_cease_fire,Spinnst du? Feuer einstellen!
+a2_m18_dialogue_freighter_dont_shoot_us_you_idiot,"Schieß doch nicht auf uns, du Idiot!"
+a2_m18_dialogue_freighter_help_were_under_attack,"Hilfe, wir werden angegriffen!"
+a2_m18_dialogue_freighter_were_being_fired_upon,Wir sind unter Beschuss. Bitten um Hilfe!
+a2_m18_dialogue_freighter_enemy_ships_are_attacking,Feindliche Schiffe greifen an. Wir brauchen Hilfe!

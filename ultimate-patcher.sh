@@ -362,8 +362,10 @@ build_tasks() {
         # Download and validate before any game files are backed up or modified.
         TASK_IDS+=(video-downloads)
     fi
-    (( convert_audio )) && TASK_IDS+=(audio)
+    # When selected, F14.6 is the first task that changes the game.  All
+    # preceding tasks only download and verify external inputs.
     (( install_f14 )) && TASK_IDS+=(f14)
+    (( convert_audio )) && TASK_IDS+=(audio)
     if (( install_german )); then
         if (( install_f14 )); then TASK_IDS+=(german-f14); else TASK_IDS+=(german); fi
     fi
@@ -477,11 +479,12 @@ run_task_command() {
 }
 
 run_task() {
-    local id="$1" index="$2" spinner=0 stage current total
+    local id="$1" index="$2" spinner=0 stage current total notice_file
     progress_file="$(mktemp)"
     operation_log="$(mktemp)"
+    notice_file="$(mktemp)"
     printf 'starting|0|1\n' > "$progress_file"
-    GERPATCH_PROGRESS_FILE="$progress_file" run_task_command "$id" > "$operation_log" 2>&1 &
+    GERPATCH_PROGRESS_FILE="$progress_file" GERPATCH_NOTICE_FILE="$notice_file" run_task_command "$id" > "$operation_log" 2>&1 &
     local worker_pid=$!
     while kill -0 "$worker_pid" 2>/dev/null; do
         stage='starting'; current=0; total=1
@@ -493,7 +496,14 @@ run_task() {
         sleep 0.09
     done
     if wait "$worker_pid"; then
-        rm -f -- "$progress_file" "$operation_log"
+        if [[ -s "$notice_file" ]]; then
+            clear_screen
+            header
+            cat -- "$operation_log"
+            printf '\nPress any key to continue.\n'
+            IFS= read -r -s -n1 _ || true
+        fi
+        rm -f -- "$progress_file" "$operation_log" "$notice_file"
         progress_file=''
         operation_log=''
         return 0
@@ -502,6 +512,7 @@ run_task() {
     mkdir -p -- "$log_dir"
     log_path="$log_dir/ultimate-patcher-$(date +%Y%m%d-%H%M%S)-${id}.log"
     cp -a -- "$operation_log" "$log_path"
+    rm -f -- "$notice_file"
     error="$(tail -n 1 "$operation_log")"
     clear_screen
     header
@@ -529,8 +540,9 @@ execute_tasks() {
         fi
     done
     execution_screen -1 0 1 1
-    printf '\n%bAll selected tasks are complete.%b\nPress any key to return to the menu.\n' "$GREEN" "$RESET"
+    printf '\n%bAll selected tasks are complete.%b\nPress any key to exit.\n' "$GREEN" "$RESET"
     IFS= read -r -s -n1 _ || true
+    return 0
 }
 
 self_test() {
@@ -569,7 +581,13 @@ self_test() {
     configure_widescreen=0; resolution=''; install_gamescope_launcher=0; use_fullscreen=0
     gamescope_backend=''; use_gamescope_mouse_sensitivity=0
     video_mode=''; video_aspect=''; video_language=''
-    install_german=1; sync_dependencies; build_tasks || return 1
+    install_german=0; convert_audio=1; install_f14=1; fix_english=0; install_nocd=1; configure_mouse=1
+    sync_dependencies; build_tasks || return 1
+    [[ "${TASK_IDS[*]}" == 'f14 audio nocd mouse' ]] || return 1
+    install_german=1; convert_audio=0; install_f14=1; install_nocd=0; configure_mouse=0
+    sync_dependencies; build_tasks || return 1
+    [[ "${TASK_IDS[*]}" == 'german-data-downloads german-video-downloads f14 german-f14' ]] || return 1
+    install_f14=0; install_german=1; sync_dependencies; build_tasks || return 1
     [[ "${TASK_IDS[*]}" == 'german-data-downloads german-video-downloads german' ]] || return 1
     video_mode=manual; video_aspect=standard; video_language=german
     sync_dependencies; build_tasks || return 1
@@ -599,7 +617,11 @@ main() {
         case "$(read_key)" in
             up) move_selection -1 ;;
             down) move_selection 1 ;;
-            left|right|activate) toggle_selected ;;
+            left|right|activate)
+                if toggle_selected; then
+                    [[ "$selected_item" == apply ]] && break
+                fi
+                ;;
             escape) break ;;
         esac
     done

@@ -1,0 +1,30 @@
+; FILE: Dact1_mission03.csv,
+; Key,
+; FILE NAME,GERMAN TRANSLATION
+a1_m03_name_defense1,Verteidigungsturm 1
+a1_m03_name_defense2,Verteidigungsturm 2
+a1_m03_name_meeting,Stepson-Treffpunkt
+a1_m03_name_base_loc,Marauder-Basis
+;,
+a1_m03_dialogue_stepson,Carla Stepson
+a1_m03_text_player,Cal 
+a1_m03_dialogue_player,Cal 
+a1_m03_dialogue_clay,Clay
+a1_m03_dialogue_any,Wingman
+;,
+a1_m03_dialogue_stepson_c1_cal_youve_arrived,"Schön, dich wiederzusehen, Cal. Bist du bereit, unsere Schiffe gegen die Marauder-Basis anzuführen?"
+a1_m03_dialogue_stepson_c1_youre_back,"Willkommen daheim. Bereit, den Angriff zu leiten?"
+a1_m03_text_player_c1_option_1_yes,Ja.
+a1_m03_dialogue_player_c1_option_1_yes,Ja! Lasst uns die Marauder fertigmachen!
+a1_m03_dialogue_stepson_c1_response_1_ok_were_sending,"Gut. Warte, bis dir der genaue Standort der Marauder-Basis mitgeteilt wird... Und, Cal, das sind deine Wingmen, sie unterstehen deinem Befehl. Viel Glück!"
+a1_m03_text_player_c1_option_2_no,Nein.
+a1_m03_dialogue_player_c1_option_2_no,"Nein, ich bin noch nicht bereit."
+a1_m03_dialogue_stepson_c1_response_2_wait,"Na gut. Aber warte nicht zu lang. Wir bleiben in Alarmbereitschaft und starten, sobald du den Befehl gibst."
+;,
+a1_m03_dialogue_clay_theres_the_base,"Da ist die Marauder-Basis. Mit diesem Gunstar dort wird es nicht ungefährlich, sich zu nähern. Vielleicht sollten wir uns erst mal umsehen."
+a1_m03_dialogue_any_the_station,Die Station ist zerstört!
+a1_m03_dialogue_wingmen_thanks_for,"Ohne dich hätten wir das nicht geschafft, Cal. Dock an mein Schiff an, ich habe eine Belohnung für dich!"
+a1_m03_dialogue_wingmen_there_you_go,"Hier, Cal. Viel Spaß mit deiner neuen Sturmkanone und der passenden Munition. Hoffentlich begegnen wir uns mal wieder. Es war uns eine Ehre."
+a1_m03_dialogue_guess_we_can,"Ich denke, wir können jetzt nach Hause..."
+a1_m03_dialogue_clay_hm_too_bad,"Hmmm. Schade um die Wingmen... Auf, zurück zu den Stepsons!"
+a1_m03_dialogue_stepsons_youve_returned,"Gut gemacht, Cal! Glückwunsch! Wir feiern dir zu Ehren ein Fest. Dock an, um dir deine Belohnung abzuholen."

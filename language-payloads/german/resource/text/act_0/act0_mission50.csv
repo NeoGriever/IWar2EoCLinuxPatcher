@@ -1,0 +1,16 @@
+; FILE: Dact0_mission50.csv,
+; Key,
+; FILE NAME,GERMAN TRANSLATION
+;,
+;,
+a0_m50_name_lockup,Schuppen
+a0_m50_dialogue_clay_ok_i_think,Am besten nähern wir uns dem Schrottplatz und prüfen von dort aus die Lage.
+a0_m50_dialogue_clay_yep_thisll,"Ja. Das ist wohl nah genug. Bin gespannt, was es da zu sehen gibt..."
+a0_m50_dialogue_clay_looks_like,"Die nehmen's ernst mit der Sicherheit. Am besten schleichen wir uns auf sicherer Distanz zu den ganzen anderen Schiffen in die Zone. Dann am Reaktor andocken, die Brennstäbe schnappen und nichts wie weg hier!!!"
+a0_m50_dialogue_clay_watch_out,"Pass auf, Junge! Wir sind in Sensorreichweite ihrer Schiffe!!"
+a0_m50_dialogue_clay_good_work,"Saubere Arbeit, Junge! Lass uns die Brennstäbe laden und dann von hier verschwinden!"
+a0_m50_dialogue_clay_ok_lets,"OK, los geht's!!"
+a0_m50_dialogue_junkers_intruder,Eindringling entdeckt! An alle Schiffe: Angriff!
+a0_m50_dialogue_junkers_alert_all,Alarm! An alle Schiffe! Eindringling entdeckt!
+a0_m50_dialogue_clay_run_for,Raus hier!! Los! Los! Los!
+a0_m50_dialogue_clay_well_done,"Jaaaa! Wir haben die Beute geschnappt! Wenn wir zu Hause sind, bauen wir die Brennstäbe ein und sehen mal, ob sie funktionieren. Klasse Arbeit! Aus dir wird noch ein echter Pirat!"

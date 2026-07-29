@@ -11,12 +11,18 @@ INSTALLED_WRAPPER="$RUNTIME_DIR/tools/iwar2-gamescope-diagnostic.sh"
 SOURCE_DISPLAY_CONFIG="$PATCH_DIR/runtime/display.conf"
 DISPLAY_CONFIG="$RUNTIME_DIR/runtime/display.conf"
 PROGRESS_FILE="${GERPATCH_PROGRESS_FILE:-}"
+NOTICE_FILE="${GERPATCH_NOTICE_FILE:-}"
 
 progress() {
     [[ -n "$PROGRESS_FILE" ]] || return 0
     local temporary="${PROGRESS_FILE}.tmp.$$"
     printf '%s|%s|%s\n' "$1" "$2" "$3" > "$temporary"
     mv -f -- "$temporary" "$PROGRESS_FILE"
+}
+
+request_user_notice() {
+    [[ -n "$NOTICE_FILE" ]] || return 0
+    printf '%s\n' 'steam-launch-options' > "$NOTICE_FILE"
 }
 
 [[ $# -eq 1 && -f "$1/flux.ini" ]] || {
@@ -40,13 +46,42 @@ install_runtime() {
     }
 }
 
+steam_is_running() {
+    local pid_file pid process_name process_state
+
+    # The main client writes this PID file on native Linux installations.  A
+    # live PID is the most direct check and avoids relying on one particular
+    # launcher process name.
+    for pid_file in "$HOME/.steam/steam.pid" "$STEAM_ROOT/steam.pid"; do
+        [[ -r "$pid_file" ]] || continue
+        read -r pid < "$pid_file" || continue
+        [[ "$pid" =~ ^[1-9][0-9]*$ && -d "/proc/$pid" ]] || continue
+        process_state="$(ps -p "$pid" -o stat= 2>/dev/null || true)"
+        [[ -n "$process_state" && "$process_state" != Z* ]] && return 0
+    done
+
+    # Depending on the package and client version, Steam's long-lived client
+    # is visible either as steam, steamwebhelper, or the runtime launcher.
+    # Ignore zombies: they cannot keep localconfig.vdf in memory.
+    while read -r process_name process_state; do
+        case "$process_name" in
+            steam|steamwebhelper|steam-runtime-launcher-service)
+                [[ "$process_state" != Z* ]] && return 0
+                ;;
+        esac
+    done < <(ps -u "$(id -u)" -o comm= -o stat=)
+
+    return 1
+}
+
 progress steam-launcher 0 1
 install_runtime
 
 # Steam retains localconfig.vdf in memory and otherwise overwrites a direct
 # edit on shutdown. Give the user the exact safe manual alternative instead.
-if pgrep -x steam >/dev/null; then
+if steam_is_running; then
     progress steam-launcher 1 1
+    request_user_notice
     printf 'Steam is running, so its local configuration was left unchanged.\n\n'
     printf 'In Steam: Library → Independence War 2 → Properties → General → Launch Options\n'
     printf 'Copy this exact line into the Launch Options field:\n\n'

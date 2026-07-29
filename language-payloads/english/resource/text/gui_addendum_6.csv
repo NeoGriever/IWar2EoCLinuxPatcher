@@ -1,0 +1,49 @@
+;,
+; Multiplayer Host Session GUI Keys,
+;,
+mp_server_map, MAP
+
+
+
+;,
+; Localised versions of multiplayer game types,
+;,
+mp_game_type_ivc," ""INDIES VS CORPORATES"""
+mp_game_type_mt,MINE TAG
+mp_game_type_tmt,TEAM MINE TAG
+mp_game_type_ctc,CAPTURE THE CRUISER
+; general piracy type,
+mp_game_type_gp," ""PIRACY"""
+
+
+;,
+; Rejection info screen title,
+;,
+mp_rejection_title," ""REJECTED"""
+;,
+; descriptions of rejection by client or server,
+;,
+
+mp_reject_server_bad_sim," ""Failed to create server sim: """
+mp_reject_server_not_a_sim," ""Failed to create server sim - bad class: """
+mp_reject_server_wrong_version," ""Client version is incompatible with the server"""
+mp_reject_server_player_invalid," ""Player not allowed to join server"""
+mp_reject_server_admin_reject," ""Rejected by administrator"""
+mp_reject_client_wrong_version," ""Server version is incompatible with the client"""
+mp_reject_client_bad_world," ""Failed to create world: """
+mp_reject_client_bad_sim," ""Failed to create client proxy: """
+mp_reject_client_not_a_sim," ""Failed to create client proxy - bad class: """
+mp_reject_client_unauthorised," ""Failed to authenticate player: """
+
+;,
+; Graphics options,
+;,
+options_directx8,"""DirectX8"""
+
+;
+; Mod screen
+;
+pda_extras,"EXTRAS"
+pda_installed_mods,"AVAILABLE MODS:"
+pda_installed_missions,"AVAILABLE SCENARIOS:"
+pda_play_mission,"LAUNCH SCENARIO"

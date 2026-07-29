@@ -1,0 +1,11 @@
+;
+; Localised text for mine tagging game
+;
+; 
+mp_game_tag,"ORE"
+mp_ore_totals, "TEAM TOTALS"
+mp_alpha_ore_total, "ALPHA ORE COUNT: "
+mp_beta_ore_total, "BETA ORE COUNT: "
+
+
+

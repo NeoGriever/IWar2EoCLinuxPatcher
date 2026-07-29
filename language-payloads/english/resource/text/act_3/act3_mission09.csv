@@ -1,0 +1,21 @@
+; FILE: Dact3_mission09.csv,
+; Key,
+ ACT 3 MISSION 9 - ANTIMATTER CORDON,
+; FILE NAME,GERMAN TRANSLATION
+a3_m09_email_sender,Franklyn Hoffer
+a3_m09_email_subject,Wichtige Mission
+a3_m09_dialogue_antimatter_carrier_ok_here_we_are,Da wären wir also. Holen wir die Antimaterie und verschwinden!
+a3_m09_dialogue_antimatter_carrier_docking_now,Docken Antimaterie jetzt an...
+a3_m09_dialogue_antimatter_loaded_lets_move,Geladen. Jetzt nichts wie weg zum L-Punkt.
+a3_m09_dialogue_antimatter_mayday_we_appear,Mayday. Mayday. Wir haben Probleme mit dem Antrieb... Schalten jetzt das Haupttriebwerk ab -
+a3_m09_dialogue_antimatter_o_my_god,Oh Gott! Das Antimaterie-Dämmfeld ist ausgefallen! Wir verlieren Energie an das Dämmfeld!
+a3_m09_dialogue_clay_looks_like_that,"Der Träger geht wohl gleich hoch, wenn wir ihn nicht irgendwie mit Energie versorgen können."
+a3_m09_dialogue_clay_incoming,Angreifer im Anflug!
+a3_m09_dialogue_clay_another_wave,Da kommt die nächste Angriffswelle!
+a3_m09_dialogue_antimatter_were_back_online,"Alles wieder im Lot! Danke für eure Hilfe. Wir machen uns besser auf den Weg, bevor noch etwas passiert!"
+a3_m09_dialogue_antimatter_were_heading_back,Wir machen uns zurück zum L-Punkt. Nichts wie weg von hier!
+a3_m09_dialogue_antimatter_at_last_the_lpoint,Endlich! Der L-Punkt! Ich freue mich so auf meine Heimkehr!
+a3_m09_dialogue_antimatter_what_the,Was zum-
+a3_m09_text_prompt_incr,"Dämmfeld-Stärke ansteigend"
+a3_m09_text_prompt_stab,"Dämmfeld-Stärke stabilisiert"
+a3_m09_text_prompt_decr,"Dämmfeld-Stärke abnehmend"

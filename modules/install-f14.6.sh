@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Installs the verified, complete F14.6 payload bundled with this package.
+# Installs the verified non-language F14.6 payload bundled with this package.
 set -Eeuo pipefail
 
 PATCH_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd -P)"
@@ -62,7 +62,7 @@ while IFS='|' read -r relative expected_hash; do
     [[ -f "$TARGET_DIR/$relative" && "$(sha256 "$TARGET_DIR/$relative")" == "$expected_hash" ]] || payload_already_installed=0
 done < "$MANIFEST"
 
-(( ${#paths[@]} == 556 )) || { printf 'Unexpected F14.6 manifest size.\n' >&2; exit 65; }
+(( ${#paths[@]} == 394 )) || { printf 'Unexpected F14.6 manifest size.\n' >&2; exit 65; }
 
 if (( payload_already_installed )) && f14_registry_present; then
     progress install 1 1
