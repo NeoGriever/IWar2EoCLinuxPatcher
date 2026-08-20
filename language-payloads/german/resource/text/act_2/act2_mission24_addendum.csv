@@ -1,0 +1,22 @@
+; FILE: Dact2_mission24_addendum.csv,
+; Key,
+ ACT 2 MISSION 24 ADDENDUM ,
+; FILE NAME,GERMAN TRANSLATION
+a2_m24_ship_scoutship,Baden Powell
+a2_m24_text_caption_dante_system,Dante-System: Geheimlager der Marauder.
+a2_m24_dialogue_scoutship_found_cache,League-Erkundungsschiff Baden Powell an Cal Johnston. Schön dich zu sehen. Wir haben ein Geheimlager der Marauder gefunden und es ein paar Tage beobachtet. Ein Megafrachter und zwei Geleitschiffe sind jetzt beim Einladen. Sie machen sich scheinbar zur Rückkehr ins Dante-System bereit.
+a2_m24_dialogue_cal_whats_the_plan,Wie sieht der Plan aus?
+a2_m24_dialogue_scoutship_we_will_distract_them,"Wir lenken den Geleitschutz des Megafrachters ab, während du dich an den Megafrachter ranschleichst. Versteck dein Schiff in einer der Ladekapseln, während wir sie beschäftigen. Wenn wir Glück haben, nimmt dich der Megafrachter dann mit, wenn wir uns zurückziehen."
+a2_m24_dialogue_clay_and_then,Und dann wird's erst richtig schwierig.
+a2_m24_dialogue_cal_no_kidding,"Ach, wirklich?"
+a2_m24_dialogue_scoutship_when_youre_ready,"Wenn du bereit bist, häng dich an mich dran. Dann machen wir uns auf den Weg zum Lager. Dort erhältst du weitere Anweisungen von mir."
+a2_m24_dialogue_cal_roger_that,Verstanden.
+a2_m24_dialogue_scoutship_cache_ahead,"Gut, das Geheimlager liegt direkt vor uns. Sie wissen jetzt, dass wir hier sind, also versuchen wir jetzt, ihre Aufmerksamkeit auf uns zu ziehen. Bringen wir's hinter uns."
+a2_m24_dialogue_cal_good_luck,Viel Glück!
+a2_m24_dialogue_scoutship_same_to_you,"Dir auch. Halt dich nur immer schön vom Geleitschutz fern, verstanden?"
+a2_m24_dialogue_cal_well_be_careful,Wir werden vorsichtig sein.
+a2_m24_dialogue_clay_the_escorts_are_moving_off,"Der Geleitschutz zieht ab - los jetzt, bevor sie uns entdecken."
+a2_m24_dialogue_smith_just_get_us_close,"Bring uns nur an die leere Ladekapsel ran, Cal. Den Rest erledige ich."
+a2_m24_dialogue_clay_what_are_you_doing,"Verdammt, Cal! Was hast du dir denn dabei gedacht - sie haben uns entdeckt!"
+a2_m24_dialogue_smith_were_in,"Wir sind drin. Ich habe die Kapseltüren geschlossen und alle nicht benötigten Systeme runtergefahren, damit sie uns nicht finden."
+a2_m24_dialogue_cal_we_wait,Jetzt können wir nur noch abwarten.

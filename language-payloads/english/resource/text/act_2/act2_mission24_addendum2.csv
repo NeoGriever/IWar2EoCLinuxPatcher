@@ -1,0 +1,8 @@
+; FILE: Dact2_mission24_addendum2.csv,
+; Key,GERMAN TRANSLATION
+a2_m24_dialogue_clay_six_relays,"Ich habe einige Scans vorgenommen und bin auf sechs verschiedene Kommunikations-Relaisstationen gestoßen. Wahrscheinlich brauchen sie die alle, um ein Signal durch die elektromagnetischen Interferenzen in diesem System zu senden. Wir können davon ausgehen, dass sich zumindest eine davon in der Nähe einer Signalquelle, also bei einer Basis, befindet."
+a2_m24_dialogue_clay_relay_waypoints,"Der Computer hat die Kommunikations-Relais als Streckenpunkte markiert. Also los, Cal."
+a2_m24_dialogue_clay_relay_one,Eine Relais-Station. Sieht eigentlich harmlos aus.
+a2_m24_dialogue_clay_relay_two,Noch eine verlassene Relais-Station.
+a2_m24_dialogue_clay_relay_three,"Wieder eine einfache Relais-Station, aber irgendwo muss eine Basis sein."
+a2_m24_dialogue_clay_dont_do_that,"Was machst du da?  Wir sind in einem feindlichen System, und du polterst hier rum und verkündest lauthals unsere Ankunft!"

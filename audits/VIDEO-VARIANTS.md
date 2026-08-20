@@ -25,7 +25,9 @@ The 12 640×480 cinematics in each `widescreen` set are made as follows:
 1. Decode the original Bink 1 source to a lossless FFV1/PCM AVI.
 2. Crop `640:360:0:60` — exactly 60 pixels from the top and bottom.
 3. Scale the resulting image back to `640:480` with Lanczos.
-4. Encode the result once as Bink 1 at 25 fps with 44.1 kHz stereo audio.
+4. Encode the result once as Bink 1 at 25 fps with 44.1 kHz stereo legacy
+   `binkaudio_rdft` audio. This codec is required by the game's original Bink
+   decoder; the modern `binkaudio_dct` output is not compatible.
 
 The game subsequently applies its own 16:9 stretch, which cancels this
 intentional pre-stretch. The 13 400×400 HUD/avatar videos, including all

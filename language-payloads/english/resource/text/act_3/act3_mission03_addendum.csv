@@ -1,0 +1,23 @@
+; FILE: Dact3_mission03_addendum.csv,
+; Key,
+; FILE NAME,GERMAN TRANSLATION
+;,
+a3_m03_name_scientist_1,Wissenschaftler Eins
+a3_m03_name_scientist_2,Wissenschaftler Zwei
+a3_m03_name_scientist_3,Wissenschaftler Drei
+a3_m03_name_base_computer,Basiscomputer
+a3_m03_dialogue_scientist_1_never_seen_anything_like,So etwas habe ich noch nie gesehen.
+a3_m03_dialogue_scientist_2_three_nodes,"Die Schleife besteht aus drei Knoten - es erscheint, als würden sie sich nach innen zu bewegen."
+a3_m03_dialogue_scientist_2_oh_my_god,Gütiger Himmel.
+a3_m03_dialogue_scientist_1_point_of_light,Das... das Gerät erzeugt einen Lichtpunkt!
+a3_m03_dialogue_scientist_3_giving_off_power,Es gibt Energie ab.
+a3_m03_dialogue_scientist_1_getting_brighter,Das Licht wird heller...
+a3_m03_dialogue_scientist_3_power_increase,Die Energiewerte erhöhen sich stetig. Sie sind gleich nicht mehr messbar!
+a3_m03_dialogue_scientist_1_it_burns,Meine Augen! Das brennt!
+a3_m03_dialogue_scientist_2_shut_it_down,Mach es aus! Mach es aus! Es brennt sich einen Weg aus dem Isoliergehäuse!
+a3_m03_dialogue_scientist_3_thats_impossible,Das ist unmöglich!
+a3_m03_dialogue_base_computer_containment_breach,Isoliergehäuse durchbrochen. Notabriegelung eingeleitet. Selbstzerstörung in fünf.
+a3_m03_dialogue_base_computer_countdown_4,Vier.
+a3_m03_dialogue_base_computer_countdown_3,Drei.
+a3_m03_dialogue_base_computer_countdown_2,Zwei.
+a3_m03_dialogue_base_computer_countdown_1,Eins.

@@ -1,0 +1,49 @@
+system_autorepair,Autom. Reparatur,Autom. Reparatur
+system_sensors,Sensoren,Sensoren
+system_crew,Besatzung,Besatzung
+system_countermeasures,Ablenk.-Starter,Ablenk.-Starter
+system_lds,LDS-Antrieb,LDS-Antrieb
+system_capsule_drive,Hyperantrieb,Hyperantrieb
+system_lda_shield,LDA-Schild,LDA-Schild
+system_powerplant,Fusionsring,Fusionsring
+system_missile_launcher,Raketenstarter,Raketenstarter
+system_rocket_launcher,Raketenwerfer,Raketenwerfer
+system_ldsi_launcher,LDS-Block.-Werfer,LDS-Block.-Werf.
+system_pbc,TSK,TSK
+systems_assault_cannon,Gatling-Sturmkan.,Gatling-Sturmka.
+system_heavy_pbc,Schwere TSK,Schwere TSK
+system_megabolter,Schwerer Strahl,Schwerer Strahl
+;,,
+
+;,,
+system_dock_port,Dockmanschette,Dockmanschette
+system_cargo_port,Ladeluke,Ladeluke
+system_refuel_port,Tankschleuse,Tankschleuse
+system_unload_port,Dockmanschette,Dockmanschette
+system_pod_port,Dockmanschette,Dockmanschette
+;,,
+,,
+;,,
+turret_generic,Turm,
+turret_assault_cannon,Gatling-Turm,Gatling-Turm
+turret_pbc,TSK-Turm,TSK-Turm
+turret_quad_light,Viererturm,Viererturm
+turret_heavy_pbc,Schwerer TSK-Turm,Schw. TSK-Turm
+;,,
+,,
+;,,
+system_drive,Antrieb,Antrieb
+system_thrusters,Schubdüsen,Schubdüsen
+system_life_support,Lebenserhaltung,Lebenserhaltung
+system_weapons,Waffen ,Waffen 
+system_weapon,Waffe ,Waffe 
+system_upper_lda,Oberes LDA,Oberes LDA
+system_lower_lda,Unteres LDA,Unteres LDA
+system_bridge,Brücke,Brücke
+system_launch_bay,Startrampe,Startrampe
+system_hangar,Hangar,Hangar
+system_comms,Komm.-System,Komm.-System
+system_hab_module,Unterkunftsmodul,Unterkunftsmodul
+system_eng_module,Maschinen-Modul,Maschinen-Modul
+system_umbilical,Umbilical,Umbilical
+system_window,Bullauge,Bullauge

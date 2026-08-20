@@ -1,0 +1,16 @@
+; FILE: Dact1_mission08_addendum.csv,
+; Key,
+;,
+;ACT 1 MISSION 8 - LEAGUE INITIATION - addendum,
+; FILE NAME,GERMAN TRANSLATION
+;
+a1_m08_name_league_waypoint,League-Treffpunkt
+a1_m08_name_munitions,Munitionslager
+a1_m08_name_flag_ship,Flaggschiff
+a1_m08_name_paint_droid,Farbdrohne
+a1_m08_name_wilbert,Wilbert
+a1_m08_name_little,Little Jonny
+a1_m08_dialogue_paint_droid_sfx,"Psst, zisch, spritz"
+a1_m08_dialogue_security_alert,Achtung! Eindringling entdeckt! Alle Schiffe: Angriff!
+a1_m08_dialogue_clay_flying_droid_too_fast,"Pass mit dem Schub auf, Cal, sonst entdecken sie uns!"
+a1_m08_dialogue_flag_ship_speaking_unaware,"Also gut, Männer, gehen wir, aber bitte schön langsam und würdevoll - für die Kameras."

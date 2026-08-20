@@ -1,0 +1,6 @@
+; FILE: Dact2_mission01_addendum_2.csv,
+; Key,GERMAN TRANSLATION
+;,
+a2_m01_text_mission_fail_lor_destroyed,Mission gescheitert: Wartungsplattform zerstört
+a2_m01_text_mission_fail_rescue_destroyed,Mission gescheitert: Rettungsschiffe zerstört
+a2_m01_text_mission_fail_survivors_destroyed,Mission gescheitert: Überlebende nicht gerettet

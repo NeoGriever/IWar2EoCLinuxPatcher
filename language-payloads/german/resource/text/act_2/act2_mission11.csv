@@ -1,0 +1,39 @@
+; FILE: Dact2_mission11.csv,
+; Key,
+; FILE NAME,GERMAN TRANSLATION
+;,
+;,
+a2_m11_allied_waypoint,Verbündeten-Sammelpunkt
+a2_m11_email_subject,Wir gehen Marauder töten. Bist du dabei?
+a2_m11_dialogue_carla_greeting,"Schön, dass du da bist, Cal. Schließ dich unserer Formation an."
+a2_m11_dialogue_carla_briefing_1,"Die Marauder in Hoffer's Gap sind etwas angeschlagen, und wir wollen unseren Vorteil nutzen."
+a2_m11_dialogue_carla_briefing_2,"Eine Marauder-Basis ist im Orbit um Danzig, einem der Monde von Blackeye. Und diese Basis möchten wir dem Mondboden gleichmachen."
+a2_m11_dialogue_carla_briefing_3,Der L-Punkt von Blackeye ist gut bewacht und durch schwebenden Schutt gedeckt.
+a2_m11_dialogue_carla_briefing_4,"Cal, deine Aufgabe ist es, eine Vorhut der Stepsons zum L-Punkt zu führen, die Marauder auszuschalten, die sich dort aufhalten und den L-Punkt zu sichern, bis wir mit der Hauptstreitmacht durchgekommen sind."
+a2_m11_dialogue_carla_briefing_5,"Dann begibt sich die Flotte zur Maurauder-Basis 'Orbitstation Dog 1' und zerstört sie. Du bleibst am L-Punkt, Cal, um Marauder abzufangen, die versuchen zu entkommen."
+a2_m11_dialogue_carla_briefing_6,Das ist unser Plan. Noch Fragen?
+a2_m11_text_briefing_question_1,Nein.
+a2_m11_dialogue_cal_briefing_question_1,"Nein, alles klar."
+a2_m11_dialogue_carla_briefing_question_1,Perfekt. Dann kann's ja losgehen. Ich stell dir vier Wingmen zur Verfügung.
+a2_m11_text_briefing_question_2,Wieviel Widerstand?
+a2_m11_dialogue_cal_briefing_question_2,Mit wieviel Widerstand ist zu rechnen?
+a2_m11_dialogue_carla_briefing_question_2,"Wir rechnen mit drei bis vier leichten Kampfschiffen am L-Punkt, aber sie werden bestimmt Verstärkung anfordern."
+a2_m11_text_briefing_question_3,Wann kommt ihr an?
+a2_m11_dialogue_cal_briefing_question_3,Wie lange nach meinem Sprung werdet ihr durchkommen?
+a2_m11_dialogue_carla_briefing_question_3,Es wird so etwa vier Minuten dauern.
+a2_m11_text_briefing_question_4,Und wenn es schiefgeht?
+a2_m11_dialogue_cal_briefing_question_4,"Gibt es einen Plan für den Fall, dass die Mission scheitert?"
+a2_m11_dialogue_carla_briefing_question_4,"Beten wir einfach, dass das nicht passiert, okay?"
+a2_m11_dialogue_marauder_call,Verdammt! Hier spricht Blackeye-L-Punkt! Schickt mir verdammt nochmal Verstärkung! Sofort ihr Arschlöcher!
+a2_m11_dialogue_fleet_we_are_off,"Gut, Cal, wir sind unterwegs zur Basis und kommen zurück, wenn sie in Schutt und Asche liegt! Warte hier und sorge dafür, dass sich keiner davonmacht. Halte Ausschau nach Verstärkung, die durch den L-Punkt kommt."
+a2_m11_dialogue_fleet_watch_for_escapees,"Pass auf, Cal. Ein paar Marauder sind uns entwischt und kommen jetzt direkt auf dich zu."
+a2_m11_dialogue_fleet_hang_in_there,"Halte durch, Cal. Wir sind schon unterwegs."
+a2_m11_dialogue_clay_they_are_dragging_debris,"He, Cal, die Marauder verbarrikadieren den L-Punkt mit Schutt! Du musst sie aufhalten!"
+a2_m11_dialogue_cal_im_busy_fighting,"Ich hab gerade zu tun, Clay. Macht's dir was aus, wenn ich mich erst um die Kerle kümmere, die mich beschießen?"
+a2_m11_dialogue_smith_looks_like_those_marauders,"Jo. Sieht nach den Maraudern aus, die Carla erwähnt hat."
+a2_m11_dialogue_carla_followed_fleet_to_dog,Cal? Was tust du da? Du sollst doch den L-Punkt bewachen!
+a2_m11_dialogue_carla_back_soon,"Gibt's ein Problem, Cal? Du solltest doch noch gar nicht zurück sein."
+a2_m11_dialogue_carla_where_are_you_going,"Wohin willst du, Cal? Der Sammelpunkt ist doch da drüben."
+a2_m11_dialogue_carla_finale_to_all,"Gut gemacht, meine Damen und Herren. Wir sollten uns auf den Heimweg machen und uns einen wohlverdienten Drink gönnen. "
+a2_m11_dialogue_police_finale_to_carla,Nicht im Dienst.
+a2_m11_dialogue_carla_finale_to_cal,"Danke, Cal. Ohne dich hätten wir das nie geschafft."

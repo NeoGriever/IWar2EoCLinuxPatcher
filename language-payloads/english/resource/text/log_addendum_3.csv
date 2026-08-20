@@ -1,0 +1,8 @@
+
+;
+; Log text addendum 3
+;
+
+; Capsule space
+E_NoCapsuleDrive,"ERROR: NO CAPSULE DRIVE INSTALLED"
+E_CapsuleDriveDestroyed,"ERROR: CAPSULE DRIVE OFFLINE"

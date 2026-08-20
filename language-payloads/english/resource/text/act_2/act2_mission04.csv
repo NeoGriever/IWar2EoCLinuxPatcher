@@ -1,0 +1,45 @@
+; FILE: Dact2_mission04.csv,
+; Key,
+ ACT 2 MISSION 4 - HIGH NOON,
+; FILE NAME,GERMAN TRANSLATION
+;,
+a2_m04_character_sheriff,Sheriff Kane
+a2_m04_waypoint_meeting,Truppen-Treffpunkt
+a2_m04_waypoint_smith,"Streckenpunkt, Smith"
+a2_m04_waypoint_westley,"Streckenpunkt, Westley"
+a2_m04_waypoint_harbuck,"Streckenpunkt, Harbuck"
+
+a2_m04_shipname_smith_0,Sheriff Kane
+a2_m04_shipname_smith_1,Hilfssheriff Locke
+a2_m04_shipname_smith_2,Flynn
+a2_m04_shipname_smith_3,Billy ColdSteel
+a2_m04_shipname_smith_4,Abe
+a2_m04_shipname_westley_0,Hilfssheriff Randell
+a2_m04_shipname_westley_1,Davis McGee
+a2_m04_shipname_westley_2,Mickey Hook
+a2_m04_shipname_westley_3,Billy-Ray-Jim-Bob
+a2_m04_shipname_harbuck_0,Hilfssheriff Garett
+a2_m04_shipname_harbuck_1,Conrad Scar
+a2_m04_shipname_harbuck_2,Danny the Teeth
+a2_m04_shipname_harbuck_3,Felix
+a2_m04_shipname_harbuck_4,Happy Joe
+
+a2_m04_dialogue_sheriff_good_to_see_you_here,"He Junge, schön dich zu sehen. Wir versuchen die Ratten aus der Stadt zu jagen. Ich hätt dich gern neben mir im Sattel. Wie wär's? Hättest du Lust als mein Wingman mitzufliegen?"
+a2_m04_text_cal_no_way,Nie und nimmer. Ich flieg nicht außen.
+a2_m04_dialogue_cal_no_way,Auf gar keinen Fall. Ich flieg nie als Wingman. Entweder als Spitze oder gar nicht.
+a2_m04_text_cal_no_problem,Klar. Kein Problem.
+a2_m04_dialogue_cal_no_problem,"Klar, fliege ich als dein Wingman mit."
+a2_m04_dialogue_sheriff_only_cos_we_need_you,"Hab schon gehört, dass dir ein paar Dinge etwas zu Kopfe gestiegen sind. Na, wer streitet schon mit 'nem Stinktier, 'nem Esel oder 'nem Kerl mit einflussreichen Freunden? Ich nehm so was normalerweise von niemandem hin. Aber heute brauchen wir jeden Mann. Wenn's dir so viel bedeutet, kannste von mir aus auch Spitze fliegen."
+a2_m04_dialogue_sheriff_good_on_you_son,"Ist nett von dir, Junge. Geh in Formation mit Hilfssheriff Randell - dann können wir losfliegen."
+a2_m04_dialogue_sheriff_the_plan_is,"Also, Jungs. Hier der Plan: Die Marauder befinden sich wahrscheinlich an einem dieser drei Orte, also teilen wir uns in drei Gruppen und fliegen nach Smith, Westley und Harbuck. Wenn eine Gruppe die Ratten findet, ruft sie die anderen. Kapiert?"
+a2_m04_dialogue_sheriff_cal_youll_be_leading,"Gut. Ich führe den Trupp nach Smith. Hilfssheriff Cal, du nimmst Westley und Hilfssheriff Garett nimmt Harbuck. Okay, Jungs. Aufgesessen und ab zu eurem Streckenpunkt. Heute zeigen wir den Maraudern mal, dass hinter ihrem großen Maul nichts steckt. "
+a2_m04_dialogue_sheriff_cal_youll_be_wing,"Gut. Ich führ die Truppe nach Smith. Cal, du bist Wingman für Hilfssheriff Randell im Westley-Geschwader. Hilfssheriff Garett, du nimmst Harbuck. Okay, Jungs. Aufgesessen und ab zu eurem Streckenpunkt. Heute zeigen wir den Maraudern mal, dass hinter ihrem großen Maul nichts steckt. "
+a2_m04_dialogue_randell_greeting,"Sehr erfreut, Cal. Ich bin Randell. Du fliegst mit meinem Trupp. Geh schon mal in Formation, Junge. Gleich geht's los. "
+a2_m04_dialogue_cal_there_they_are,Sehr gut! Hab sie gefunden!
+a2_m04_dialogue_randell_there_they_are,Juchhuu! Ich hab die Ratten im Visier.
+a2_m04_dialogue_randell_be_careful_boys,"Also, Jungs! Die anderen sind unterwegs. Lasst euch nicht umbringen, bevor sie hier sind. "
+a2_m04_dialogue_garett_there_they_are,"Beeilung, Jungs! Da drüben sind die Ratten."
+a2_m04_dialogue_sheriff_there_they_are,Hab sie! Ich hab die Schweine gefunden! Jetzt müsst ihr nur noch hierher galoppieren! 
+a2_m04_dialogue_randell_you_heard_the_man,"Gut, Jungs, ihr habt's gehört! Zeigen wir ihnen, wie Hackfleisch gemacht wird!"
+a2_m04_dialogue_sheriff_we_did_it,"Juchhuu! Denen haben wir's gezeigt! Ich geb heute einen aus! Und du, Cal, du warst Klasse. Wenn wir uns die Beute durchgesehen haben, springt da vielleicht was für dich raus."
+a2_m04_dialogue_sheriff_here_you_go,"Hier. Ein Aktivkühler und ein TSK-Pulsbeschleuniger. Damit kannste was anfangen, zum Beispiel, den Maraudern mal so richtig einheizen! Vielen Dank für deine Hilfe."

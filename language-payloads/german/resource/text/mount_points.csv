@@ -1,0 +1,24 @@
+mountpoint_lds,LDS-Träger,LDS
+mountpoint_lda,LDA-Träger,LDA
+mountpoint_large_external_weapon_mount,Träger f. große externe Waffe,Schwerer Träger
+mountpoint_large_internal_weapon_mount,Träger f. große interne Waffe,Schwerer Träger
+mountpoint_heatsink,Fassung f. Hitzeableiter,Hitzeableiter
+mountpoint_internal_countermeasure_mount,Interne EGM-Fassung,EGM
+mountpoint_eps,Akkumulator-Fassung,Akkumulatoren
+mountpoint_drive,Fassung f. Antrieb,Antrieb
+mountpoint_dock_on_turret,Gestell f. demontierbaren Turm,Demontierbarer Turm
+mountpoint_cpu,CPU-Fassung,CPU
+mountpoint_capsule_drive,Fassung f. Hyperantrieb ,Hyperantrieb
+mountpoint_auto_repair,Fassung f. Autom.-Reparatur,Autom.-Reparatur
+mountpoint_aggressor_shield,Fassung f. Angriffsschild,Angriffsschild
+mountpoint_active_sensors,Träger f. Aktivsensoren,Aktivsensoren
+mountpoint_thrusters,Träger f. Schubdüsen,Schubdüsen
+mountpoint_sensor_disruptor,Träger f. Sensor-Disruptoren,Sensor-Disruptoren
+mountpoint_reactor,Reaktorfassung,Reaktor
+mountpoint_pylon_mount,Pylongestell,Pylonträger
+mountpoint_pylon_cannon_mount,Pylonkanonengestell,Pylongetr. Werfer
+mountpoint_point_defence_turret,Raketenabwehrturm-Träger,Rak.-Abwehrt.-Träger
+mountpoint_passive_sensors,Träger f. Passivsensoren,Passivsensoren
+mountpoint_medium_internal_weapon_mount,Mittlere interne Waffe,Mittlerer Träger
+mountpoint_light_cannon_mount,Träger f. leichte Kanone,Leichter Träger
+mountpoint_turret_fighter_cannon_mount,Träger f. K-Jäger-Kanone,Träger f. Jäger

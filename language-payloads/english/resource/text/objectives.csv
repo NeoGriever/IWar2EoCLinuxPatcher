@@ -1,0 +1,640 @@
+;Key Phrase_to_localise Sound_file_URL Comments,
+;,
+; Mission objectives,
+;,
+;,
+;------------------------- ACT 0 ----------------------( 6 Missions total )------------------,
+;,
+a0_master_mission_name,Act 0
+;,
+;Mission 10,
+;,
+a0_m10_mission_name,Home Sweet Home
+a0_m10_objectives_approach_clay,Approach Clay's Waypoint
+a0_m10_objectives_approach_lesson,Use Approach Autopilot on a target
+a0_m10_objectives_formate_lesson,Use Formate Autopilot on a target
+a0_m10_objectives_starmap_lesson,Activate the Starmap
+a0_m10_objectives_select_griffon,Select Griffon from the Starmap
+a0_m10_objectives_fly_to,Fly to Griffon
+a0_m10_objectives_fly_to_effrit,Fly to the Effrit
+a0_m10_objectives_follow_waypoints,Follow waypoints to Lucrecia's Base
+;,
+;Mission 20,
+;,
+a0_m20_mission_name,Proving Grounds
+a0_m20_objectives_complete_course,Complete Training Course in under 3 minutes
+;,
+;Mission Tour (30),
+;,
+a0_m35_mission_name,Grand Tour
+;,
+;Mission 40,
+;,
+a0_m40_mission_name,Errand Boy
+a0_m40_objectives_visit,Visit Spielman at Charlesworth Freighter Station
+a0_m40_objectives_meet_freight,Pick up package at Alexander L-Point
+a0_m40_objectives_deliver_package,Deliver package to Junkers
+a0_m40_objectives_collect,Collect reward from Spielman
+a0_m40_objectives_intercept,Intercept Belrano around Griffon
+a0_m40_objectives_return,Return stolen cargo to Spielman
+;,
+;Mission 50,
+;,
+a0_m50_mission_name,Junkyard Challenge
+a0_m50_objectives_scout,Scout out the Junkyard
+a0_m50_objectives_sneak,Sneak into Junkyard and dock to reactor
+a0_m50_objectives_return,Get fuel rods back to base safely
+;,
+;Mission 60,
+;,
+a0_m60_mission_name,Nemesis
+a0_m60_objectives_recover,Recover drone from Felix's lockup
+;,
+;------------------------- ACT 1 -------------------------------(10 Misssions Total )------,
+;,
+;ACT 1,
+;,
+a1_master_mission_name,Act 1
+a1_m00_mission_name,Candy From a Baby
+a1_m00_objective_checkout,Check out distress signal on edge of the Effrit
+;,
+;Mission 1,
+;,
+a1_m01_mission_name,The Great Escape
+a1_m01_objective_change_iff,Change IFF beacon at Maurice's
+a1_m01_objective_find_base,Find Lucrecia's Base
+;,
+;Mission 2,
+;,
+a1_m02_mission_name,The Stepsons
+a1_m02_objective_visit,Visit Stepsons at meeting place
+a1_m02_objective_steal,Steal Maas shipping manifest from courier at Touchdown L-Point
+a1_m02_objective_recover,Recover shipping manifest from Grimwald Collection Station I
+a1_m02_objective_deliver,Deliver shipping manifest to Stepsons
+;,
+;Mission 3,
+;,
+a1_m03_mission_name,Joint Forces
+a1_m03_objectives_rendezvous,Rendezvous with strike fleet
+a1_m03_objectives_destroy,Destroy marauder base
+a1_m03_objectives_return,Return to Stepsons to collect reward
+;,
+;Mission 4,
+;,
+a1_m04_mission_name,The Heist
+a1_m04_objectives_meet,Meet with Stepson informant
+a1_m04_objectives_get_iff,Get a suitable IFF from the junkyard
+a1_m04_objectives_redez,Redezvous with Jafs at meeting point
+a1_m04_objectives_dock,Dock to Jafs and travel to Maas facility
+a1_m04_objectives_recover,Recover fighters from security station
+a1_m04_objectives_make_sure,Ensure Jafs escapes safely
+;,
+;Mission 5,
+;,
+a1_m05_mission_name,Marauder Cache
+a1_m05_objectives_meet,Meet E. R. Oregon at asteroid mine
+a1_m05_objectives_checkout,Check out the mining beacon
+;,
+;Mission 6,
+;,
+a1_m06_mission_name,The Trouble With Gunstars
+a1_m06_objective_travel_to_base,Travel to Military FTL Relay
+a1_m06_objective_dock_to_base,Dock to the station
+a1_m06_objective_retrieve_arming_keys,Retrieve arming codes
+a1_m06_objective_disarm_gunstars,Disarm gunstars
+a1_m06_objective_call_in_freighter,Call Jafs to pickup gunstars
+;,
+;Mission 7,
+;,
+a1_m07_mission_name,Showdown
+a1_m07_objective_go_to_hoffers,Travel to Hoffer's Gap
+a1_m07_objective_arm_gunstars,Arm gunstars by docking to them
+a1_m07_objective_destroy_marauders,Destroy Marauder vessels
+a1_m07_objective_defend_hoffers_gap,Defend Hoffer's Gap
+;,
+;Mission 8,
+;,
+a1_m08_mission_name,League Initiation
+a1_m08_objectives_meet,Meet League at waypoint
+a1_m08_objectives_goto,Go to Memnon Military System Defence Dock
+a1_m08_objectives_spray,Spray mark on Flagship
+;,
+;Mission 9,
+;,
+a1_m09_mission_name,Construction Yard
+a1_m09_objectives_meet,Meet League at waypoint
+a1_m09_objectives_travel,Travel to LOR platform location
+a1_m09_objectives_cut,Detach habitation module from station with cutting drone
+a1_m09_objectives_lor,Get LOR platform back to League
+;,
+;Mission 10,
+;,
+a1_m10_mission_name,Lucrecia's Hoard
+a1_m10_objectives_find,Find Bill Dulley at Hoffer's Heel Ship Park
+a1_m10_objectives_invest,Investigate Hoffer's Entertainment Complex to locate key
+a1_m10_objectives_calculate,Calculate exact position of Lucrecia's Hoard using computer program
+a1_m10_objectives_formate,Formate with NSO Vessels and travel to hoard location
+a1_m10_objectives_recover,Recover hoard and crew
+a1_m10_objectives_fail,Mission Failed: Crew Killed
+;,
+;------------------------- ACT 2 ------------------------(18 Mission total )--------------,
+;,
+;Master Script,
+;,
+a2_master_mission_name,Act 2
+a2_master_objectives_look_help,Find help to combat Marauders in other systems
+a2_master_objectives_talk_jackson,Talk to Frederick Jackson at Jackson's Yard around Pennacook
+a2_master_objectives_firefrost1,"Visit Blue Note Social Club around Hyrokkin Beta, orbiting Firefrost III"
+a2_master_objectives_firefrost2,Talk to sheriff at Firefrost System Administration around the planet Sunflower
+a2_master_objectives_find_pilots,Find enough pilots to fly MCA fleet vessels
+a2_master_objectives_leader,Investigate Clay's theory at Jacksons Yard
+;,
+;Mission 1,
+;,
+a2_m01_mission_name,Picking up the Pieces
+a2_m01_objectives_protect,Protect LOR Platform from Marauder attackers
+a2_m01_objectives_support,Protect League freighters from enemy fire
+a2_m01_objectives_escort,Escort LOR Platform in convoy
+a2_m01_objectives_cover,Cover convoy while they jump
+;,
+;Mission 2,
+;,
+a2_m02_mission_name,Meet the Oman
+a2_m02_objectives_wait,Wait for Oman escort
+a2_m02_objectives_formate,Formate with Oman escort and travel to initiation ground
+a2_m02_objectives_complete,Complete the 3 initiation tasks for the Oman
+a2_m02_objectives_fly_courage,Remote pilot training vessel to courage grounds waypoint
+a2_m02_objectives_return_courage,Reclaim pod of gold from mine field and return it to waypoint
+a2_m02_objectives_fly_cunning,Remote pilot training vessel to cunning grounds waypoint
+a2_m02_objectives_follow_cunning,Navigate waypoints in gunstar field within time limit
+a2_m02_objectives_fly_wisdom,Remote pilot training vessel to wisdom grounds waypoint
+a2_m02_objectives_complete_wisdom,Complete wisdom puzzle
+;,
+;Mission 3,
+;,
+a2_m03_mission_name,Trouble at the Ranch
+a2_m03_objectives_investigate,Investigate disturbances around Lucifuge in Eureka
+a2_m03_objectives_revisit,Re-visit Third Way at Lucifuge
+a2_m03_objectives_get_mines,Get defense mines from Hastur Pirate Base
+a2_m03_objectives_manufacture,Manufacture 10 seeker mines
+a2_m03_objectives_deliver,Deliver some mines to Lucifuge
+;,
+;Mission 4,
+;,
+a2_m04_mission_name,High Noon
+a2_m04_objectives_redezvous,Rendezvous with posse at meeting point
+a2_m04_objectives_lead,Lead group to hunt Marauders at Westley's waypoint
+a2_m04_objectives_wing,Fly wing with group to hunt Marauders at Westley's waypoint
+a2_m04_objectives_destroy,Destroy all Marauders
+;,
+;Mission 5,
+;,
+a2_m05_mission_name,Blockade Runner
+a2_m05_objectives_redezvous,Meet MCA freighters at freighter assembly point
+a2_m05_objectives_jump,Jump to Mwari with mercenaries to scout out route
+a2_m05_objectives_eliminate,Eliminate Marauder threat
+a2_m05_objectives_escort,Escort freighters to their destination
+;,
+; Another use of the 'Dock to the station objective!',
+a2_m05_objective_dock_to_base,Dock to the station
+;,
+;Mission 7,
+;,
+a2_m07_mission_name,The Exile
+a2_m07_objectives_redezvous,Speak to ambassador at Brotherhood Exile Ark in Santa Romera
+a2_m07_objectives_lure,Lure Marauders away from ambassador
+;,
+;Mission 8,
+;,
+a2_m08_mission_name,Corporate Holdings
+a2_m08_objectives_backdoor,Use Back-door L-Point in Mwari to get through to Dagda
+a2_m08_objectives_clear,Clear mines before indenture freighters arrive
+a2_m08_objectives_cover,Provide cover for transports as they jump out-system
+a2_m08_objectives_leave,Leave system through L-Point
+;,
+;Mission 9,
+;,
+a2_m09_mission_name,Bloodhound
+a2_m09_objectives_mca_base,Fly to MCA Base in Mwari
+a2_m09_objecitves_patrol,Patrol waypoints and to allow sensor ship to pinpoint any Marauder transmissions
+a2_m09_objectives_assault,Assault Marauder base and destroy any forces in the area
+;,
+;Mission 10,
+;,
+a2_m10_mission_name,Grassy Knoll
+a2_m10_objectives_redezvous,Fly to meeting waypoint
+a2_m10_objectives_equip,Go back to base to equip cannon
+a2_m10_objectives_ammo,Retrieve ammo from 'Books' cargo near security station
+a2_m10_objectives_shoot,Shoot out station window with sniper cannon
+a2_m10_objectives_collect,Return to meeting waypoint to collect reward
+;,
+;Mission 11,
+;,
+a2_m11_mission_name,Unification
+a2_m11_objectives_redezvous,Meet with fleet at rendezvous point
+a2_m11_objectives_lpoint,Fly to Blackeye L-Point and clear out any Marauder resistance
+a2_m11_objectives_cover,Cover L-Point and destroy any escaping Marauders
+;,
+;Mission 12,
+;,
+a2_m12_mission_name,Hunter or Hunted
+a2_m12_objectives_fly,Fly to Greenback Orbital Transfer Station to obtain disruptors
+a2_m12_objectives_scout,Scout out area around Haven Station
+a2_m12_objectives_disable,Disable 'ghost' ship
+a2_m12_objectives_capture,Dock and capture the ship
+;,
+;Mission 13,
+;,
+a2_m13_mission_name,The Kong Fracture
+a2_m13_objectives_travel,"Travel to Hoffer's Wake Port Orbital, in orbit around Memnon"
+a2_m13_objectives_head,Intercept Kong at Alexander L-Point
+a2_m13_objectives_stop,Disable Kong to prevent them from destroying Police HQ
+a2_m13_objectives_formate,Formate with Kong and follow to Freetown
+a2_m13_objectives_investigate,Investigate large unidentified vessel
+;,
+; THE FOLLOWING TEXT COPIED FROM A1 M06 - Steve,
+;,
+a2_m13_objective_dock_to_base,Dock to the station
+;,
+;,
+; THE FOLLOWING TEXT COPIED FROM A2 M05 - Steve,
+;,
+a2_m13_objectives_eliminate,Eliminate Marauder threat
+;,
+;Mission 15,
+;,
+;SCRAPPY DAPPY DOOOOOOD,
+;,
+;Mission 18,
+;,
+a2_m18_mission_name,Momma Wolf
+a2_m18_objectives_fly_to_rendezvous,Rendezvous with convoy at Freelancer's Co-op Aid Center
+a2_m18_objectives_listen_to_briefing,Listen to briefing
+a2_m18_objectives_protect_freighters,Protect the freighters
+a2_m18_objectives_formate_with_freighter,Formate with the freighters
+a2_m18_objectives_escort_freighters,Escort freighters to suspected ambush
+a2_m18_objectives_destroy_marauders,Destroy all marauder vessels
+a2_m18_objectives_investigate_ldsi_signal,Investigate LDSi field source 
+a2_m18_objectives_destroy_ldsi_ship,Destroy LDSi ship and escorts
+;,
+;Mission 20,
+;,
+a2_m20_mission_name,Battle of Mwari
+a2_m20_objectives_redezvous,Rendezvous with fleet at the Ritz in Santa Romera
+a2_m20_objectives_clear,Clear L-Point of any Marauders for convoy's arrival
+a2_m20_objectives_escort,Escort convoy to destination
+a2_m20_objectives_protect,Protect Fort Hope from Marauder attacks
+a2_m20_objective_dock_to_base,Dock to the station
+;,
+;Mission 22,
+;,
+a2_m22_mission_name,Wolf's Lair
+a2_m22_objectives_track,Track down Marauder base
+a2_m22_objectives_investigate,Investigate new L-Point destination
+a2_m22_objectives_scout,Scout out area
+a2_m22_objectives_freighters,Investigate where freighters are going
+a2_m22_objectives_escape,Escape back and report information
+;,
+;Mission 23,
+;,
+a2_m23_mission_name,Suicide Run
+a2_m23_objectives_travel,Travel to meeting point in Firefrost
+a2_m23_objectives_join,Join forces at the Dain II L-Point
+a2_m23_objectives_gunstars,Take out Gunstars to protect vessels
+a2_m23_objectives_remaining,Destroy remaining Marauders
+a2_m23_objectives_join_league,Join League forces at Quail
+a2_m23_objectives_distract,Distract Marauder Vessels to allow League cruiser to escape
+a2_m23_objectives_regroup,Regroup at rendezvous waypoint
+a2_m23_objectives_formate,Formate with a cruiser and escort to interstellar L-Point
+;,
+;Mission 24,
+;,
+a2_m24_mission_name,Hide and Seek
+a2_m24_objectives_rendezvous_with_ship,Rendezvous with league vessel
+a2_m24_objectives_fly_to_marauder_location,Fly to Marauder location
+a2_m24_objectives_avoid_detection_by_marauders,Avoid detection by Marauders
+a2_m24_objectives_hide_in_cargo_pod,Hide ship in cargo pod
+a2_m24_objectives_enter_dante_system,Secretly enter Dante System
+a2_m24_objectives_scout_for_lpoint_near_faust,Scout for disused L-Point near Faust
+a2_m24_objectives_locate_marauder_bases,Locate Marauder bases
+a2_m24_objectives_transmit_ftl_signal,Transmit FTL signal
+a2_m24_objectives_obtain_flitter,Obtain maintenance flitter
+a2_m24_objectives_locate_and_retrieve_antenna,Retrieve antenna array
+a2_m24_objectives_locate_and_retrieve_field_generator,Retrieve field generator
+a2_m24_objectices_leave_dante_system,Leave Dante system
+;,
+;Mission 25,
+;,
+a2_m25_mission_name,Dante's Inferno
+a2_m25_objectives_meet_fleet_at_dante_faust_lpoint,Rendezvous with fleet at Dante Faust L-Point
+a2_m25_objectives_destroy_cargo_station,Destroy Marauder cargo station
+a2_m25_objectives_destroy_hq,Destroy Marauder HQ
+a2_m25_objectives_destroy_shipyard,Destroy Marauder shipyard
+a2_m25_objectives_defend_destroyer,Defend destroyer while cutting beam is charging
+a2_m25_objectives_destroy_cruiser,Destroy Marauder disruptor cruiser
+a2_m25_objectives_defeat_corporate_fleet,Defeat enemy fleet
+a2_m25_objectives_protect_hoffer,Protect Hoffer's command ship
+
+;,
+;------------------------- ACT 3 ---------------------( 10 Missions total )----------------,
+;,
+a3_master_mission_name,Act 3
+a3_master_objectives_help,Help out defenders at Christmas L-Point
+;,
+;Mission 1,
+;,
+a3_m01_mission_name,Corporates on the Run
+a3_m01_objectives_redezvous,Rendezvous with vessels at waypoint in Kompira
+a3_m01_objectives_security,Fly to security station and defend marine transport while they dock
+a3_m01_objectives_cover,Cover marines as they reactivate gunstars
+a3_m01_objectives_smith,Dock to neutral gunstars to allow Smith to change their allegiance
+a3_m01_objectives_defend,Defend base from remaining corporate forces
+;,
+;Mission 2,
+;,
+a3_m02_mission_name,Clash of the Titans
+a3_m02_objectives_fly,"Fly to Government System Administration, dealing with any corporate threats on the way"
+a3_m02_objectives_find_diversion,"Scout out area to find a suitable diversion, without getting detected"
+a3_m02_objectives_arm,Dock to reactor to arm it for detonation
+a3_m02_objectives_dock,Dock to Administration Station while patrols are distracted
+a3_m02_objectives_return,Return to base and transmit codes to Hoffer
+a3_m02_objectives_protect_hoffer,Protect Hoffer's command ship
+;,
+;Mission 3,
+;,
+a3_m03_mission_name,Scavenger
+a3_m03_objectives_travel_to_maas_base,Fly to Maas Institute Omega around Ottowa in Coyote
+a3_m03_objectives_investigate_area,Investigate the area
+a3_m03_objectives_investigate_satellite,Investigate satellite
+a3_m03_objectives_hide_from_ships,Hide from corporate vessels
+a3_m03_objectives_destroy_cruiser,Destroy corporate cruiser
+;,
+; THE FOLLOWING TEXT COPIED FROM A2 M25 - Steve,
+;,
+a3_m03_objectives_defeat_corporate_fleet,Defeat enemy fleet
+;,
+;Mission 4,
+;,
+a3_m04_mission_name,Bridgehead
+a3_m04_objective_dock_to_freighter,Dock ship inside megafreighter pod
+a3_m04_objective_launch_from_pod,Launch from megafreighter pod
+a3_m04_objective_protect_marines,Protect the marines
+a3_m04_objective_break_out_marines,Break marines out of megafreighter pod
+a3_m04_objective_disable_lda_field,Disable jump accelerator LDA portcullis
+;,
+;Mission 5,
+;,
+a3_m05_mission_name,Deep Cover
+a3_m05_objectives_rendezvous,Fly to rendezvous location to obtain IFF transponder
+a3_m05_objectives_obtain,Obtain security code from Fender Naval STC System Headquarters in the Owen's Star system
+a3_m05_objectives_travel,Use security code to gain access to naval transceiver station
+a3_m05_objectives_reroute,Patch into Transceivers and re-route the data channels
+;,
+;Mission 6,
+;,
+a3_m06_mission_name,Smokescreen
+a3_m06_objectives_fly_to,Fly with fleet to Ozaki Maas Cluster Central HQ in Ishime
+a3_m06_objectives_destroy,Destroy attacking vessels
+a3_m06_objectives_return,Return to base to warn Hoffer
+;,
+;Mission 8,
+;,
+a3_m08_mission_name,Get Hoffer
+a3_m08_objectives_last,Fly to Osprey and then to Hoffer's last known location
+a3_m08_objectives_savef,Save Flambé from the ambush to obtain distress beacon code
+a3_m08_objectives_investigate,Investigate signal from distress beacon location
+a3_m08_objectives_fly,Fly to Naval Base in New Bavaria
+a3_m08_objectives_save,Save Hoffer
+a3_m08_objectives_escape,Escape and fall back to Osprey
+;,
+;Mission 9,
+;,
+a3_m09_mission_name,Raising the Ante
+a3_m09_objectives_fly,Fly to Antimatter Storage Base in Batatas
+a3_m09_objectives_escort,Escort freighter back to interstellar L-Point
+a3_m09_objectives_jump,Jump out of system
+;,
+;Mission 10,
+;,
+a3_m10_mission_name,Into Chaos
+a3_m10_objectives_protect,Protect Jafs from alien spawn until all bombs are placed
+a3_m10_objectives_prevent,Prevent infected Maas flagship leaving the system
+;,
+;,
+; ** EXTRA DIALOGUE FOR ACT 1 MISSION 07 ***,
+a1_m07_dialogue_hoffers_gap_the_power_core_just_took_a_hit,The power core just took a hit!
+a1_m07_dialogue_hoffers_gap_were_down_50_percent,Power core's down 50 percent!
+a1_m07_dialogue_hoffers_gap_we_cant_take_any_more_hits,We can't take any more hits!
+
+;,
+;,
+;-------------------------------- END -------------( 44 Missions Total For all Acts )----------,
+;,
+
+;,
+; Added on or after 6th October 2000,
+;,
+
+;,
+; Act titles,
+;,
+
+act_0_number,Prelude
+act_1_number,Act One
+act_2_number,Act Two
+act_3_number,Act Three
+
+act_0_name,The Prelude
+act_1_name,Hoffer's Wake
+act_2_name,The Badlands
+act_3_name,The Edge of Chaos
+act_4_name,Miscellaneous
+
+;-------------------------------- Generated Mission bits ---------------------------------------,
+; Generated mission objectives - use a fake act 4,
+;,
+
+
+a4_m01_objectives_goto,Go to Aldos Metal Mine
+a4_m01_objectives_collect,Pirate pods of ore
+a4_m01_objectives_deliver,Swap the pirated ore for mining charges using the trade screen.
+
+a4_m02_objectives_goto,Go to Budokan in Hoffer's Wake
+a4_m02_objectives_collect,Rob natural fibre clothing from gangster vessels
+a4_m02_objectives_deliver,Deliver goods personally to Dave Schwa at Hoffer's Heel
+
+a4_m03_objectives_goto,Go to Hoffer's Gap Entertainment Complex
+a4_m03_objectives_collect,Steal assorted biomass
+a4_m03_objectives_deliver,Deliver goods personally to the gardener at Greenback Agri-Orbital Two
+
+a4_m04_objectives_goto,Go to Dagon Exotics Processing Plant in the Kompira system
+a4_m04_objectives_collect,Fight SOLAN ships for exotic metals
+a4_m04_objectives_deliver,Deliver two tons of exotic metals personally to the Oman processing plant
+
+a4_m05_objectives_goto,Visit Hope in the Santa Romera system
+a4_m05_objectives_collect,Raid reactor spares and parts from Maas shipping
+a4_m05_objectives_deliver,Trade the reactor spares via the trade screen
+
+a4_m06_objectives_goto,Find Iceberg
+a4_m06_objectives_collect,Take out Police escort and steal lungs for use by Freelancers
+a4_m06_objectives_deliver,Deliver the organs personally to the Freelancer Aid Co-op
+
+a4_m07_objectives_goto,Make your way to Hoffer's Heel Ship Park
+a4_m07_objectives_collect,Attack the Grand Slam and take delivery of Anti-Agathics
+a4_m07_objectives_deliver,Deliver the Anti-Agathics to Hoffer's Heel Ship Park yourself.
+
+a4_m08_objectives_goto,Go to Cleitus Common Metals Processing Plant
+a4_m08_objectives_collect,Take out a fuel hauler in search of Fuel Pellets
+a4_m08_objectives_deliver,Use the trade screen to exchange the fuel pellets for seeker missiles.
+
+a4_m09_objectives_goto,Pay a visit to the Darius Penitentiary Transfer Point
+a4_m09_objectives_collect,Relieve the Police courier of their data
+a4_m09_objectives_deliver,Take that data down to Spring-Heeled Jack's
+
+a4_m10_objectives_goto,Go to Budokan in Hoffer's Wake
+a4_m10_objectives_collect,Steal some rare pre-meat items from Papa Zee
+a4_m10_objectives_deliver,Deliver the stock personally to the Runcible
+
+a4_m11_objectives_goto,Scout out Bessus OTS
+a4_m11_objectives_collect,Raid the Maas company hauliers for computer and nanotech parts
+a4_m11_objectives_deliver,"Exchange the computer/nanotech parts for seeker missiles, using the trade screen."
+
+a4_m12_objectives_goto,Go to Yellowrock Transfer Station
+a4_m12_objectives_collect,Liberate books from Maas Corporation
+a4_m12_objectives_deliver,Deliver the books personally to the Stepson summer-house
+
+a4_m13_objectives_goto,Search medical facilities in Hoffer's Wake
+a4_m13_objectives_collect,Attack medical ship with blank registration and take medicines
+a4_m13_objectives_deliver,Take medical goods to the sisters.
+
+a4_m14_objectives_goto,Search for naval facilities
+a4_m14_objectives_collect,Raid naval ships looking for personal weapons
+a4_m14_objectives_deliver,Swap personal weapons for radioactive ore using the trade screen.
+
+a4_m15_objectives_goto,Pay a visit to the Deep Systems Research Facility
+a4_m15_objectives_collect,Steal data from Datagram Industries
+a4_m15_objectives_deliver,Trade the research data for fusion generators via the trade screen.
+
+a4_m16_objectives_goto,N/A
+a4_m16_objectives_collect,"Acquire private, secure or company data"
+a4_m16_objectives_deliver,Deliver data to The Freak at Rotweiller Station
+
+a4_m17_objectives_goto,Find a Maas subsidised research facility
+a4_m17_objectives_collect,Steal cybernetic components
+a4_m17_objectives_deliver,Swap the cybernetic components for robotic sensors using the trade screen.
+
+a4_m18_objectives_goto,Go to Ursus Common Metal Mine
+a4_m18_objectives_collect,Fight some ships for mining equipment
+a4_m18_objectives_deliver,Deliver the goods to 'Digger' at The Las Campanas Metal Mine
+
+a4_m19_objectives_goto,Go back to Ursus Metal Mine
+a4_m19_objectives_collect,See if you can collect some uncut gemstones
+a4_m19_objectives_deliver,Use the trade screen to exchange the gemstones for pharmaceuticals.
+
+a4_m20_objectives_goto,Proceed to the Maas Orbital Processing Plant
+a4_m20_objectives_collect,Raid ships carrying station components
+a4_m20_objectives_deliver,Take a pod of station parts to Hoffer's Gap Trading Post
+
+a4_m21_objectives_goto,Fly to Budokan
+a4_m21_objectives_collect,Steal narcotics from Police transports
+a4_m21_objectives_deliver,Use the trade screen to exchange the narcotics for your reward.
+
+a4_m22_objectives_goto,Fly to Spring-Heeled Jack's
+a4_m22_objectives_collect,Retrieve Marchion's goods from Marauder transports
+a4_m22_objectives_deliver,Return Marchion's goods by trading them via the trade screen.
+
+a4_m23_objectives_goto,Find Belial Energy Cell Plant in the Eureka system
+a4_m23_objectives_collect,Acquire accumulators from the Energy Cell Express
+a4_m23_objectives_deliver,Exchange the accumulators for strand material using the trade screen.
+
+a4_m24_objectives_goto,Go to Hutamah in The Kompira system
+a4_m24_objectives_collect,Raid in search of Reactor Targets
+a4_m24_objectives_deliver,Personally deliver the Targets to the Oman-controlled Baal Outpost
+
+a4_m25_objectives_goto,Find the Solan warehouse near Liberty
+a4_m25_objectives_collect,Steal life-saving vaccines for the Oman
+a4_m25_objectives_deliver,Take the vaccines to the Oman hideout
+
+a4_m26_objectives_goto,Return to Hutamah
+a4_m26_objectives_collect,Hold up The ordnance hauler
+a4_m26_objectives_deliver,"Trade the stolen ordnance for smart decoys, using the trade screen."
+
+a4_m27_objectives_goto,Locate the Maas Docking Facility near Suqar
+a4_m27_objectives_collect,Destroy the ship 'Latest Delivery' and steal the pamphlets
+a4_m27_objectives_deliver,Take the propaganda to the Oman hideout
+
+a4_m28_objectives_goto,Return to the Maas Base at Sagar
+a4_m28_objectives_collect,Steal environmental components from Maas transports
+a4_m28_objectives_deliver,Take the equipment to the Oman hideout
+
+a4_m29_objectives_goto,Travel to the Maas Water Processing Base
+a4_m29_objectives_collect,Relieve incoming ships of their computers
+a4_m29_objectives_deliver,Exhange the computers / electronics for tellurides via the trade screen.
+
+a4_m30_objectives_goto,Go to The Auliya Dome Farm at Kompira
+a4_m30_objectives_collect,Steal food-stuffs
+a4_m30_objectives_deliver,"Swap the food-stuffs for rare metals, using the trade screen."
+
+a4_m31_objectives_goto,Follow waypoint
+a4_m31_objectives_collect,Collect mining equipment for the MCA
+a4_m31_objectives_deliver,Take the mining equipment to the MCA Ritz HQ
+
+a4_m32_objectives_goto,Scope out Liberty warehousing belonging to the Solan corporation
+a4_m32_objectives_collect,Liberate terraforming equipment
+a4_m32_objectives_deliver,Take the equipment to the Ritz in Santa Romera
+
+a4_m33_objectives_goto,Follow waypoint
+a4_m33_objectives_collect,Aquire much-needed medical supplies for the MCA
+a4_m33_objectives_deliver,Use the trade screen to swap the medical supplies for your chosen reward.
+
+a4_m34_objectives_goto,Go to Grace Security Station
+a4_m34_objectives_collect,Raid Maas vessels looking for combat vehicles
+a4_m34_objectives_deliver,"Exchange the vehicles for personal weapons, using the trade screen."
+
+a4_m35_objectives_goto,Go to Grace Security Station
+a4_m35_objectives_collect,Find survival equipment for the MCA
+a4_m35_objectives_deliver,Take the goods to the Ritz in person
+
+;--------------- jafs in-base text connected with generated missions ---------------,
+
+gm_text_jafs_you_deliver_this,"Cal, you'll have to deliver this one yourself. Check your emails."
+
+
+;------------------- generated mission names -------------------------,
+
+; Mission names,
+a4_m01_mission_name,Need Ore
+a4_m02_mission_name,Counterfeit Goods
+a4_m03_mission_name,Gardener
+a4_m04_mission_name,Oman Exotic Metals
+a4_m05_mission_name,Oman Power Plant
+a4_m06_mission_name,Acid Burn
+a4_m07_mission_name,The Payoff
+a4_m08_mission_name,Run of the Mill
+a4_m09_mission_name,Prison Data
+a4_m10_mission_name,Rare Meats
+a4_m11_mission_name,A Fistful of Nanites
+a4_m12_mission_name,Library Fine
+a4_m13_mission_name,Mercenary Aid
+a4_m14_mission_name,Gun-runner
+a4_m15_mission_name,The Survey
+a4_m16_mission_name,The Freak
+a4_m17_mission_name,Blue Rinse Cyborgs
+a4_m18_mission_name,Goldfrenzy
+a4_m19_mission_name,Big Jack's Jewels
+a4_m20_mission_name,To Build a Station
+a4_m21_mission_name,Crooked Cops
+a4_m22_mission_name,Marauder Dealers
+a4_m23_mission_name,Raider for the Oman
+a4_m24_mission_name,Payback for the Oman
+a4_m25_mission_name,The Wasting
+a4_m26_mission_name,Weapons for the Oman
+a4_m27_mission_name,The Oman Upheld
+a4_m28_mission_name,Malfunction
+a4_m29_mission_name,Technology for the Oman
+a4_m30_mission_name,A Celebration in Style
+a4_m31_mission_name,Excavations
+a4_m32_mission_name,To Terraform a Planet
+a4_m33_mission_name,A Plague Upon the MCA
+a4_m34_mission_name,To Raise an Army
+a4_m35_mission_name,Keep It Safe

@@ -1,0 +1,43 @@
+; FILE: Dact2_mission10.csv,
+; Key,
+ACT 2 MISSION 10 GRASSY KNOLL,
+; FILE NAME,GERMAN TRANSLATION
+a2_m10_target_waypoint,Ziel - Nymas-Station
+a2_m10_meeting_place,Treffpunkt
+a2_m10_pod_store,Kapsel-Lager
+a2_m10_third_man,Der Dritte Mann
+a2_m10_cannon_pod,Langstreckenkanone
+a2_m10_security_one,Sicherheitspatrouille Alpha 2
+a2_m10_security_two,Sicherheitspatrouille Omega 7
+a2_m10_security_three,Sicherheitspatrouille Beta 5
+a2_m10_security_four,Sicherheitspatrouille Delta 9
+a2_m10_security_five,Sicherheitspatrouille Delta 5
+a2_m10_waste,Abfall
+a2_m10_books,Bücher
+a2_m10_larry,Larry
+a2_m10_curly,Curly
+a2_m10_moe,Moe
+a2_m10_Gold,Gold
+a2_m10_window,Fenster des Konferenzraums
+a2_m10_clay,Clay
+a2_m10_text_player_c1_option_1_yes,Ja
+a2_m10_text_player_c1_option_2_no,Nein
+a2_m10_dialogue_player_c1_option_1_yes,Ja. Er ist schon so gut wie tot.
+a2_m10_dialogue_player_c1_option_2_no,Nein. Ich bin kein Mörder.
+a2_m10_dialogue_thirdman_c1_will_you_do_it,"Schön Sie zu sehen, Mr. Johnston. Wir bräuchten Sie, um einen Maas-Spion daran zu hindern, sich bei der Maas-Sicherheit zurückzumelden. Er hat verdeckt für die MCA gearbeitet und viele Geheimnisse der MCA mitgehen lassen. Könnten Sie das erledigen, wenn wir uns um Waffen und Tatort kümmern? Es wäre uns drei Kapseln voller Gold wert."
+a2_m10_dialogue_thirdman_c1_response_2_keep_quiet,"Nun gut. Wir verlassen uns auf Ihre Verschwiegenheit! Sagen Sie niemandem etwas davon."
+a2_m10_dialogue_thirdman_c1_response_1_good,"Gut. Der Verräter ist auf der Nymas-Sicherheitsstation in Santa Romera und bereitet sich darauf vor, Bericht zu erstatten."
+a2_m10_dialogue_thirdman_c1_response_1_beacon,"Einer unserer Agenten hat ein Funkfeuer an der Station angebracht, ganz in der Nähe des Zimmers, in dem sich der Verräter aufhält. Wenn Sie in Position sind, wird das Funkfeuer aktiviert, und Sie können das Zimmer mit dieser Langstreckenkanone wegpusten."
+a2_m10_dialogue_thirdman_c1_response_1_pod_of_books,In dieser Kapsel befindet sich eine Langstreckenkanone. Nehmen Sie sie und bringen Sie sie an Ihrem Schiff an. Die Munition und die Kodes für das Funkfeuer sind in einer Kapsel mit der Aufschrift 'Bücher' im Ladefeld nahe der Station.
+a2_m10_dialogue_thirdman_c1_response_1_dock,"Wenn Sie an der 'Bücher'-Kapsel andocken, wird die Kanone automatisch geladen, und das Funkfeuer wird aktiviert. Der Rest liegt an Ihnen. Enttäuschen Sie uns nicht, sonst ist die Sicherheit der MCA in Gefahr."
+a2_m10_dialogue_thirdman_c1_response_1_payoff,"Wenn Sie fertig sind, kommen Sie wieder hierher. Ich werde dafür sorgen, dass ein unabhängiges Lieferunternehmen das Gold für Sie bereithält. "
+a2_m10_dialogue_clay_fit_the_weapon,"Ich kann es gar nicht erwarten, zurück zur Basis zu kommen und die Kanone zu installieren. Das wird Smith gefallen."
+a2_m10_dialogue_clay_careful_of_the_zone,Sie haben eine Sperrzone von 25 Kilometern eingerichtet. Am besten hältst du dich davon fern bis du schussbereit bist.
+a2_m10_dialogue_corp_security_back_off,Sie befinden sich in einer Sperrzone. Verlassen Sie sie umgehend.
+a2_m10_dialogue_clay_need_the_sniper,"He, Junge. Wenn wir den Maas-Spion erledigen wollen, brauchen wir die Langstreckenkanone."
+a2_m10_dialogue_corp_security_c2_first_warning,Dies ist eine Sperrzone der Maas-Sicherheit. Verlassen Sie sie sofort.
+a2_m10_dialogue_corp_security_c2_second_warning,Dies ist eine Sperrzone. Verlassen Sie sie oder wir werden das Feuer eröffnen.
+a2_m10_dialogue_corp_security_c2_attack_warning,"Wir sind jetzt authorisiert, Gewalt anzuwenden."
+a2_m10_dialogue_cargo_haulers_c2_ah_mr_johnson,"Ah, Sie müssen Mr. Johnston sein."
+a2_m10_dialogue_cargo_haulers_c2_gold_delivery,"Wir haben eine ziemlich große Lieferung für Sie. Ich hoffe, es macht Ihnen nichts aus, aber wir haben diese Kapseln einigen UFP-Scans unterzogen."
+a2_m10_dialogue_cargo_haulers_c2_doublecross,"Da war so viel Gold drinnen, dass wir beschlossen haben, es für uns zu behalten. Tut uns leid."

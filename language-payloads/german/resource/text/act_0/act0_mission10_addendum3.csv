@@ -1,0 +1,15 @@
+; FILE: Dact0_mission10_addendum3.csv,
+; Key,GERMAN TRANSLATION
+;,
+a0_m10_prompt_disengage,Autopilot aus
+a0_m10_objective_disengage,"Benutze den Befehl 'Autopilot aus'"
+a0_m10_dialogue_clay_disengage,"Gut, schalten wir den Autopiloten aus, dann geht's weiter..."
+a0_m10_dialogue_clay_hud_menu2,"Beim Fliegen wird dir das HUD-Menü eine große Hilfe sein. Während du durch Hoffer's Gap fliegst, kannst du es aufrufen und benutzen, dann sage ich dir was zu den einzelnen Abschnitten. Nicht schlimm, wenn du nicht alles sofort schaffst. Du wirst später noch Gelegenheit dazu haben......"
+a0_m10_dialogue_clay_hud_select,"Dies ist das HUD-Hauptmenü. Von hier aus hast du Zugang zum Maschinenraum-Bildschirm (nach oben gehen), zum Waffen-Menü (nach rechts gehen), zum Befehle-Menü (nach unten gehen) und zum Navigations-Menü (nach links gehen)."
+a0_m10_dialogue_clay_the_final,"Gut, der letzte Autopilot ist der Autopilot 'Andocken'. Der ist sehr nützlich, wenn du mit Leuten auf Stationen sprechen oder irgendwo eine Ladung abholen willst. Probier ihn doch mal aus, indem du an dem Wrack auf deiner Kontaktliste andockst."
+a0_m10_objectives_dock_to,"Am Schiff 'Abandoned Hulk' andocken."
+a0_m10_prompt_use_dock,"Mit Autopilot 'Andocken' am Schiff andocken"
+a0_m10_name_abandoned,Abandoned Hulk
+a0_m10_dialogue_clay_undock,"Gut, scheint als hättest du es raus. Lass uns abdocken, dann mach' ich weiter...."
+a0_m10_objectives_undock,"Von der 'Abandoned Hulk' abdocken."
+a0_m10_prompt_use_undock,"Mit Autopilot 'Abdocken' vom Schiff lösen."

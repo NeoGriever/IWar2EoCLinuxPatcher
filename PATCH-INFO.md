@@ -31,6 +31,12 @@ Die Abhängigkeiten sind absichtlich fest:
 - Bei **16:9** ist genau eine der vier Auflösungen wählbar.
 - **Use fullscreen** ist unabhängig von 16:9. Ohne diese Auswahl bleibt das äußere Gamescope-Fenster ein normales Fenster.
 
+### CPU Speed Fix
+
+**Install CPU Speed Fix** prüft beim Start des Patchers mit `tools/iwar2-tsc-check.cpp` den tatsächlich laufenden x86-Time-Stamp-Counter (TSC). Das kleine native C++-Programm misst dessen Ticks über eine monotone Referenzzeit, statt die angezeigte Basis- oder Boost-Taktrate zu verwenden. Liegt der Messwert über `4.294.967.295` Ticks pro Sekunde, wird die Option automatisch ausgewählt; sie bleibt aber jederzeit manuell umschaltbar. Ist der Wert niedriger oder die Messung nicht verfügbar, bleibt die Option zunächst abgewählt.
+
+Der Fix ist keine allgemeine Leistungsoptimierung. Er ändert ausschließlich das geprüfte `bin/release/flux.dll` mit SHA-256 `f5ceddfbebd4c23fe510d033918ccc1306eb02306157c3acf5d06151a5fcd39b`: Byte `0x18EF1` wird von `00` auf `01` gesetzt. Das ergänzt beim Überlauf einmal `2^32` Ticks. Das Modul akzeptiert nur diese Originaldatei oder seine selbst geprüfte Zielversion, sichert die DLL vor dem Schreiben und stellt sie bei jeder fehlgeschlagenen Nachprüfung wieder her. Wurde F14.6 zugleich gewählt, folgt der CPU-Fix direkt auf dessen Installation, weil F14.6 genau diese verifizierte `flux.dll` bereitstellt. Für den ersten automatischen Test muss `g++` vorhanden sein; der gebaute Prüfer liegt anschließend im XDG-Cache.
+
 ### Videos
 
 Der Bereich **Video variants** arbeitet mit Radiobuttons:
@@ -50,6 +56,10 @@ Wird nur **Install german Game-data** gewählt, lädt die Vorprüfung exakt die 
 Auch die nicht im Repository enthaltenen deutschen Basisdaten werden vor jeder Spieländerung vorbereitet: `artifact_sources` in `sources.json` enthält drei direkte URLs für `resource.zip`, das kleine `resource/`-Overlay und `streams.zip`. Die Archive werden im Cache entpackt und anschließend gegen alle 2.565 deutschen Hashes aus `patch-manifest.txt` geprüft. Damit enthält das Git-Projekt keine CD-Spielinhalte; ohne vollständig konfigurierte URLs bleibt der deutsche Datenpatch sicher in der Vorprüfung stehen.
 
 Der Patcher startet vollständig ohne ausgewählte Aufgaben; so wird nur das installiert, was bewusst markiert wurde. Für eine Steam-Bibliothek an einem anderen Ort kann der Spielpfad als Argument übergeben werden:
+
+Beim Start sucht der Patcher jedoch normalerweise selbst: Er liest alle eingebundenen Steam-Bibliotheken aus `libraryfolders.vdf`, prüft zu App `359630` jeweils das Steam-Manifest `appmanifest_359630.acf` und akzeptiert den gemeldeten Ordner nur mit `EdgeOfChaos.exe` und `resource.zip`. Dadurch werden auch Installationen auf zweiten Laufwerken erkannt. Der gefundene beziehungsweise ausgewählte Pfad steht oberhalb der Installationsoptionen. **Change path ...** öffnet einen Dateidialog für `EdgeOfChaos.exe`; erst nach derselben Prüfung wird dessen Ordner übernommen. Unter KDE verwendet der Patcher KDialog, ansonsten Zenity, falls vorhanden.
+
+Der Pfad kann bei Bedarf weiterhin als Argument übergeben werden:
 
 ```bash
 ./ultimate-patcher.sh "/anderer/Pfad/Independence War 2 - Edge of Chaos"
@@ -91,22 +101,22 @@ Die deutschen Nutzdaten werden nicht mehr im Patcher mitgeliefert. Ein direktes 
 
 Das Paket stellt Menüs, Missionsziele, E-Mails, Enzyklopädie, die 2.557 Dialogdateien der deutschen Originalfassung und die drei abweichenden Zwischensequenzen auf Deutsch um. 110 zusätzliche Steam-Sprachdateinamen besitzen kein Gegenstück auf der deutschen CD und bleiben für Steam-Kompatibilität unverändert im Spielordner; sie werden von diesem Paket nicht überschrieben.
 
-## F14.6 und die englische Korrektur
+## F14.6 und Sprachgrundlagen
 
-`payloads/f14.6/` ist der vollständig extrahierte F14.6-Inhalt (556 Dateien) aus `eoc_patch_2.exe`. Die Installer-Datei wurde mit SHA-256 `d888f573b7f3589dedca157df6f8d0a0be0f480ce59de9d456f432db33a6fe71` geprüft. Das Modul überprüft jede Nutzdatei, erstellt eine ZIP-Sicherung und registriert F14.6 im Proton-Prefix über `protontricks`.
+`payloads/f14.6/` enthält die 394 nichtsprachlichen F14.6-Dateien aus `eoc_patch_2.exe`. Alle 162 CSV-/HTML-/INI-Sprachdateien wurden daraus entfernt: Sie liegen getrennt als vollständige, editierbare Deutsch- und Englisch-Bäume unter [`language-payloads/`](language-payloads/) vor. Beide Bäume enthalten dieselben 333 Zielpfade einschließlich der historischen `TEXT`/`text`-Varianten. Die ZIPs werden extern zusammen mit ihren SHA-256-Sidecars bereitgestellt, aber erst ein späterer expliziter Sprach-Auswahlschritt wird sie als letzten Patch-Schritt installieren. Die Installer-Datei wurde mit SHA-256 `d888f573b7f3589dedca157df6f8d0a0be0f480ce59de9d456f432db33a6fe71` geprüft. Das Modul überprüft jede verbliebene Nutzdatei, erstellt eine ZIP-Sicherung und registriert F14.6 im Proton-Prefix über `protontricks`.
 
 Hinweis: Die F14.6-Hinweise des ursprünglichen Anbieters nennen `resource/images/planets` als versehentlich enthaltenes Grafik-Upgrade, das speziell mit der deutschen Fassung Probleme bereiten kann. Der Ultimate Patcher entfernt diesen Ordner **nicht** automatisch, weil die Auswahl „vollständiges F14.6“ exakt bleiben soll; bei einem reproduzierbaren Planeten-/Renderproblem ist das ein separat zu prüfender, rücksicherbarer Kandidat.
 
-Auf einem Linux-Dateisystem können die im historischen Installer gleichzeitig enthaltenen englischen, deutschen und französischen Pfade wegen ihrer unterschiedlichen Groß-/Kleinschreibung nebeneinander liegen. Dadurch entsteht unter anderem das deutsche Hauptmenü auf einer englischen Steam-Installation.
+Auf einem Linux-Dateisystem können die im historischen Installer gleichzeitig enthaltenen englischen, deutschen und französischen Pfade wegen ihrer unterschiedlichen Groß-/Kleinschreibung nebeneinander liegen. In älteren, bereits gepatchten Installationen können solche Reste daher noch parallel existieren. Die neuen Sprachgrundlagen bereiten beide Varianten für einen späteren letzten, expliziten Auswahlschritt vor und werden bis dahin nicht automatisch installiert.
 
-Die Option **Fix english messages after 14.6-Patch** ist deshalb kein pauschales Überschreiben:
+Die bestehende Option **Fix english messages after 14.6-Patch** bleibt ausschließlich für solche älteren Installationen erhalten und ist kein pauschales Überschreiben:
 
 1. Sie akzeptiert nur die 275 exakt geprüften F14.6-Text-/HTML-Überlagerungen aus `audits/f14.6-language-residue.txt`.
 2. Sie sichert diese Dateien in einer ZIP.
 3. Sie entfernt nur diese Sprachreste und stellt 243 eindeutig geprüfte englische Quellen aus der originalen Steam-`resource.zip` wieder her (`audits/f14.6-english-archive.txt`).
 4. Sie legt die drei englischen F14.6-Multiplayer-Zusatzdateien neu an und enthält für den vom historischen Patch nur auf Deutsch gelieferten Capture-the-Flag-Text eine englische Ergänzung. Alle vier Ergänzungen werden über `audits/f14.6-english-extras.txt` vor und nach dem Kopieren gehasht.
 
-Keine F14.6-EXE, DLL, Modell-, Missions- oder sonstige Engine-Datei wird vom English Fix geändert. Die vollständige Prüfdokumentation steht in [F14.6-ENGLISH-FIX.md](audits/F14.6-ENGLISH-FIX.md).
+Keine F14.6-EXE, DLL, Modell-, Missions- oder sonstige Engine-Datei wird vom English Fix geändert. Die vollständige Prüfdokumentation steht in [F14.6-ENGLISH-FIX.md](audits/F14.6-ENGLISH-FIX.md). Für künftige Neuinstallationen soll ihn der noch zu implementierende ZIP-basierte Sprach-Auswahlschritt ersetzen.
 
 ## Fenster, 16:9 und Maus
 

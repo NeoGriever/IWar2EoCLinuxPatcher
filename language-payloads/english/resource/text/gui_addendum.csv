@@ -1,0 +1,87 @@
+;Key Phrase_to_localise Comments,
+;,
+;PLEASE NOTE THAT ALL COMMENTS REFER TO THE DIALOGUE IMMEDIATELY FOLLOWING THE COMMENT.,
+;,
+;THIS IS PART OF THE IN-GAME INTERFACE TEXT,
+;,
+
+;,
+; New or changed keys as of 20th October,
+;,
+
+;,
+; Customised loadout screen,
+;
+
+; The title to appear on the manifest summary window
+customise_manifest_title,SUMMARY
+
+; New missile type,
+remote,remote missiles
+
+; 17 character limit on these ,
+mp_server_score_limit,SCORE LIMIT
+mp_server_session_name,SESSION NAME
+mp_server_default_session_name,Multiplayer game
+mp_server_start,START
+mp_server_game_type,GAME TYPE
+mp_server_ip_address,IP ADDRESS
+mp_server_map, MAP
+mp_rejection_title, "REJECTED"
+
+; 'Fill all' missile slots in a missile launcher button
+customise_fillall,FILL ALL
+
+; Title for the triangulation screen - 13 char limit
+basemenu_triangulation,TRIANGULATION
+
+; Title of the calcuate button on the triangulation screen - 13 char
+triangulation_calculate,CALCULATE
+
+; Section headings for the triangulation screen - 12 char limit
+triangulation_time,TIME
+triangulation_date,DATE
+
+; Geographical match report - 12 character limit 
+triangulation_nomatches,NO MATCH FOUND
+triangulation_matchfound,MATCH FOUND: ZAUIS
+
+mp_server_advanced_title,ADVANCED OPTIONS
+mp_server_advanced_ai,AI
+mp_server_advanced_ai_setting,AUTO BOT REPLACEMENT 
+mp_server_advanced_ai_skill,BOT SKILL LEVEL
+mp_server_advanced_ai_skill_low,LOW
+mp_server_advanced_ai_skill_high,HIGH
+mp_server_advanced_button,ADVANCED...
+mp_server_advanced_arcade_mode,ARCADE MODE
+mp_server_advanced_ai_count,NUMBER OF BOTS
+
+; Restore defaults button - 12 character max.
+options_restoredefaults,RESTORE DEFAULTS
+
+; Names of movies
+movies_comsec_discovery,COMMAND SECTION
+movies_base_discovery,LUCRECIA'S BASE
+
+; Client screen connection messages
+mp_client_rejected,Rejected By Server
+mp_client_not_connected, Not Connected
+mp_client_connected, Connected To Server
+
+;
+; New options screen keys
+;
+
+; Texture size
+options_texture_size,"TEXTURE SIZE"
+
+; Trilinear filtering
+options_trilinear,"TRILINEAR FILTERING"
+
+; Simple shaders option
+options_shader_quality,"SHADER QUALITY"
+
+; Multiplayer ship names
+ship_type_police_interceptor,"POLICE INTERCEPTOR"
+ship_type_marauder_fighter,"MARAUDER FIGHTER"
+ship_type_cutter, "MARAUDER CUTTER"

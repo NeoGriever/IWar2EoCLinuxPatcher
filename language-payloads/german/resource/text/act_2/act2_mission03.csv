@@ -1,0 +1,65 @@
+; FILE: Dact2_mission03.csv,
+; Key,
+; FILE NAME,GERMAN TRANSLATION
+;,
+name_3rdway,Third Way
+name_middeon,Middeon
+a2_m03_name_cargopod,Frachtkapsel des Piraten
+
+a2_m03_dialogue_c1_3rdway_challenge,Mensch von niederer Art! Nenne deinen Namen und deine Begehr!
+a2_m03_dialogue_c1_cal_need_volunteers,"Hallo. Ich bin Cal Johnston. Ich suche nach Freiwilligen, die mit mir den Sternhaufen befreien wollen."
+a2_m03_dialogue_c1_3rdway_no1,Der Third Way hilft keinen Menschen niederer Art.
+a2_m03_dialogue_c1_cal_war_coming,Warum? Haben euch die Unternehmen in der Tasche? Es wird Krieg geben. Auf welcher Seite seid ihr?
+a2_m03_dialogue_c1_3rdway_no2,Der Third Way mischt sich nicht in Kriege von Menschen niederer Art ein.
+a2_m03_dialogue_c1_cal_justification,"Den Luxus der Isolation könnt ihr euch nicht erlauben. Die Unternehmen lassen euch im Moment nur in Ruhe, weil ihr die Lebensmittel liefert, auf denen ihr System der Sklaverei aufgebaut ist. Wenn das System zusammenbricht - und der Tag kommt bestimmt - haben sie keine Verwendung mehr für euch. Dann behandeln sie euch, wie sie uns behandeln."
+a2_m03_dialogue_c1_3rdway_no3,Der Third Way kann jedem Angriff von Menschen niederer Art widerstehen. Eure Art der Guerillataktik ist einfach unter unserem Niveau. Und jetzt geh mit deinem Kreuzzug woanders hausieren.
+a2_m03_dialogue_c1_smith_lets_go,Warum hängen wir hier noch rum? Mit solchen Deppen kann man doch kein vernünftiges Wort reden. Lass uns abhauen.
+a2_m03_dialogue_c1_ibuki_kill_em_all,"Bitte um Erlaubnis, es diesen selbstgerechten Idioten zu zeigen, Cal."
+a2_m03_dialogue_c1_cal_lets_go,Nein. Lass sie in Ruhe. Wir hauen ab.
+a2_m03_dialogue_c2_3rdway_go_away,Person niederer Art! Warum bist du immer noch hier? Hau ab.
+
+a2_m03_dialogue_c3_az_3rdway,Das da vorne sieht nach einem Konvoi des Third Way aus. 
+a2_m03_dialogue_c3_clay_avoid_em,"Halt dich fern! Wir wollen nicht, dass sie denken wir-"
+a2_m03_dialogue_c3_az_marauders,Marauder! Im Anflug auf den Konvoi! 
+a2_m03_dialogue_c4_freighter_mayday,Mayday! Mayday! Wir werden angegriffen!
+a2_m03_dialogue_c5_smith_theyre_doomed,"Zu spät, Cal. Ihr Beschleuniger ist zu stark beschädigt. Wie konnte der allen überlegene Third Way eine Schlacht gegen Menschen niederer Art verlieren? Hah."
+a2_m03_dialogue_c5_cal_expletive,Verdammt. Hätten wir doch helfen können. 
+a2_m03_dialogue_c5_ibuki_who_cares,"Ach, das geschieht diesen arroganten Fanatikern recht."
+a2_m03_dialogue_c6_ibuki_indignant,"Sie wollen Minen? Was glauben die denn, wer sie sind?"
+a2_m03_dialogue_c6_cal_justification,"Der Third Way beherrscht den einzigen landwirtschaftlich nutzbaren Planeten das Systems. Freie Menschen haben auch Hunger. Wenn die Unabhängigkeit funktionieren soll, brauchen wir den Third Way auf unserer Seite.  "
+a2_m03_dialogue_c6_jafs_pirates,"Oder wir töten sie alle und nehmen uns ihren Planeten. Nur so ne Idee. He, da fällt mir was ein! Ich glaub ich hab mal von einer Piratenbasis bei Hastur gehört, dessen Abwehr aus Spürsuchminen besteht. "
+a2_m03_dialogue_c6_ibuki_unconvinced,"Du GLAUBST du hast davon gehört? Das ist ein bisschen wenig, wenn wir da hingehen und sie um ihre Minen bitten wollen."
+a2_m03_dialogue_c6_jafs_shrug,Probieren geht über Studieren. Und wer hat hier was von BITTEN gesagt?
+a2_m03_dialogue_c7_middeon_come_on_in,"Hier spricht Middeon Blackfever. Du spinnst wohl, dass du hier auftauchst. Ich bin schließlich der meistgesuchte Pirat der Galaxis. Komm erst an meinen wundervollen Minen vorbei, und dann rede ich vielleicht mit dir. "
+a2_m03_dialogue_c8_middeon_whatdya_want,Aufgepasst! Was führt dich in die Höhle von Middeon Blackfever?
+a2_m03_text_c8_cal_option_ask,Bitte um Minen 
+a2_m03_dialogue_c8_cal_ask,Ich würde gern einige dieser Spürsuchminen erwerben.
+a2_m03_dialogue_c8_middeon_boast1,"Die sind gut, stimmt's? Sehr gute Minen! Den Entwurf habe ich von der Erde geklaut. Von der ERDE, verstehst du?"
+a2_m03_dialogue_c8_cal_flatter1,"Äh, ja. Sehr beeindruckend. Die Baupläne für diese wirklich guten Minen könnten zum Zünglein an der Waage werden. In fünfhundert Jahren steht dein Name dann in den Geschichtsbüchern. Middeon Blackfever, der Mann, der die Zukunft veränderte."
+a2_m03_dialogue_c8_middeon_my_folks_are_great,"Hmmm. Hört sich gut an! Wusstest du, dass ich von einer langen Reihe berühmter Piraten abstamme?"
+a2_m03_text_c8_cal_option_really,Echt? Erzähl mir mehr 
+a2_m03_dialogue_c8_cal_really,Echt? Das ist ja interessant. Ich würde gern mehr darüber wissen.
+a2_m03_dialogue_c8_middeon_morgan_blackheart,Vor über hundert Jahren legte sich mein Urgroßvater Morgan Blackheart mit allen an und gehörte weder zum Commonwealth noch zu den Indies.
+a2_m03_dialogue_c8_cal_gimmie_blueprints,Das klingt nach einem coolen Typen. Kann ich jetzt bitte die Baupläne haben?  
+a2_m03_dialogue_c8_middeon_ok_then,"Klar, Captain. Besuch mich mal wieder! Ich hab noch viele Geschichten auf Lager!"
+a2_m03_text_c8_cal_option_no_time,Keine Zeit
+a2_m03_dialogue_c8_cal_no_time,"Ich habe keine Zeit mir einen Haufen blödsinniger Märchen anzuhören! Middeon, sieh's endlich ein! Kein Mensch hat je von dir gehört! "
+a2_m03_dialogue_c8_middeon_get_him,"Kielholt ihn, Jungs!"
+a2_m03_text_c8_cal_option_demand,Minen verlangen
+a2_m03_dialogue_c8_cal_demand,"Ich bin nicht gekommen, um mit einem hinterwäldlerischen, quasselsüchtigen Möchtegernpiraten zu verhandeln. Rück die Baupläne raus oder ich befehle einen Angriff, der die gesamte Station wegpustet."
+a2_m03_dialogue_c8_middeon_angry,Das lass ich mir von keinem sagen.
+a2_m03_dialogue_c8_ibuki_haha,Aber das hast du eben doch.
+a2_m03_dialogue_c8_clay_you_gotta_big_mouth,"Kleiner, du musst wirklich mal lernen, auf dein Mundwerk zu achten."
+a2_m03_dialogue_c9_smith_that_pod,He! Cal! Ich durchleuchte gerade diese Kapseln. Das könnten die Baupläne sein!
+a2_m03_dialogue_c10_jafs_mine_is_ready,"Unsere erste Kapsel mit Spürsuchminen ist fertig. Noch neun Stück und wir können sie an den Third Way liefern. Ach, was ich dafür auf dem Schwarzmarkt kriegen könnte..."
+a2_m03_dialogue_c11_jafs_mines_are_ready,"Wir haben jetzt alle Spürsuchminen, die du an den Third Way liefern wolltest."
+a2_m03_dialogue_c11_jafs_you_deliver_one,Bring doch die erste Kapsel selbst hin. Ich sorge dann für den Transport der restlichen Ladung. 
+a2_m03_dialogue_c12_az_bad_ships,"Da sind ganz schön viele Schiffe unterwegs. Ich glaub nicht, dass sie vom Third Way sind."
+a2_m03_dialogue_c13_smith_lost_pod,Verdammt! Wir haben die Kapsel verloren!
+a2_m03_dialogue_c14_3rdway,"Wo sind die Spürsuchminen, Johnston? Dein Wort ist so wenig wert wie das stinkende Loch aus dem es kommt. Komm zurück, wenn du die Minen hast."
+a2_m03_dialogue_c15_clay,Lass uns andocken und die Fracht übergeben.
+a2_m03_dialogue_c16_3rdway_thankyou,"Sie haben es geschafft, uns Spürsuchminen zu liefern, Mr. Johnston."
+a2_m03_dialogue_c16_cal_what_about_me,Ich habe meinen Teil der Abmachung erfüllt.
+a2_m03_dialogue_c16_3rdway_who_cares,"Abmachungen, Mr. Johnston, kann es nur zwischen ebenbürtigen Partnern geben."
+a2_m03_dialogue_c16_3rdway_there_will_be_pilots,"Wenn der Krieg im Sternhaufen ausbricht, könnte uns womöglich etwas daran liegen, dass eure Piloten mit unseren fliegen.   "
+a2_m03_dialogue_c16_3rdway_go_home_happy,"Du wirst jetzt gehen. Tröste dich mit dem Wissen, dass du den dir Überlegenen einen Dienst erweisen durftest."

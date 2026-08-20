@@ -1,0 +1,396 @@
+;GENERATED MISSIONS
+;
+;Character jafs "Jafs"
+;Character dave "Dave Schwa MALE"
+;Character gardener "Gardener FEMALE"
+;Character Oman "Oman MALE"
+;Character oman "Oman MALE"
+;Character catherine "Catherine Stepson FEMALE"
+;Character Maitre "Maitre De MALE"
+;Character Jerome "Jerome Stepson MALE"
+;Character jerome "Jerome Stepson MALE"
+;Character gabriella "Gabriella Stepson FEMALE"
+;Character Gabriella "Gabriella Stepson FEMALE"
+;Character dr_jones "Dr Jones FEMALE"
+;Character gav "'Mad Gav' Stepson MALE"
+;Character clive "Clive Wire MALE"
+;Character foreman "League Station Construction Foreman MALE"
+;Character wafeeq "Wafeeq MALE"
+;Character marid "Marid MALE"
+;Character speaker "Representative of the Oman Speaker FEMALE"
+;Character humam "Humam MALE"
+;Character dan "Dan FEMALE"
+;Character jardan "Marcal Jardan MALE"
+; Mission one
+; Jafs has contacted a group of miners who want to buy stolen ore to make up their monthly quota
+generated_missions_01_dialogue_jafs_talked_to_miners_01,"I've had a talk with a bunch of miners - they're behind schedule on production and are going to lose everything unless they make their targets. I said you could get them some ore at a very reasonable price, if you get my drift. I think Maas is shipping its ore from the Aldo mine soon."
+
+;jafs
+generated_missions_01_dialogue_jafs_shall_I_02,"Shall I run this ore over to the miners?"
+;jafs
+generated_missions_01_dialogue_jafs_Nice_One_03,"Nice one - you're doing well, but they still need more ore to make that quota."
+
+;Mission Two
+; a dodgy dealer called Dave Schwa
+generated_missions_02_dialogue_dave_schwa_saved_my_neck_01,"Thanks! You really saved my neck. Here, take these computer spares - they're worth a lot."
+
+;Mission three 
+; the Gardener
+;generated_missions_03_dialogue_gardener_thats_ideal_01
+generated_missions_03_dialogue_gardener_thats_ideal_01,"That's ideal - but we still need more."
+
+;generated_missions_03_dialogue_gardener_thanks_02
+generated_missions_03_dialogue_gardener_thanks_02,"Thanks for your help. You'll be happy to know that the orchards are coming along fine. Well done." 
+
+;Mission 4
+;generated_missions_04_dialogue_Oman_having_trouble_01
+generated_missions_04_dialogue_Oman_having_trouble_01,"The Solan corporate security ships have been causing us trouble and stopping us working. We want you to 'tax' them for their impudence. They have just brought in a new shipment of exotic metal ore to their plant for processing. We wish you to take it from them and bring it back to us. We will process it to remove any signs of ownership and reward you."
+
+;Mission 5
+;generated_missions_05_dialogue_oman_reactor_parts_01
+generated_missions_05_dialogue_oman_reactor_parts_01, "Bravo! You have served us well. These parts will keep the reactors running for many more months. For such skill we must reward you. Here, take this."
+
+;Mission 6
+;generated_missions_06_dialogue_catherine_stepson_saved_lives_01
+generated_missions_06_dialogue_catherine_stepson_saved_lives_01,"Thanks to your quick work, lives were saved. We owe you a debt, so I've organised a reward for you. And if you're interested we're going to try and find out who paid those cops off and pay them a visit."
+
+;Mission 7
+;generated_missions_07_dialogue_catherine_stepson_small_fortune_01
+generated_missions_07_dialogue_catherine_stepson_small_fortune_01,"Hmm. AntiAgathics - a small fortunes' worth. No routing marks on the pod, no data trail. We'll never find out where this came from. Here - if you want it, it's yours. At least you paid them back. Well done."
+
+;Mission 8
+;generated_missions_08_dialogue_jafs_fuel_pellets_01
+generated_missions_08_dialogue_jafs_fuel_pellets_01,"Hey Cal. I've just had a tip-off that a shipment of fuel pellets is being delivered to the Cleitus Common Metals Processing Plant. Feel like some 'borrowing'? I know someone who'll give us a good trade for any pods of pellets we can get him."
+
+;generated_missions_08_dialogue_jafs_loaded_up_02
+generated_missions_08_dialogue_jafs_loaded_up_02,"He's loaded up with fuel pellets - says he doesn't need any more. We'll have to find another trade if we want to deal with him."
+
+
+;Mission 9
+;handled by email
+
+;html:/email/generatedmissions/generated_missions_10_RareAnimalChef_01.html
+;email -DONE
+;"Hi - Jaffs said you may be able to help. "
+;"We've had a few problems with our supplies - we're getting the basics through, but you can't run a restaurant with synthetic protein blocks. We need something to spice up the menu."
+;"We're willing to pay a crate of Wine from the Proxima Vineyards for Something we can use to spice up the menu. Any Animal will do as long as its edible."
+
+;html:/email/generatedmissions/generated_missions_10_RareAnimalChef_02.html
+;email -DONE
+;"Any luck with that speciality dish? We're down to making synthetic carrot soup here!"
+
+;html:/email/generatedmissions/generated_missions_10_RareAnimalChef_03.html
+
+;generated_missions_10_dialogue_Maitre_De_thanks_for_the_animals_01
+generated_missions_10_dialogue_Maitre_De_thanks_for_the_animals_01,"Thanks! I'll get these to the chef at once - he's going crazy with just spun micoproteins, so he'll be glad to have something else to work with. Here's your reward. It's a fine vintage, so don't drink it all at once."
+;this should be spoken?
+
+;html:/email/generatedmissions/generated_missions_11_FistfulOfNanites_01.html
+;email - DONE
+;"I've got a job for you - want it? Meet me by the stepson mansion"
+;"Jerome Stepson"
+
+;html:/email/generatedmissions/generated_missions_11_FistfulOfNanites_02.html
+;conversation / Direct face to face meeting briefing
+
+; these need renumbering
+;generated_missions_11_dialogue_jerome_moving_computers_01
+generated_missions_11_dialogue_jerome_moving_computers_01,"I've heard that Maas is moving a load of their computers and nanotechnology from the Bessus OTS to another of their bases - and I'll give a good price for it, a full pod of Seekers for each pod you get me."
+
+;html:/email/generatedmissions/generated_missions_11_FistfulOfNanites_03.html
+;spoken
+;generated_missions_11_dialogue_jerome_rebuild_my_mainframe_02
+generated_missions_11_dialogue_jerome_rebuild_my_mainframe_02,"Well done. I'm going to put this lot to good use rebuilding my mainframe."
+
+;html:/email/generatedmissions/generated_missions_12_LibraryFine_01.html
+;"Cal"
+;"I've a little job that needs doing and I think you'd be ideally suited for it."
+;"Come over to the Stepson Villa when you've a moment."
+;"Gabriella stepson"
+
+;html:/email/generatedmissions/generated_missions_12_LibraryFine_02.html
+;Face to face (direct) briefing from Gabriella stepson
+;generated_missions_12_dialogue_gabriella_stepson_steal_books_01
+generated_missions_12_dialogue_gabriella_stepson_steal_books_01, "One of my contacts has just tipped me off that one of the Maas executives has just shipped in his library from his home system. Now, I'm a collector of real books, the old physical paper ones - I've got quite a library. Getting my hands on his would be quite an achievement, don't you think? The freighter carrying it is dropping cargo off at Yellowrock Orbital Transfer Station before heading to the Maas offices - get it for me."
+
+;html:/email/generatedmissions/generated_missions_12_LibraryFine_03.html
+;face to face
+;generated_missions_12_dialogue_Gabriella_stepson_nice_books_02
+generated_missions_12_dialogue_Gabriella_stepson_nice_books_02,"Well done.. There's even a first edition Von Jutz in here. Here, this should pay for your time."
+
+;html:/email/generatedmissions/generated_missions_13_MedicalSupplies_01.html
+; face to face
+; KLUDGE!!!!
+;generated_missions_13_dialogue_dr_jones_lots_of_accidents_01
+;generated_missions_13_MedicalSupplies_01,"We've been working on a big project for a while now and we're suffering a lot of accidents. We can't let anyone know what's going on, so we've set up a mobile hospital in a fuel tanker. Trouble is, we're taking too many risks and people are getting hurt - we need more medical supplies."
+
+;THIs is an email now
+
+
+
+;html:/email/generatedmissions/generated_missions_13_MedicalSupplies_02.html
+;spoken
+; KLUDGE!!!!
+;generated_missions_13_dialogue_dr_jones_saved_lives_01
+generated_missions_13_dialogue_dr_jones_saved_lives_01,"Thanks. You've saved lives, that's for sure."
+ 
+
+;html:/email/generatedmissions/generated_missions_14_GunRobber_01.html
+;email?
+;"The planetary government are replacing the armies old M34 Rifles with the new variable frequency M55-pulser assault weapons. "
+;"Our boys want the leading edge in technology, so we'd like you to 'appropriate' a pod or two of them "
+;"We're offering a one to one trade - a pod of weapons for a pod of radioactives"
+;"Gavin 'Mad Gav' Stepson"
+
+;html:/email/generatedmissions/generated_missions_14_Gunrobber_02.html
+; face to face
+;generated_missions_14_dialogue_gav_well_done_01
+generated_missions_14_dialogue_gav_well_done_01,"Well done! You must have done some pretty fancy flying to get these off those Navy types. In fact, we'll double your pay-off - you're one hell of a hotshot pilot!"
+
+
+;html:/email/generatedmissions/generated_missions_15_TheSurvey_01.html
+; email
+;"I've heard a rumour that Deep Systems have just finished their latest survey of this solar system. "
+;"We want to know what their findings are - are we going to get more funding and settlers or are they going to leave us to rot out here?"
+;"The information is going to be carried by a Datagon confidential courier from the Deep Systems Research Facility - I'd pay well to see it before anyone else. "
+;"ConcernedCitizen@anonymous.hf"
+
+;html:/email/generatedmissions/generated_missions_16_TheFreak_01.html
+;email
+;"I've been watching your progress through the police and corporate records of piracy and lost shipping - reading between the lines it didn't take much to track the patterns of goods being sold back to your friend Jaffs. Don't worry, I've scrambled the police records so they'll not catch on. Looks like you're doing pretty well for yourself. Well, I've got a little job for you. I'm an Information broker and I want information, data, plans, anything like that. No matter what it is, someone wants it and someone is willing to pay for it. Information wants to be free, right? For every load of Data you get me I'll divert a pod of missiles your friends way. Sound a good deal? THE FREAK "
+
+;html:/email/generatedmissions/generated_missions_17_GeriatricCyborgs_01.html
+;Direct (Bizarre voder style borg voice) 
+;generated_missions_17_dialogue_clive_wire_such_a_nice_boy_01
+generated_missions_17_dialogue_clive_wire_such_a_nice_boy_01,"You must be the Freak's little friend. You look like such a nice boy. We've heard a rumour Ninex have just jumped a pod full of the latest cybertech - they're shipping it over to Maas who are upgrading their security staff with the new V38 neural co-processors. I remember when the old X 11 was state of the art - you were moving so fast you felt you could dodge bullets. Nowadays with those V38s, you probably can. Well, reckon you can get that cargo for us?"
+ 
+;html:/email/generatedmissions/generated_missions_18_GoldMiners_01.html
+; all done with emails
+
+
+;html:/email/generatedmissions/generated_missions_19_Big_Jacks_Jewels_01_jafs
+;Teaser from jafs
+;generated_missions_19_dialogue_jafs_scary_meeting_01
+generated_missions_19_dialogue_jafs_scary_meeting_01,"I've just had a scary meeting - I bumped into some of Big Jack's men - Jack's the guy who runs Springheel Jack's. He said he knows I'm working for someone and to pass a message on. It's an email."
+
+;the league station construction foreman
+;generated_missions_20_dialogue_foreman_thanks_cal_01
+generated_missions_20_dialogue_foreman_thanks_cal_01,"Thanks Cal. We'll put these to good use in our 'little' project."
+
+;mission 21 
+;its all email
+
+;gm22
+;is all done by email
+
+;gm 23
+
+;gm 24 oman payback
+;Oman 4 		- Oman agent - Wafeeq The Oman One of the Oman traders, a successful businessman. 
+;generated_missions_24_dialogue_wafeeq_paid_back_01
+generated_missions_24_dialogue_wafeeq_paid_back_01,"Well done. I hope you paid them back in a veritable hail of charged particles. No one should dare double-cross the Oman and live!"
+
+;gm25
+;Oman 5		Marid - His name means Disease, in the hope that this will keep him well. An Oman Trouble-shooter, he tries to solve problems and protect his people against adversity.
+;generated_missions_25_dialogue_marid_get_the_med_techs_01
+generated_missions_25_dialogue_marid_get_the_med_techs_01,"Thanks. I'll get the Med-Techs working on this right away."
+
+;gm26
+
+;gm 27 
+;
+;gm28
+;representative of the speaker of the Oman
+;generated_missions_28_dialogue_speaker_rep_thats_ideal_01
+generated_missions_28_dialogue_speaker_rep_thats_ideal_01,"These are ideal. We thank you."
+
+;gm29 
+;Oman 9		- Humam	Enginner and electronics expert, a master of reverse engineering and customistion. Courageous and generous
+;generated_missions_29_dialogue_humam_will_be_examined_01
+generated_missions_29_dialogue_humam_will_be_examined_01,"Well done. I'll have these examined by our specialists to see how they're made."  
+
+;gm30
+;Oman 10	ABDUL HADI Leader of the Oman
+
+;gm31	MCA special projects
+;generated_missions_31_dialogue_dan_dig_in_01
+generated_missions_31_dialogue_dan_dig_in_01,"Ideal. We'll start getting more stuff dug in as soon as I can get this back to Mwari."
+
+;gm32 Marcal jardan
+;generated_missions_32_dialogue_jardan_need_more_01
+generated_missions_32_dialogue_jardan_need_more_01,"That's fine, but we still need more terraforming hardware to get this started."
+
+
+;generated_missions_32_dialogue_jardan_thats_enough_02
+generated_missions_32_dialogue_jardan_thats_enough_02,"That should be enough to get the project underway. Thanks for your help."
+
+;gm33 all sorted with email
+
+;gm 34
+;all sorted by email
+
+;gm35 sorted with email
+
+
+;=======================
+
+; SHip names
+generated_missions_01_name_ship_01,"Ore Hauler 1701"
+
+generated_missions_02_name_ship_01,"Schwa"
+generated_missions_02_name_ship_02,"Dave Schwa"
+generated_missions_02_name_ship_03,"Stabbing Joe"
+generated_missions_02_name_ship_04,"Joe"
+generated_missions_02_name_ship_05,"Joe's Mates"
+
+generated_missions_03_name_ship_01,"Gardener"
+generated_missions_03_name_ship_02,"Julius Stepson"
+generated_missions_03_name_ship_03,"Stepson 423"
+generated_missions_03_name_ship_04,"Garbage Hauler"
+generated_missions_03_name_ship_05,"Hauler Chief"
+
+generated_missions_04_name_ship_01,"Scimitar"
+generated_missions_04_name_ship_02,"Juseph Bin Alam"
+generated_missions_04_name_ship_03,"Solan 1756"
+generated_missions_04_name_ship_04,"Mover"
+generated_missions_04_name_ship_05,"Solan Enforcer 873"
+
+generated_missions_05_name_ship_01,"Thaqib"
+generated_missions_05_name_ship_02,"Suhayb"
+generated_missions_05_name_ship_03,"Repair hauler 17"
+generated_missions_05_name_ship_04,"Hauler captain"
+
+generated_missions_06_name_ship_01,"Fistful of Clover"
+generated_missions_06_name_ship_02,"Catherine"
+generated_missions_06_name_ship_03,"Medical transporter"
+generated_missions_06_name_ship_04,"Impounded"
+generated_missions_06_name_ship_05,"Police Controller"
+generated_missions_06_name_ship_06,"Police 9654"
+
+generated_missions_07_name_ship_01,"Fistful of Clover"
+generated_missions_07_name_ship_02,"Catherine"
+generated_missions_07_name_ship_03,"Grandslam"
+generated_missions_07_name_ship_04,"Marco"
+generated_missions_07_name_ship_05,"Police 9654"
+
+generated_missions_08_name_ship_01,"Fuel hauler"
+generated_missions_08_name_ship_02,"Chief"
+
+generated_missions_09_name_ship_01,"Numbers racket"
+generated_missions_09_name_ship_02,"Ace Paschinco"
+generated_missions_09_name_ship_03,"The Boyz"
+generated_missions_09_name_ship_04,"Police Courier"
+generated_missions_09_name_ship_05,"Lt Basho"
+generated_missions_09_name_ship_06,"Escort 71"
+
+generated_missions_10_name_ship_01,"Runcible"
+generated_missions_10_name_ship_02,"Maitre De"
+generated_missions_10_name_ship_03,"Papa Zee's Travelling Zoo"
+generated_missions_10_name_ship_04,"Papa Zee"
+
+generated_missions_11_name_ship_01,"Basking Shark"
+generated_missions_11_name_ship_02,"Jerome"
+generated_missions_11_name_ship_03,"Maas hauler 15-21"
+generated_missions_11_name_ship_04,"CargoPilot"
+generated_missions_11_name_ship_05,"Escort"
+
+generated_missions_12_name_ship_01,"Manta"
+generated_missions_12_name_ship_02,"Gabriella Stepson"
+generated_missions_12_name_ship_03,"Private Haulage"
+
+generated_missions_13_name_ship_01,"Angel of Mercy"
+generated_missions_13_name_ship_02,"Dr Jones"
+generated_missions_13_name_ship_03,"Blank Reg"
+generated_missions_13_name_ship_04,"Reg"
+
+generated_missions_14_name_ship_01,"Jack of Arms"
+generated_missions_14_name_ship_02,"Gav"
+generated_missions_14_name_ship_03,"Arms Carrier"
+generated_missions_14_name_ship_04,"Gunhauler"
+
+generated_missions_15_name_ship_01,"Datagram Technologies Courier"
+generated_missions_15_name_ship_02,"Roadrunner"
+
+generated_missions_16_name_ship_01,"Pickup agent"
+generated_missions_16_name_ship_02,"Hauler"
+
+generated_missions_17_name_ship_01,"Crystal Express"
+generated_missions_17_name_ship_02,"CliveWire"
+generated_missions_17_name_ship_03,"Delivery Freighter"
+generated_missions_17_name_ship_04,"Long Distance Clara"
+generated_missions_17_name_ship_05,"Escort"
+
+generated_missions_18_name_ship_01,"Digger"
+generated_missions_18_name_ship_02,"Bob"
+generated_missions_18_name_ship_03,"Mining Ship"
+generated_missions_18_name_ship_04,"Utility Hauler"
+generated_missions_18_name_ship_05,"Captain Kate"
+
+generated_missions_19_name_ship_01,"Prospector"
+generated_missions_19_name_ship_02,"Pete"
+
+generated_missions_20_name_ship_01,"Foreman"
+generated_missions_20_name_ship_02,"Foreman"
+generated_missions_20_name_ship_03,"Maas Station repair"
+generated_missions_20_name_ship_04,"Repair"
+
+generated_missions_21_name_ship_01,"Jack Of Arms"
+generated_missions_21_name_ship_02,"Gav Stepson"
+generated_missions_21_name_ship_03,"Rental hauler"
+generated_missions_21_name_ship_04,"Hauler Captain"
+generated_missions_21_name_ship_05,"Police patrol"
+
+generated_missions_22_name_ship_01,"Jake Day Haulage"
+generated_missions_22_name_ship_02,"Jake Day"
+generated_missions_22_name_ship_03,"Armed Escort"
+
+
+generated_missions_23_name_ship_01,"Energy Cell Express"
+generated_missions_23_name_ship_02,"Freighter captain"
+
+generated_missions_24_name_ship_01,"Wafeeq"
+generated_missions_24_name_ship_02,"Wafeeq"
+generated_missions_24_name_ship_03,"Solan Trader"
+generated_missions_24_name_ship_04,"Solan Trader"
+
+generated_missions_25_name_ship_01,"Marid"
+generated_missions_25_name_ship_02,"Marid"
+generated_missions_25_name_ship_03,"Medical courier"
+generated_missions_25_name_ship_04,"Medical courier"
+
+generated_missions_26_name_ship_01,"Ordnance hauler"
+generated_missions_26_name_ship_02,"Joe Hauler"
+
+generated_missions_27_name_ship_01,"The Vessel of Basaam"
+generated_missions_27_name_ship_02,"Basaam"
+generated_missions_27_name_ship_03,"Latest Delivery"
+generated_missions_27_name_ship_04,"Latest Delivery"
+
+generated_missions_28_name_ship_01,"Speaker's Representative"
+generated_missions_28_name_ship_02,"Speaker's Representative"
+
+generated_missions_29_name_ship_01,"Humam"
+generated_missions_29_name_ship_02,"Humam"
+
+generated_missions_30_name_ship_01,"Food delivery"
+generated_missions_30_name_ship_02,"Food delivery"
+
+generated_missions_31_name_ship_01,"MCA Special Projects"
+generated_missions_31_name_ship_02,"Dan O'Herlihy"
+generated_missions_31_name_ship_03,"MCA Escort"
+
+generated_missions_32_name_ship_01,"MCA Biosciences"
+generated_missions_32_name_ship_02,"Marcel Jardan"
+generated_missions_32_name_ship_03,"Maas Hauler"
+generated_missions_32_name_ship_04,"Maas Hauler"
+
+generated_missions_33_name_ship_01,"MCA Emergency Management"
+generated_missions_33_name_ship_02,"Jason Kay" 
+
+generated_missions_34_name_ship_01,"MCA Ground forces"
+generated_missions_34_name_ship_02,"MCA Ground forces"
+generated_missions_34_name_ship_03,"Security Courier"
+generated_missions_34_name_ship_04,"Security Courier"
+
+generated_missions_35_name_ship_01,"Quartermaster"
+generated_missions_35_name_ship_02,"Quartermaster"

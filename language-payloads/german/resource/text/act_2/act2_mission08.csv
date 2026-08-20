@@ -1,0 +1,26 @@
+; FILE: Dact2_mission08.csv,
+; Key,
+;,
+; FILE NAME,GERMAN TRANSLATION
+;,
+
+a2_m08_dialogue_jarvis_hold_on,"Warte mal, Freundchen, ich kenn dich irgendwoher... Ich bin's, Jarvis! Weißt du, der Automaten-Typ! Was machst du denn hier, he?"
+a2_m08_dialogue_cal_just_looking,Seh mich nur mal um...
+a2_m08_dialogue_jarvis_i_see,"He, he, he. Mal umsehen, klar. Auf der Suche nach dem geheimen Weg ins Mwari-System, wett ich. Stimmt's? Keine Angst. Ich kann das für mich behalten. Außerdem reden wir über einen geschützten Kanal. Das ist dein Glückstag. Ich kenne jemanden, der dir bei der Suche behilflich sein könnte. Da wäre nur ein Problem. Er sitzt. Aber er soll auf einem Gefängnistransporter aus dem Maas-Gefängnis der niedrigen Sicherheitsstufe auf Dagda Beta 1 fortgebracht werden. Hier ist der Standort. Aber ich mach mich besser aus dem Staub. Will keinen Verdacht auf mich lenken, indem ich mit so einem wie DIR gesehen werde! He, he."
+
+a2_m08_dialogue_cal_locking_in,Ich hab den Standort des L-Punkts in Dagda eingegeben.
+a2_m08_dialogue_clay_woa_guess,"Ooh! Das sind wohl die Minen. Wir müssen uns beeilen, wenn wir sie räumen wollen, bevor Jarvis mit den Schuldnern ankommt."
+a2_m08_dialogue_jarvis_good_to,"Schön dich zu sehen, Cal! Wir brauchen Hilfe, um diese Transporter da rauszuholen. Die Sicherheitspatrouillen sind uns auf den Fersen."
+a2_m08_dialogue_jarvis_vessel_down,Ein Transporter ist abgeschossen!
+a2_m08_dialogue_jarvis_and_another,Noch ein Transporter abgeschossen!!
+a2_m08_dialogue_jarvis_all_indenture,Verdammt! Alle Transporter sind zerstört!
+a2_m08_dialogue_jarvis_pull_out,Nichts wie weg... Alle Schiffe zum L-Punkt!
+
+a2_m08_dialogue_clay_damn_guess,"Verdammt, das war ein einziges Gewätzel... Lass uns zurück nach Hause fliegen."
+
+a2_m08_dialogue_jarvis_thank,"Danke für deine Hilfe, Cal!"
+a2_m08_dialogue_jarvis_1,"Wir konnten nur einen Transporter retten. Ich seh mal, was ich kriegen kann und schick das Zeug dann zu deiner Basis. "
+a2_m08_dialogue_jarvis_2,Wir konnten zwei Transporter retten. Ich sammle ein bisschen von dem Zeug ein und schick es zu deiner Basis.
+a2_m08_dialogue_jarvis_3,"Wir haben drei Transporter gerettet. Ich werde wohl 'ne ganze Menge Zeug zusammenkriegen, das ich zu deiner Basis schicken kann."
+a2_m08_dialogue_jarvis_all,Wir haben alle Schiffe gerettet. Ich mach 'ne große Ladung bereit und schick das Zeug zu deiner Basis. 
+a2_m08_dialogue_jarvis_i_hope,Hoffentlich begegnen wir uns mal wieder.

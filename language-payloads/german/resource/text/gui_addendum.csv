@@ -1,0 +1,39 @@
+customise_manifest_title,ZUSAMMENFASSUNG
+remote,REM-Raketen
+mp_server_score_limit,HÖCHSTPUNKTZAHL
+mp_server_session_name,SITZUNGSNAME
+mp_server_default_session_name,Mehrspieler-Spiel
+mp_server_start,START
+mp_server_game_type,SPIELTYP
+mp_server_ip_address,IP-ADRESSE
+customise_fillall,ALLE LADEN
+basemenu_triangulation,TRIANGULATION
+triangulation_calculate,BERECHNUNG
+triangulation_time,ZEIT
+triangulation_date,DATUM
+triangulation_nomatches,KEIN ERGEBN.
+triangulation_matchfound,ERG.: ZAUIS
+mp_server_advanced_title,ERWEITERTE OPTIONEN
+mp_server_advanced_ai,KÜNSTL. INTELLIGENZ
+mp_server_advanced_ai_setting,AUTO-BOT-ERSATZ
+mp_server_advanced_ai_skill,BOT-KAMPFSTÄRKE
+mp_server_advanced_button,FORTGESCHRITTEN...
+mp_server_advanced_arcade_mode,ARCADE-MODUS
+mp_server_advanced_ai_count,BOT-ANZAHL
+options_restoredefaults,STANDARD
+movies_comsec_discovery,KOMMANDOKAPSEL
+movies_base_discovery,LUCRECIAS BASIS
+mp_client_rejected,Vom Server abgewiesen
+mp_client_not_connected,Keine Verbindung
+mp_client_connected,Mit Server verbunden
+options_texture_size,TEXTUR-GRÖSSE
+options_trilinear,TRILINEARER FILTER
+options_shader_quality,SCHATTIERUNGS-QUALITÄT
+ship_type_police_interceptor,POLIZEI-ABFANGJÄGER
+ship_type_marauder_fighter,MARAUDER-JÄGER
+ship_type_cutter,'"MARAUDER-CUTTER'"
+mp_server_advanced_ai_skill_low, NIEDRIG
+mp_server_advanced_ai_skill_high, HOCH
+
+
+

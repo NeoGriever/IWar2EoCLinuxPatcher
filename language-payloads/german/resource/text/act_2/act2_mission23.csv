@@ -1,0 +1,65 @@
+; FILE: Dact2_mission23.csv,
+; Key,
+; FILE NAME,GERMAN TRANSLATION
+;,
+a2_m23_Gunstar,Gunstar
+a2_m23_ship_name_resolute,Resolute
+a2_m23_ship_name_defiance,Defiance
+a2_m23_waypoint_initial_meeting,Treffpunkt der Rettungsmission
+a2_m23_marauder_base,Marauderbasis
+a2_m23_league_regroup_point,League-Sammelpunkt
+a2_m23_cruiser_convoy,Leaguekreuzer
+a2_m23_name_natasha_blake,Commander Natashia Blake
+a2_m23_email_sender,Die League 
+a2_m23_email_subject,Benötigen Unterstützung! Dringend!
+a2_m23_dialogue_rescue_leader_brief_1,"Ah, Mr. Johnston. Danke, dass Sie so schnell gekommen sind. Wir haben nicht viel Zeit."
+a2_m23_dialogue_rescue_leader_brief_2,Die Leagueflotte in Firefrost wurde von den Maraudern sprichwörtlich halbiert. In zwei Gruppen zertrennt.
+a2_m23_dialogue_rescue_leader_brief_3,"Die erste Gruppe ist eine militarisierte zivile Streitkraft. Sie haben gerade berichtet, dass sie versuchen, den Dainn-II-L-Punkt zu halten, den Kampf aber schon so gut wie verloren haben."
+a2_m23_dialogue_rescue_leader_brief_4,Die zweite Gruppe besteht aus zwei Linienkreuzern und einer starken Eskorte. Sie werden von Jägern nahe des Asteroiden Quail festgehalten.
+a2_m23_dialogue_rescue_leader_brief_5,"Wir müssen diese beiden Gruppen zusammenbringen und ihre vereinte Kraft nutzen, um die Kreuzer der League in Sicherheit zu bringen."
+a2_m23_dialogue_rescue_leader_brief_6,"Machen Sie sich bereit, den Feind anzugreifen."
+a2_m23_dialogue_holding_force_leader_help_1,"Leagueschiffe! Was bin ich froh, zur Abwechslung mal freundliche Gesichter zu sehen..."
+a2_m23_dialogue_holding_force_leader_help_2,...müssen diese Gunstars abschiessen! Und als ob das nicht schon schlimm genug wäre...
+a2_m23_dialogue_holding_force_leader_help_3,"Marauder im Anflug, und dieses Trümmerfeld bringt unsere Instrumente durcheinander... kein Fluchtweg... "
+a2_m23_dialogue_cal_ok_were_here_now,"Warten Sie ein paar Minuten. Hilfe ist unterwegs. Wenn Sie diese Schiffe aufhalten können, kümmere ich mich um die Gunstars."
+a2_m23_dialogue_smith_gunstars_attacking_us_now,"Sehr mutig von dir, dich anzubieten, Cal, aber diese Gunstars scheinen nicht mitzuspielen."
+a2_m23_dialogue_rescue_leader_we_are_your_wing,"Die Rettungsmannschaft formiert sich neben Ihnen, Johnston!"
+a2_m23_dialogue_rescue_leader_aargh_we_have_all_died_1,Aarrrrgh!
+a2_m23_dialogue_clay_league_rescue_and_holding_all_dead_1,"Das hört sich ganz so an, als müsste deine Kavallerie nun dran glauben, Cal. Du solltest doch an ihrer Seite kämpfen!"
+a2_m23_dialogue_clay_league_rescue_all_dead,"Die Hoffnung, die Kreuzer ganz alleine zu retten, kannst du aufgeben, Cal. "
+a2_m23_dialogue_cal_all_gunstars_dead,Alle Gunstars sind zerstört! Jetzt können wir ganz in Ruhe die Marauder loswerden!
+a2_m23_dialogue_clay_another_league_ship_dead_A,"Ein Leagueschiff wurde gerade zerstört, Cal."
+a2_m23_dialogue_clay_another_league_ship_dead_B,Na toll! Es hat noch einen Leaguepiloten erwischt.
+a2_m23_dialogue_cal_a_gunstar_dead_1,Jawoll! Gunstar abgeschossen!
+a2_m23_dialogue_cal_one_gunstar_left,Nur noch ein Gunstar übrig!
+a2_m23_dialogue_holding_force_leader_lets_go_to_marauder_base_1,Danke! Aber wir haben nicht viel Zeit! Die Leaguekreuzer hängen in Quail fest.
+a2_m23_dialogue_holding_force_leader_lets_go_to_marauder_base_2,"Es liegt nun an uns, die Marauderstreitkräfte abzuwehren, bis die Kreuzer außer Reichweite der Marauderbasis sind."
+a2_m23_dialogue_holding_force_leader_lets_go_to_marauder_base_3,Wir treffen euch dann dort.
+a2_m23_dialogue_clay_lets_go_to_quail_base_A,"Sieht aus, als würden die nicht auf dich warten, Cal. Wenn du helfen willst, diese Schiffe zu retten, musst du dich so langsam auf den Weg zur Marauderbasis in Quail machen."
+a2_m23_dialogue_clay_lets_go_to_quail_base_B,"Wir haben nicht viel Zeit. Und noch weniger Schiffe. Hört sich an, als hätten die Kreuzer bei Quail Ärger. Los jetzt!"
+
+a2_m23_dialogue_cmdr_natasha_blake_escape_1,Mayday! Mayday! Hier spricht Commander Natashia Blake. Ich rufe die herankommenden Leagueschiffe:
+a2_m23_dialogue_cmdr_natasha_blake_escape_2,Wir stehen unter starkem feindlichen Beschuss und der Leaguekreuzer Defiance verliert seine Triebwerksenergie.
+a2_m23_dialogue_cmdr_natasha_blake_escape_3,"Wir benötigen alle verfügbaren Schiffe, um den Feind abzulenken, während die Resolute die Defiance aus der Kampfzone geleitet."
+a2_m23_dialogue_cruiser_rescue_leader_aargh_we_have_all_died,Aarrrrgh!
+a2_m23_dialogue_clay_league_ships_all_dead_1,"Hört sich an, als würde der League der Garaus gemacht, Cal! Du solltest ihnen doch beistehen.. "
+a2_m23_dialogue_cal_marauder_cruisers_dead,"Juchhuu! Jetzt seht mal, wie ihr Angriffswellen ohne eure Kreuzer startet, Marauderschweine!"
+a2_m23_dialogue_cmdr_natasha_blake_defiance_engine_broken,Hier spricht Ihr Commander. Der Kreuzer Defiance hat seine Schubkraft verloren und ist havariert. Beschäftigen Sie den Feind während wir uns um die Reparaturen kümmern.
+a2_m23_dialogue_cmdr_natasha_blake_were_free_1,Hier spricht der Commander. Die Defiance ist nun funktionsfähig. Oberste Priorität hat die sichere Evakuation aller Beteiligten aus diesem System.
+a2_m23_dialogue_cmdr_natasha_blake_were_free_2,"Ich übermittle einen Rendezvous-Punkt, an dem wir uns versammeln, sobald wir dieses Gebiet verlassen haben. Viel Glück."
+a2_m23_dialogue_smith_got_regroup_waypoint,"Cal, die League hat uns gerade einen neuen Treffpunkt mitgeteilt. Ich schlage vor, wir machen uns ziemlich schnell auf die Socken. "
+a2_m23_dialogue_holding_force_meet_you_at_point,Ich seh euch dann am Treffpunkt!
+a2_m23_dialogue_cmdr_natasha_blake_regroup_brief_1,"Gut gemacht. Anscheinend haben es alle Schiffe, die wir aus Quail rausgeholt haben, hierher geschafft."
+a2_m23_dialogue_cmdr_natasha_blake_regroup_brief_2,"Es ist unwahrscheinlich, dass wir unbehelligt aus Firefrost herauskommen. Der Dain-II-L-Punkt liegt auf unserem Fluchtweg, und die Marauder wissen das."
+a2_m23_dialogue_cmdr_natasha_blake_regroup_brief_3,"Mittlerweile hat die Asteroid-Basis bestimmt jeden Killer und Todesengel in diesem verfluchten System alarmiert, und die werden alle nach uns suchen."
+a2_m23_dialogue_cmdr_natasha_blake_regroup_brief_4,"Damit sie keinen Keil zwischen uns treiben und uns so besiegen, möchte ich, dass sich sofort alle Schiffe mit einem Kreuzer formieren."
+a2_m23_dialogue_cmdr_natasha_blake_regroup_brief_5,"Sobald wir durch den systeminternen L-Punkt bei Dainn sind, werden wir in Sicherheit sein. Schiffe mit anderweitigen Verpflichtungen haben die Erlaubnis uns dort zu verlassen."
+a2_m23_dialogue_smith_regroup_brief_humour,"Aber klar haben wir andere Verpflichtungen. Da gibt es ein heisses Bad und ein brutzelnde Pfanne, die dringend nach meiner Aufmerksamkeit verlangen. Auf geht's, Cal."
+a2_m23_dialogue_cmdr_natasha_blake_regroup_reminder,"Wir können los, wenn sich alle Schiffe mit einem Kreuzer formiert haben."
+a2_m23_dialogue_leader_cruisers_npc_were_under_attack_from_marauders_1,Marauderschiffe im Anflug! Bleibt nur nahe bei den Kreuzern und wir sollten keine Probleme bekommen.
+a2_m23_dialogue_leader_cruisers_npc_aargh_we_have_all_died_2,Aarrrrgh!
+a2_m23_dialogue_cal_a_marauder_dead_2,"Das hört sich ganz so an, als würde ein weiterer Marauder zu Staub und Asche gemacht."
+a2_m23_dialogue_cmdr_natasha_blake_goodbye_1,Hier spricht Commander Natashia Blake.
+a2_m23_dialogue_cmdr_natasha_blake_goodbye_2,Die League und ihr Volk sind euch für euren lebensgefährlichen Einsatz zu größtem Dank verpflichtet.
+a2_m23_dialogue_cmdr_natasha_blake_goodbye_3,Die Rettung der Defiance und der Resolute gibt uns die Chance  im Kampf gegen die Marauder zu siegen.
+a2_m23_dialogue_cmdr_natasha_blake_goodbye_4,Wir werden sicher bald auf dich zurückkommen. Viel Glück.

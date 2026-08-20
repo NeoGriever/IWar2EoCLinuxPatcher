@@ -1,0 +1,54 @@
+; FILE: Dact2_mission02.csv,
+; Key,
+; FILE NAME,GERMAN TRANSLATION
+a2_m02_name_training,Schulschiff
+;,
+
+a2_m02_dialogue_abdul_an_escort,"Ein Geleitschiff wird gleich ankommen, um dich zu deinem Zielort zu bringen. "
+a2_m02_dialogue_escort_ok_my_friend,"Komm, mein Freund. Fliege mit mir in Formation, damit wir gemeinsam zum Übungsgelände reisen können."
+
+a2_m02_dialogue_escort_welcome_to,Willkommen auf dem Übungsgelände der Oman. An diesem verheißungsvollen Ort sollst du dein Können unter Beweis stellen.
+a2_m02_dialogue_escort_to_prove,"Um dich als würdig zu erweisen, musst du drei Herausforderungen annehmen: die Prüfung des MUTES, die Prüfung der GESCHICKLICHKEIT und die Prüfung der WEISHEIT. "
+a2_m02_dialogue_escort_c1_which_would,Welche Prüfung wählst du?
+a2_m02_text_player_c1_option_1_courage,Mut
+a2_m02_text_player_c1_option_2_cunning,Geschicklichkeit
+a2_m02_text_player_c1_option_4_wisdom,Weisheit
+a2_m02_dialogue_player_c1_option_1_courage,"Ich wähle die Mutprüfung. Ich bin mutig genug, mich allem zu stellen, was da kommen mag."
+a2_m02_dialogue_player_c1_option_2_cunning,Hmmm... ich glaub ich probier's mal mit Geschicklichkeit.
+a2_m02_dialogue_player_c1_option_4_wisdom,Die Oman gelten als weise Menschen. Also will ich ihnen meine Weisheit zeigen.
+a2_m02_dialogue_escort_remote_pilot_courage,"Übernimm das Schulschiff, das gerade vom Frachter abkoppelt. Per Fernsteuerung bringst du es zum Streckenpunkt am Gelände des Mutes. Dort erwarten dich weitere Anweisungen. "
+a2_m02_dialogue_escort_remote_pilot_cunning,"Übernimm das Schulschiff, das gerade vom Frachter abkoppelt. Per Fernsteuerung bringst du es zum Streckenpunkt am Gelände der Geschicklichkeit. Dort erwarten dich weitere Anweisungen. "
+a2_m02_dialogue_escort_remote_pilot_wisdom,"Übernimm das Schulschiff, das gerade vom Frachter abkoppelt. Per Fernsteuerung bringst du es zum Streckenpunkt am Gelände der Weisheit. Dort erwarten dich weitere Anweisungen. "
+a2_m02_dialogue_escort_you_have_used,"Du hast all unsere Schulschiffe vergeudet. Gehe jetzt und kehre bald zurück. Dann haben wir neue Schulschiffe, mit denen du die Prüfung erneut versuchen kannst.  "
+
+a2_m02_dialogue_any_here_lies,"Sieh es dir an, das große Feld schwebender Steine, dicht gedrängter Asteroiden und Minen."
+a2_m02_dialogue_any_at_the_centre,"Willst du deinen Mut beweisen, so unternimm eine Reise zum Mittelpunkt des Feldes. Dort wartet eine goldene Kapsel. Berge die Kapsel und bringe sie hierher."
+a2_m02_dialogue_any_this_must_be,"Diese Aufgabe muss in 90 Sekunden erfüllt werden. Die Zeit läuft, sobald du dich der Kapsel bis auf 5000 Meter genähert hast."
+a2_m02_dialogue_any_the_timer,Deine 90 Sekunden beginnen jetzt...
+a2_m02_dialogue_any_time_up,Beende deine Mühen! Die Zeit ist um und die Prüfung zu Ende!
+a2_m02_dialogue_any_you_have_bested,Du hast die Probe bestanden! Du hast wahrlich den Mut eines Löwen!
+
+a2_m02_dialogue_any_for_this,"Willst du deine Geschicklichkeit unter Beweis stellen, so durchquere das gefährliche Gunstar-Feld, indem du Deckung hinter Asteroiden suchst. Durchquere nacheinander die dir angezeigten Streckenpunkte. In unregelmäßigen Abständen werden die Gunstars aktiviert. Verbirgst du dich nicht hinter einem Asteroiden, werden dich die Gunstars aufspüren und deine mangelnde Geschicklichkeit bestrafen, indem sie dein träges Schiff beschießen."
+a2_m02_dialogue_any_you_have_x,Für deine Reise durch das Feld hast du nur 120 Sekunden.
+a2_m02_dialogue_any_timer_expired,Die Zeit ist um. Du bist gescheitert.
+a2_m02_dialogue_any_vessel_destroyed,Schiff zerstört. Du hast versagt.
+a2_m02_dialogue_any_you_have,Du hast das ganze Feld durchquert. Du hast wahrlich die Geschicklichkeit eines Wiesels.
+
+a2_m02_dialogue_any_listen_carefully,Höre den Anweisungen genau zu.
+a2_m02_dialogue_any_before_you,Vor dir liegt ein Netz von Frachtkapseln. Das Netz umfasst eine Größe von vier mal vier Kapseln.
+a2_m02_dialogue_any_to_complete,"Zeige deine Weisheit, indem du auf die Kapseln schießt und so ihre Fracht änderst. Das fertige Netz muss diese sechs Bedingungen erfüllen:"
+a2_m02_dialogue_any_rule1,4 Kapseln müssen Wiesel-Kapseln sein;
+a2_m02_dialogue_any_rule2,3 Kapseln müssen Affen-Kapseln sein;
+a2_m02_dialogue_any_rule3,3 Kapseln müssen Jak-Kapseln sein;
+a2_m02_dialogue_any_rule4,3 Kapseln müssen Ziegen-Kapseln sein;
+a2_m02_dialogue_any_rule5,3 Kapseln müssen Kuh-Kapseln sein;
+a2_m02_dialogue_any_rule6,"Keine Frachtkapsel darf mehr als einmal in einer horizontalen, vertikalen oder diagonalen Linie vorkommen. Um dir den Anfang zu erleichtern, sind bereits 4 Kapseln in Position gebracht. Sie sind in deiner Kontaktliste blau markiert."
+a2_m02_dialogue_any_well_done,Gut gemacht. Du hast die Prüfung der Weisheit bestanden.
+
+
+a2_m02_dialogue_c1_any_are_you_ready,"Bist du bereit, dich der Prüfung zu stellen?"
+a2_m02_text_yes,Ja
+a2_m02_text_repeat,Anweisungen wiederholen
+
+
+a2_m02_dialogue_escort_youve_done,"Du hast die drei Prüfungen bestanden und dich im kleinen Kampf für den großen Kampf bewährt. Die Oman sind stolz, dich in ihren Reihen zu wissen. Wir werden dir helfen, so gut wir können."

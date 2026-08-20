@@ -1,0 +1,38 @@
+; FILE: Dact2_mission20.csv,
+; Key,
+; FILE NAME,GERMAN TRANSLATION
+;,
+a2_m20_dialogue_mca_good_to_see_you_cal,"Gut dich zu sehen, Cal. Lass uns anfangen. Ich schicke dir deine Wingmen rüber. Deine Aufgabe ist es, durch den L-Punkt zu kommen und das Gebiet abzusichern, bevor der Leitkonvoi durchkommt. "
+a2_m20_dialogue_mca_c1_which_lpoint,Von welchem L-Punkt aus sollen wir uns annähern?
+a2_m20_text_player_c1_option_1_santa_romera,Haupt-L-Punkt Santa Romera
+a2_m20_dialogue_player_c3_option_1_santa_romera,"Ich denke, wir sollten ihnen die Vordertür eintreten. Santa Romera."
+a2_m20_text_player_c1_option_2_dagda,Hintertür-L-Punkt Dagda
+a2_m20_dialogue_player_c3_option_2_dagda,"Ich denke, wir sollten uns durch die Hintertür hineinschleichen. Dagda."
+a2_m20_dialogue_mca_ok_good_luck,"In Ordnung, viel Glück. Wir treffen dich dann auf der anderen Seite!"
+a2_m20_dialogue_clay_the_convoys_coming_through,Der Konvoi kommt! Mach dich bereit!
+a2_m20_dialogue_convoy_convoy_to_support_wing,Konvoi an Geleitschutz. Wir fliegen zur MCA- Basis. Gebt uns Feuerschutz!
+a2_m20_dialogue_clay_watch_out_here_com,Pass auf! Da kommt schon wieder eine Angiffswelle!
+a2_m20_dialogue_stock_were_under_attack,Wir werden angegriffen!
+a2_m20_dialogue_stock_incoming_enermy_fighter,Feindliche Jäger im Anflug!
+a2_m20_dialogue_stock_looks_like_weve_got,"Ich glaube, wir kriegen Besuch!"
+a2_m20_dialogue_stock_incoming,Im Anflug!
+a2_m20_dialogue_forthope_good_to_see_you,"Gut, dass Sie da sind. War ja ganz schön was los da draußen!"
+a2_m20_dialogue_forthope_one,Nur ein Transporter ist mit Ihnen durchgekommen? Das wird hart!
+a2_m20_dialogue_forthope_two,"Hervorragend, zwei Transporter sind durchgekommen. Ich glaube, wir schaffen das!"
+a2_m20_dialogue_forthope_three,Fantastisch! Alle Transporter sind durchgekommen! Wir werden es diesen Maraudern ordentlich zeigen.
+a2_m20_dialogue_forthope_marauder_attack_wave,Eine Angriffswelle der Marauder kommt auf uns zu. An alle Jäger: Sofort angreifen!
+a2_m20_dialogue_forthope_you_better_dock_theyll,Sie docken besser an. Die werden bald mit Verstärkung zurück sein!
+a2_m20_dialogue_forthope_you_here_use_this,"Hier, für Ihre Hilfe. Nehmen Sie diese Schwere Korvette. Sie verleiht Ihnen mehr Feuerkraft!"
+a2_m20_dialogue_forthope_another_wave,Schon wieder eine Welle von Maraudern! Alle verbliebenen Jäger zum Angriff!
+a2_m20_dialogue_clay_whoa_whats_going_on,"Mist, was ist los? Die Instrumente spielen verückt!"
+a2_m20_dialogue_forthope_hold_tight_cal,"Halten Sie durch, Cal. Ein Bergungsschiff ist schon unterwegs."
+a2_m20_dialogue_recoveryvessel_ok_weve_got_you,"Gut, wir haben Sie. Wir werden Sie aufladen und zurück zur Basis bringen."
+a2_m20_dialogue_repairvessel_coming_over,"Wir kommen rüber, um den Schaden zu überprüfen..."
+a2_m20_dialogue_repairvessel_looks_like,War anscheinend nur eine Fehlausrichtung der Kommando-Sektion. Schon wieder so gut wie neu.  
+a2_m20_dialogue_forthope_more_marauders,NOCH MEHR Marauder? An alle verbliebenen Jäger: Versucht sie so lange wie möglich aufzuhalten! 
+a2_m20_dialogue_hoffer_looks_like_you,"Sieht aus, als könntest Du Hilfe gebrauchen, Cal."
+a2_m20_dialogue_clay_yee_ha,"Jipiee, hier kommt die Kavallerie!"
+a2_m20_dialogue_vessel1_arriving_fort_hope,Ankunft an Fort Hope. Die Piloten steigen um.
+a2_m20_dialogue_vessel2_arriving_fort_faith,Ankunft an Fort Faith. Die Piloten steigen um.
+a2_m20_dialogue_vessel3_arriving_fort_charity,Ankunft an Fort Charity. Die Piloten steigen um.
+a2_m20_dialogue_forthope_ok_all_pilots_transfered,"Okay, alle Piloten sind umgestiegen."

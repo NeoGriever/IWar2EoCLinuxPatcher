@@ -1,0 +1,60 @@
+; FILE: Dact1_mission04.csv,
+; Key,
+; FILE NAME,GERMAN TRANSLATION
+a1_m04_name_fighter,Jäger-Standort
+a1_m04_name_fighters,Jäger
+a1_m04_name_pod,Viel versprechende Frachtkapsel
+a1_m04_name_refuse,Müllhalde
+a1_m04_name_drone,Drohne
+a1_m04_name_gabage,Müllwagen
+a1_m04_name_bill,Bill
+a1_m04_name_ben,Ben
+a1_m04_name_doxer,Doxer
+a1_m04_name_crane,Crane
+a1_m04_name_psycho,Psycho
+a1_m04_name_badger,Badger
+a1_m04_name_security,Sicherheitsdienst
+a1_m04_name_meeting,Stepson-Treffpunkt
+a1_m04_name_jafsmeeting,Jafs-Treffpunkt
+a1_m04_name_junk,Schrottplatz
+
+a1_m04_dialogue_stepson_c1_ah_cal,"Hallo Cal! Gut, dass du meine Nachricht erhalten hast. Und, willst du wissen, wo diese neuen Maas Jäger versteckt sind?"
+a1_m04_text_player_c1_option_1_yes,Ja.
+a1_m04_dialogue_player_c1_option_1_yes,"Ja. Was ist auf eurem 'Ausflug' passiert?"
+a1_m04_dialogue_stepson_c1_response_1_we_thought_we_were,"Wir haben die Jäger an der Maas Einrichtung bei Alexander gefunden, aber wir wurden entdeckt und angegriffen, bevor wir näher rankommen konnten. Wir wären fast draufgegangen, konnten aber doch noch entkommen. Vielleicht hast du mehr Glück, aber du brauchst eine Tarnung, wenn du nahe genug an die Jäger rankommen willst, um sie dir zu schnappen."
+a1_m04_text_player_c1_option_2_no,Nein.
+a1_m04_dialogue_player_c1_option_2_no,"Nee, kein Interesse."
+a1_m04_dialogue_stepson_c1_response_2_go_away,"Na, dann hau halt ab!"
+a1_m04_dialogue_clay_try_the_junkyard,Mit der Tarnung hat sie Recht. Wir brauchen einen falschen IFF-Code. Vielleicht finden wir was auf dem Schrottplatz.
+;,
+a1_m04_dialogue_junker_c2_what_do_you_want,"Hau ab, ich hab' zu tun. Oder hast du vielleicht Bares oder ein gutes Angebot? Was willst du?"
+a1_m04_text_player_c2_option_1_how_going,Wie geht's?
+a1_m04_dialogue_player_c2_option_1_how_going,"Wie geht's, Kumpel? Läuft das Geschäft?"
+a1_m04_dialogue_junker_c2_response_1_whats_it_to_you,"Was geht dich das an? Willst wohl Ärger, was?"
+a1_m04_text_player_c2_option_2_help_me,Ich brauche einen Maas IFF-Code.
+a1_m04_dialogue_player_c2_option_2_help_me,"Hör zu, ich brauche einen Maas IFF-Code."
+a1_m04_dialogue_junker_c2_response_2_ah_let_see,"Sonst geht's dir aber noch ganz gut, he? Nur 'nen illegalen IFF-Code! Was hast du vor? Das Gesetz brechen und dich als reich und berühmt ausgeben? Na ja, ich will mal nicht so sein... Dieses Schätzchen ist mir erst kürzlich in die Finger gefallen. Hab' diesen IFF-Code aus einem Maas Schiff geholt, das wir vor kurzem ausgeschlachtet haben. Allerdings hänge ich sehr daran, denn es ist das Neuste, was Maas im Moment zu bieten hat. Aber vielleicht kannst du mich ja überzeugen, dass ich ihn dir gebe... Wie wär's mit einer kleinen 'Aufwandsentschädigung'?"
+a1_m04_dialogue_junker_c2_response_2_recieved_old_vessel,NO TEXT HERE
+a1_m04_dialogue_junker_c2_response_2_your_for_price,NO TEXT HERE
+a1_m04_dialogue_player_c2_response_2_here,"Okay, hier..."
+a1_m04_dialogue_clay_right_now,"Der IFF-Code funktioniert. Jetzt brauchen wir nur noch ein Schiff, in das wir ihn einbauen können."
+a1_m04_dialogue_cal_cal_to_jafs,Cal an Jafs...
+a1_m04_dialogue_jafs_go_ahead,"Di-di-da-dum... Oh, hey! Schieß los, Cal!"
+a1_m04_dialogue_cal_can_you_meet,"Komm zu dem Streckenpunkt, den ich dir gleich durchgebe..."
+a1_m04_dialogue_jafs_sure,Okay. Bis dann!
+;,
+a1_m04_dialogue_jafs_hi_cal,Hallo Cal. Was gibt's?
+a1_m04_dialogue_cal_urm_well,Nun... äh... könntest du uns vielleicht mitnehmen?
+a1_m04_dialogue_jafs_no_probs,"Also los! Wohin geht's diesmal? Zu einem großen, fetten schutzlosen Frachtdepot?"
+a1_m04_dialogue_cal_er_a_mass,"Nein, zu einer Maas Basis."
+a1_m04_dialogue_jafs_what,WAS?! Seid ihr noch ganz dicht? 
+a1_m04_dialogue_clay_hey_chill,Keine Panik! Dieser brandneue IFF-Code wird die Signale deines Schiffes überdecken. Wir brauchen dein Bergungsschiff nur zur Deckung.
+a1_m04_dialogue_jafs_i_hope,"Na gut, hängt euch dran... Ich hoffe, ihr wisst, was ihr tut. Ich bin nämlich viel zu schön, um jung zu sterben."
+a1_m04_dialogue_jafs_iff_active,Maas IFF-Code aktiviert.
+;,
+a1_m04_dialogue_maas_vessel_cz9,"Schiff CZ9/5... Hmmm, ein alter IFF-Code... aber er ist gültig..."
+a1_m04_dialogue_maas_cleared_for_refuse,"Ihr Müllsammler müsst die Sicherheitsvorschriften ernster nehmen! Seit eurer letzten Inspektion haben wir unsere IFF-Codes schon ZWEIMAL aktualisieren müssen! Wisst ihr nicht, dass es da draußen Verbrecher und Unternehmensgegner gibt? Ihr könnt jetzt zur Müllsammelstelle, aber dann geht's ab zum Sicherheitsdienst zur Inspektion und zur Aktualisierung eurer IFF-Codes. Denkt dran, ich behalte euch im Auge."
+a1_m04_dialogue_clay_hm_that_looks,"Hmmm... Das da drüben auf der Halde sieht nach einer nützlichen Kapsel aus. Und ich habe eine ferngesteuerte Drohne entdeckt, die Müll vom Stützpunkt zu dieser Halde bringt. Die könnte sich auch noch als nützlich erweisen."
+a1_m04_dialogue_jafs_nice_one,Oh ja! Super! Ich lade die Kapsel jetzt ein. Dann können wir abhauen.
+a1_m04_dialogue_jafs_im_setting_off,Ich bin auf dem Weg nach draußen. Wir sehen uns bei der Basis!
+a1_m04_dialogue_security_alert,Alarm! Eindringlinge! Alle Schiffe: Angreifen!

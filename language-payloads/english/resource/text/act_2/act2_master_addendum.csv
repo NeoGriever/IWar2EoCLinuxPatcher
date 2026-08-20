@@ -1,0 +1,42 @@
+; FILE: Dact2_master_addendum.csv,
+; Key,
+; FILE NAME,GERMAN TRANSLATION
+;,
+;,
+a2_master_dialogue_cal_fred_bye,"Auf Wiedersehen, Frederick Jackson"
+a2_master_dialogue_fred_by_the_way,"Übrigens, wenn Sie nach militärischer Hilfe suchen, sollten Sie sich an die MCA wenden. Ihr Vertreter oder 'Botschafter', wie sie es nennen, hält sich gerade auf der Brotherhood Arche im Santa Romera-System auf. "
+a2_master_name_mariana,Mariana
+a2_master_name_jarvis,Jarvis
+a2_master_name_sheriff_kane,Sheriff Kane
+a2_master_name_waypoint_stage_1,Zwischenlandestation 1
+a2_master_name_waypoint_stage_2,Zwischenlandestation 2
+a2_master_name_waypoint_stage_3,Zwischenlandestation 3
+a2_master_name_waypoint_stage_4,Zwischenlandestation 4
+a2_master_name_waypoint_stage_5,Zwischenlandestation 5
+a2_master_name_waypoint_stage_6,Zwischenlandestation 6
+a2_master_name_distress,Notsignal
+a2_master_dialogue_cal_c1_coyote_wow,"Mann - das verbirgt sich also auf der anderen Seite von Hoffer's Wake, ja? Da kommt man sich winzig klein vor..."
+a2_master_dialogue_clay_c1_coyote_yeh,"Ja, Junge, das ist wohl 'ne ganz neue Erfahrung für dich. Ganz allein in der großen, weiten Welt..."
+a2_master_dialogue_cal_c1_coyote_hey,"He, Clay, hör endlich auf mich wie ein Kleinkind zu behandeln."
+a2_master_dialogue_clay_c1_coyote_ahh,"Ahhh, Coyote.... Daran kann ich mich noch gut erinnern... Es war ein ziemlich kleines, leeres System, damals als wir hier unser Unwesen trieben - hier hat sich wirklich einiges geändert."
+a2_master_dialogue_cal_c1_coyote_you,"Du hast mir gerade überhaupt nicht zugehört, stimmt's?!"
+a2_master_dialogue_clay_c1_coyote_sure,"Natürlich hab ich das, Junge... Also los, machen wir uns wieder an die Arbeit."
+a2_master_dialogue_clay_c1_eureka_hmm_eureka,"Hmmm, Eureka - war noch nicht sehr oft hier, schließlich hat hier der Third Way das Sagen......"
+a2_master_dialogue_cal_c1_eureka_the,Der Third Way?
+a2_master_dialogue_clay_c1_eureka_yeh,"Ja, die produzieren die meisten Lebensmittel in Eureka - aber gegenüber Fremden sind sie nicht gerade einladend. Dir könnte eine unschöne Zeit bevorstehen, wenn du mit denen reden willst."
+a2_master_dialogue_clay_c1_dagda_wooa,"Heyhey... Dagda... Hier solltest du vorsichtig sein, Kleiner. Die Firmen sind nicht gerade begeistert, wenn man um ihre Einrichtungen schleicht. An deiner Stelle würde ich mich hier nicht zu lange aufhalten, es sei denn, du hast Lust, mal kurz gegrillt zu werden!"
+a2_master_dialogue_jafs_ive_got_the_ship,"Cal, Cal! Ich habe das Schiff - das Advanced Plus, das die MCA uns gegeben hat. Es ist echt cool! Ich hab gedacht, vielleicht können wir's für viel Zaster eintauschen, es ist bestimmt ein Vermögen wert! Ich meine, eigentlich haben wir doch schon ein Schiff!"
+a2_master_dialogue_cal_i_dont_think_so,"Das glaube ich kaum, Jafs. Unser GTR macht's nicht mehr lang. Wir brauchen das neue Schiff, um es mit den Maraudern aufzunehmen. Smith, was hältst du von unserer Neuanschaffung?"
+a2_master_dialogue_smith_mca_know_their_stuff,"Die Jungs und Mädels von der MCA machen ihre Sache gut. So einen schnellen LDS-Antrieb hab ich noch nie gesehen, und es hat doppelt so viele Trägerpunkte wie der GTR. An denen kannst du beide Kanonenjäger UND noch ein, zwei schwere Kanonen anbringen. Dann hören Lori und Az endlich auf darüber zu jammern, dass sie immer zurückbleiben müssen."
+a2_master_dialogue_lori_youre_right,"Verdammt richtig, du Zinnsoldat. Wir haben's satt hier zu warten, während ihr losfliegt und den ganzen Spaß habt. Vielleicht können wir den Maraudern jetzt auch mal eins auswischen!"
+a2_master_dialogue_cal_calm_down,"Ganz ruhig, Lori. Keine Angst - ihr dürft auch noch ran."
+a2_master_dialogue_smith_ship_prepped,"Das Schiff ist bereit, und ich habe mir erlaubt, unsere Kommandokapsel daran anzubringen. Dadurch kannst du weiterhin die Sondereinstellungen in ihrer Avionik nutzen. Wie wär's mit 'nem kleinen Testflug?"
+a2_master_dialogue_jafs_lets_do_piracy,"Ja, fliegen wir los und lauern ein paar fetten Frachtern auf. Wenn es wirklich so schnell ist, entkommen die uns nie. Oohhh, ich werde schon ganz nervös, wenn ich an die schöne fette Beute denke!"
+a2_master_text_caption_santa,"Sprungbeschleuniger, Santa Romera"
+a2_master_dialogue_stc_freighter,Frachter KL-9345? Sie haben Erlaubnis zum Sprung nach Fomalhaut. Der LDA-Schild wird deaktiviert.
+a2_master_dialogue_freighter_roger,Roger. Wir fliegen rein.
+a2_master_text_caption_junkyard,"Schrottplatz, Santa Romera. Neuer Standort von Lucrecias Basis"
+a2_master_text_caption_jump,"Sprungbeschleuniger, Fomalhaut-System"
+a2_master_dialogue_clay_looks_like_we_got_company_again,"Sieht aus, als wäre da wieder eine Oman-Patrouille im Anflug."
+a2_master_dialogue_oman_ah_we_have_heard,"Ahhh, wir haben schon von deinem Schiff gehört. Wir werden dich zu unserem Anführer in Daru el-Salam bringen - schließe dich unserer Formation an."
+a2_master_dialogue_mariana_the_sherriff_is_the_law,"Der Sheriff ist hier das Gesetz. Er ist das, was in Firefrost einem Regierungsvertreter am nächsten kommt. Er hat die hier Ansässigen zu einer Amateurmiliz geformt, um gegen die Marauder zu kämpfen. Er ist meistens in der Firefrost-Systemverwaltung im Orbit des Planeten Sunflower, einem Mond von Gefjon."

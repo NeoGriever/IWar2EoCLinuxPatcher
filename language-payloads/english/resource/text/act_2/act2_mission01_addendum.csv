@@ -1,0 +1,41 @@
+; FILE: Dact2_mission01_addendum.csv,
+; Key,
+ ACT 2 MISSION 1 - PICKING UP THE PIECES ADDENDUM,
+; FILE NAME,GERMAN TRANSLATION
+;,
+a2_m01_name_ship_lor_platform,Wartungsplattform
+a2_m01_name_ship_rescue_1,Rescue-1
+a2_m01_name_ship_rescue_2,Rescue-2
+a2_m01_name_ship_rescue_3,Rescue-3
+a2_m01_name_ship_rescue_4,Rescue-4
+a2_m01_name_ship_rescue_5,Rescue-5
+a2_m01_name_ship_rescue_6,Rescue-6
+
+a2_m01_dialogue_lor_cover_us,"Wartungsplattform an Cal Johnston. Vielleicht lässt sich hier noch was retten. Wir haben sechs einsatzbereite Schiffe, aber die Besatzungen brauchen Zeit, um sie zu starten. Kannst du uns decken?"
+a2_m01_dialogue_cal_ok,Na klar.
+a2_m01_dialogue_lor_ship_1,Erstes Schiff los!
+a2_m01_dialogue_lor_ship_2,Zweites Schiff gestartet!
+a2_m01_dialogue_lor_ship_3,Das dritte Schiff ist unterwegs!
+a2_m01_dialogue_lor_ship_4,Schiff Nummer vier ist auf dem Weg!
+a2_m01_dialogue_lor_ship_5,Nummer fünf ist abgeflogen!
+a2_m01_dialogue_lor_ship_6,Letztes Schiff gestartet. Danke für die Hilfe!
+a2_m01_dialogue_rescue_were_here,"League-Rettungsmannschaft an Cal, wir sind im Anflug, um Überlebende aufzunehmen, aber solange wir an den Trümmern andocken, sind wir ein leichtes Ziel. Es wäre toll, wenn du uns diese Marauder vom Hals halten könntest."
+a2_m01_dialogue_cal_dont_worry,Keine Sorge. Wir kümmern uns darum.
+a2_m01_dialogue_clay_whats_this_we,Was heißt hier WIR? DU lenkst doch das Schiff. Ich bin einfach nur mitgekommen.
+a2_m01_dialogue_lor_form_up_survivors,"Formiere dich mit uns, sobald die Überlebenden gerettet sind. Als Konvoi haben wir die beste Chance, hier lebend rauszukommen."
+a2_m01_dialogue_rescue_rendezvous_1,Wir sind voll beladen. Gehen mit der Wartungsplattform in Formation.
+a2_m01_dialogue_rescue_rendezvous_2,Überlebende an Bord. Wir steuern zum Treffpunkt.
+a2_m01_dialogue_rescue_rendezvous_3,Wir fliegen auf die Plattform zu.
+a2_m01_dialogue_rescue_rendezvous_4,Eingeladen und zum Abflug bereit.
+a2_m01_dialogue_rescue_survivors_1,"Wir haben einige Überlebende gerettet - wir versuchen jetzt, noch mehr zu finden."
+a2_m01_dialogue_rescue_survivors_2,Wir haben ein paar Überlebende! Fliegen jetzt zum nächsten Trümmerhaufen.
+a2_m01_dialogue_rescue_survivors_3,Überlebende an Bord. Wir setzen die Suche fort.
+a2_m01_dialogue_rescue_survivors_4,"Wir haben einige, die noch leben. Hoffentlich finden wir noch mehr."
+a2_m01_dialogue_rescue_all_survivors_rescued,"Soweit wir das überblicken, sind jetzt alle Überlebenden gerettet."
+a2_m01_dialogue_lor_form_up,"Wir sind bereit. Cal, komm bitte in unsere Formation."
+a2_m01_dialogue_lor_lets_go,"Wir fliegen zum Corinthia-L-Punkt, allerseits. Cal, wir wären dankbar, wenn du uns dorthin Geleitschutz geben könntest."
+a2_m01_dialogue_rescue_we_are_jumping,"Wir springen nach Touchdown. Cal, gib uns Deckung, während wir springen."
+a2_m01_dialogue_rescue_all_ships_rescued,"Wir haben's geschafft! Cal, wir sind dir zu Dank verpflichtet. Wir hauen jetzt ab - müssen uns um 'ne Menge Flüchtlinge kümmern. Nochmals danke!"
+a2_m01_dialogue_clay_you_idiot,Idiot. Wir hätten die Plattform beschützen sollen!
+a2_m01_dialogue_clay_you_fool,Verdammter Idiot! Die Rettungsschiffe waren auf dich angewiesen. Jetzt sind sie alle tot. Ich hoffe du bist zufrieden.
+a2_m01_dialogue_clay_you_simpleton,Du Penner! Dank dir gibt es keine Überlebenden.

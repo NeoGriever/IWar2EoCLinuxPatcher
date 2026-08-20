@@ -1,0 +1,29 @@
+; FILE: Dact0_mission10.csv,
+; Key,
+; FILE NAME,GERMAN TRANSLATION
+;,
+a0_m10_name_waypoint,Clays Streckenpunkt
+a0_m10_name_princeton,Princeton
+a0_m10_dialogue_clay_i_know,"Ich weiß, dass es weh tut, Junge. Aber du musst auf der Hut sein. Hier kannst du nicht bleiben. Solange du in dieser Kommandoabteilung bist, kannst du nichts unternehmen. Ich weiß wo du vielleicht ein neues Schiff herbekommen kannst."
+a0_m10_dialogue_clay_before_we,"Bevor's losgeht, helfe ich dir noch dabei, die grundlegenden Funktionen des Schiffes zu verstehen."
+a0_m10_dialogue_clay_contact_list,"Also gut, als Erstes musst du lernen, mit der Kontaktliste umzugehen. Die zeigt dir alles in Instrumentenreichweite an. Ich gebe jetzt einen Streckenpunkt ein und dann wählst du ihn auf der Liste und fliegst auf ihn zu. Benutze die Richtungsanzeige auf deinem HUD zur Steuerung."
+a0_m10_dialogue_clay_good,Gut. Sieht aus als hättest du's verstanden. Machen wir weiter...
+a0_m10_dialogue_clay_the_first,In der Nähe von Stationen kannst du deinen LDS-Antrieb nicht verwenden. Und beim Einsatz von Autopiloten gilt für alle Schiffe das von der Station vorgegebene Tempolimit.
+a0_m10_dialogue_clay_that_leads,Beim Durchqueren des Weltraums sind Autopiloten äußerst praktisch.
+a0_m10_dialogue_clay_instructions_approach,"Der erste Autopilot kümmert sich um den 'Anflug'. Den wirst du oft verwenden. Wähle ein Schiff in deiner Nähe, indem du es mit dem Fadenkreuz erfasst und Zielwahl drückst. Schalte dann auf 'Anflug' und nähere dich dem Ziel."
+a0_m10_dialogue_clay_approach_engage,"Wie du siehst, dreht sich das Schiff zum Ziel und nähert sich ihm, sobald du 'Anflug' aktiviert hast."
+a0_m10_dialogue_clay_instructions_formate,"Der nächste Autopilot erledigt das 'Formieren'. Sehr nützlich, um anderen Schiffen zu folgen. Wähle wieder ein Schiff in deiner Nähe und aktiviere auf 'Formieren'."
+a0_m10_dialogue_clay_formate_engage,"Ist das Formieren eingeschaltet, erhält dein Schiff eine Ausrichtung in Relation zum anderen Schiff und es wird versuchen, einen stetigen Abstand zu ihm zu halten. Fliegen in Formation leicht gemacht!"
+a0_m10_dialogue_clay_i_think,"Jetzt probieren wir mal den LDS-Antrieb deines Schiffs aus, um mit Hilfe der Sternenkarte zu einem Zielpunkt zu gelangen. Schalte zunächst die Sternenkarte ein."
+a0_m10_dialogue_clay_this_is,"Das ist die Sternenkarte, auf der du in allen Systemen Zielpunkte auswählen kannst. Nehmen wir mal den Planeten Griffon. Er befindet sich in der Umlaufbahn von Hoffer's Wake Alpha."
+a0_m10_dialogue_clay_thats_the,"Du hast ihn, Junge! Das ist er. Gut, fliegen wir mal darauf zu. Probier deinen Autopiloten aus. Er wird auf LDS-Antrieb schalten, sobald wir das LDS-Blockierfeld hinter uns gelassen haben."
+a0_m10_dialogue_clay_there_weve,Gut. Wir haben das LDS-Blockierfeld verlassen und fliegen mit LDS. Die Linien auf dem HUD zeigen das mit ihrer grünen Färbung an. Auf dem HUD kannst du am Fadenkreuz in der Mitte des Schirms die Entfernung zum Ziel ablesen.
+a0_m10_dialogue_clay_ok_this_is,"Da wären wir! Nicht mehr weit bis zu unserem endgültigen Ziel: Lucrecias Basis! Das ist ein alter umgebauter Bio-Bomber, der verborgen in einem Feld geladener Teilchen und Asteroiden namens Effrit versteckt liegt. Wenn du zurück zur Sternkarte schaltest, kannst du den Ort wählen und dorthin fliegen. "
+a0_m10_dialogue_clay_right_lets,Also los!
+a0_m10_dialogue_clay_were_here,"Wir sind da! Das ist der Rand des Effrit. Den genauen Standort der Station im Effrit kenne ich leider nicht. Durch die ganzen Störungen ist das Steuern hier ziemlich schwierig. Es gibt aber einen direkten Zugang, wenn wir markierten Asteroiden folgen. Ich zeig sie dir, wenn ich sie ausmache. Du fliegst zu jedem der Asteroiden. Das macht es leichter für mich, den nächsten zu finden."
+a0_m10_dialogue_clay_im_bringing,Ich gebe jetzt den ersten Streckenpunkt ein.
+a0_m10_dialogue_clay_progress1,Da ist wieder einer.
+a0_m10_dialogue_clay_progress2,Und noch einer...
+a0_m10_dialogue_clay_progress3,Hab den nächsten gefunden.
+a0_m10_dialogue_clay_progress4,Hab den nächsten.
+a0_m10_dialogue_clay_there_it,Da ist sie! Lucrecias Basis! Docken wir an und sehen uns mal um.

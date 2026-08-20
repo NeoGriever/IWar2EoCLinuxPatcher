@@ -1,0 +1,43 @@
+; FILE: DMissing_names.csv,
+; Key,
+; FILE NAME,GERMAN TRANSLATION
+;,
+;,
+a2_m20_name_waypoint_fleet,Treffpunkt der Flotte
+a2_m20_name_player_ship_heavy,Duke of Rochdale
+a2_m20_name_repair_drone,Wartungsdrohne
+a2_m20_name_recovery_vessel,Bergungsschiff
+a2_m20_name_wingmen_alpha,Alpha
+
+a2_m20_name_waypoint_junk,Schrott
+
+a2_m24_name_waypoint_rendezvous,Treffpunkt
+a2_m24_name_waypoint_marauder,Marauder-Streckenpunkt
+
+a3_m02_name_ship_red,Red Star
+a3_m02_name_ship_rogue,Rogue I
+a3_m02_name_reactor,Reaktorkern
+a3_m02_name_alpha,Alpha
+a3_m02_name_beta,Beta
+a3_m02_name_cruiser,Kreuzer
+a3_m02_name_waypoint_government,Regierungseinrichtung
+a3_m02_name_fighter,Jägerträger
+
+a3_m03_name_waypoint_maas,Maas-Basis
+a3_m03_name_waypoint_hiding,Versteck
+
+a3_m09_caption_field,Feldstärke:
+a3_m09_name_alpha,Alpha
+a3_m09_name_waypoint_antimatter,Standort Antimaterie
+
+name_hoffers_vessel,Hoffers Schiff
+name_debris,Trümmer
+
+name_hoffer,Franklyn Hoffer
+;name_alien,Außerirdischer
+;altered at request of german translators.
+name_alien,Alien
+
+caption_failed_generic,Mission gescheitert
+caption_failed_ship_destroyed,Schutzbefohlenes Schiff zerstört
+log_critical_ship_destroyed,"SCHUTZBEFOHLENES SCHIFF ZERSTÖRT"

@@ -1,0 +1,47 @@
+; FILE: Dact3_mission04.csv,
+; Key,
+; FILE NAME,GERMAN TRANSLATION
+a3_m04_name_league,Die League
+a3_m04_email_jumpgate,Angriff auf den Sprungbeschleuniger
+a3_m04_ship_wingman_1,Freedom
+a3_m04_ship_wingman_2,Liberty
+a3_m04_ship_wingman_3,Honour
+a3_m04_ship_megafreighter,MMF-94501
+a3_m04_ship_marines,Marines
+a3_m04_ship_patrol_1,JA-Patrouille-A
+a3_m04_ship_patrol_2,JA-Patrouille-B
+a3_m04_ship_patrol_3,JA-Patrouille-C
+a3_m04_ship_cruiser,Free Enterprise
+a3_m04_ship_interceptor1,AF-1
+a3_m04_ship_interceptor2,AF-2
+a3_m04_ship_interceptor3,AF-3
+a3_m04_ship_cutter1,AF-4
+a3_m04_ship_cutter2,AF-5
+a3_m04_ship_cutter3,AF-6
+a3_m04_ship_megapod,MegaPod
+a3_m04_ship_marines_Pod,Hidden Marines
+a3_m04_ship_wingman_1_Pod,Freedom Hiding
+a3_m04_ship_wingman_2_Pod,Liberty Hiding
+a3_m04_ship_wingman_3_Pod,Honour Hiding
+a3_m04_dialogue_ship_megafreighter_were_ready_to_go,"Wir sind bereit. Haben eine Kapsel extra für dich vorbereitet. Komm rüber und dock an, dann kann's losgehen."
+a3_m04_dialogue_cal_were_in_wingmen_launch_when_i_undock,"Wir sind drin! Wingmen, ihr startet, wenn ich abdocke."
+a3_m04_dialogue_ship_1a3_m04_ship_1_roger_that,Verstanden.
+a3_m04_dialogue_cal_go_go_go,Los! Los! Los!
+a3_m04_dialogue_ship_1a3_m04_ship_1_breakin_out,Brechen aus!
+a3_m04_dialogue_ship_marines_help_were_stuck,Marines erbitten Hilfe! Die Kapseltür klemmt!
+a3_m04_dialogue_cal_hang_on_ill_break_you_out,"Wartet, ich hol euch raus!"
+a3_m04_dialogue_clay_better_make_it_quick,Aber beeil dich! Patrouillenschiffe im Anflug.
+a3_m04_dialogue_ship_marines_were_out_thanks,Wir sind draußen. Danke!
+a3_m04_dialogue_ship_marines_were_under_attack,Marines erbitten Hilfe! Wir sind unter feindlichem Beschuss!
+a3_m04_dialogue_clay_you_messed_that_up,"Das hast du verbockt, Kleiner."
+a3_m04_dialogue_ship_marines_were_docked_boarding_now,Wir haben angedockt. Der Landungstrupp geht jetzt rein.
+a3_m04_dialogue_ship_marines_weve_got_control,Wir haben die Kontrolle!
+a3_m04_dialogue_cal_sending_ftl_signal,"Gut, ich sende den Startkode für die Flotte."
+a3_m04_dialogue_ship_marines_stations_gone_into_lockdown_the_lda_field_is_on,Was?! Die Station  schottet sich ab! Das LDA-Fallgitter ist unten!
+a3_m04_dialogue_smith_the_fleet_will_jump_in_soon,Aber die Flotte ist schon fast im Sprung! Sie werden alle zermalmt!
+a3_m04_dialogue_cal_there_must_be_some_way_to_take_down_the_field,Wir müssen dieses Feld ausschalten!
+a3_m04_dialogue_clay_an_lda_field_needs_an_lda_field_generator,Ein LDA braucht einen LDA-Generator...
+a3_m04_dialogue_clay_you_did_it,"He, du hast es tatsächlich geschafft. Ich bin ziemlich beeindruckt."
+a3_m04_dialogue_smith_they_are_coming_through,Die Flotte springt jetzt hinein!
+a3_m04_dialogue_clay_too_late,Zu spät!
+a3_m04_dialogue_ship_cruiser_well_done,"Saubere Arbeit, allerseits. Die Niederlage im letzten Moment abgewendet!"

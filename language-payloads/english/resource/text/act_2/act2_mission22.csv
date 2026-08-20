@@ -1,0 +1,22 @@
+; FILE: Dact2_mission22.csv,
+; Key,
+; FILE NAME,GERMAN TRANSLATION
+;,
+a2_m22_name_star,Star and Garter
+
+a2_m22_dialogue_smith_hm_dont,He! Diesen L-Punkt hier kenne ich gar nicht. Ist auch nicht auf unseren Karten. Den sehen wir uns mal an.
+a2_m22_dialogue_clay_this_place,Sieht verlassen aus. Nur ein Haufen zurückgelassener Schrott...
+a2_m22_dialogue_smith_dont_look,Sieht mir gar nicht nach 'ner Marauder-Basis aus!
+a2_m22_dialogue_cal_there_must,Irgendwas muss hier sein...
+a2_m22_dialogue_smith_look_sharp,"Pass auf, Cal. Wir kriegen Besuch. Ich empfange schwache Signale. Ich finde, wir sollten hinter dem Schrott in Deckung gehen."
+a2_m22_dialogue_clay_hey_that,"Der Frachter sieht nach einer guten Deckung aus... wenn wir an ihn herankommen, ohne entdeckt zu werden."
+a2_m22_dialogue_smith_wooa_this,Boah. Hier ist ja ganz schön was los. Was machen die bloß alle hier?
+a2_m22_dialogue_clay_i_think,"Ich würde sagen, wir sehen uns mal um und erstatten dann Bericht. Komm nur den Patrouillen nicht zu nah."
+a2_m22_dialogue_clay_i_wonder,Wohin wollen die ganzen Versorgungsschiffe nur?
+a2_m22_dialogue_smith_theyre_taking,"Die bringen ihre Ladung durch einen versteckten L-Punkt ins Dante-System!!! Ich glaube, wir haben gefunden, was wir suchten! Jetzt nichts wie zurück!"
+a2_m22_dialogue_smith_damn_looks,"Verdammt, die Marauder-Schiffe sind noch dort, um den L-Punkt zu bewachen. Wir müssen sie irgendwie ablenken..."
+a2_m22_dialogue_clay_hey_didnt,"He, habe ich da vorhin nicht einen alten GTR mitten in dem ganzen Müll gesehen? Das wäre vielleicht Ablenkung genug."
+a2_m22_dialogue_marauders_intruder,Eindringling entdeckt! Angriff!
+a2_m22_dialogue_marauders_unidentified,Unbekanntes Schiff! Anhalten oder wir schießen!
+a2_m22_dialogue_clay_ok_theyre,Ja! Sie sind drauf reingefallen! Sie folgen uns. Kappen wir die Verbindung und lassen ihnen ihren Spaß!
+a2_m22_dialogue_clay_were_clear,"Wir sind draußen! Wir müssen zurück zur Basis und allen erzählen, was wir gefunden haben!"

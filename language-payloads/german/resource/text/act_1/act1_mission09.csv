@@ -1,0 +1,37 @@
+; FILE: Dact1_mission09.csv,
+; Key,
+; FILE NAME,GERMAN TRANSLATION
+a1_m09_dialogue_league_c1_ah_youve_arrived,"Hallo Cal. Bist du bereit, uns die Wartungsplattform zu besorgen?"
+a1_m09_dialogue_league_c1_youre_back,"Schön, dich wiederzusehen, Cal. Bist du bereit, die Plattform zu holen?"
+a1_m09_text_player_c1_option_1_yes,Ja.
+a1_m09_dialogue_player_c1_option_1_yes,"Ja. Na dann, auf zur Party!"
+a1_m09_dialogue_league_c1_response_1_heres_the_droid,Gut. Das ist die Schneidedrohne... und hier findest du die Station. Viel Glück!
+a1_m09_text_player_c1_option_2_no,Nein.
+a1_m09_dialogue_player_c1_option_2_no,"Nein, ich bin noch nicht bereit."
+a1_m09_dialogue_league_c1_response_2_wait,"Na gut, wir werden warten... Aber nicht zu lange."
+;,
+a1_m09_dialogue_security_c1_unidentified_vessel,Unbekanntes Schiff! Erklärt eure Absichten!
+a1_m09_dialogue_security_c1_yes_what,"Ja, was wollt ihr diesmal?"
+a1_m09_text_player_c1_option_1_seak_with,Mit Captain Hanover sprechen.
+a1_m09_dialogue_player_c1_option_1_speak_with,"Äh, wir wollten eigentlich mit Captain Hanover sprechen."
+a1_m09_dialogue_security_c1_response_1_yeh_you,"Ach, wirklich? Das will der gesamte Sektor. Und ich habe die Ehre den Bereich zu patrouillieren, während sich die restliche Mannschaft auf der großen Party besäuft! Was wollt ihr von ihm?"
+a1_m09_text_player_c1_option_2_nothing,Wir sind nur auf der Durchreise.
+a1_m09_dialogue_player_c1_option_2_nothing,"Nichts. Tut mir leid, wir sind nur auf der Durchreise."
+a1_m09_dialogue_security_c1_response_2_hang_around,"Ach, wirklich? Nun, dann lasst euch mal nicht aufhalten."
+a1_m09_text_player_c2_option_2_old_friend,Ist 'nen alter Freund...
+a1_m09_dialogue_player_c2_option_2_old_friend,"Ich bin ein alter Kumpel von ihm. Er hat gesagt, ich soll mal vorbeizuschauen, wenn ich zufällig in der Gegend bin..."
+a1_m09_dialogue_security_c2_response_1_well_i,"Ach, wirklich? Das muss ich mir erst einmal vom Captain bestätigen lassen. Wartet hier... Und rührt euch nicht vom Fleck, verstanden?"
+a1_m09_dialogue_clay_nows_our_chance,"Das ist unsere Chance, aber Vorsicht mit den Triebwerken. Sie dürfen uns nicht entdecken."
+a1_m09_dialogue_clay_what_now,Und jetzt? Ohne diese Drohne können wir nichts machen.
+a1_m09_text_player_c2_option_2_delivery,Bierlieferung für die Party.
+a1_m09_dialogue_player_c2_option_2_delivery,Wir haben 'ne große Lieferung Bierfässer für Captain Hanover.
+a1_m09_dialogue_security_c2_response_2_mistake,Ihr Idioten habt zwei Lieferungen losgeschickt? Da war schon eine Bierlieferung für die Party. Diese Bestellung muss zurückgehen.
+a1_m09_dialogue_clay_watch_your_thruster,"Vorsicht mit den Triebwerken, sonst entdecken sie uns!!"
+a1_m09_dialgoue_clay_thats_done_it,"Na toll, sie haben uns entdeckt! Wirklich gut gemacht! Jetzt stecken wir ganz schön in der Scheiße."
+a1_m09_dialogue_crew_woa_whats,Hey! Was ist da los? HILFE!
+a1_m09_dialogue_clay_ok_were_docked,"Okay, wir sind angedockt. Ich habe die Fernsteuerungsfunktion aktiviert."
+a1_m09_dialogue_clay_lets_get_this,Lass uns diesen Schrotthaufen zurück zur League bringen.
+a1_m09_dialogue_clay_i_think,Sie haben uns entdeckt. Und da kommen sie auch schon!
+;,
+a1_m09_dialogue_league_youve_returned,Bei der Geburtstagsparty würde ich jetzt gerne mal Mäuschen spielen! Gut gemacht! Die Plattform sieht auch in Ordnung aus. Setzt sie einfach hier ab.
+a1_m09_dialogue_well_heres_your_reward,Wir haben eine Warenladung als Belohnung an eure Basis geschickt. Danke für die Hilfe. 

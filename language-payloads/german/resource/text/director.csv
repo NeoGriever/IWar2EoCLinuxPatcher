@@ -1,0 +1,33 @@
+; FILE: DDirector.csv,
+; Key,
+; FILE NAME,GERMAN TRANSLATION
+;,
+;,
+cam_internal_cockpit,Ansicht Cockpit
+cam_internal_no_cockpit,Ansicht HUD
+cam_arcade,Arcade-Ansicht
+cam_external,Außenansicht
+cam_target_external,Außenansicht
+cam_tactical,Taktische Ansicht
+cam_inverse_tactical,Umkehrung der taktischen Ansicht
+cam_flyby,Visier-Ansicht
+cam_drop,Visier-Ansicht
+cam_distantdrop,Visier-Ansicht
+,
+cam_two_shot,Doppel-Ansicht
+cam_inverse_two_shot,Umkehrung der Doppel-Ansicht
+cam_conversation,Gruppenansicht
+cam_dolly,Fahraufnahme
+cam_internal_no_hud,Blickwinkel-Ansicht
+cam_chase,Verfolger-Kamera
+,
+cam_contact,Tele-Ansicht
+cam_bridgeshot,Ansicht Brücke
+,
+cam_director_mode,Regiemodus
+,
+cam_player_died,Sie wurden abgeschossen.
+,
+cam_press_space,"Drücken Sie die Leertaste, um fortzufahren."
+
+cam_unknown_focus,Unbekannt

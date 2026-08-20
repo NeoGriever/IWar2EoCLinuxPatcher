@@ -1,0 +1,22 @@
+; FILE: Dact2_mission25_addendum2.csv,
+; Key,GERMAN TRANSLATION
+name_cerebus,Cerebus
+a2_m25_dialogue_cerebus_intro,"Wenn Sie das System verlassen wollen, müssen Sie sich zunächst hier melden. So beugen wir Missverständnissen mit der Blockadegruppe vor."
+a2_m25_dialogue_cal_if_I_need_to_go,"Verstehe. Wenn ich weg will, sag' ich Bescheid."
+a2_m25_dialogue_cerebus_herald,Cerebus an Mr. Johnston. Möchten Sie die Erlaubnis zum Verlassen des Systems?
+a2_m25_dialogue_cal_no_thanks,"Danke, nein."
+a2_m25_option_cal_no_thanks,Nein danke.
+a2_m25_dialogue_cal_yes_please,"Ja, bitte."
+a2_m25_option_cal_yes_please,"Ja, bitte."
+a2_m25_dialogue_cerebus_you_can_go,"Gut, Sie haben die Erlaubnis."
+a2_m25_dialogue_clay_nice_fleet,"Und, ist das nicht ein toller Anblick?!"
+a2_m25_dialogue_cerebus_welcome_to_fleet,"Cerebus an Mr. Johnston, schön, dass Sie's geschafft haben. Wir ziehen gerade die Flotte zum Sprung in den Hyperraum zusammen. Warten Sie bitte hier auf die Erlaubnis."
+a2_m25_dialogue_clay_hates_waiting,Anscheinend müssen sich selbst Helden hinten anstellen.
+a2_m25_dialogue_cal_yeah_but,"Ja, aber..."
+a2_m25_dialogue_clay_big_flux,Da ist ein ziemlich starker Strom im L-Punkt. Da kommt irgendwas Großes durch!
+a2_m25_dialogue_cal_look_pirates,Das sind Firmenschiffe!
+a2_m25_dialogue_caleb_hello_gents,"Ah, Mr. Hoffer und Mr. Johnston. Was für eine nette Überraschung!"
+a2_m25_dialogue_cal_you_scum,"Caleb Maas, du dreckiger Bastard. Ich hoffe, du bist hier um deine Ehre wieder herzustellen und uns gegen die Marauder zu helfen."
+a2_m25_dialogue_caleb_marauders,"Ich habe dich und deine League beobachtet, Cal, du nichtsnutziger Versager. Die Marauder gehören mir, hast du das immer noch nicht kapiert? Ich bezahle sie, um Gesindel wie dich zu unterdrücken. Und bisher hat das sehr gut funktioniert."
+a2_m25_dialogue_caleb_sic_em,"Macht sie fertig, Jungs."
+a2_m25_dialogue_clay_of_course,"Er bezahlt die Marauder, um uns fertig zu machen - Mann, dieser Sternhaufen muss wertvoller sein, als ich dachte."

@@ -1,0 +1,219 @@
+stock_warn_1_male_1,"Du willst mir Angst machen, Grubenabschaum?"
+stock_warn_3_male_1,Verschwinde!
+stock_warn_4_male_1,"Wir tun jetzt mal so, als wär' das nie passiert."
+stock_warn_5_male_1,Denk nicht mal dran.
+stock_warn_6_male_1,"Keine Dummheiten, Mann."
+stock_warn_7_male_1,"Gehen wir mal davon aus, dass dir der Finger ausgerutscht ist... dieses eine Mal."
+stock_warn_8_male_1,"Zurück, oder ich mach' dich kalt."
+stock_warn_9_male_1,Ich werde dich jetzt bitten zu gehen.
+stock_warn_10_male_1,"Ich hab' nichts bei mir, lass mich in Ruhe!"
+stock_warn_11_male_1,"Verschwinde jetzt, oder du musst die Konsequenzen tragen!"
+stock_warn_12_male_1,"Mach das noch einmal, und ich stecke dir deine Kanone sonstwo hin."
+stock_warn_13_male_1,"Tu nichts, was du noch bereuen könntest, Hitzkopf!"
+stock_warn_14_male_1,Hey!
+;,
+stock_attack_1_male_1,"Stirb grausam, Loser!"
+stock_attack_2_male_1,Ich werd' dir so was von wehtun!
+stock_attack_3_male_1,STIRB!
+stock_attack_4_male_1,Das wirst du mir büßen!
+stock_attack_5_male_1,An dir statuieren wir ein Exempel.
+stock_attack_6_male_1,"Ich kriege Verstärkung, und du gehörst der Vergangenheit an..."
+stock_attack_7_male_1,Ich schieß' dich ab!
+stock_attack_8_male_1,Du bist am Ende!
+stock_attack_9_male_1,Ich vernichte dich!
+stock_attack_10_male_1,Das Spiel ist aus!
+stock_attack_11_male_1,Ich reiß dich in Stücke!
+stock_attack_12_male_1,Hoffentlich hast du deine Schiffsversicherung bezahlt!
+;,
+stock_flee_gangster_1_male_1,"Ich komm' wieder, Freundchen... Glaub nicht, dass wir miteinander fertig sind!"
+stock_flee_gangster_2_male_1,Hilfe!
+stock_flee_gangster_3_male_1,Ich hau' ab!
+;,
+stock_flee_civillian_1_male_1,Hilfe! Polizei!!
+stock_flee_civillian_2_male_1,"Nicht schießen, ich bin unschuldig!"
+stock_flee_civillian_3_male_1,Ich werde dich anzeigen!
+stock_flee_civillian_4_male_1,Ich will nicht sterben!
+;,
+stock_surrender_cargo_1_male_1,"Schon gut! Wir geben auf, nimm die Fracht!"
+stock_surrender_cargo_2_male_1,Ich geb' dir meine Fracht!
+stock_surrender_cargo_3_male_1,Keine Fracht ist mein Leben wert...
+stock_surrender_cargo_4_male_1,"Da hast du die Fracht, aber glaub nicht, dass du damit davonkommst!"
+stock_surrender_cargo_5_male_1,Bitte... Nimm dir die Fracht und verschwinde!
+stock_surrender_cargo_6_male_1,Nimm dir die verdammten Kapseln. Wir kriegen dich noch!
+stock_surrender_cargo_7_male_1,"Schon gut, Mann, du musst doch nur fragen!"
+;,
+stock_surrender_no_cargo_1_male_1,Nicht schießen! Ich ergebe mich!
+stock_surrender_no_cargo_2_male_1,Halt! Ich gebe auf!
+stock_surrender_no_cargo_3_male_1,Zerstör uns bitte nicht!
+stock_surrender_no_cargo_4_male_1,Ich mach' mich aus dem Staub!
+stock_surrender_no_cargo_5_male_1,"Ich hab' nichts geladen, lass mich gehen!"
+;,
+stock_complain_1_male_1,Meine Gebühren werden rapide steigen.
+stock_complain_2_male_1,Das ist es einfach nicht wert.
+stock_complain_3_male_1,"Mann! Bin ich froh, dass ich nächsten Monat in Rente gehe!"
+stock_complain_4_male_1,"Das war's dann mit dem Schadenfreiheitsrabatt, du Hundesohn."
+stock_complain_5_male_1,"Und ich dachte, meine letzte Fahrt wär' schlimm gewesen!"
+stock_complain_6_male_1,"Du bist so gütig, dass du uns nicht tötest. Du willst uns doch nicht töten, oder?"
+stock_complain_7_male_1,Nimm keine Rücksicht auf mich. Meine Versicherung kommt schon dafür auf.
+;,
+stock_distress_1_male_1,"Mayday, Mayday, wir werden angegriffen!"
+stock_distress_2_male_1,Irgendwer in der Nähe? Hilfe!
+stock_distress_3_male_1,Ein Hinterhalt! Hilfe!
+stock_distress_4_male_1,Wir sind unter Beschuss! Erbitten Hilfe!
+;,
+stock_thanks_1_male_1,Danke... Das werden wir dir nie vergessen!
+stock_thanks_2_male_1,Das war knapp - danke!
+stock_thanks_3_male_1,"Ich dachte schon, wir wären geliefert!"
+stock_thanks_4_male_1,"Danke Kumpel, du bist sagenhaft."
+stock_thanks_5_male_1,"Sei gesegnet, Fremder."
+;,
+stock_hotrodder_nice_ship_male_1,"Nettes Schiff... Mal sehen, was es so draufhat!"
+stock_hotrodder_ready_male_1,Fertig...
+stock_hotrodder_go_male_1,Los!
+;,
+stock_police_pull_over_male_1,Ihr Schiff wurde für eine Routinekontrolle blockiert. Leisten Sie keinen Widerstand.
+
+stock_warn_1_female_1,"Du willst mir Angst machen, Grubenabschaum?"
+stock_warn_3_female_1,Verschwinde!
+stock_warn_4_female_1,"Wir tun jetzt mal so, als wär' das nie passiert."
+stock_warn_5_female_1,Denk nicht mal dran!
+stock_warn_6_female_1,"Keine Dummheiten, Mann."
+stock_warn_7_female_1,"Gehen wir mal davon aus, dass dir der Finger ausgerutscht ist... dieses eine Mal."
+stock_warn_8_female_1,"Zurück, oder ich mach' dich kalt!"
+stock_warn_9_female_1,Ich werde dich jetzt bitten zu gehen.
+stock_warn_10_female_1,"Ich hab' nichts bei mir, lass mich in Ruhe!"
+stock_warn_11_female_1,"Verschwinde jetzt, oder du musst die Konsequenzen tragen!"
+stock_warn_12_female_1,"Mach das noch einmal, und ich stecke dir deine Kanone sonstwo hin."
+stock_warn_13_female_1,"Tu nichts, was du noch bereuen könntest, Hitzkopf!"
+stock_warn_14_female_1,Hey!
+;,
+stock_attack_1_female_1,"Stirb grausam, Dummkopf!"
+stock_attack_2_female_1,Ich werd' dir so was von wehtun!
+stock_attack_3_female_1,STIRB!
+stock_attack_4_female_1,Das wirst du mir büßen!
+stock_attack_5_female_1,An dir statuieren wir ein Exempel.
+stock_attack_6_female_1,"Ich kriege Verstärkung, und du gehörst der Vergangenheit an..."
+stock_attack_7_female_1,Ich schieß' dich ab!
+stock_attack_8_female_1,Du bist am Ende!
+stock_attack_9_female_1,Ich vernichte dich!
+stock_attack_10_female_1,Das Spiel ist aus!
+stock_attack_11_female_1,Ich reiß dich in Stücke!
+stock_attack_12_female_1,Hoffentlich hast du deine Schiffsversicherung bezahlt!
+;,
+stock_flee_gangster_1_female_1,"Ich komm' wieder, Freundchen... Glaub nicht, dass wir miteinander fertig sind!"
+stock_flee_gangster_2_female_1,Hilfe!
+stock_flee_gangster_3_female_1,Ich hau' ab!
+;,
+stock_flee_civillian_1_female_1,Hilfe! Polizei!!
+stock_flee_civillian_2_female_1,"Nicht schießen, ich bin unschuldig!"
+stock_flee_civillian_3_female_1,Ich werde dich anzeigen!
+stock_flee_civillian_4_female_1,Ich will nicht sterben!
+;,
+stock_surrender_cargo_1_female_1,"Schon gut! Wir geben auf, nimm die Fracht!"
+stock_surrender_cargo_2_female_1,Ich geb' dir meine Fracht!
+stock_surrender_cargo_3_female_1,Keine Fracht ist mein Leben wert...
+stock_surrender_cargo_4_female_1,"Da hast du die Fracht, aber glaub nicht, dass du damit davonkommst!"
+stock_surrender_cargo_5_female_1,Bitte... Nimm dir die Fracht und verschwinde!
+stock_surrender_cargo_6_female_1,Nimm dir die verdammten Kapseln. Wir kriegen dich noch!
+stock_surrender_cargo_7_female_1,"Schon gut, Mann, du musst doch nur fragen!"
+;,
+stock_surrender_no_cargo_1_female_1,Nicht schießen! Ich ergebe mich!
+stock_surrender_no_cargo_2_female_1,Halt! Ich gebe auf!
+stock_surrender_no_cargo_3_female_1,Zerstör uns bitte nicht!
+stock_surrender_no_cargo_4_female_1,Ich mach' mich aus dem Staub!
+stock_surrender_no_cargo_5_female_1,"Ich hab' nichts geladen, lass mich gehen!"
+;,
+stock_complain_1_female_1,Meine Gebühren werden rapide steigen.
+stock_complain_2_female_1,Das ist es einfach nicht wert.
+stock_complain_3_female_1,"Mann! Bin ich froh, dass ich nächsten Monat in Rente gehe!"
+stock_complain_4_female_1,"Das war's dann mit dem Schadenfreiheitsrabatt, du Hundesohn."
+stock_complain_5_female_1,"Und ich dachte, meine letzte Fahrt wär' schlimm gewesen!"
+stock_complain_6_female_1,"Du bist so gnädig, dass du uns nicht tötest. Du willst uns doch nicht töten, oder?"
+stock_complain_7_female_1,Nimm keine Rücksicht auf mich. Meine Versicherung kommt schon dafür auf.
+;,
+stock_distress_1_female_1,"Mayday, Mayday, wir werden angegriffen!"
+stock_distress_2_female_1,Irgendwer in der Nähe? Hilfe!
+stock_distress_3_female_1,Ein Hinterhalt! Hilfe!
+stock_distress_4_female_1,Wir sind unter Beschuss! Erbitten Hilfe!
+;,
+stock_thanks_1_female_1,Danke... Das werden wir dir nie vergessen!
+stock_thanks_2_female_1,Das war knapp - danke!
+stock_thanks_3_female_1,"Ich dachte schon, wir wären geliefert!"
+stock_thanks_4_female_1,"Danke Kumpel, du bist sagenhaft."
+stock_thanks_5_female_1,"Sei gesegnet, Fremder."
+;,
+stock_hotrodder_nice_ship_female_1,"Nettes Schiff... Mal sehen, was es so draufhat!"
+stock_hotrodder_ready_female_1,Fertig...
+stock_hotrodder_go_female_1,Los!
+;,
+stock_police_pull_over_female_1,Ihr Schiff wurde für eine Routinekontrolle blockiert. Leisten Sie keinen Widerstand.
+;,
+stock_station_greet_neutral_1_male,Transiterlaubnis für unseren Abschnitt erstattet.
+stock_station_greet_neutral_2_male,Wir haben Sie auf unseren Sensoren. Transiterlaubnis erstattet.
+stock_station_greet_neutral_3_male,Einflug gestattet. Es gelten die Vorschriften des Hafens.
+stock_station_greet_neutral_4_male,Sie begeben sich in unsere Verkehrsschleife. Bitte befolgen Sie die Hafenvorschriften.
+stock_station_greet_neutral_5_male,Sie sind in der Schleife. Halten Sie Ihren Vektor.
+stock_station_greet_friendly_1_male,Willkommen.
+stock_station_greet_friendly_2_male,Hallo! Geht's gut?
+stock_station_greet_friendly_3_male,Willkommen in unserem Revier.
+;stock_station_greet_friendly_4_male,"Ihr Ruf eilt Ihnen voraus, Mr. Johnston. Schönen Tag noch!"
+stock_station_greet_friendly_4_male,Willkommen in unserem Revier.
+stock_station_greet_friendly_5_male,"Hey, Kumpel, der aktuelle Vektor ist für den ganzen Weg bestätigt. Schönen Tag noch!"
+stock_station_warning_gentle_1_male,Leute wie dich mögen wir hier nicht. Verschwinde!
+stock_station_warning_gentle_2_male,Dies ist unsere erste Warnung. Verlassen Sie bitte den Abschnitt.
+stock_station_warning_gentle_cops_1_male,Diese Zone wird von der Polizei kontrolliert. Verlassen Sie sie bitte umgehend.
+stock_station_warning_gentle_cops_2_male,Sie befinden sich in einem für Polizeieinsätze gesperrten Abschnitt.
+stock_station_warning_gentle_cops_3_male,"Dies ist eine gesicherte Einrichtung, und Sie verstoßen gegen das Gesetz."
+stock_station_warning_severe_1_male,Dies ist die letzte Warnung. Verlassen Sie den Abschnitt sofort!
+stock_station_warning_severe_2_male,"Verlassen Sie den Abschnitt, oder wir wenden Gewalt an."
+stock_station_warning_restricted_1_male,Dies ist ein gesperrter Abschnitt. Verlassen Sie ihn umgehend!
+stock_station_warning_restricted_civilian_male,Sie befinden sich ohne Erlaubnis in einem Abschnitt mit privaten Sicherheitsbestimmungen. Kehren Sie um!
+stock_station_warning_restricted_naval_male,"Dieser Abschnitt wird von der Marine kontrolliert. Kehren Sie um, oder wir eröffnen das Feuer."
+stock_station_attack_guarded_1_male,Wir haben Verstärkung angefordert. Ihr habt's ja nicht anders gewollt.
+stock_station_attack_guarded_2_male,Anscheinend seid ihr schwer von Begriff. Das Abwehrnetz wird aktiviert.
+stock_station_attack_guarded_cops_1_male,"Also gut, Junge - du bist verhaftet."
+stock_station_attack_guarded_cops_2_male,"Jetzt bist du dran, Herzchen!"
+stock_station_attack_guarded_cops_3_male,Da haben wir wohl einen Lebendigen. Schnappen wir ihn uns!
+stock_station_attack_severe_1_male,"Bist du bereit, deinem Schöpfer entgegenzutreten?"
+stock_station_attack_severe_2_male,Der Einsatz von tödlicher Gewalt wurde genehmigt. Alle Einheiten auf Gefechtsstation.
+stock_station_attack_severe_3_male,Alle Einheiten zum Angriff. Wir sind unter Beschuss.
+stock_station_attack_severe_4_male,Feinde im Anflug - alle Mann auf Gefechtsstation!
+stock_station_attack_severe_5_male,Abwehrnetz aktiviert. Bereithalten!
+stock_station_destroyed_civilian_male,Wir sind eine zivile Einrichtung. Wir haben Frauen und Kinder an Bord!
+stock_station_destroyed_1_male,"Achtung, Achtung: Alle Mann zu den Evakuierungsstationen."
+stock_station_destroyed_2_male,Störung der Plasmadämmung. Alle flugtauglichen Schiffe und alle Mannschaften verlassen sofort den Abschnitt.
+
+stock_station_greet_neutral_1_female,Transiterlaubnis für unseren Abschnitt erstattet.
+stock_station_greet_neutral_2_female,Wir haben Sie auf unseren Sensoren. Transiterlaubnis erstattet.
+stock_station_greet_neutral_3_female,Einflug gestattet. Es gelten die Vorschriften des Hafens.
+stock_station_greet_neutral_4_female,Sie begeben sich in unsere Verkehrsschleife. Bitte befolgen Sie die Hafenvorschriften.
+stock_station_greet_neutral_5_female,Sie sind in der Schleife. Halten Sie Ihren Vektor.
+stock_station_greet_friendly_1_female,Willkommen.
+stock_station_greet_friendly_2_female,Hallo! Geht's gut?
+stock_station_greet_friendly_3_female,Willkommen in unserem Revier.
+;stock_station_greet_friendly_4_female,"Ihr Ruf eilt Ihnen voraus, Mr. Johnston. Schönen Tag noch!"
+stock_station_greet_friendly_4_female,Willkommen in unserem Revier.
+stock_station_greet_friendly_5_female,"Hey, Kumpel, der aktuelle Vektor ist für den ganzen Weg bestätigt. Schönen Tag noch!"
+stock_station_warning_gentle_1_female,Leute wie dich mögen wir hier nicht. Verschwinde!
+stock_station_warning_gentle_2_female,Dies ist unsere erste Warnung. Verlassen Sie bitte den Abschnitt.
+stock_station_warning_gentle_cops_1_female,Diese Zone wird von der Polizei kontrolliert. Verlassen Sie sie umgehend.
+stock_station_warning_gentle_cops_2_female,Sie sind in einen für Polizeieinsätze gesperrten Abschnitt eingedrungen.
+stock_station_warning_gentle_cops_3_female,"Dies ist eine gesicherte Einrichtung, und Sie verstoßen gegen das Gesetz."
+stock_station_warning_severe_1_female,Dies ist die letzte Warnung. Verlassen Sie den Abschnitt sofort!
+stock_station_warning_severe_2_female,"Verlassen Sie den Abschnitt, oder wir wenden Gewalt an."
+stock_station_warning_restricted_1_female,Dies ist ein gesperrter Abschnitt. Verlassen Sie ihn umgehend!
+stock_station_warning_restricted_civilian_female,Sie befinden sich ohne Erlaubnis in einem Abschnitt mit privaten Sicherheitsbestimmungen. Kehren Sie um.
+stock_station_warning_restricted_naval_female,"Dieser Abschnitt wird von der Marine kontrolliert. Kehren Sie um, oder wir eröffnen das Feuer."
+stock_station_attack_guarded_1_female,Wir haben Verstärkung angefordert. Ihr habt's ja nicht anders gewollt.
+stock_station_attack_guarded_2_female,Anscheinend seid ihr schwer von Begriff. Das Abwehrnetz wird aktiviert.
+stock_station_attack_guarded_cops_1_female,"Also gut, Junge - du bist verhaftet."
+stock_station_attack_guarded_cops_2_female,"Jetzt bist du dran, Herzchen!"
+stock_station_attack_guarded_cops_3_female,Da haben wir wohl einen Lebendigen. Schnappen wir ihn uns!
+stock_station_attack_severe_1_female,"Bist du bereit, deinem Schöpfer entgegenzutreten?"
+stock_station_attack_severe_2_female,Der Einsatz von tödlicher Gewalt wurde genehmigt. Alle Einheiten auf Gefechtsstation.
+stock_station_attack_severe_3_female,Alle Einheiten zum Angriff. Wir sind unter Beschuss.
+stock_station_attack_severe_4_female,Feinde im Anflug - alle Mann auf Gefechtsstation!
+stock_station_attack_severe_5_female,Abwehrnetz aktiviert. Bereithalten!
+stock_station_destroyed_civilian_female,Wir sind eine zivile Einrichtung. Wir haben Frauen und Kinder an Bord!
+stock_station_destroyed_1_female,"Achtung, Achtung: Alle Mann zu den Evakuierungsstationen."
+stock_station_destroyed_2_female,Störung der Plasmadämmung. Alle flugtauglichen Schiffe und alle Mannschaften verlassen sofort den Abschnitt.

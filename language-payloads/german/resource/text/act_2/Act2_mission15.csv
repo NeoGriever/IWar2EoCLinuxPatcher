@@ -1,0 +1,137 @@
+; FILE: Dact2_mission15.csv,
+; Key,
+ ACT 2 MISSION 15  - WOLF HUNTING,
+; FILE NAME,GERMAN TRANSLATION
+;,
+
+
+
+a2_m15_email_subject,Wir haben den Code geknackt!
+a2_m15_character_blake,Natashia Blake
+a2_m15_wingman_one,Alice Lephayette
+a2_m15_wingman_two,Nell Lephayette
+a2_m15_wingman_three,Lance Shaylyn
+a2_m15_character_descrambler,Entschlüsseler
+a2_m15_waypoint_intercepted,Quelle der abgefangenen Nachricht
+a2_m15_shipname_akela,Akela
+a2_m15_shipname_akela_support_one,Akela Support Eins
+a2_m15_shipname_akela_support_two,Akela Support Zwei
+a2_m15_shipname_akela_umbilical_one,Akela Umbilical Eins
+a2_m15_shipname_akela_umbilical_two,Akela Umbilical Zwei
+a2_m15_name_red_1,Red Scourge
+a2_m15_name_red_2,Red Doom
+a2_m15_name_red_3,Red As Blood
+a2_m15_name_red_4,Red's Crone
+a2_m15_name_red_5,Red Lash
+a2_m15_name_red_6,Red Death
+a2_m15_name_red_7,Red Fate
+a2_m15_name_red_8,Red And Redder
+a2_m15_name_red_9,Red Widowmaker
+a2_m15_name_red_10,Red Scorn
+a2_m15_name_red_11,Red Hammer
+a2_m15_name_red_12,Red Poison
+a2_m15_name_red_13,Red Chalice
+a2_m15_name_red_14,Red Plague
+a2_m15_name_red_15,Red Ruin
+a2_m15_name_red_16,Red Bane
+a2_m15_name_red_17,Red Terror
+a2_m15_name_red_18,Red Torment
+a2_m15_name_grey_1,Grey Mourning
+a2_m15_name_grey_2,Grey Shadow
+a2_m15_name_grey_3,Grey Spook
+a2_m15_name_grey_4,Grey Dominion
+a2_m15_name_grey_5,Grey Ghost
+a2_m15_name_grey_6,Grey Manes
+a2_m15_name_grey_7,Grey Breaker
+a2_m15_name_grey_8,Grey Wraith
+a2_m15_name_grey_9,Grey Glimmer
+a2_m15_name_grey_10,Grey Spectre
+a2_m15_name_grey_11,Grey Insanity
+a2_m15_name_grey_12,Grey Acolyte
+a2_m15_name_grey_13,Grey Revenant
+a2_m15_name_grey_14,Grey Phantom
+a2_m15_name_grey_15,Grey Shade
+a2_m15_name_blue_1,Blue Movie
+a2_m15_name_blue_2,Blue Hand
+a2_m15_name_blue_3,Blue Beast
+a2_m15_name_blue_4,Blue Ruin
+a2_m15_name_blue_5,Blue Twister
+a2_m15_name_blue_6,Blue Dilapidator
+a2_m15_name_blue_7,Blue Sunset
+a2_m15_name_blue_8,Blue Decimator
+a2_m15_name_blue_9,Blue Armageddon
+a2_m15_name_blue_10,Blue Slaughter
+a2_m15_name_blue_11,Blue and Black
+a2_m15_name_blue_12,Blue Blooded Regicide
+a2_m15_name_blue_13,Blue Moon
+a2_m15_name_blue_14,Blue Enforcer
+a2_m15_name_blue_15,Blue Bondage
+a2_m15_name_black_1,Black Chalice
+a2_m15_name_black_2,Black Death
+a2_m15_name_black_3,Black Beauty's Corpse
+a2_m15_name_black_4,Black Blood
+a2_m15_name_black_5,Black Beast
+a2_m15_name_black_6,Black Passage
+a2_m15_name_black_7,Black Plague
+a2_m15_name_black_8,Black Bile
+a2_m15_name_black_9,Black Demon
+a2_m15_name_black_10,Black Velvet
+a2_m15_name_black_11,Black Cyanide
+a2_m15_name_black_12,Black and Blue
+a2_m15_name_black_13,Black Future
+a2_m15_name_black_14,Black Scourge
+a2_m15_name_black_15,Black Cloud
+a2_m15_dialogue_test_one,
+a2_m15_dialogue_test_two,
+a2_m15_dialogue_blake_we_have_the_descrambler,"Gute Nachrichten, Cal. Unsere Techniker sind der Verschlüsselungstechnik der Marauder auf die Schliche gekommen. Wir möchten, dass du den neuen Entschlüsseler mitnimmst und mal schaust, was es so zu hören gibt."
+a2_m15_dialogue_smith_descrambled,Cal! Ich empfange etwas über den Entschlüsseler. Da geht's um Folgendes... 
+a2_m15_dialogue_smith_marked_as_waypoint,Ich habe einen Streckenpunkt an den Ursprung der Nachricht gelegt und ihn 'Quelle der abgefangenen Nachricht' genannt.
+a2_m15_dialogue_smith_too_far_away,"Es ist zu weit weg, um es richtig einzufangen. Tut mir leid. Du musst näher an die Quelle."
+,
+,
+a2_m15_dialogue_red_to_grey_hunt_hw_td,Red Dog ruft Grey Dog. Bestätigen Jagd bei HW-TD.
+a2_m15_dialogue_red_to_grey_brickwall_hw_td,Red Dog an Grey Dog. Mauer bei HW-TD kann losgehen.
+a2_m15_dialogue_red_to_grey_pavlov_hw_td,Red Dog an Grey Dog. Wir beginnen Pavlov bei HW-TD.
+a2_m15_dialogue_red_to_grey_hunt_hw_gb,Red Dog an Grey Dog. Bereit zur Jagd bei HW-GB.
+a2_m15_dialogue_red_to_grey_brickwall_hw_gb,Hier Red Dog an Grey Dog. Bauen Mauer bei HW-GB auf.
+a2_m15_dialogue_red_to_grey_pavlov_hw_gb,Red Dog ruft Grey Dog. Bestätigen Pavlov bei HW-TD.
+a2_m15_dialogue_red_to_grey_hunt_hw_co,Hier Red Dog an Grey Dog. Bestätigen Jagd bei HW-CO.
+a2_m15_dialogue_red_to_grey_brickwall_hw_co,Red Dog an Grey Dog. Mauer bereit bei HW-CO.
+a2_m15_dialogue_red_to_grey_pavlov_hw_co,Red Dog an Grey Dog. Bereit zum Pavlov bei HW-CO.
+a2_m15_dialogue_red_to_grey_hunt_sr_hr,Red Dog ruft Grey Dog. Bestätigen Jagd bei SR-HR.
+a2_m15_dialogue_red_to_grey_brickwall_sr_hr,Red Dog an Grey Dog. Bestätigen Mauer bei SR-HR.
+a2_m15_dialogue_red_to_grey_pavlov_sr_hr,Hier Red Dog an Grey Dog. Beginnen Pavlov bei SR-HR.
+a2_m15_dialogue_red_to_grey_hunt_ek_ke,Hier Red Dog an Grey Dog. Bestätigen Jagd bei EK-KE.
+a2_m15_dialogue_red_to_grey_brickwall_ek_ke,Red Dog an Grey Dog. Mauer bereit bei EK-KE.
+a2_m15_dialogue_red_to_grey_pavlov,Red Dog ruft Grey Dog. Pavlov bei EK-KE.
+a2_m15_dialogue_red_to_grey_hunt_ff_nj,Red Dog an Grey Dog. Bereit zur Jagd bei FF-NJ.
+a2_m15_dialogue_red_to_grey_brickwall_ff_nj,Red Dog ruft Grey Dog. Mauer bei FF-NJ hochgezogen.
+a2_m15_dialogue_red_to_grey_pavlov_ff_nj,Red Dog an Grey Dog. Beginnen Pavlov bei FF-NJ.
+a2_m15_dialogue_red_to_grey_hunt_ff_al,Red Dog an Grey Dog. Jagd beginnt bei FF-AL.
+a2_m15_dialogue_red_to_grey_brickwall_ff_al,Hier Red Dog an Grey Dog. Mauer startet bei FF-AL.
+a2_m15_dialogue_red_to_grey_pavlov_ff_al,Red Dog an Grey Dog. Fangen Pavlov an bei FF-AL an.
+a2_m15_dialogue_red_to_grey_hunt_co_sh, Hier spricht Red Dog an Grey Dog. Bestätigen Jagd bei CO-SH.
+a2_m15_dialogue_red_to_grey_brickwall_co_sh,Red Dog ruft Grey Dog. Bestätigen Mauer bei CO-SH.
+a2_m15_dialogue_red_to_grey_pavlov_co_sh,Nachricht von Red Dog an Grey Dog. Bereit zum Pavlov bei CO-SH.
+a2_m15_dialogue_red_to_grey_hunt_co_ck,Red Dog an Grey Dog. Bestätigen Jagd bei CO-CK.
+a2_m15_dialogue_red_to_grey_brickwall_co_ck,"Hier Red Dog an Grey Dog, Mauer wird bei CO-CK aufgebaut."
+a2_m15_dialogue_red_to_grey_pavlov_co_ck,Red Dog an Grey Dog. Pavlov bei CO-CK.
+a2_m15_dialogue_grey_to_blue_hw_td,Hier Grey Dog an Blue Dog. Treffpunkt bei HW-TD.
+a2_m15_dialogue_grey_to_blue_hw_gb,Grey Dog ruft Blue Dog. Trefft uns bei HW-TD.
+a2_m15_dialogue_grey_to_blue_hw_co,Hier spricht Grey Dog an Blue Dog. Trefft uns bei HW-CO.
+a2_m15_dialogue_grey_to_blue_sr_hr,Hier Grey Dog an Blue Dog. Treffpunkt mit uns bei SR-HR.
+a2_m15_dialogue_grey_to_blue_ek_ke,Grey Dog ruft Blue Dog. Stoßt bei EK-KA zu uns.
+a2_m15_dialogue_grey_to_blue_ff_nj,Grey Dog an Blue Dog. Kontaktieren bei FF-NJ.
+a2_m15_dialogue_grey_to_blue_ff_al,Grey Dog an Blue Dog. Trefft uns bei FF-AL.
+a2_m15_dialogue_grey_to_blue_co_sh,Hier spricht Grey Dog an Blue Dog. Treffpunkt CO-SH.
+a2_m15_dialogue_grey_to_blue_co_ck,Grey Dog ruft Blue Dog. Stoßt bei CO-CK zu uns.
+a2_m15_dialogue_blue_to_black_1,Hier Blue Dog an Black Dog. Wir kommen zurück wegen Nachschub.
+a2_m15_dialogue_blue_to_black_2,Blue Dog ruft Black Dog. Bereit zur Heimkehr.
+a2_m15_dialogue_blue_to_black_3,Blue Dog an Black Dog. Sind in Kürze da zum Nachladen.
+a2_m15_dialogue_blue_to_black_4,Hier spricht Blue Dog an Black Dog. Wir kommen nach Hause.
+a2_m15_dialogue_known_grey_to_red_1,"Grey Dog an Red Dog. Passt auf eure Flanken auf, Red Dog, der Tierarzt hat wieder zugeschlagen."
+a2_m15_dialogue_known_grey_to_red_2,Grey Dog an alle Red Dogs. Seid vorsichtig. Da draußen ist jemand.
+a2_m15_dialogue_known_grey_to_black_1,Hier Grey Dog an Black Dog. Der Tierarzt hat wieder einen Red Dog im besten Alter kastriert. 
+a2_m15_dialogue_known_grey_to_black_2,"Grey Dog ruft Black Dog. Wir brauchen mehr Nachschub, um mit dem Tierarzt fertig zu werden."
+a2_m15_dialogue_clay_there_she_is,"Da ist es, Cal! Wir haben's geschafft."
+a2_m15_dialogue_clay_dont_play_hero,"Spiel jetzt nicht den Helden, Cal, wir können es unmöglich mit allen aufnehmen."

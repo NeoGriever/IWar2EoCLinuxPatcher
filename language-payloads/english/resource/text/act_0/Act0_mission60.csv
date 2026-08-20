@@ -1,0 +1,25 @@
+; FILE: Dact0_mission60.csv,
+; Key,
+; FILE NAME,GERMAN TRANSLATION
+a0_m60_name_lockup,Garage
+a0_m60_name_maas,Caleb Maas
+a0_m60_name_eye,Eye of the Storm
+a0_m60_name_bruiser,Bruiser
+a0_m60_dialogue_clay_ok_kid,"Es kann losgehen, Junge. Ich habe einen Streckenpunkt auf den Garagenvorhof gelegt und die Zugangskodes für die Garage deines Vaters eingegeben. Sie tauchen auf deiner Kontaktliste auf, sobald du in der Nähe von Hoffer's Gap bist. Viel Glück. Und, Junge? Pass da draußen gut auf dich auf."
+a0_m60_dialogue_young_cal_right_ill,"Gut, ich fange mit dem Ausladen der Drohne an."
+a0_m60_dialogue_caleb_i_think,"Ich befürchte, dass der Inhalt dieser Kiste mir gehört."
+a0_m60_dialogue_young_cal_you_killed,Du hast meinen Vater getötet! Du Schwein!
+a0_m60_dialogue_caleb_ah_the,"Ah... die gleiche vornehme Ausdrucksweise des Herrn Papas. Wie ich sehe, fällt der verfaulte Apfel nicht weit vom verfaulten Stamm."
+a0_m60_dialogue_caleb_c1_any,Möchtest du noch irgendetwas loswerden?
+a0_m60_text_c1_option1_who,Wer bist du?
+a0_m60_dialogue_player_c1_option1_who,Wer bist du?
+a0_m60_dialogue_caleb_c1_response1_im_caleb,Ich bin Caleb Maas. Ein alter... sagen wir mal... Gefährte deines Vaters und designierter Vorsitzender der Maas Corporation.
+a0_m60_text_c1_option2_why,Warum hast du meinen Vater getötet?
+a0_m60_dialogue_player_c1_option2_why,Warum hast du meinen Vater getötet?
+a0_m60_dialogue_caleb_c1_respose2_ah_yes,"Ach ja... sehr bedauernswert. Ich hatte das Pech ein Gläubiger von diesem nichtsnutzigen Faulpelz zu sein. Dein Vater hatte Schulden bei mir, die er nicht begleichen wollte. Sein Leben war eine geringfügige Entschädigung für meine Investition. "
+a0_m60_text_c1_option3_kill,Ich werde dich töten
+a0_m60_dialogue_player_c1_option3_kill,Ich werde dich töten!
+a0_m60_dialogue_caleb_this_conversation,"Diese Unterhaltung wird langweilig. Du hast ja keine Ahnung, wie unangenehm es für mich ist, mit Leuten zu reden, die für ihren Lebensunterhalt ARBEITEN müssen. Aber ich bin sicher, du willst die Schulden deines Vaters gerne als Gefangener abarbeiten. Schnappt ihn euch, Männer."
+a0_m60_dialogue_police_ah_what,"Ja, was haben wir denn da? Einen Störenfried? Hat Sie dieses Schiff belästigt, Mr. Maas, Sir?"
+a0_m60_dialogue_caleb_yes_i,"Ja. Ich ging gerade meines Weges, als dieser Rowdy mich und meine Freunde überfiel."
+a0_m60_dialogue_police_i_see,"Verstehe. Na, wir sorgen dafür, dass er keinen Ärger mehr macht. Komm schon, Kerlchen. Du kommst mit zur Station. Diese gefährliche Person wird Sie nie mehr belästigen, Mr. Maas. Er wird wie ein Erwachsener vor Gericht gestellt, und das bedeutet, dass er die Sterne nie mehr zu sehen bekommt, selbst wenn er hundert wird!"

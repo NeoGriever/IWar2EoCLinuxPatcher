@@ -1,0 +1,40 @@
+; FILE: Dact1_mission05.csv,
+; Key,
+; FILE NAME,GERMAN TRANSLATION
+a1_m05_ship_miner_1,Oregon
+a1_m05_ship_miner_2,Yoric
+a1_m05_ship_miner_3,Tinkerbell
+a1_m05_ship_marauder_freighter,Frachter X45-3
+a1_m05_ship_asteroid,Asteroidenmine #874394
+a1_m05_ship_marauder_1,Spike
+a1_m05_ship_marauder_2,Splinter
+a1_m05_ship_marauder_3,Thorn
+a1_m05_ship_marauder_4,Redbeard
+a1_m05_ship_marauder_5,Blackbeard
+a1_m05_ship_marauder_6,John Silver
+;,
+a1_m05_ship_cargo_pod,Frachtkapsel
+a1_m05_waypoint_meeting,Treffpunkt
+a1_m05_waypoint_cache,Senderstandort
+;,
+a1_m05_dialogue_miner_who_goes_there,Wer ist da? Was willst du?
+;,
+a1_m05_dialogue_player_its_cal_what_did_you_want,"Ich bin's, Cal Johnston. Sie haben mich gerufen, erinnern Sie sich nicht mehr?"
+a1_m05_dialogue_miner_i_have_some_marauder_info,"Cal Johnston. Der Mann, der es mit den Maraudern aufnehmen will! Ich könnte dir was erzählen, von dem die Marauder nicht gerade begeistert wären, wenn du es wüsstest... Aber ich gehe natürlich ein gewisses Risiko ein. Es wird also nicht billig."
+a1_m05_dialogue_miner_oh_no_its_the_marauders,Warte! Hast du noch andere Schiffe mitgebracht? Ich empfange... Marauder! Marauder im Anflug... Sie haben mich gefunden! Hilfe!
+a1_m05_dialogue_miner_help_the_marauders_are_here,Mayday! Ich werde von Maraudern angegriffen! Bitte! Sie...
+a1_m05_dialogue_miner_arrrghhh,Arrrgh!
+a1_m05_dialogue_clay_we_cant_help_him_now,"Nun, dem ist nicht mehr zu helfen. Was er wohl wollte?"
+a1_m05_dialogue_clay_darn_the_marauders_got_him,Verdammt! Die Marauder haben ihn in die Luft gejagt!
+a1_m05_dialogue_clay_we_messed_up_there,Das war nicht gerade eine unserer Glanzleistungen!
+a1_m05_dialogue_miner_thanks,"Oh Gott, Mr. Johnston, ich bin Ihnen zu tiefem Dank verpflichtet. Ich sage Ihnen, was ich über die Marauder weiß - ganz umsonst."
+a1_m05_dialogue_miner_i_found_a_marauder_supply_cache,"Ich kundschaftete gerade eine neue Mine aus, da entdeckte ich einige Frachtkapseln, die im Asteroidengürtel trieben. Eine Horde Marauder verjagte mich, aber ich konnte noch einen Minensender deponieren. Ich... ich wollte später wiederkommen, wenn die Luft rein ist, aber da geh' ich nicht mehr hin... Ich wollte euch meinen Anteil an der Beute verkaufen, aber jetzt überlasse ich ihn euch - ganz umsonst. Ihr habt allerdings nicht mehr viel Zeit, das Nachschubdepot zu finden, denn dem Sender geht langsam der Saft aus. Schätze, ich hätte nicht auf Zeit spielen sollen..."
+a1_m05_dialogue_miner_ive_transmitted_you_the_waypoint,Ich übermittle den Code des Senders. Nehmt euch vor den Maraudern in Acht!
+a1_m05_dialogue_clay_well_we_avenged_him_for_what_its_worth,"Nun, wir haben ihn zumindest gerächt... Mehr konnten wir nicht tun."
+a1_m05_dialogue_clay_hey_kid_check_your_sensors,"Merkwürdig... Hey, sieh mal auf deine Kontaktliste. Ich empfange einen Minensender, zwar nur schwach, aber immerhin. Er benutzt dasselbe Signal wie unser Freund, der Minenarbeiter."
+a1_m05_dialogue_clay_uhoh_marauders_ahead,"Achtung Kleiner, Marauder im Anflug und die kommen nicht zum Kaffeekränzchen"
+a1_m05_dialogue_clay_there_it_is,Da ist es! Sieht aus wie ein Nachschubdepot... und ein Frachter beim Beladen. Sie wollen die Fracht wegbringen!
+a1_m05_dialogue_clay_that_took_care_of_the_marauders,"Das dürfte es wohl für die Marauder gewesen sein! Lass uns mal nachsehen, ob wir nicht den Fund des Minenarbeiters irgendwo entdecken können."
+a1_m05_dialogue_clay_the_freighters_running_for_it,"Cal, der Frachter versucht zu entkommen!"
+a1_m05_dialogue_clay_the_freighters_escaped,"Verdammt, der Frachter ist entkommen!"
+a1_m05_dialogue_clay_darn_the_beacons_gone,Ah...! Der Sender ist nicht mehr zu orten. In diesem Chaos von Felsbrocken finden wir ihn wohl nicht mehr wieder.

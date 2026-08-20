@@ -1,0 +1,13 @@
+; ACT 2 MISSION 10 GRASSY KNOLL
+; Addendum - extra points to be added to the missions.
+;
+;Character cal "Cal"
+;Character thirdman "Third Man MALE"
+;Character smith "Smith"
+; extra section that appears when player first meets the third man.
+; this give the player better justification to trust him.
+a2_m10_dialogue_thirdman_c1_codeword,"See the beauty of space? Like the inky embrace of an octopus."
+a2_m10_dialogue_cal_c1_huh,"Huh? Are you dealing something?"
+a2_m10_dialogue_smith_c1_its_a_codeword,"It's a codeword, Cal. I think we can trust him."
+a2_m10_dialogue_cal_c1_ok,"Right. I knew that."
+

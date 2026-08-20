@@ -1,0 +1,284 @@
+; FILE: Dhud#3.csv,
+; Key,GERMAN TRANSLATION
+; Generic HUD text,
+;,
+hud_unknown_contact,UNBEKANNT
+hud_outsystem_range,SYSTEMFREMD
+; 5-character limit here,
+hud_outsystem_range_5,SYSFR
+
+;,
+; HUD sim type text - 5 character limit on these abbreviations,
+;,
+hud_type_unknown,UNBKT
+hud_type_star,STERN
+hud_type_planet,KÖRP
+hud_type_nebula,NEBEL
+hud_type_asteroid,ASTRD
+hud_type_waypoint,STPKT
+hud_type_lpoint,L-PKT
+hud_type_probe,SONDE
+hud_type_cargo_pod,LADG
+hud_type_weapon,WAFFE
+hud_type_missile,RAK
+hud_type_mine,MINE
+hud_type_gunstar,GUNST
+hud_type_station,STATN
+hud_type_biobomber,BIOBM
+hud_type_drone,DRONE
+hud_type_waldo,WALDO
+hud_type_command_section,KMDO
+hud_type_utility,NUTZF
+hud_type_passenger,ZIVIL
+hud_type_fighter,JÄGER
+hud_type_tug,GTR
+hud_type_patcom,PATCM
+hud_type_interceptor,ABFG
+hud_type_corvette,KORVT
+hud_type_freighter,TRANS
+hud_type_destroyer,ZERST
+hud_type_cruiser,KREUZ
+hud_type_carrier,TRÄG
+hud_type_power_up,ENERG
+hud_type_alien,ALIEN
+;,
+; HUD status line text,
+;,
+hud_status_line_lock,ZIEL:
+hud_status_line_no_contact,KEIN KONTAKT
+hud_status_line_docked,NICHT MÖGLICH - ANGEDOCKT
+hud_status_line_lds_offline,LDS AUS
+hud_status_line_lds_engaged,LDS EIN
+hud_status_line_lds_inhibit,LDS GEHEMMT
+hud_status_line_lds_charging,LDS LÄDT
+;,
+; HUD menu text,
+;,
+; These lines are menu headings and should be one word,
+; An 8-character limit applies to all the menu headings.,
+hud_menu_root,KOMMANDO
+hud_menu_targ,ZIEL 
+hud_menu_comms,KOMMUN.
+hud_menu_nav,NAV
+hud_menu_timeout,DAUER:
+;,
+; These lines are menu commands and should be succinct and memorable,
+; A 22 character limit applies to all the menu commands,
+hud_menu_next,WEITER
+hud_menu_prev,ZURÜCK
+hud_menu_cancel,ABBRECHEN
+hud_menu_undock,ABKOPPELN
+hud_menu_autopilot,AUTOPILOT
+hud_menu_autopilot_approach,ANFLUG
+hud_menu_autopilot_formate,FORMIEREN
+hud_menu_autopilot_dock,ANDOCKEN
+hud_menu_autopilot_pursuit,VERFOLG.
+hud_menu_autopilot_disengage,AUTOPILOT AUS
+hud_menu_contact_filter,FILTER
+; Jafs is a character's name,
+hud_menu_call_jafs,JAFS RUFEN
+hud_menu_wingmen,WINGMEN
+hud_menu_wingmen_report,MELDEN
+hud_menu_wingmen_defend_player,BITTE UM DECKUNG
+hud_menu_wingmen_attack_target,MEIN ZIEL ANGREIFEN
+hud_menu_wingmen_defend_target,MEIN ZIEL DECKEN
+hud_menu_wingmen_dock_to_target,AN MEIN ZIEL ANDOCKEN
+hud_menu_tfighters,K-JÄGER
+hud_menu_tfighters_attach_detach,ANSCHLIESSEN/TRENNEN
+hud_menu_tfighters_attack_target,MEIN ZIEL ANGREIFEN
+hud_menu_tfighters_fire_at_will,FEUER FREI
+hud_menu_tfighters_cease_fire,FEUER EINSTELLEN
+hud_menu_map,STERNKARTE
+;,
+; HUD starmap text,
+;,
+hud_map_caption,EINSTELLUNG STERNENNAVIGATION
+hud_map_cluster_view,ANSICHT STERNHAUFEN
+hud_map_system_view,ANSICHT SYSTEM:
+hud_map_selected,AUSGEWÄHLT:
+hud_map_zoom_in,HERANZOOMEN
+hud_map_zoom_out,HERAUSZOOMEN
+;,
+; HUD debug text,
+;,
+hud_debug_indestructible,Unzerstörbar
+hud_debug_mission_string,Laufende Missionen:
+hud_debug_no_mission_tracker,Einsatzerkennung nicht installiert
+;,
+; HUD Engineering display text,
+;,
+hud_engineering_hull,SCHIFFSRUMPF
+;,
+; HUD target window text,
+;,
+; These 4 phrases have a 20 character limit per phrase,
+; [UCP stands for Universal Cargo Profile - a sort of barcode in space],
+hud_target_ucp_scan_mode,UFP-SCAN
+hud_target_target_mode,ZIEL ANVISIERT
+hud_target_comms_mode,KOMMUNIKATIONSKANAL
+hud_target_waypoint_details,STRECKENPUNKT
+
+;,
+hud_target_empty_pod,KEINE FRACHT
+hud_target_customs_value,WERT: 
+hud_target_waybill, - FRACHTBRIEF-SERIENNUMMER:
+hud_target_shipper, - REEDEREI: 
+hud_target_unknown_shipper, - UNBEKANNTE REEDEREI
+hud_target_registered_to, REGISTRIERT FÜR:
+hud_target_unregistered, - NICHT REGISTRIERT
+hud_target_unknown_class,KLASSE UNBEKANNT
+;,
+; HUD ORB text,
+;,
+; 20 character limit,
+hud_orb_label,ORB
+
+
+NEW TEXT ADDED FOR LOCALISATION @ 31st AUGUST 2000,
+
+;,
+
+
+
+hud_menu_engineering,MASCHINENRAUM
+hud_engineering_ship,SCHIFF:
+hud_engineering_iff,IFF-CODE:
+hud_engineering_resettri,TRI ZURÜCKSETZEN
+
+
+hud_engineering_general_enabled,AKTIVIERT
+hud_engineering_general_disabled,DEAKTIVIERT
+hud_engineering_powerpod_enabled,ENERGIEKAP. EIN
+hud_engineering_powerpod_disabled,ENERGIEKAP. AUS
+;,
+
+;,
+
+hud_target_waypoint_mode,NAVIGATIONSZIEL
+hud_target_receiving_video,EMPFÄNGT VIDEO
+hud_target_no_video_feed,KEIN VIDEOEMPFANG
+hud_target_awaiting_response,WARTET AUF ANTWORT
+hud_target_no_target,KEIN ZIEL
+hud_target_comm_channel_open,KOMM.-KANAL OFFEN
+hud_target_unknown_target,ZIEL UNBEKANNT
+;,
+
+
+
+hud_contact,KONTAKT
+hud_contacts,KONTAKTE
+hud_no_contacts,KEINE KONTAKTE
+hud_unknown_speaker,QUELLE UNBEKANNT
+;,
+
+;,
+hud_menu_log,LOGBUCH
+hud_log_caption,EINSATZLOGBUCH
+;,
+
+;,
+hud_list_entry,EINTRAG
+hud_list_entries,EINTRÄGE
+hud_list_no_entries,KEINE EINTRÄGE
+;,
+
+;,
+hud_menu_objectives,ZIELE
+hud_objectives_caption,EINSATZZIELE
+hud_objectives_incomplete,NICHT ERFÜLLT:
+hud_objectives_succeeded,ERFÜLLT:
+hud_objectives_failed,GESCHEITERT:
+;,
+
+;,
+hud_menu_cmd,KMD
+hud_menu_wep,WAF
+hud_menu_eng,MAS
+hud_menu_menu,MENÜ
+;,
+
+;,
+hud_filter_ships,KONT: SCHIFF/STATION
+hud_filter_waypoints,KONT: STRECKENPUNKTE
+,
+hud_score_sheet_caption,STATISTIK
+
+hud_long_type_unknown,Unbekannt
+hud_long_type_star,Stern
+hud_long_type_planet,Planet
+hud_long_type_nebula,Nebel
+hud_long_type_asteroid,Asteroid
+hud_long_type_waypoint,Streckenpunkt
+hud_long_type_lpoint,L-Punkt
+hud_long_type_probe,Sonde
+hud_long_type_cargo_pod,Ladekapsel
+hud_long_type_weapon,Waffe
+hud_long_type_missile,Rakete
+hud_long_type_mine,Mine
+hud_long_type_gunstar,Gunstar
+hud_long_type_station,Station
+hud_long_type_biobomber,Bio-Bomber
+hud_long_type_drone,Drohne
+hud_long_type_waldo,Waldo
+hud_long_type_command_section,KMDO-Sektion
+hud_long_type_utility,Nutzfahrzeug
+hud_long_type_passenger,Zivilist
+hud_long_type_fighter,Jäger
+hud_long_type_tug,GTR
+hud_long_type_patcom,Patcom
+hud_long_type_interceptor,Abfangjäger
+hud_long_type_corvette,Korvette
+hud_long_type_freighter,Transporter
+hud_long_type_destroyer,Zerstörer
+hud_long_type_cruiser,Kreuzer
+hud_long_type_carrier,Träger
+hud_long_type_power_up,Power-Up
+hud_long_type_alien,Alien
+;,
+,
+;,
+hud_map_jump_destination,SPRUNGZIEL
+hud_map_destination,ZIEL
+hud_map_select_destination,ZIEL WÄHLEN
+hud_map_interstellar_point,INTERSTELL. L-PUNKT
+hud_map_local_point,LOKALER L-PUNKT
+hud_map_mission_waypoints,STPKTE DER MISSION
+hud_map_route,ROUTE
+
+;,
+hud_menu_zoom_in,HERANZOOMEN
+hud_menu_zoom_out,HERAUSZOOMEN
+hud_menu_toggle_filter,FILTER UMSCHALTEN
+hud_menu_remote_link,REM-VERBINDUNG
+hud_menu_cancel_link,REM-ABBRUCH
+hud_menu_toggle_target_assist,VISIER EIN/AUS
+hud_menu_toggle_aim_assist,ZIELHILFE EIN/AUS
+
+;,
+hud_target_trade_item,HANDELSWARE
+hud_target_subtarget,UNTERZIEL
+hud_target_sub,UNT
+;,
+hud_shield_status,SCHILD-STATUS
+hud_lda_status,LDA-STATUS
+hud_tracking,VERFOLGUNG
+
+
+
+hud_lds,LDS
+hud_capsule_space,HYPERRAUM
+hud_capsule_drive,HYPERANTRIEB
+hud_online,EIN
+hud_offline,AUS
+hud_charging,LÄDT
+hud_damaged,BESCHÄDIGT
+hud_destroyed,ZERSTÖRT
+hud_system_status,SYSTEM-STATUS
+hud_status,STATUS
+
+hud_engineering_equalise_tri,TRI AUSGLEICHEN
+hud_engineering_equalise_power,ANTRIEB AUSGLEICHEN
+
+hud_menu_doc,DOK
+
+hud_engineering_back,ZURÜCK

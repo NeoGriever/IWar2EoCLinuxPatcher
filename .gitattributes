@@ -1,0 +1,5 @@
+# The game reads these CP1252/CRLF assets byte-for-byte.  Never normalize
+# their line endings during checkout or commit.
+/language-payloads/**/*.csv -text
+/language-payloads/**/*.html -text
+/language-payloads/**/*.ini -text

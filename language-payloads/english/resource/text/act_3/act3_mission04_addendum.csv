@@ -1,0 +1,13 @@
+; FILE: Dact3_mission04_addendum.csv,
+; Key,
+ACT 3 MISSION 04 ADDENDUM,
+; FILE NAME,GERMAN TRANSLATION
+;,
+a3_m04_text_caption_santa_romera,"Sprungbeschleuniger, Santa Romera "
+a3_m04_text_caption_formalhaut,"Sprungbeschleuniger, Fomalhaut "
+a3_m04_text_caption_mission_failed_fleet_destroyed,Mission gescheitert - Leagueflotte zerstört.
+a3_m04_text_caption_mission_failed_marines_destroyed,Mission gescheitert - Marines zerstört.
+a3_m04_dialogue_megafreighter_ready_for_jump,Transporter MMF-94501 bittet um Erlaubnis zum Sprung nach Fomalhaut.
+a3_m04_dialogue_stc_clear_to_jump,"Transporter MMF-94501, Identität bestätigt. Der LDA-Schild wird für Ihren Sprung deaktiviert. Viel Glück."
+a3_m04_dialogue_megafreighter_you_need_a_bigger_ship,"Du wirst mehr Feuerkraft brauchen! Ich schlage vor, du dockst an und nimmst ein anderes Schiff bevor wir losfliegen."
+a3_m04_dialogue_megafreighter_thats_better,Schon besser! Flieg einfach hier rüber und wir nehmen dich zum Angriff an Bord.
