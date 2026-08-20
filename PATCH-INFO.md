@@ -1,114 +1,108 @@
-# Independence War 2: Edge of Chaos – Ultimate Patcher
+# Independence War 2: Edge of Chaos — Ultimate Patcher
 
-Dieses Paket ergänzt die geprüfte englische Steam-Fassung wahlweise um die deutsche Original-CD-Lokalisierung, Linux-Audiokonvertierung, No-CD, den CPU-Speed-Fix, Maussteuerung, auswählbare 4:3-/16:9-Videovarianten und die getestete Gamescope-Fensterkonfiguration. Es enthält keine Saves. Die Steam-Fassung liefert F14.6 bereits mit; der inkompatible historische Standalone-Patch wird deshalb weder angeboten noch mitgeliefert.
+This package can add the original German CD localization, Linux audio conversion, No-CD, the CPU Speed Fix, mouse controls, selectable 4:3/16:9 video variants, and the tested Gamescope window configuration to the verified English Steam release. It does not contain or modify save games. The Steam release already includes F14.6, so the incompatible historical standalone patch is neither offered nor installed.
 
-`resource.zip` wurde aus der aktuellen Steam-Datei erzeugt: Alle 33 Steam-spezifischen Inhalte bleiben erhalten, während 564 lokalisierte und 15 CD-exklusive Dateien durch die deutsche CD-Fassung ergänzt werden. Die sieben Steam-Overrides unter `resource/` und 2.557 deutsche PCM-Dialoge sind direkt enthalten. Die drei sprachabhängigen deutschen Intro-, Mittel- und Abschlussvideos kommen aus dem externen, geprüft heruntergeladenen Video-Stack.
+The German `resource.zip` was created from the current Steam archive: all 33 Steam-specific files are retained, while 564 localized and 15 CD-exclusive files are supplied from the German CD release. The downloaded data set also includes the seven Steam overrides under `resource/` and 2,557 German PCM dialogue files. The three language-specific German intro, mid-game, and ending movies are downloaded from the verified external video set.
 
-## Interaktive Anwendung
+## Interactive use
 
-Aus diesem Ordner starten:
+Run the patcher from this directory:
 
 ```bash
 ./ultimate-patcher.sh
 ```
 
-Pfeiltasten oder `W`/`S` bewegen die Auswahl; `A`/`D`, `Enter` oder Leertaste schalten die Auswahl. `Esc` schließt den Patcher. Die Symbole und Farben haben feste Bedeutungen:
+Use the arrow keys or `W`/`S` to move the selection. Use `A`/`D`, `Enter`, or `Space` to change an option. `Esc` closes the patcher. Symbols and colors have fixed meanings:
 
-- `□` gelb: auswählbar, nicht gewählt
-- `▣` grün: auswählbar, gewählt
-- `▤` grau: wegen einer Abhängigkeit nicht auswählbar
-- `▩` hellgrau: gewählt, aber derzeit nicht änderbar
+- yellow `□`: available, not selected
+- green `▣`: available, selected
+- gray `▤`: unavailable because of a dependency
+- light-gray `▩`: selected, but currently locked by a dependency
 
-Während der Ausführung zeigt der Patcher ausschließlich für gewählte Aufgaben `▹` (wartend), einen animierten Braille-Spinner (läuft) und `✓` (fertig). Der Balken verwendet Achtelzeichen für feineren Fortschritt. Menü und Fortschrittsansicht werden jeweils vollständig gepuffert und als synchronisierter Terminal-Frame ausgegeben, damit beim Neuzeichnen keine einzelnen Zwischenstände sichtbar werden.
+During execution, selected tasks show `▹` while waiting, an animated Braille spinner while running, and `✓` when complete. The progress bar uses eighth-block characters for finer progress. The menu and progress view are fully buffered and emitted as synchronized terminal frames so intermediate redraw states are not visible.
 
-Die Abhängigkeiten sind absichtlich fest:
+The following dependencies are intentional:
 
-- **Install german Game-data** schaltet **Convert Audio-Files to work under Linux** aus. Die deutsche Nutzlast enthält bereits PCM-Dialoge.
-- Bei **16:9** ist genau eine der vier Auflösungen wählbar.
-- **Use fullscreen** ist unabhängig von 16:9. Ohne diese Auswahl bleibt das äußere Gamescope-Fenster ein normales Fenster.
+- **Install german Game-data** disables **Convert Audio-Files to work under Linux**, because the German data already contains PCM dialogue.
+- With **16:9** enabled, exactly one of the four resolutions can be selected.
+- **Use fullscreen** is independent of 16:9. Without it, the outer Gamescope window remains a normal window.
 
 ### CPU Speed Fix
 
-**Install CPU Speed Fix** prüft beim Start des Patchers mit `tools/iwar2-tsc-check.cpp` den tatsächlich laufenden x86-Time-Stamp-Counter (TSC). Das kleine native C++-Programm misst dessen Ticks über eine monotone Referenzzeit, statt die angezeigte Basis- oder Boost-Taktrate zu verwenden. Liegt der Messwert über `4.294.967.295` Ticks pro Sekunde, wird die Option automatisch ausgewählt; sie bleibt aber jederzeit manuell umschaltbar. Ist der Wert niedriger oder die Messung nicht verfügbar, bleibt die Option zunächst abgewählt.
+At startup, **Install CPU Speed Fix** uses `tools/iwar2-tsc-check.cpp` to measure the active x86 Time Stamp Counter (TSC). The small native C++ helper measures ticks against a monotonic reference clock instead of relying on an advertised base or boost frequency. If the measured rate exceeds `4,294,967,295` ticks per second, the option is selected automatically, but it can still be toggled manually. It remains unselected if the rate is lower or the measurement is unavailable.
 
-Der Fix ist keine allgemeine Leistungsoptimierung. Er ändert ausschließlich die geprüfte Steam-`bin/release/flux.dll` mit SHA-256 `f5ceddfbebd4c23fe510d033918ccc1306eb02306157c3acf5d06151a5fcd39b`: Byte `0x18EF1` wird von `00` auf `01` gesetzt. Das ergänzt beim Überlauf einmal `2^32` Ticks. Das Modul akzeptiert nur diese Originaldatei oder seine selbst geprüfte Zielversion, sichert die DLL vor dem Schreiben und stellt sie bei jeder fehlgeschlagenen Nachprüfung wieder her. Für den ersten automatischen Test muss `g++` vorhanden sein; der gebaute Prüfer liegt anschließend im XDG-Cache.
+This fix is not a general performance optimization. It modifies only the verified Steam `bin/release/flux.dll` with SHA-256 `f5ceddfbebd4c23fe510d033918ccc1306eb02306157c3acf5d06151a5fcd39b`: byte `0x18EF1` changes from `00` to `01`, adding `2^32` ticks once when the counter overflows. The module accepts only the original DLL or its own verified patched version, backs up the DLL before writing, and restores it after any failed verification. `g++` is required for the first automatic check; the compiled helper is then cached in the user's XDG cache.
 
 ### Videos
 
-Der Bereich **Video variants** arbeitet mit Radiobuttons:
+The **Video variants** section uses radio-button groups:
 
-- **Don't change videos** schreibt keine Videodatei.
-- **Install videos based on settings** leitet Sprache und Bildformat automatisch ab: mit deutscher Spieldaten-Auswahl werden deutsche Videos verwendet, sonst englische; mit aktivem 16:9-Display werden die 16:9-Videos verwendet, sonst die Standard-4:3-Fassung. Die beiden manuellen Gruppen bleiben in diesem Modus absichtlich deaktiviert.
-- **Install manually selected videos** schaltet zwei unabhängige Radiogruppen frei: genau eine Wahl aus **Install 4:3 videos** / **Install 16:9 videos** und genau eine aus **Install English videos** / **Install German videos**. Die Voreinstellung dafür ist 4:3 und Englisch.
+- **Don't change videos** does not write any video files.
+- **Install videos based on settings** derives language and aspect ratio automatically. Selecting German game data uses German videos; otherwise it uses English. Enabling the 16:9 display option uses 16:9 videos; otherwise it uses the standard 4:3 set. The two manual groups remain disabled in this mode.
+- **Install manually selected videos** enables two independent groups: exactly one choice between **Install 4:3 videos** and **Install 16:9 videos**, and exactly one choice between **Install English videos** and **Install German videos**. The defaults are 4:3 and English.
 
-Alle vier Kombinationen enthalten ausschließlich die zwölf tatsächlich unterschiedlichen 640×480-Filmsequenzen. Für die 16:9-Fassung werden sie verlustfrei vorbereitet: je 60 Pixel oben und unten entfernt (640×360), anschließend auf 640×480 vorgestreckt und erst dann wieder als Bink 1 kodiert. Das Spiel streckt diese Fassung im eigenen 16:9-Rendering erneut korrekt. Die dreizehn identischen 400×400-Avatar-/HUD-Clips sind bewusst **nicht** Teil der Nutzlast: Sie bleiben unverändert in der Grundinstallation.
+Each of the four combinations contains only the twelve 640×480 cinematic files that actually differ. The 16:9 variants are prepared without changing their content: 60 pixels are cropped from the top and bottom to produce 640×360, the image is pre-stretched back to 640×480, and the result is encoded as Bink 1. The game then displays that prepared image correctly through its own 16:9 rendering. The thirteen identical 400×400 avatar/HUD clips are deliberately left unchanged in the base installation.
 
-Die großen Bink-Dateien liegen absichtlich **nicht** mehr im Patcher. Sobald eine Video-Variante ausgewählt ist, läuft vor allen Änderungsaufgaben sichtbar **Download and verify selected videos**. Dieses Pre-Processing ermittelt exakt die zwölf Dateien der gewählten Kombination, prüft sie im persistenten Cache und lädt nur fehlende oder beschädigte Dateien herunter. Erst wenn alle SHA-256-Prüfungen erfolgreich sind, beginnt das Sichern oder Ändern des Spielordners. Der Cache liegt standardmäßig unter `~/.cache/independence-war-2-ultimate-patcher/videos/` und wird bei künftigen Durchläufen wiederverwendet. `IW2_VIDEO_CACHE_DIR` kann ihn für Tests oder einen anderen Speicherort umleiten.
+When a video variant is selected, **Download and verify selected videos** runs visibly before any task that changes the game. This pre-processing step determines the exact twelve files for the selected combination, checks the persistent cache, and downloads only missing or damaged files. No backup or game-directory modification begins until all SHA-256 checks pass. The cache defaults to `~/.cache/independence-war-2-ultimate-patcher/videos/` and is reused on later runs. `IW2_VIDEO_CACHE_DIR` can redirect it for tests or another storage location.
 
-Die öffentliche Download-Zuordnung steht zentral in [`sources.json`](sources.json). Jede Zeile ordnet eine Kombination aus Sprache, Format und BIK-Dateiname einer direkten HTTPS-URL zu; die zunächst leeren Werte müssen vor einer Veröffentlichung ausgefüllt werden. Die unabhängigen, kleinen Prüfsummen liegen als Klartext-Dateien `<video>.bik.hash` unter `video-hashes/`; derselbe Sidecar liegt für den Upload auch neben jeder BIK in `../VIDEO-DISTRIBUTION/videos/`. Eine fehlende URL oder eine falsche Prüfsumme lässt die Download-Aufgabe fehlschlagen, ohne irgendeine Spieldatei zu ändern. Nach erfolgreicher Vorbereitung erzeugt die Installationsaufgabe nur von den zwölf Zielvideos eine ZIP-Sicherung und prüft jede installierte Datei erneut.
+The required download mappings are already configured. A missing download or hash mismatch fails the download task without changing any game files. After preparation, the installation task creates a ZIP backup containing only the twelve target videos and verifies every installed file again.
 
-Wird nur **Install german Game-data** gewählt, lädt die Vorprüfung exakt die drei abweichenden deutschen Originalfilme `intro.bik`, `midtro.bik` und `Outro.bik` aus dem deutschen 4:3-Stack und der Datenpatch verwendet sie aus dem Cache. Ist zusätzlich eine vollständige Video-Variante gewählt, lädt diese stattdessen die zwölf Dateien vorab; der deutsche Datenpatch lässt die drei Filme dann aus, damit nichts doppelt heruntergeladen oder kopiert wird.
+If only **Install german Game-data** is selected, preflight downloads the three differing German movies—`intro.bik`, `midtro.bik`, and `Outro.bik`—from the German 4:3 set, and the game-data patch uses them from the cache. If a complete video variant is selected as well, that task prepares all twelve movies and the German data task skips its three copies, avoiding duplicate downloads and writes.
 
-Auch die nicht im Repository enthaltenen deutschen Basisdaten werden vor jeder Spieländerung vorbereitet: `artifact_sources` in `sources.json` enthält drei direkte URLs für `resource.zip`, das kleine `resource/`-Overlay und `streams.zip`. Die Archive werden im Cache entpackt und anschließend gegen alle 2.565 deutschen Hashes aus `patch-manifest.txt` geprüft. Damit enthält das Git-Projekt keine CD-Spielinhalte; ohne vollständig konfigurierte URLs bleibt der deutsche Datenpatch sicher in der Vorprüfung stehen.
+The German base data is also prepared automatically before the game is changed. The patcher downloads `resource.zip`, the small `resource/` overlay, and `streams.zip`, extracts them into the cache, and validates them against all 2,565 German hashes in `patch-manifest.txt`.
 
-Der Patcher startet vollständig ohne ausgewählte Aufgaben; so wird nur das installiert, was bewusst markiert wurde. Für eine Steam-Bibliothek an einem anderen Ort kann der Spielpfad als Argument übergeben werden:
+The patcher starts with no tasks selected, so it installs only explicitly chosen changes.
 
-Beim Start sucht der Patcher jedoch normalerweise selbst: Er liest alle eingebundenen Steam-Bibliotheken aus `libraryfolders.vdf`, prüft zu App `359630` jeweils das Steam-Manifest `appmanifest_359630.acf` und akzeptiert den gemeldeten Ordner nur mit `EdgeOfChaos.exe` und `resource.zip`. Dadurch werden auch Installationen auf zweiten Laufwerken erkannt. Der gefundene beziehungsweise ausgewählte Pfad steht oberhalb der Installationsoptionen. **Change path ...** öffnet einen Dateidialog für `EdgeOfChaos.exe`; erst nach derselben Prüfung wird dessen Ordner übernommen. Unter KDE verwendet der Patcher KDialog, ansonsten Zenity, falls vorhanden.
+At startup, it normally discovers the game automatically. It reads every mounted Steam library from `libraryfolders.vdf`, checks the Steam manifest `appmanifest_359630.acf` for App 359630, and accepts a reported installation only when both `EdgeOfChaos.exe` and `resource.zip` are present. This also detects installations on secondary drives. The discovered or manually selected path is shown above the installation options. **Change path ...** opens a file chooser for `EdgeOfChaos.exe`; its directory is accepted only after the same validation. The patcher uses KDialog on KDE and falls back to Zenity when available.
 
-Der Pfad kann bei Bedarf weiterhin als Argument übergeben werden:
+The game path can also be passed explicitly:
 
 ```bash
-./ultimate-patcher.sh "/anderer/Pfad/Independence War 2 - Edge of Chaos"
+./ultimate-patcher.sh "/other/path/Independence War 2 - Edge of Chaos"
 ```
 
-## Direkte Anwendung per Skript
+## Direct script use
 
-Die Anwendung prüft vorher jede Prüfsumme und erzeugt dann eine reversible ZIP-Sicherung aller vorhandenen Zieldateien (derzeit 2.495 Dateien). Die 73 Dialoge, die nur auf der deutschen CD vorkommen, werden beim Restore gezielt wieder entfernt:
+The direct German-data script verifies every checksum before writing and creates a reversible ZIP backup of all existing target files (currently 2,495 files). During restore, it also removes the 73 dialogue files that exist only on the German CD.
+
+Apply the German game data:
 
 ```bash
 ./apply-german-patch.sh "/home/mind/.local/share/Steam/steamapps/common/Independence War 2 - Edge of Chaos"
 ```
 
-Den Zustand prüfen:
+Check the current state:
 
 ```bash
 ./apply-german-patch.sh --status "/home/mind/.local/share/Steam/steamapps/common/Independence War 2 - Edge of Chaos"
 ```
 
-Eine als `SHARED` markierte Datei ist in beiden Fassungen bitidentisch und kein Fehler.
+A file reported as `SHARED` is byte-identical in both language versions and is not an error.
 
-Die englische Fassung aus der beim Anwenden angelegten Sicherung wiederherstellen:
+Restore the English version from the backup created during installation:
 
 ```bash
 ./restore-english.sh "/home/mind/.local/share/Steam/steamapps/common/Independence War 2 - Edge of Chaos"
 ```
 
-## Direkt kopieren
+## Direct copying
 
-Die deutschen Nutzdaten werden nicht mehr im Patcher mitgeliefert. Ein direktes Überkopieren ist daher nicht vorgesehen; das Script oben führt die nötige Vorprüfung, Downloads und Sicherungen aus.
+Directly copying German data into the game is not supported. Use the script above so that downloads, validation, and backups are completed correctly. Neither `backups/` nor the scripts need to be copied into the game directory.
 
-`backups/` sowie die Scripts müssen dafür nicht in den Spielordner kopiert werden.
+## Scope and limits
 
-## Grenzen
+The German package localizes menus, mission objectives, email, encyclopedia content, the 2,557 dialogue files from the original German release, and the three differing cinematics. The Steam release has 110 additional language-file names with no German CD equivalent. They remain unchanged for Steam compatibility.
 
-Das Paket stellt Menüs, Missionsziele, E-Mails, Enzyklopädie, die 2.557 Dialogdateien der deutschen Originalfassung und die drei abweichenden Zwischensequenzen auf Deutsch um. 110 zusätzliche Steam-Sprachdateinamen besitzen kein Gegenstück auf der deutschen CD und bleiben für Steam-Kompatibilität unverändert im Spielordner; sie werden von diesem Paket nicht überschrieben.
+## Steam F14.6 and language foundations
 
-## Steam-F14.6 und Sprachgrundlagen
+The Steam version already includes F14.6. The former standalone installer from `eoc_patch_2.exe` is incompatible with this release and has been removed completely. If the historical patch was applied manually, restore the supported state with Steam's file verification or a clean installation before using this patcher.
 
-Die Steam-Version enthält F14.6 bereits. Der frühere Standalone-Installer aus `eoc_patch_2.exe` passt nicht auf diese Ausgabe und wurde vollständig aus dem Patcher entfernt. Installationen, auf die dieser historische Patch bereits manuell angewendet wurde, sollten vor Verwendung des Tools über Steams Dateiprüfung oder eine saubere Neuinstallation in den unterstützten Zustand zurückgebracht werden.
+The complete editable German and English trees under [`language-payloads/`](language-payloads/) remain available as foundations for a future explicit language-selection step. Both contain the same 333 target paths, including the historical `TEXT`/`text` variants. The current patcher does not install these foundations automatically.
 
-Die vollständigen, editierbaren Deutsch- und Englisch-Bäume unter [`language-payloads/`](language-payloads/) bleiben als Grundlagen für einen späteren expliziten Sprach-Auswahlschritt erhalten. Beide enthalten dieselben 333 Zielpfade einschließlich der historischen `TEXT`/`text`-Varianten. Der aktuelle Patcher installiert diese Grundlagen noch nicht automatisch.
+## Window mode, 16:9, and mouse controls
 
-## Fenster, 16:9 und Maus
+`tools/iwar2-gamescope-diagnostic.sh` starts the game inside an **outer, normal Gamescope window**. The game itself uses a fixed internal 16:9 output, preventing accidental resizing of the old DirectDraw window from immediately freezing it. **Set Gamescope as Steam launch option** installs an up-to-date wrapper and runtime configuration under `~/.local/share/independence-war-2-ultimate-patcher/` and uses only that stable location in Steam's launch options. The Ultimate Patcher can therefore be run from any directory or moved later.
 
-`tools/iwar2-gamescope-diagnostic.sh` startet das Spiel in einem **äußeren, normalen Gamescope-Fenster**. Das Spiel selbst läuft darin mit festem innerem 16:9-Output; damit führt ein versehentliches Größenändern des alten DirectDraw-Fensters nicht direkt zum Einfrieren. Die Checkbox **Set Gamescope as Steam launch option** installiert eine aktuelle Wrapper-Kopie samt Laufzeitkonfiguration einheitlich nach `~/.local/share/independence-war-2-ultimate-patcher/` und trägt ausschließlich diesen stabilen Pfad als Steam-Startparameter ein. Damit kann der Ultimate Patcher aus jedem beliebigen Ordner ausgeführt oder später verschoben werden. Läuft Steam noch, installiert der Task die Laufzeitkopie trotzdem und gibt anschließend eine kurze Anleitung mit der exakt kopierbaren Zeile für Steam → Eigenschaften → Allgemein → Startoptionen aus; die Steam-Datei selbst bleibt dabei unverändert. Erst mit dieser Auswahl werden Gamescopes Backend (`Auto erkennen`, Wayland oder SDL), äußeres Vollbild und die verlangsamte Maus `-s 0.045` freigeschaltet. Bei `Auto erkennen` wird unter einer Wayland-Sitzung Wayland, unter X11/sonstiger Displaysitzung SDL gewählt; eine manuelle Auswahl hat Vorrang. `runtime/display.conf` zeichnet Einstellung und aufgelösten Backend-Wert im Startlog nach.
+If Steam is still running, the task installs the runtime copy but leaves Steam's configuration unchanged and prints the exact line to copy into Steam → Properties → General → Launch Options. Selecting the Gamescope option enables the backend choice (**Auto-detect for the current desktop session**, Wayland, or SDL), outer fullscreen mode, and the slower mouse setting `-s 0.045`. Auto detection selects Wayland in a Wayland session and SDL under X11 or another display session; an explicit selection takes precedence. `runtime/display.conf` records both the configured and resolved backend in the startup log.
 
-Die Mausoption installiert `configs/corrected.ini`, ergänzt Maus-Yaw/Pitch und setzt für Steam-App `359630` über `protontricks` `MouseWarpOverride=enabled`. Die Anzeigeoption schreibt nur `flux.ini` und `runtime/display.conf`; sie verändert keine Sprach- oder Missionsdateien.
-
-## Video-Nutzlast erzeugen (Wartung)
-
-`tools/build-video-variants.sh` ist das reproduzierbare Bauwerkzeug für die vier Video-Sets. Es erwartet den deutschen CD-Ordner `movies/` und eine ZIP-Sicherung mit den drei ursprünglichen englischen Zwischensequenzen. Standardmäßig schreibt es die großen Upload-Dateien nach `../VIDEO-DISTRIBUTION/videos/`, die Audit-Manifeste nach `audits/video-variants/` und die für den Patcher bestimmten Klartext-Prüfsummen nach `video-hashes/`. Es erzeugt erst in einem Staging-Verzeichnis, prüft Bildgröße, Bildrate und Stereo-Ton der zwölf Filmsequenzen und veröffentlicht alle drei Ergebnisse erst am Ende. Die unveränderten 400×400-HUD-/Avatarvideos werden nicht paketiert.
-
-## Direkte Anwendung der deutschen Spieldaten
-
-Die bewährten direkten Skripte bleiben erhalten. Sie sind sinnvoll, wenn ausschließlich die deutsche Original-CD-Lokalisierung installiert oder aus einer beim Apply erzeugten Sicherung zurückgestellt werden soll:
+The mouse option installs `payloads/configs/corrected.ini`, adds mouse yaw/pitch, and uses `protontricks` to set `MouseWarpOverride=enabled` for Steam App 359630. The display option writes only `flux.ini` and `runtime/display.conf`; it does not modify language or mission files.
