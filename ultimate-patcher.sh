@@ -20,14 +20,12 @@ YELLOW=$'\e[38;5;220m'
 GREEN=$'\e[38;5;46m'
 CYAN=$'\e[38;5;51m'
 WHITE=$'\e[97m'
-SPINNER_FRAMES=(⠇ ⠦ ⠴ ⠸ ⠙ ⠋)
+SPINNER_FRAMES=(⠈ ⠐ ⠠ ⢀ ⢁ ⢂ ⢄ ⣀ ⣁ ⣂ ⣄ ⣌ ⣔ ⣤ ⣬ ⣴ ⣵ ⣶ ⣷ ⣿ ⢿ ⠿ ⡻ ⠻ ⢛ ⠛ ⠝ ⡙ ⠙ ⠩ ⢉ ⠉ ⠊ ⠌ ⡈ ⠈ ⠐ ⠠ ⢀ ⠀ ⡀ ⣄ ⢦ ⠳ ⠙ ⠈ ⠁ ⠋ ⠞ ⡴ ⣠ ⢀ ⡀ ⡄ ⡆ ⠇ ⠋ ⠙ ⠸ ⢰ ⣠ ⣄ ⡆ ⠇ ⠋ ⠙ ⠸ ⢰ ⣠ ⣄ ⡆ ⠇ ⠋ ⠙ ⠸ ⢰ ⣠ ⣄ ⡆ ⠇ ⠋ ⠙ ⠸ ⢰ ⢡ ⢃ ⠇ ⡆ ⣄ ⣠ ⢰ ⠸ ⠙ ⠋ ⠇ ⡆ ⣄ ⣠ ⢰ ⠸ ⠙ ⠋ ⠇ ⡆ ⣄ ⣠ ⢰ ⠸ ⠙ ⠋ ⠇ ⡆ ⣄ ⣠ ⢰ ⠸ ⠙ ⠋ ⠇ ⡆ ⣄ ⣠ ⢰ ⠸ ⠙ ⠋ ⠇ ⡆ ⡄ ⡀ ⠀ ⠉ ⠒ ⠤ ⣀ ⠀ ⣀ ⠤ ⠒ ⠉ ⠀ ⠉ ⠒ ⠤ ⣀ ⠀ ⣀ ⠤ ⠒ ⠉ ⠀ ⢸ ⣇ ⡀ ⠰ ⢎ ⡱ ⠆ ⢠ ⡼ ⠯ ⠽ ⢧ ⡄ ⢸ ⣏ ⡱ ⠆ ⢸ ⡇ ⢸ ⡏ ⠑ ⢺ ⡇ ⠰ ⢎ ⣡ ⡄ ⠉ ⠒ ⠤ ⣀ ⠀ ⣀ ⠤ ⠒ ⠉ ⠀ ⠉ ⠒ ⠤ ⣀ ⠀ ⣀ ⠤ ⠒ ⠉ ⠀)
 
 # Every task starts deselected.  Dependencies are still resolved immediately
 # when the user selects an option.
 install_german=0
 convert_audio=0
-install_f14=0
-fix_english=0
 install_nocd=0
 install_cpu_speed_fix=0
 configure_mouse=0
@@ -44,18 +42,127 @@ gamescope_backend=''
 use_gamescope_mouse_sensitivity=0
 selected_item='change_path'
 
-declare -a ITEM_ORDER=(change_path german audio f14 english nocd cpu_speed mouse widescreen 720p 1080p 1440p 4k videos_none videos_settings videos_manual video_standard video_widescreen video_english video_german gamescope_launcher backend_auto backend_wayland backend_sdl gamescope_mouse_sensitivity fullscreen apply)
+declare -a ITEM_ORDER=(change_path german audio nocd cpu_speed mouse widescreen 720p 1080p 1440p 4k videos_none videos_settings videos_manual video_standard video_widescreen video_english video_german gamescope_launcher backend_auto backend_wayland backend_sdl gamescope_mouse_sensitivity fullscreen apply)
 declare -a TASK_IDS=()
 declare -a TASK_STATES=()
 operation_log=''
 progress_file=''
 cursor_hidden=0
+loading_pid=''
 
+# Minimum interval between repeated W/S or arrow-key navigation steps.
+# The first press and a direction change are always accepted immediately.
+NAV_REPEAT_US="${IW2_NAV_REPEAT_US:-150000}"
+LAST_NAV_US=0
+LAST_NAV_DIRECTION=''
+PENDING_KEY=''
+
+navigation_allowed() {
+    local direction="$1" stamp sec usec now
+    [[ "$NAV_REPEAT_US" =~ ^[0-9]+$ ]] || NAV_REPEAT_US=80000
+
+    stamp="${EPOCHREALTIME:-}"
+    [[ -n "$stamp" ]] || stamp="$(date +%s.%6N)"
+    stamp="${stamp/,/.}"
+    IFS=. read -r sec usec <<< "$stamp"
+    usec="${usec}000000"
+    usec="${usec:0:6}"
+    now=$(( 10#$sec * 1000000 + 10#$usec ))
+
+    if [[ "$direction" == "$LAST_NAV_DIRECTION" ]] &&
+       (( LAST_NAV_US != 0 && now - LAST_NAV_US < NAV_REPEAT_US )); then
+        return 1
+    fi
+
+    LAST_NAV_US=$now
+    LAST_NAV_DIRECTION="$direction"
+    return 0
+}
+
+coalesce_navigation_repeats() {
+    local direction="$1" first second key
+
+    while IFS= read -r -s -n1 -t 0.001 first; do
+        key=none
+        if [[ "$first" == $'\e' ]]; then
+            second=''
+            IFS= read -r -s -n2 -t 0.003 second || true
+            case "$second" in
+                '[A') key=up ;;
+                '[B') key=down ;;
+                '[C') key=right ;;
+                '[D') key=left ;;
+                *) key=escape ;;
+            esac
+        elif [[ -z "$first" || "$first" == $'\n' || "$first" == $'\r' ]]; then
+            key=activate
+        elif [[ "$first" == ' ' ]]; then
+            key=activate
+        else
+            case "$first" in
+                w|W) key=up ;;
+                s|S) key=down ;;
+                a|A) key=left ;;
+                d|D) key=right ;;
+                *) key=none ;;
+            esac
+        fi
+
+        if [[ "$key" == "$direction" || "$key" == none ]]; then
+            continue
+        fi
+
+        PENDING_KEY="$key"
+        return 0
+    done
+}
+
+
+loading_spinner() {
+    local spinner=0
+
+    while :; do
+        printf '\r   %b%s%b Loading ...' \
+            "$YELLOW" \
+            "${SPINNER_FRAMES[$((spinner % ${#SPINNER_FRAMES[@]}))]}" \
+            "$RESET"
+        spinner=$((spinner + 1))
+        sleep 0.09
+    done
+}
+
+start_loading_screen() {
+    begin_frame
+    clear_screen
+    header
+    printf '\n'
+    end_frame
+
+    loading_spinner &
+    loading_pid=$!
+}
+
+stop_loading_screen() {
+    if [[ -n "$loading_pid" ]]; then
+        kill "$loading_pid" 2>/dev/null || true
+        wait "$loading_pid" 2>/dev/null || true
+        loading_pid=''
+    fi
+    printf '\r\e[2K'
+}
+
+begin_frame() { printf '\e[?2026h'; }
+end_frame() { printf '\e[?2026l'; }
 clear_screen() { printf '\e[2J\e[H'; }
 hide_cursor() { printf '\e[?25l'; cursor_hidden=1; }
-show_cursor() { printf '%b\e[?25h' "$RESET"; }
+show_cursor() { printf '%b\e[?2026l\e[?25h' "$RESET"; }
 
 cleanup() {
+    if [[ -n "$loading_pid" ]]; then
+        kill "$loading_pid" 2>/dev/null || true
+        wait "$loading_pid" 2>/dev/null || true
+        loading_pid=''
+    fi
     [[ -n "$progress_file" ]] && rm -f -- "$progress_file"
     [[ -n "$operation_log" ]] && rm -f -- "$operation_log"
     (( cursor_hidden )) && show_cursor
@@ -256,10 +363,6 @@ detect_cpu_speed_fix_default() {
 sync_dependencies() {
     if (( install_german )); then
         convert_audio=0
-        fix_english=0
-    fi
-    if (( ! install_f14 )); then
-        fix_english=0
     fi
     if (( configure_widescreen )); then
         [[ -n "$resolution" ]] || resolution=720p
@@ -294,10 +397,9 @@ sync_dependencies() {
 
 item_enabled() {
     case "$1" in
-        change_path|german|f14|nocd|cpu_speed|mouse|widescreen|videos_none|videos_settings|videos_manual) return 0 ;;
+        change_path|german|nocd|cpu_speed|mouse|widescreen|videos_none|videos_settings|videos_manual) return 0 ;;
         gamescope_launcher) (( TARGET_IS_STEAM )) ;;
         audio) (( ! install_german )) ;;
-        english) (( install_f14 && ! install_german )) ;;
         720p|1080p|1440p|4k) (( configure_widescreen )) ;;
         video_standard|video_widescreen|video_english|video_german) [[ "$video_mode" == manual ]] ;;
         backend_auto|backend_wayland|backend_sdl|gamescope_mouse_sensitivity|fullscreen) (( install_gamescope_launcher )) ;;
@@ -310,8 +412,6 @@ item_checked() {
     case "$1" in
         german) (( install_german )) ;;
         audio) (( convert_audio )) ;;
-        f14) (( install_f14 )) ;;
-        english) (( fix_english )) ;;
         nocd) (( install_nocd )) ;;
         cpu_speed) (( install_cpu_speed_fix )) ;;
         mouse) (( configure_mouse )) ;;
@@ -335,7 +435,7 @@ item_checked() {
 }
 
 has_selected_tasks() {
-    (( install_german || convert_audio || install_f14 || fix_english || install_nocd || install_cpu_speed_fix || configure_mouse )) || display_configuration_requested || video_install_requested
+    (( install_german || convert_audio || install_nocd || install_cpu_speed_fix || configure_mouse )) || display_configuration_requested || video_install_requested
 }
 
 display_configuration_requested() {
@@ -412,33 +512,44 @@ radio_line() {
     printf '%*s%s %b%s %s%b\n' "$indent" '' "$(indicator "$id")" "$color" "$icon" "$text" "$RESET"
 }
 
-menu_screen() {
-    clear_screen
+render_menu_body() {
     header
     section_heading 'Current game path'
+
     if game_directory_is_valid "$TARGET_DIR"; then
         printf '  %b"%s/"%b\n' "$WHITE" "$TARGET_DIR" "$RESET"
     else
         printf '  %bNo valid Independence War 2 installation selected.%b\n' "$YELLOW" "$RESET"
     fi
-    printf '  %s %bChange path ...%b\n' "$(indicator change_path)" "$YELLOW" "$RESET"
-    [[ -z "$PATH_MESSAGE" ]] || printf '  %b%s%b\n' "$YELLOW" "$PATH_MESSAGE" "$RESET"
+
+    printf '  %s %bChange path ...%b\n' \
+        "$(indicator change_path)" "$YELLOW" "$RESET"
+
+    [[ -z "$PATH_MESSAGE" ]] || \
+        printf '  %b%s%b\n' "$YELLOW" "$PATH_MESSAGE" "$RESET"
+
     printf '\n'
+
     section_heading 'Installation settings'
+
     checkbox_line german 'Install german Game-data'
     checkbox_line audio 'Convert Audio-Files to work under Linux'
-    checkbox_line f14 'Install Patch 14.6 from i-war2.com'
-    checkbox_line english 'Fix english messages after 14.6-Patch'
     checkbox_line nocd 'Install No-CD-Fix'
     checkbox_line cpu_speed 'Install CPU Speed Fix'
-    [[ -z "$CPU_SPEED_STATUS" ]] || printf '       %b%s%b\n' "$GRAY" "$CPU_SPEED_STATUS" "$RESET"
+
+    [[ -z "$CPU_SPEED_STATUS" ]] || \
+        printf '       %b%s%b\n' "$GRAY" "$CPU_SPEED_STATUS" "$RESET"
+
     checkbox_line mouse 'Configure mouse ship controls'
     checkbox_line widescreen 'Configure game-settings for 16:9'
+
     radio_line 720p '720p'
     radio_line 1080p '1080p'
     radio_line 1440p '1440p'
     radio_line 4k '4k'
+
     printf '\n     %bVideo variants:%b\n' "$WHITE" "$RESET"
+
     radio_line videos_none "Don't change videos"
     radio_line videos_settings 'Install videos based on settings'
     radio_line videos_manual 'Install manually selected videos'
@@ -446,20 +557,45 @@ menu_screen() {
     radio_line video_widescreen 'Install 16:9 videos' 8
     radio_line video_english 'Install English videos' 8
     radio_line video_german 'Install German videos' 8
+
     checkbox_line gamescope_launcher 'Set Gamescope as Steam launch option'
+
     printf '     %bGamescope backend:%b\n' "$WHITE" "$RESET"
+
     radio_line backend_auto 'Auto-detect for the current desktop session'
     radio_line backend_wayland 'Force native Wayland backend'
     radio_line backend_sdl 'Force SDL backend'
-    checkbox_line gamescope_mouse_sensitivity 'Use slow Gamescope mouse sensitivity (-s 0.045)'
+
+    checkbox_line gamescope_mouse_sensitivity \
+        'Use slow Gamescope mouse sensitivity (-s 0.045)'
+
     checkbox_line fullscreen 'Use fullscreen'
+
     printf '\n'
+
     local action_color="$GRAY"
     item_enabled apply && action_color="$GREEN"
-    printf ' %s %bPatch my game.%b\n\n' "$(indicator apply)" "$action_color" "$RESET"
+
+    printf ' %s %bPatch my game.%b\n\n' \
+        "$(indicator apply)" "$action_color" "$RESET"
+
     printf '%bArrow keys / W S:%b Move   %bA D / Enter / Space:%b Select   %bEsc:%b Exit\n' \
         "$GRAY" "$RESET" "$GRAY" "$RESET" "$GRAY" "$RESET"
-    printf '%bDisabled options are resolved automatically from the selected dependencies.%b\n' "$GRAY" "$RESET"
+
+    printf '%bDisabled options are resolved automatically from the selected dependencies.%b\n' \
+        "$GRAY" "$RESET"
+}
+
+menu_screen() {
+    local frame marker=$'\x1e'
+    frame="$(
+        render_menu_body
+        printf '%s' "$marker"
+    )"
+    frame="${frame%$marker}"
+    begin_frame
+    printf '\e[2J\e[H%s' "$frame"
+    end_frame
 }
 
 move_selection() {
@@ -472,7 +608,10 @@ move_selection() {
     for i in "${!available[@]}"; do
         [[ "${available[$i]}" == "$selected_item" ]] && { index="$i"; break; }
     done
-    (( index >= 0 )) || index=0
+    if (( index < 0 )); then
+        selected_item="${available[0]}"
+        return 0
+    fi
     if (( direction < 0 )); then
         index=$(( (index - 1 + ${#available[@]}) % ${#available[@]} ))
     else
@@ -486,8 +625,6 @@ toggle_selected() {
         change_path) choose_game_directory ;;
         german) install_german=$(( ! install_german )) ;;
         audio) convert_audio=$(( ! convert_audio )) ;;
-        f14) install_f14=$(( ! install_f14 )) ;;
-        english) fix_english=$(( ! fix_english )) ;;
         nocd) install_nocd=$(( ! install_nocd )) ;;
         cpu_speed) install_cpu_speed_fix=$(( ! install_cpu_speed_fix )) ;;
         mouse) configure_mouse=$(( ! configure_mouse )) ;;
@@ -541,10 +678,8 @@ read_key() {
 
 task_label() {
     case "$1" in
-        german|german-f14) printf 'Install german Game-data' ;;
+        german) printf 'Install german Game-data' ;;
         audio) printf 'Convert Audio-Files to work under Linux' ;;
-        f14) printf 'Install Patch 14.6 from i-war2.com' ;;
-        english) printf 'Fix english messages after 14.6-Patch' ;;
         nocd) printf 'Install No-CD-Fix' ;;
         cpu-speed) printf 'Install CPU Speed Fix' ;;
         mouse) printf 'Configure mouse ship controls' ;;
@@ -571,17 +706,11 @@ build_tasks() {
         # Download and validate before any game files are backed up or modified.
         TASK_IDS+=(video-downloads)
     fi
-    # When selected, F14.6 is the first task that changes the game.  All
-    # preceding tasks only download and verify external inputs.
-    (( install_f14 )) && TASK_IDS+=(f14)
-    # F14.6 ships the verified flux.dll used by this one-byte repair, so the
-    # CPU fix follows it immediately when both tasks were selected.
+    # All preceding tasks only download and verify external inputs. The CPU
+    # fix is therefore the first selected task that may change the game.
     (( install_cpu_speed_fix )) && TASK_IDS+=(cpu-speed)
     (( convert_audio )) && TASK_IDS+=(audio)
-    if (( install_german )); then
-        if (( install_f14 )); then TASK_IDS+=(german-f14); else TASK_IDS+=(german); fi
-    fi
-    (( fix_english )) && TASK_IDS+=(english)
+    (( install_german )) && TASK_IDS+=(german)
     (( install_nocd )) && TASK_IDS+=(nocd)
     (( configure_mouse )) && TASK_IDS+=(mouse)
     display_configuration_requested && TASK_IDS+=(display)
@@ -626,7 +755,7 @@ task_icon() {
     esac
 }
 
-execution_screen() {
+render_execution_body() {
     local active_index="$1" spinner="$2" step_current="$3" step_total="$4"
     local total_tasks="${#TASK_IDS[@]}" completed=0 overall_current i state id next=''
     for state in "${TASK_STATES[@]}"; do [[ "$state" == done ]] && ((completed += 1)); done
@@ -635,7 +764,6 @@ execution_screen() {
         (( step_total > 0 )) || step_total=1
         overall_current=$(( overall_current + step_current * 1000 / step_total ))
     fi
-    clear_screen
     header
     printf '%bSelected tasks:%b\n\n' "$WHITE" "$RESET"
     for i in "${!TASK_IDS[@]}"; do
@@ -653,6 +781,18 @@ execution_screen() {
     [[ -n "$next" ]] && printf 'Next Task: %s\n' "$(task_label "$next")"
 }
 
+execution_screen() {
+    local frame marker=$'\x1e'
+    frame="$(
+        render_execution_body "$@"
+        printf '%s' "$marker"
+    )"
+    frame="${frame%$marker}"
+    begin_frame
+    printf '\e[2J\e[H%s' "$frame"
+    end_frame
+}
+
 run_task_command() {
     case "$1" in
         german)
@@ -662,16 +802,7 @@ run_task_command() {
                 GERPATCH_GERMAN_GAME_DATA_PREPARED=1 GERPATCH_GERMAN_STORY_VIDEOS_PREPARED=1 "$PATCH_DIR/apply-german-patch.sh" "$TARGET_DIR"
             fi
             ;;
-        german-f14)
-            if video_install_requested; then
-                GERPATCH_GERMAN_GAME_DATA_PREPARED=1 GERPATCH_SKIP_GERMAN_STORY_VIDEOS=1 "$PATCH_DIR/modules/install-german-after-f14.6.sh" "$TARGET_DIR"
-            else
-                GERPATCH_GERMAN_GAME_DATA_PREPARED=1 GERPATCH_GERMAN_STORY_VIDEOS_PREPARED=1 "$PATCH_DIR/modules/install-german-after-f14.6.sh" "$TARGET_DIR"
-            fi
-            ;;
         audio) "$PATCH_DIR/modules/convert-audio.sh" "$TARGET_DIR" ;;
-        f14) "$PATCH_DIR/modules/install-f14.6.sh" "$TARGET_DIR" ;;
-        english) "$PATCH_DIR/modules/fix-f14.6-english.sh" "$TARGET_DIR" ;;
         nocd) "$PATCH_DIR/modules/install-nocd.sh" "$TARGET_DIR" ;;
         cpu-speed) "$PATCH_DIR/modules/install-cpu-speed-fix.sh" "$TARGET_DIR" ;;
         mouse) "$PATCH_DIR/modules/configure-mouse.sh" "$TARGET_DIR" ;;
@@ -763,7 +894,7 @@ execute_tasks() {
 }
 
 self_test() {
-    local test_root test_game detected test_checker
+    local test_root test_game detected test_checker screen_output
     test_root="$(mktemp -d)"
     test_game="$test_root/Library/steamapps/common/Independence War 2 - Edge of Chaos"
     mkdir -p -- "$test_game"
@@ -786,7 +917,7 @@ self_test() {
     (( ! install_cpu_speed_fix )) || { rm -f -- "$test_checker"; return 1; }
     rm -f -- "$test_checker"
 
-    install_german=0; convert_audio=0; install_f14=0; fix_english=0; install_nocd=0; install_cpu_speed_fix=0; configure_mouse=0
+    install_german=0; convert_audio=0; install_nocd=0; install_cpu_speed_fix=0; configure_mouse=0
     configure_widescreen=0; resolution=''; install_gamescope_launcher=0; use_fullscreen=0
     gamescope_backend=''; use_gamescope_mouse_sensitivity=0
     video_mode=''; video_aspect=''; video_language=''; resolved_video_aspect=''; resolved_video_language=''
@@ -803,36 +934,28 @@ self_test() {
     configure_widescreen=1; install_german=0; resolve_video_selection && [[ "$resolved_video_aspect" == widescreen && "$resolved_video_language" == english ]] || return 1
     install_german=1; resolve_video_selection && [[ "$resolved_video_language" == german ]] || return 1
     video_mode=''; configure_widescreen=0; install_german=0; sync_dependencies
-    install_german=1; convert_audio=1; install_f14=1; fix_english=1
+    install_german=1; convert_audio=1
     sync_dependencies
-    (( ! convert_audio && ! fix_english )) || return 1
-    item_enabled english && return 1
-    install_german=0; install_f14=1; fix_english=1; configure_widescreen=1
-    sync_dependencies
-    item_enabled english && item_enabled 720p || return 1
-    install_f14=0; sync_dependencies
-    (( ! fix_english )) || return 1
+    (( ! convert_audio )) || return 1
     TARGET_IS_STEAM=1
     install_gamescope_launcher=1; sync_dependencies
     item_enabled backend_auto && item_checked backend_auto && ! item_checked gamescope_mouse_sensitivity || return 1
     gamescope_backend=sdl; use_gamescope_mouse_sensitivity=1
     item_checked backend_sdl && ! item_checked backend_auto && item_checked gamescope_mouse_sensitivity || return 1
     display_configuration_requested || return 1
-    install_german=0; convert_audio=0; install_f14=0; fix_english=0; install_nocd=0; install_cpu_speed_fix=0; configure_mouse=0
+    install_german=0; convert_audio=0; install_nocd=0; install_cpu_speed_fix=0; configure_mouse=0
     configure_widescreen=0; resolution=''; install_gamescope_launcher=0; use_fullscreen=0
     gamescope_backend=''; use_gamescope_mouse_sensitivity=0
     video_mode=''; video_aspect=''; video_language=''
-    install_german=0; convert_audio=1; install_f14=1; fix_english=0; install_nocd=1; configure_mouse=1
+    install_german=0; convert_audio=1; install_nocd=1; configure_mouse=1
     sync_dependencies; build_tasks || return 1
-    [[ "${TASK_IDS[*]}" == 'f14 audio nocd mouse' ]] || return 1
+    [[ "${TASK_IDS[*]}" == 'audio nocd mouse' ]] || return 1
     install_cpu_speed_fix=1
     sync_dependencies; build_tasks || return 1
-    [[ "${TASK_IDS[*]}" == 'f14 cpu-speed audio nocd mouse' ]] || return 1
+    [[ "${TASK_IDS[*]}" == 'cpu-speed audio nocd mouse' ]] || return 1
     install_cpu_speed_fix=0
-    install_german=1; convert_audio=0; install_f14=1; install_nocd=0; configure_mouse=0
+    install_german=1; convert_audio=0; install_nocd=0; configure_mouse=0
     sync_dependencies; build_tasks || return 1
-    [[ "${TASK_IDS[*]}" == 'german-data-downloads german-video-downloads f14 german-f14' ]] || return 1
-    install_f14=0; install_german=1; sync_dependencies; build_tasks || return 1
     [[ "${TASK_IDS[*]}" == 'german-data-downloads german-video-downloads german' ]] || return 1
     video_mode=manual; video_aspect=standard; video_language=german
     sync_dependencies; build_tasks || return 1
@@ -840,6 +963,11 @@ self_test() {
     install_german=0; video_language=english
     sync_dependencies; build_tasks || return 1
     [[ "${TASK_IDS[*]}" == 'video-downloads videos' ]] || return 1
+    TASK_STATES[0]=active
+    screen_output="$(execution_screen 0 3 1 4)"
+    [[ "$screen_output" == $'\e[?2026h\e[2J\e[H'* ]] || return 1
+    [[ "$screen_output" == *$'\e[?2026l' ]] || return 1
+    [[ "$screen_output" == *'Selected tasks:'* && "$screen_output" == *'Current Task:'* && "$screen_output" == *'Next Task:'* ]] || return 1
     printf 'Ultimate Patcher dependency self-test passed.\n'
 }
 
@@ -849,8 +977,15 @@ main() {
         printf 'Usage: %s [IW2 installation directory]\n' "$(basename -- "$0")"
         return 0
     fi
+    [[ -t 0 && -t 1 ]] || { printf 'This interactive patcher needs a terminal.\n' >&2; return 69; }
+    [[ -x "$PATCH_DIR/apply-german-patch.sh" ]] || { printf 'German patch module is missing.\n' >&2; return 66; }
+
+    hide_cursor
+    start_loading_screen
+
     if (( $# == 1 )); then
         set_game_directory "$1" || {
+            stop_loading_screen
             printf 'Not an Independence War 2 installation: %s\n' "$1" >&2
             return 66
         }
@@ -858,23 +993,47 @@ main() {
     else
         detect_initial_game_directory || true
     fi
+
     detect_cpu_speed_fix_default || true
-    [[ -t 0 && -t 1 ]] || { printf 'This interactive patcher needs a terminal.\n' >&2; return 69; }
-    [[ -x "$PATCH_DIR/apply-german-patch.sh" ]] || { printf 'German patch module is missing.\n' >&2; return 66; }
-    hide_cursor
+    stop_loading_screen
+    local redraw=1 key
     while :; do
-        menu_screen
-        case "$(read_key)" in
-            up) move_selection -1 ;;
-            down) move_selection 1 ;;
+        if (( redraw )); then
+            menu_screen
+            redraw=0
+        fi
+
+        if [[ -n "$PENDING_KEY" ]]; then
+            key="$PENDING_KEY"
+            PENDING_KEY=''
+        else
+            key="$(read_key)" || break
+        fi
+
+        case "$key" in
+            up)
+                if navigation_allowed up; then
+                    move_selection -1
+                    redraw=1
+                fi
+                coalesce_navigation_repeats up
+                ;;
+            down)
+                if navigation_allowed down; then
+                    move_selection 1
+                    redraw=1
+                fi
+                coalesce_navigation_repeats down
+                ;;
             left|right|activate)
                 if toggle_selected; then
                     [[ "$selected_item" == apply ]] && break
                 fi
+                redraw=1
                 ;;
             escape) break ;;
         esac
     done
 }
-
+clear
 main "$@"

@@ -1,9 +1,10 @@
 # Independence War 2: Edge of Chaos — Linux Ultimate Patcher
 
 Console patcher for the Steam release of *Independence War 2: The Edge of
-Chaos* on Linux/Proton. It offers selectable F14.6, the English language
-repair, No-CD, mouse/display/Gamescope configuration and optional language/
-aspect-ratio movie installation.
+Chaos* on Linux/Proton. The Steam release already includes F14.6, so this tool
+does not install the incompatible historical standalone patch. It offers
+German game data, Linux audio conversion, No-CD, CPU timing, mouse/display/
+Gamescope configuration and optional language/aspect-ratio movie installation.
 
 This repository intentionally contains patch code, audits, checksums, small
 patch payloads and editable German/English language foundations. It does

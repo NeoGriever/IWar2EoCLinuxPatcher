@@ -1,5 +1,0 @@
-# Relative path below payloads/f14.6-english-extras|SHA-256
-text/gui_addendum_6.csv|57805f6573b8c21823b7ede53d84b7084395459dbd545930386982208edc5e1f
-text/multiplayer/iindiesvscorporates.csv|41a8299c8fc2f73461780e599d9c3661ffb8ba0134a2a0496169379cd6861ba5
-text/multiplayer/iminetag.csv|b00451e7a1ed679db8ffda8f9daadd92c399af17bd57721930e277ddc71b9b6f
-text/multiplayer/icapturetheflag.csv|a9ca27ebb837fe14599f86ce4ce15ff03af6097a8cbbbf852d9853cae4134546

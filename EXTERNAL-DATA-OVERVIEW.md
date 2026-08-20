@@ -68,7 +68,7 @@ Steam-Grundinstallation unangetastet.
 
 | Vorhaben | Externe Daten |
 | --- | --- |
-| Nur F14.6, No-CD, Maus oder Anzeige | keine |
+| Nur No-CD, CPU-Fix, Maus oder Anzeige | keine |
 | Deutsche Spieldaten ohne Videoauswahl | 3 Archive + 3 deutsche 4:3-Filme |
 | Beliebige Videoauswahl | nur das gewählte 12-Dateien-Set |
 | Deutsche Spieldaten + Videoauswahl | 3 Archive + das gewählte 12-Dateien-Set |
