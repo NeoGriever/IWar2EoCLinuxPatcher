@@ -6,7 +6,7 @@ PATCH_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd -P)"
 SOURCE_CONFIG="$PATCH_DIR/payloads/configs/corrected.ini"
 APP_ID="${IW2_STEAM_APP_ID:-359630}"
 PROGRESS_FILE="${GERPATCH_PROGRESS_FILE:-}"
-PROTON_PREFIX="${IW2_PROTON_PREFIX:-$HOME/.local/share/Steam/steamapps/compatdata/$APP_ID/pfx}"
+PROTON_PREFIX="${IW2_PROTON_PREFIX:-}"
 
 progress() {
     [[ -n "$PROGRESS_FILE" ]] || return 0
@@ -26,8 +26,44 @@ mouse_warp_enabled() {
     ' "$registry"
 }
 
+detect_proton_prefix() {
+    local target_dir="$1"
+    local common_dir steamapps_dir
+
+    common_dir="$(dirname -- "$target_dir")"
+    steamapps_dir="$(dirname -- "$common_dir")"
+
+    if [[ "$(basename -- "$common_dir")" == "common" &&
+          "$(basename -- "$steamapps_dir")" == "steamapps" ]]; then
+        printf '%s\n' "$steamapps_dir/compatdata/$APP_ID/pfx"
+        return 0
+    fi
+
+    return 1
+}
+
+wait_for_mouse_warp() {
+    local attempt
+
+    for ((attempt = 0; attempt < 50; attempt++)); do
+        mouse_warp_enabled && return 0
+        sleep 0.1
+    done
+
+    return 1
+}
+
 [[ $# -eq 1 ]] || { printf 'Usage: %s <IW2 installation directory>\n' "$(basename -- "$0")" >&2; exit 64; }
 TARGET_DIR="$(cd -- "$1" && pwd -P)"
+
+if [[ -z "$PROTON_PREFIX" ]]; then
+    PROTON_PREFIX="$(detect_proton_prefix "$TARGET_DIR" 2>/dev/null || true)"
+fi
+
+if [[ -z "$PROTON_PREFIX" ]]; then
+    PROTON_PREFIX="$HOME/.local/share/Steam/steamapps/compatdata/$APP_ID/pfx"
+fi
+
 FLUX_INI="$TARGET_DIR/flux.ini"
 TARGET_CONFIG="$TARGET_DIR/configs/corrected.ini"
 [[ -f "$FLUX_INI" && -f "$SOURCE_CONFIG" ]] || { printf 'Game configuration or mouse payload is missing.\n' >&2; exit 66; }
@@ -47,9 +83,18 @@ grep -q '^input_scheme_ini = configs/corrected.ini$' "$FLUX_INI" || {
 progress mouse 2 3
 if mouse_warp_enabled; then
     printf 'MouseWarpOverride is already enabled in the Proton prefix.\n'
+
 elif command -v protontricks >/dev/null; then
     protontricks "$APP_ID" mwo=enabled >/dev/null
-    mouse_warp_enabled || { printf 'Protontricks did not enable MouseWarpOverride.\n' >&2; exit 65; }
+
+    if ! wait_for_mouse_warp; then
+        printf 'Protontricks completed, but MouseWarpOverride could not be verified.\n' >&2
+        printf 'Registry checked: %s/user.reg\n' "$PROTON_PREFIX" >&2
+        exit 65
+    fi
+
+    printf 'MouseWarpOverride enabled and verified.\n'
+
 else
     printf 'protontricks is required to configure MouseWarpOverride.\n' >&2
     exit 69
