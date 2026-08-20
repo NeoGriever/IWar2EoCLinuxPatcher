@@ -1,0 +1,348 @@
+diff --git a/modules/configure-display.sh b/modules/configure-display.sh
+index 8f358c5..c91c4f3 100755
+--- a/modules/configure-display.sh
++++ b/modules/configure-display.sh
+@@ -3,8 +3,8 @@
+ set -Eeuo pipefail
+ 
+ PATCH_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd -P)"
+-RUNTIME_DIR="${IW2_RUNTIME_DIR:-$HOME/.local/share/independence-war-2-ultimate-patcher}"
+-DISPLAY_CONFIG="$RUNTIME_DIR/runtime/display.conf"
++RUNTIME_DIR=''
++DISPLAY_CONFIG=''
+ PROGRESS_FILE="${GERPATCH_PROGRESS_FILE:-}"
+ 
+ progress() {
+@@ -61,6 +61,8 @@ usage() {
+ 
+ [[ $# -ge 3 && $# -le 5 ]] || usage
+ TARGET_DIR="$(cd -- "$1" && pwd -P)"
++RUNTIME_DIR="$TARGET_DIR/.iwar2-linux-patcher"
++DISPLAY_CONFIG="$RUNTIME_DIR/runtime/display.conf"
+ RESOLUTION="$2"
+ OUTER_FULLSCREEN="$3"
+ GAMESCOPE_BACKEND="${4:-auto}"
+diff --git a/modules/configure-mouse.sh b/modules/configure-mouse.sh
+index 9c2ed28..3881594 100755
+--- a/modules/configure-mouse.sh
++++ b/modules/configure-mouse.sh
+@@ -7,6 +7,7 @@ SOURCE_CONFIG="$PATCH_DIR/payloads/configs/corrected.ini"
+ APP_ID="${IW2_STEAM_APP_ID:-359630}"
+ PROGRESS_FILE="${GERPATCH_PROGRESS_FILE:-}"
+ PROTON_PREFIX="${IW2_PROTON_PREFIX:-}"
++TARGET_IS_STEAM="${IW2_TARGET_IS_STEAM:-0}"
+ 
+ progress() {
+     [[ -n "$PROGRESS_FILE" ]] || return 0
+@@ -26,22 +27,6 @@ mouse_warp_enabled() {
+     ' "$registry"
+ }
+ 
+-detect_proton_prefix() {
+-    local target_dir="$1"
+-    local common_dir steamapps_dir
+-
+-    common_dir="$(dirname -- "$target_dir")"
+-    steamapps_dir="$(dirname -- "$common_dir")"
+-
+-    if [[ "$(basename -- "$common_dir")" == "common" &&
+-          "$(basename -- "$steamapps_dir")" == "steamapps" ]]; then
+-        printf '%s\n' "$steamapps_dir/compatdata/$APP_ID/pfx"
+-        return 0
+-    fi
+-
+-    return 1
+-}
+-
+ wait_for_mouse_warp() {
+     local attempt
+ 
+@@ -56,14 +41,6 @@ wait_for_mouse_warp() {
+ [[ $# -eq 1 ]] || { printf 'Usage: %s <IW2 installation directory>\n' "$(basename -- "$0")" >&2; exit 64; }
+ TARGET_DIR="$(cd -- "$1" && pwd -P)"
+ 
+-if [[ -z "$PROTON_PREFIX" ]]; then
+-    PROTON_PREFIX="$(detect_proton_prefix "$TARGET_DIR" 2>/dev/null || true)"
+-fi
+-
+-if [[ -z "$PROTON_PREFIX" ]]; then
+-    PROTON_PREFIX="$HOME/.local/share/Steam/steamapps/compatdata/$APP_ID/pfx"
+-fi
+-
+ FLUX_INI="$TARGET_DIR/flux.ini"
+ TARGET_CONFIG="$TARGET_DIR/configs/corrected.ini"
+ [[ -f "$FLUX_INI" && -f "$SOURCE_CONFIG" ]] || { printf 'Game configuration or mouse payload is missing.\n' >&2; exit 66; }
+@@ -81,6 +58,17 @@ grep -q '^input_scheme_ini = configs/corrected.ini$' "$FLUX_INI" || {
+     printf '\n[FcInputMapper]\ninput_scheme_ini = configs/corrected.ini\n' >> "$FLUX_INI"
+ }
+ progress mouse 2 3
++
++# MouseWarpOverride lives in a Proton prefix, not in the selected game folder.
++# For a standalone/test copy there is deliberately no associated Steam prefix,
++# so stop after applying the game-local mouse files.
++if [[ "$TARGET_IS_STEAM" != 1 || -z "$PROTON_PREFIX" ]]; then
++    progress mouse 3 3
++    printf 'Mouse ship controls configured for the selected game directory. Proton MouseWarpOverride was skipped because this target is not the registered Steam installation.\n'
++    printf 'Mouse ship controls configured. Backup: %s\n' "$backup_dir"
++    exit 0
++fi
++
+ if mouse_warp_enabled; then
+     printf 'MouseWarpOverride is already enabled in the Proton prefix.\n'
+ 
+diff --git a/modules/configure-steam-gamescope-launcher.sh b/modules/configure-steam-gamescope-launcher.sh
+index 59df89a..9d9af5c 100755
+--- a/modules/configure-steam-gamescope-launcher.sh
++++ b/modules/configure-steam-gamescope-launcher.sh
+@@ -5,11 +5,11 @@ set -Eeuo pipefail
+ PATCH_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd -P)"
+ APP_ID="${IW2_STEAM_APP_ID:-359630}"
+ STEAM_ROOT="${IW2_STEAM_ROOT:-$HOME/.local/share/Steam}"
+-RUNTIME_DIR="${IW2_RUNTIME_DIR:-$HOME/.local/share/independence-war-2-ultimate-patcher}"
++RUNTIME_DIR=''
+ SOURCE_WRAPPER="$PATCH_DIR/tools/iwar2-gamescope-diagnostic.sh"
+-INSTALLED_WRAPPER="$RUNTIME_DIR/tools/iwar2-gamescope-diagnostic.sh"
++INSTALLED_WRAPPER=''
+ SOURCE_DISPLAY_CONFIG="$PATCH_DIR/runtime/display.conf"
+-DISPLAY_CONFIG="$RUNTIME_DIR/runtime/display.conf"
++DISPLAY_CONFIG=''
+ PROGRESS_FILE="${GERPATCH_PROGRESS_FILE:-}"
+ NOTICE_FILE="${GERPATCH_NOTICE_FILE:-}"
+ 
+@@ -25,10 +25,51 @@ request_user_notice() {
+     printf '%s\n' 'steam-launch-options' > "$NOTICE_FILE"
+ }
+ 
+-[[ $# -eq 1 && -f "$1/flux.ini" ]] || {
++vdf_value() {
++    local file="$1" key="$2"
++    sed -nE "s/^[[:space:]]*\\\"${key}\\\"[[:space:]]*\\\"([^\\\"]*)\\\".*$/\\1/p" "$file" | head -n 1
++}
++
++registered_steam_target() {
++    local game_dir="$1" common_dir steamapps_dir library manifest install_dir candidate canonical
++
++    common_dir="$(dirname -- "$game_dir")"
++    steamapps_dir="$(dirname -- "$common_dir")"
++    [[ "$(basename -- "$common_dir")" == common && "$(basename -- "$steamapps_dir")" == steamapps ]] || return 1
++
++    library="$(dirname -- "$steamapps_dir")"
++    manifest="$library/steamapps/appmanifest_${APP_ID}.acf"
++    [[ -f "$manifest" ]] || return 1
++
++    install_dir="$(vdf_value "$manifest" installdir)"
++    [[ -n "$install_dir" ]] || return 1
++
++    candidate="$library/steamapps/common/$install_dir"
++    canonical="$(cd -- "$candidate" 2>/dev/null && pwd -P)" || return 1
++    [[ "$canonical" == "$game_dir" ]]
++}
++
++[[ $# -eq 1 ]] || {
+     printf 'Usage: %s <IW2 installation directory>\n' "$(basename -- "$0")" >&2
+     exit 64
+ }
++TARGET_DIR="$(cd -- "$1" 2>/dev/null && pwd -P)" || {
++    printf 'The selected IW2 directory does not exist.\n' >&2
++    exit 66
++}
++[[ -f "$TARGET_DIR/flux.ini" ]] || {
++    printf 'The selected IW2 directory does not contain flux.ini: %s\n' "$TARGET_DIR" >&2
++    exit 66
++}
++registered_steam_target "$TARGET_DIR" || {
++    printf 'Refusing to change Steam launch options: the selected target is not the registered Steam App %s installation.\n' "$APP_ID" >&2
++    exit 66
++}
++
++RUNTIME_DIR="$TARGET_DIR/.iwar2-linux-patcher"
++INSTALLED_WRAPPER="$RUNTIME_DIR/tools/iwar2-gamescope-diagnostic.sh"
++DISPLAY_CONFIG="$RUNTIME_DIR/runtime/display.conf"
++
+ [[ -x "$SOURCE_WRAPPER" ]] || { printf 'Gamescope wrapper is missing: %s\n' "$SOURCE_WRAPPER" >&2; exit 66; }
+ [[ -f "$SOURCE_DISPLAY_CONFIG" ]] || { printf 'Gamescope display template is missing: %s\n' "$SOURCE_DISPLAY_CONFIG" >&2; exit 66; }
+ 
+diff --git a/modules/install-f14.6.sh b/modules/install-f14.6.sh
+index 05e9e1c..888ee35 100755
+--- a/modules/install-f14.6.sh
++++ b/modules/install-f14.6.sh
+@@ -7,7 +7,8 @@ PAYLOAD_DIR="$PATCH_DIR/payloads/f14.6"
+ MANIFEST="$PATCH_DIR/payloads/f14.6-manifest.txt"
+ APP_ID="${IW2_STEAM_APP_ID:-359630}"
+ PROGRESS_FILE="${GERPATCH_PROGRESS_FILE:-}"
+-PROTON_PREFIX="${IW2_PROTON_PREFIX:-$HOME/.local/share/Steam/steamapps/compatdata/$APP_ID/pfx}"
++PROTON_PREFIX="${IW2_PROTON_PREFIX:-}"
++TARGET_IS_STEAM="${IW2_TARGET_IS_STEAM:-0}"
+ 
+ progress() {
+     [[ -n "$PROGRESS_FILE" ]] || return 0
+@@ -19,6 +20,7 @@ progress() {
+ sha256() { sha256sum -- "$1" | awk '{print $1}'; }
+ 
+ f14_registry_present() {
++    [[ "$TARGET_IS_STEAM" == 1 && -n "$PROTON_PREFIX" ]] || return 1
+     local registry="$PROTON_PREFIX/system.reg"
+     [[ -f "$registry" ]] || return 1
+     awk '
+@@ -64,10 +66,18 @@ done < "$MANIFEST"
+ 
+ (( ${#paths[@]} == 394 )) || { printf 'Unexpected F14.6 manifest size.\n' >&2; exit 65; }
+ 
+-if (( payload_already_installed )) && f14_registry_present; then
+-    progress install 1 1
+-    printf 'F14.6 files and the Proton registry entry are already verified.\n'
+-    exit 0
++if (( payload_already_installed )); then
++    if [[ "$TARGET_IS_STEAM" != 1 || -z "$PROTON_PREFIX" || "${IW2_SKIP_F14_REGISTRY:-0}" == 1 ]]; then
++        progress install 1 1
++        printf 'F14.6 files are already verified. Proton registry registration is not applicable to this target.\n'
++        exit 0
++    fi
++
++    if f14_registry_present; then
++        progress install 1 1
++        printf 'F14.6 files and the Proton registry entry are already verified.\n'
++        exit 0
++    fi
+ fi
+ 
+ backup_dir="${GERPATCH_BACKUP_DIR:-$PATCH_DIR/backups}"
+@@ -99,7 +109,9 @@ done
+ 
+ # The official installer creates this 32-bit Proton registry key.  The game
+ # files are already valid without it, but keep the installer state equivalent.
+-if f14_registry_present; then
++if [[ "$TARGET_IS_STEAM" != 1 || -z "$PROTON_PREFIX" ]]; then
++    printf 'Skipped F14.6 Proton registry registration because the selected target is a standalone/test copy.\n'
++elif f14_registry_present; then
+     printf 'The existing F14.6 Proton registry entry is already valid.\n'
+ elif [[ "${IW2_SKIP_F14_REGISTRY:-0}" == 1 ]]; then
+     printf 'Skipped Proton registry registration (test mode).\n'
+diff --git a/tools/iwar2-gamescope-diagnostic.sh b/tools/iwar2-gamescope-diagnostic.sh
+index c7ac11e..d669136 100755
+--- a/tools/iwar2-gamescope-diagnostic.sh
++++ b/tools/iwar2-gamescope-diagnostic.sh
+@@ -46,7 +46,15 @@ set_flux_value() {
+     ' "$FLUX_INI"
+ }
+ 
+-GAME_DIR="$(read_config game_dir "${HOME:-/tmp}/.local/share/Steam/steamapps/common/Independence War 2 - Edge of Chaos")"
++GAME_DIR="$(read_config game_dir '')"
++[[ -n "$GAME_DIR" ]] || {
++    printf 'No IW2 game directory is configured in %s.\n' "$DISPLAY_CONFIG" >&2
++    exit 66
++}
++GAME_DIR="$(cd -- "$GAME_DIR" 2>/dev/null && pwd -P)" || {
++    printf 'Configured IW2 game directory no longer exists: %s\n' "$GAME_DIR" >&2
++    exit 66
++}
+ FLUX_INI="$GAME_DIR/flux.ini"
+ OUTPUT_WIDTH="$(read_config width 1280)"
+ OUTPUT_HEIGHT="$(read_config height 720)"
+diff --git a/ultimate-patcher.sh b/ultimate-patcher.sh
+index d7f6637..fb1a0bf 100755
+--- a/ultimate-patcher.sh
++++ b/ultimate-patcher.sh
+@@ -7,7 +7,10 @@ APP_ID="${IW2_STEAM_APP_ID:-359630}"
+ TARGET_DIR=''
+ TARGET_SOURCE=''
+ PATH_MESSAGE=''
+-USER_PROTON_PREFIX="${IW2_PROTON_PREFIX:-}"
++TARGET_IS_STEAM=0
++TARGET_STEAM_LIBRARY=''
++TARGET_PROTON_PREFIX=''
++TARGET_RUNTIME_DIR=''
+ CPU_SPEED_STATUS=''
+ 
+ RESET=$'\e[0m'
+@@ -136,11 +139,23 @@ detect_steam_game_dir() {
+ }
+ 
+ steam_library_for_game_dir() {
+-    local game_dir="$1" common_dir steamapps_dir
++    local game_dir="$1" common_dir steamapps_dir library manifest install_dir candidate canonical
+     common_dir="$(dirname -- "$game_dir")"
+     steamapps_dir="$(dirname -- "$common_dir")"
+     [[ "$(basename -- "$common_dir")" == common && "$(basename -- "$steamapps_dir")" == steamapps ]] || return 1
+-    dirname -- "$steamapps_dir"
++
++    library="$(dirname -- "$steamapps_dir")"
++    manifest="$library/steamapps/appmanifest_${APP_ID}.acf"
++    [[ -f "$manifest" ]] || return 1
++
++    install_dir="$(vdf_value "$manifest" installdir)"
++    [[ -n "$install_dir" ]] || return 1
++
++    candidate="$library/steamapps/common/$install_dir"
++    canonical="$(cd -- "$candidate" 2>/dev/null && pwd -P)" || return 1
++    [[ "$canonical" == "$game_dir" ]] || return 1
++
++    printf '%s\n' "$library"
+ }
+ 
+ set_game_directory() {
+@@ -153,11 +168,31 @@ set_game_directory() {
+         PATH_MESSAGE='The selected EdgeOfChaos.exe is not in a valid IW2 installation.'
+         return 1
+     }
++
+     TARGET_DIR="$canonical"
++    TARGET_IS_STEAM=0
++    TARGET_STEAM_LIBRARY=''
++    TARGET_PROTON_PREFIX=''
++    TARGET_RUNTIME_DIR="$TARGET_DIR/.iwar2-linux-patcher"
++
++    # A path change must never inherit the automatically selected Proton prefix
++    # from the previously selected installation.
++    unset IW2_PROTON_PREFIX
++    export IW2_TARGET_IS_STEAM=0
++    export IW2_TARGET_STEAM_LIBRARY=''
++    export IW2_RUNTIME_DIR="$TARGET_RUNTIME_DIR"
++
+     library="$(steam_library_for_game_dir "$TARGET_DIR" 2>/dev/null || true)"
+-    if [[ -z "$USER_PROTON_PREFIX" && -n "$library" ]]; then
+-        export IW2_PROTON_PREFIX="$library/steamapps/compatdata/$APP_ID/pfx"
++    if [[ -n "$library" ]]; then
++        TARGET_IS_STEAM=1
++        TARGET_STEAM_LIBRARY="$library"
++        TARGET_PROTON_PREFIX="$library/steamapps/compatdata/$APP_ID/pfx"
++
++        export IW2_TARGET_IS_STEAM=1
++        export IW2_TARGET_STEAM_LIBRARY="$TARGET_STEAM_LIBRARY"
++        export IW2_PROTON_PREFIX="$TARGET_PROTON_PREFIX"
+     fi
++
+     PATH_MESSAGE=''
+     return 0
+ }
+@@ -242,6 +277,12 @@ sync_dependencies() {
+         video_aspect=''
+         video_language=''
+     fi
++    # Steam launch options are an external Steam-client change. Never keep
++    # that task selected for a standalone/test copy.
++    if (( ! TARGET_IS_STEAM )); then
++        install_gamescope_launcher=0
++    fi
++
+     if (( install_gamescope_launcher )); then
+         [[ -n "$gamescope_backend" ]] || gamescope_backend=auto
+     else
+@@ -253,7 +294,8 @@ sync_dependencies() {
+ 
+ item_enabled() {
+     case "$1" in
+-        change_path|german|f14|nocd|cpu_speed|mouse|widescreen|videos_none|videos_settings|videos_manual|gamescope_launcher) return 0 ;;
++        change_path|german|f14|nocd|cpu_speed|mouse|widescreen|videos_none|videos_settings|videos_manual) return 0 ;;
++        gamescope_launcher) (( TARGET_IS_STEAM )) ;;
+         audio) (( ! install_german )) ;;
+         english) (( install_f14 && ! install_german )) ;;
+         720p|1080p|1440p|4k) (( configure_widescreen )) ;;
+@@ -770,6 +812,7 @@ self_test() {
+     item_enabled english && item_enabled 720p || return 1
+     install_f14=0; sync_dependencies
+     (( ! fix_english )) || return 1
++    TARGET_IS_STEAM=1
+     install_gamescope_launcher=1; sync_dependencies
+     item_enabled backend_auto && item_checked backend_auto && ! item_checked gamescope_mouse_sensitivity || return 1
+     gamescope_backend=sdl; use_gamescope_mouse_sensitivity=1
