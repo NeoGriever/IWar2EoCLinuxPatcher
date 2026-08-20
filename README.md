@@ -30,4 +30,19 @@ Run from this directory:
 ./ultimate-patcher.sh
 ```
 
+At startup the patcher reads Steam's `libraryfolders.vdf` and the
+`appmanifest_359630.acf` entries for every mounted Steam library, then accepts
+only a directory containing both `EdgeOfChaos.exe` and `resource.zip`. This
+also covers games installed on a second drive. The selected directory is shown
+above the installation options. Choose **Change path ...** to select
+`EdgeOfChaos.exe` manually; the containing folder is validated before it can
+be used. KDE's KDialog is used when available, with Zenity as the fallback.
+
+At startup, the CPU Speed Fix option builds and runs a small native C++ TSC
+counter checker. It measures the actual time-stamp-counter rate instead of an
+advertised or boost clock. When the measured rate exceeds the 32-bit limit of
+4,294,967,295 ticks per second, the option is selected automatically; it is
+always still possible to toggle it manually. The first check requires `g++`;
+the compiled helper is cached under the user's XDG cache directory.
+
 See [PATCH-INFO.md](PATCH-INFO.md) for option details and host-layout notes.

@@ -3,8 +3,12 @@
 set -uo pipefail
 
 PATCH_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd -P)"
-DEFAULT_TARGET="$HOME/.local/share/Steam/steamapps/common/Independence War 2 - Edge of Chaos"
-TARGET_DIR="${IW2_GAME_DIR:-$DEFAULT_TARGET}"
+APP_ID="${IW2_STEAM_APP_ID:-359630}"
+TARGET_DIR=''
+TARGET_SOURCE=''
+PATH_MESSAGE=''
+USER_PROTON_PREFIX="${IW2_PROTON_PREFIX:-}"
+CPU_SPEED_STATUS=''
 
 RESET=$'\e[0m'
 GRAY=$'\e[38;5;245m'
@@ -22,6 +26,7 @@ convert_audio=0
 install_f14=0
 fix_english=0
 install_nocd=0
+install_cpu_speed_fix=0
 configure_mouse=0
 configure_widescreen=0
 resolution=''
@@ -34,9 +39,9 @@ install_gamescope_launcher=0
 use_fullscreen=0
 gamescope_backend=''
 use_gamescope_mouse_sensitivity=0
-selected_item='german'
+selected_item='change_path'
 
-declare -a ITEM_ORDER=(german audio f14 english nocd mouse widescreen 720p 1080p 1440p 4k videos_none videos_settings videos_manual video_standard video_widescreen video_english video_german gamescope_launcher backend_auto backend_wayland backend_sdl gamescope_mouse_sensitivity fullscreen apply)
+declare -a ITEM_ORDER=(change_path german audio f14 english nocd cpu_speed mouse widescreen 720p 1080p 1440p 4k videos_none videos_settings videos_manual video_standard video_widescreen video_english video_german gamescope_launcher backend_auto backend_wayland backend_sdl gamescope_mouse_sensitivity fullscreen apply)
 declare -a TASK_IDS=()
 declare -a TASK_STATES=()
 operation_log=''
@@ -64,6 +69,153 @@ header() {
     printf 'This patcher contains fixes, configurations\n'
     printf 'and replacements for the Game\n'
     printf '   "Independence War 2: The Edge of Chaos"\n\n'
+}
+
+section_heading() {
+    local text="$1" width=$(( ${#1} + 4 ))
+    local line
+    line="$(repeat_char "$width" '━')"
+    printf '%b┏%s┓%b\n' "$GREEN" "$line" "$RESET"
+    printf '%b┃%b  %s  %b┃%b\n' "$GREEN" "$WHITE" "$text" "$GREEN" "$RESET"
+    printf '%b┗%s┛%b\n' "$GREEN" "$line" "$RESET"
+}
+
+game_directory_is_valid() {
+    [[ -n "${1:-}" && -f "$1/EdgeOfChaos.exe" && -f "$1/resource.zip" ]]
+}
+
+vdf_value() {
+    local file="$1" key="$2"
+    sed -nE "s/^[[:space:]]*\"${key}\"[[:space:]]*\"([^\"]*)\".*$/\1/p" "$file" | head -n 1
+}
+
+steam_roots() {
+    local home_dir="${HOME:-/tmp}"
+    [[ -n "${IW2_STEAM_ROOT:-}" ]] && printf '%s\n' "$IW2_STEAM_ROOT"
+    printf '%s\n' \
+        "$home_dir/.local/share/Steam" \
+        "$home_dir/.steam/steam" \
+        "$home_dir/.steam/root" \
+        "$home_dir/.var/app/com.valvesoftware.Steam/.local/share/Steam"
+}
+
+game_dir_from_library() {
+    local library="$1" manifest install_dir candidate
+    manifest="$library/steamapps/appmanifest_${APP_ID}.acf"
+    [[ -f "$manifest" ]] || return 1
+    install_dir="$(vdf_value "$manifest" installdir)"
+    [[ -n "$install_dir" ]] || return 1
+    candidate="$library/steamapps/common/$install_dir"
+    game_directory_is_valid "$candidate" || return 1
+    cd -- "$candidate" && pwd -P
+}
+
+detect_steam_game_dir() {
+    local steam_root library_file library game_dir
+    local -a libraries=()
+    local seen=$'\n'
+
+    while IFS= read -r steam_root; do
+        [[ -d "$steam_root" ]] || continue
+        library_file="$steam_root/steamapps/libraryfolders.vdf"
+        libraries=("$steam_root")
+        if [[ -f "$library_file" ]]; then
+            while IFS= read -r library; do
+                [[ -n "$library" ]] && libraries+=("$library")
+            done < <(sed -nE 's/^[[:space:]]*"path"[[:space:]]*"([^"]*)".*$/\1/p' "$library_file")
+        fi
+        for library in "${libraries[@]}"; do
+            [[ "$seen" == *$'\n'"$library"$'\n'* ]] && continue
+            seen+="$library"$'\n'
+            game_dir="$(game_dir_from_library "$library" 2>/dev/null)" || continue
+            printf '%s\n' "$game_dir"
+            return 0
+        done
+    done < <(steam_roots)
+    return 1
+}
+
+steam_library_for_game_dir() {
+    local game_dir="$1" common_dir steamapps_dir
+    common_dir="$(dirname -- "$game_dir")"
+    steamapps_dir="$(dirname -- "$common_dir")"
+    [[ "$(basename -- "$common_dir")" == common && "$(basename -- "$steamapps_dir")" == steamapps ]] || return 1
+    dirname -- "$steamapps_dir"
+}
+
+set_game_directory() {
+    local requested="$1" canonical library
+    canonical="$(cd -- "$requested" 2>/dev/null && pwd -P)" || {
+        PATH_MESSAGE="The selected folder no longer exists."
+        return 1
+    }
+    game_directory_is_valid "$canonical" || {
+        PATH_MESSAGE='The selected EdgeOfChaos.exe is not in a valid IW2 installation.'
+        return 1
+    }
+    TARGET_DIR="$canonical"
+    library="$(steam_library_for_game_dir "$TARGET_DIR" 2>/dev/null || true)"
+    if [[ -z "$USER_PROTON_PREFIX" && -n "$library" ]]; then
+        export IW2_PROTON_PREFIX="$library/steamapps/compatdata/$APP_ID/pfx"
+    fi
+    PATH_MESSAGE=''
+    return 0
+}
+
+detect_initial_game_directory() {
+    local detected
+    if [[ -n "${IW2_GAME_DIR:-}" ]]; then
+        set_game_directory "$IW2_GAME_DIR" && { TARGET_SOURCE='IW2_GAME_DIR'; return 0; }
+        return 1
+    fi
+    detected="$(detect_steam_game_dir)" || {
+        PATH_MESSAGE="No valid Steam installation for App ${APP_ID} was detected."
+        return 1
+    }
+    set_game_directory "$detected" || return 1
+    TARGET_SOURCE=steam
+}
+
+choose_game_directory() {
+    local initial_dir="${TARGET_DIR:-${HOME:-/tmp}}" executable=''
+    if command -v kdialog >/dev/null 2>&1; then
+        executable="$(kdialog --title 'Select EdgeOfChaos.exe' --getopenfilename "$initial_dir" 'EdgeOfChaos.exe (EdgeOfChaos.exe)' 2>/dev/null)" || return 0
+    elif command -v zenity >/dev/null 2>&1; then
+        executable="$(zenity --file-selection --title='Select EdgeOfChaos.exe' --filename="$initial_dir/" --file-filter='EdgeOfChaos.exe | EdgeOfChaos.exe' 2>/dev/null)" || return 0
+    else
+        PATH_MESSAGE='No supported file dialog was found (KDialog or Zenity is required).'
+        return 1
+    fi
+    [[ -n "$executable" ]] || return 0
+    if [[ "$(basename -- "$executable")" != EdgeOfChaos.exe ]]; then
+        PATH_MESSAGE='Please select the EdgeOfChaos.exe file.'
+        return 1
+    fi
+    set_game_directory "$(dirname -- "$executable")" || return 1
+    TARGET_SOURCE=manual
+}
+
+detect_cpu_speed_fix_default() {
+    local checker check_output tsc_hz will_overflow display_rate
+    checker="${IW2_CPU_SPEED_CHECKER:-$PATCH_DIR/modules/check-cpu-speed-fix.sh}"
+    check_output="$("$checker" 2>&1)" || {
+        CPU_SPEED_STATUS='CPU timing-counter check unavailable; CPU Speed Fix remains a manual choice.'
+        return 1
+    }
+    tsc_hz="$(sed -nE 's/^tsc_hz=([0-9]+)$/\1/p' <<<"$check_output" | head -n 1)"
+    will_overflow="$(sed -nE 's/^will_overflow_u32=([01])$/\1/p' <<<"$check_output" | head -n 1)"
+    if [[ ! "$tsc_hz" =~ ^[0-9]+$ || ! "$will_overflow" =~ ^[01]$ ]]; then
+        CPU_SPEED_STATUS='CPU timing-counter check returned an invalid result; CPU Speed Fix remains a manual choice.'
+        return 1
+    fi
+    display_rate="$(awk -v hertz="$tsc_hz" 'BEGIN { printf "%.3f GHz", hertz / 1000000000 }')"
+    if [[ "$will_overflow" == 1 ]]; then
+        install_cpu_speed_fix=1
+        CPU_SPEED_STATUS="TSC: ${display_rate}; 32-bit counter overflows, selected automatically."
+    else
+        install_cpu_speed_fix=0
+        CPU_SPEED_STATUS="TSC: ${display_rate}; below the 32-bit overflow threshold."
+    fi
 }
 
 sync_dependencies() {
@@ -101,13 +253,13 @@ sync_dependencies() {
 
 item_enabled() {
     case "$1" in
-        german|f14|nocd|mouse|widescreen|videos_none|videos_settings|videos_manual|gamescope_launcher) return 0 ;;
+        change_path|german|f14|nocd|cpu_speed|mouse|widescreen|videos_none|videos_settings|videos_manual|gamescope_launcher) return 0 ;;
         audio) (( ! install_german )) ;;
         english) (( install_f14 && ! install_german )) ;;
         720p|1080p|1440p|4k) (( configure_widescreen )) ;;
         video_standard|video_widescreen|video_english|video_german) [[ "$video_mode" == manual ]] ;;
         backend_auto|backend_wayland|backend_sdl|gamescope_mouse_sensitivity|fullscreen) (( install_gamescope_launcher )) ;;
-        apply) has_selected_tasks ;;
+        apply) has_selected_tasks && game_directory_is_valid "$TARGET_DIR" ;;
         *) return 1 ;;
     esac
 }
@@ -119,6 +271,7 @@ item_checked() {
         f14) (( install_f14 )) ;;
         english) (( fix_english )) ;;
         nocd) (( install_nocd )) ;;
+        cpu_speed) (( install_cpu_speed_fix )) ;;
         mouse) (( configure_mouse )) ;;
         widescreen) (( configure_widescreen )) ;;
         720p|1080p|1440p|4k) [[ "$resolution" == "$1" ]] ;;
@@ -140,7 +293,7 @@ item_checked() {
 }
 
 has_selected_tasks() {
-    (( install_german || convert_audio || install_f14 || fix_english || install_nocd || configure_mouse )) || display_configuration_requested || video_install_requested
+    (( install_german || convert_audio || install_f14 || fix_english || install_nocd || install_cpu_speed_fix || configure_mouse )) || display_configuration_requested || video_install_requested
 }
 
 display_configuration_requested() {
@@ -220,12 +373,23 @@ radio_line() {
 menu_screen() {
     clear_screen
     header
-    printf '%bSelect your Options:%b\n\n' "$WHITE" "$RESET"
+    section_heading 'Current game path'
+    if game_directory_is_valid "$TARGET_DIR"; then
+        printf '  %b"%s/"%b\n' "$WHITE" "$TARGET_DIR" "$RESET"
+    else
+        printf '  %bNo valid Independence War 2 installation selected.%b\n' "$YELLOW" "$RESET"
+    fi
+    printf '  %s %bChange path ...%b\n' "$(indicator change_path)" "$YELLOW" "$RESET"
+    [[ -z "$PATH_MESSAGE" ]] || printf '  %b%s%b\n' "$YELLOW" "$PATH_MESSAGE" "$RESET"
+    printf '\n'
+    section_heading 'Installation settings'
     checkbox_line german 'Install german Game-data'
     checkbox_line audio 'Convert Audio-Files to work under Linux'
     checkbox_line f14 'Install Patch 14.6 from i-war2.com'
     checkbox_line english 'Fix english messages after 14.6-Patch'
     checkbox_line nocd 'Install No-CD-Fix'
+    checkbox_line cpu_speed 'Install CPU Speed Fix'
+    [[ -z "$CPU_SPEED_STATUS" ]] || printf '       %b%s%b\n' "$GRAY" "$CPU_SPEED_STATUS" "$RESET"
     checkbox_line mouse 'Configure mouse ship controls'
     checkbox_line widescreen 'Configure game-settings for 16:9'
     radio_line 720p '720p'
@@ -249,7 +413,7 @@ menu_screen() {
     checkbox_line fullscreen 'Use fullscreen'
     printf '\n'
     local action_color="$GRAY"
-    has_selected_tasks && action_color="$GREEN"
+    item_enabled apply && action_color="$GREEN"
     printf ' %s %bPatch my game.%b\n\n' "$(indicator apply)" "$action_color" "$RESET"
     printf '%bArrow keys / W S:%b Move   %bA D / Enter / Space:%b Select   %bEsc:%b Exit\n' \
         "$GRAY" "$RESET" "$GRAY" "$RESET" "$GRAY" "$RESET"
@@ -277,11 +441,13 @@ move_selection() {
 
 toggle_selected() {
     case "$selected_item" in
+        change_path) choose_game_directory ;;
         german) install_german=$(( ! install_german )) ;;
         audio) convert_audio=$(( ! convert_audio )) ;;
         f14) install_f14=$(( ! install_f14 )) ;;
         english) fix_english=$(( ! fix_english )) ;;
         nocd) install_nocd=$(( ! install_nocd )) ;;
+        cpu_speed) install_cpu_speed_fix=$(( ! install_cpu_speed_fix )) ;;
         mouse) configure_mouse=$(( ! configure_mouse )) ;;
         widescreen) configure_widescreen=$(( ! configure_widescreen )) ;;
         720p|1080p|1440p|4k) resolution="$selected_item" ;;
@@ -301,7 +467,7 @@ toggle_selected() {
         apply) execute_tasks; return ;;
     esac
     sync_dependencies
-    item_enabled "$selected_item" || selected_item='german'
+    item_enabled "$selected_item" || selected_item='change_path'
 }
 
 read_key() {
@@ -338,6 +504,7 @@ task_label() {
         f14) printf 'Install Patch 14.6 from i-war2.com' ;;
         english) printf 'Fix english messages after 14.6-Patch' ;;
         nocd) printf 'Install No-CD-Fix' ;;
+        cpu-speed) printf 'Install CPU Speed Fix' ;;
         mouse) printf 'Configure mouse ship controls' ;;
         display) printf 'Configure game display' ;;
         german-data-downloads) printf 'Download and verify German game data' ;;
@@ -365,6 +532,9 @@ build_tasks() {
     # When selected, F14.6 is the first task that changes the game.  All
     # preceding tasks only download and verify external inputs.
     (( install_f14 )) && TASK_IDS+=(f14)
+    # F14.6 ships the verified flux.dll used by this one-byte repair, so the
+    # CPU fix follows it immediately when both tasks were selected.
+    (( install_cpu_speed_fix )) && TASK_IDS+=(cpu-speed)
     (( convert_audio )) && TASK_IDS+=(audio)
     if (( install_german )); then
         if (( install_f14 )); then TASK_IDS+=(german-f14); else TASK_IDS+=(german); fi
@@ -461,6 +631,7 @@ run_task_command() {
         f14) "$PATCH_DIR/modules/install-f14.6.sh" "$TARGET_DIR" ;;
         english) "$PATCH_DIR/modules/fix-f14.6-english.sh" "$TARGET_DIR" ;;
         nocd) "$PATCH_DIR/modules/install-nocd.sh" "$TARGET_DIR" ;;
+        cpu-speed) "$PATCH_DIR/modules/install-cpu-speed-fix.sh" "$TARGET_DIR" ;;
         mouse) "$PATCH_DIR/modules/configure-mouse.sh" "$TARGET_DIR" ;;
         german-data-downloads) "$PATCH_DIR/modules/prepare-german-game-data.sh" ;;
         german-video-downloads) "$PATCH_DIR/modules/prepare-video-downloads.sh" german standard intro.bik midtro.bik Outro.bik ;;
@@ -528,6 +699,10 @@ execute_tasks() {
     sync_dependencies
     build_tasks
     (( ${#TASK_IDS[@]} > 0 )) || return 0
+    if ! game_directory_is_valid "$TARGET_DIR"; then
+        PATH_MESSAGE='Select a valid EdgeOfChaos.exe before applying changes.'
+        return 1
+    fi
     local i
     for i in "${!TASK_IDS[@]}"; do
         TASK_STATES[$i]=active
@@ -546,13 +721,36 @@ execute_tasks() {
 }
 
 self_test() {
-    install_german=0; convert_audio=0; install_f14=0; fix_english=0; configure_mouse=0
+    local test_root test_game detected test_checker
+    test_root="$(mktemp -d)"
+    test_game="$test_root/Library/steamapps/common/Independence War 2 - Edge of Chaos"
+    mkdir -p -- "$test_game"
+    touch "$test_game/EdgeOfChaos.exe" "$test_game/resource.zip"
+    mkdir -p -- "$test_root/Steam/steamapps"
+    printf '"libraryfolders"\n{\n    "0"\n    {\n        "path"\t\t"%s"\n    }\n}\n' "$test_root/Library" > "$test_root/Steam/steamapps/libraryfolders.vdf"
+    printf '"AppState"\n{\n    "appid"\t\t"%s"\n    "installdir"\t\t"Independence War 2 - Edge of Chaos"\n}\n' "$APP_ID" > "$test_root/Library/steamapps/appmanifest_${APP_ID}.acf"
+    detected="$(IW2_STEAM_ROOT="$test_root/Steam" detect_steam_game_dir)" || { rm -rf -- "$test_root"; return 1; }
+    [[ "$detected" == "$test_game" ]] || { rm -rf -- "$test_root"; return 1; }
+    rm -rf -- "$test_root"
+
+    test_checker="$(mktemp)"
+    printf '#!/usr/bin/env bash\nprintf "tsc_hz=5000000000\\nwill_overflow_u32=1\\n"\n' > "$test_checker"
+    chmod 0755 -- "$test_checker"
+    install_cpu_speed_fix=0
+    IW2_CPU_SPEED_CHECKER="$test_checker" detect_cpu_speed_fix_default || { rm -f -- "$test_checker"; return 1; }
+    (( install_cpu_speed_fix )) || { rm -f -- "$test_checker"; return 1; }
+    printf '#!/usr/bin/env bash\nprintf "tsc_hz=3000000000\\nwill_overflow_u32=0\\n"\n' > "$test_checker"
+    IW2_CPU_SPEED_CHECKER="$test_checker" detect_cpu_speed_fix_default || { rm -f -- "$test_checker"; return 1; }
+    (( ! install_cpu_speed_fix )) || { rm -f -- "$test_checker"; return 1; }
+    rm -f -- "$test_checker"
+
+    install_german=0; convert_audio=0; install_f14=0; fix_english=0; install_nocd=0; install_cpu_speed_fix=0; configure_mouse=0
     configure_widescreen=0; resolution=''; install_gamescope_launcher=0; use_fullscreen=0
     gamescope_backend=''; use_gamescope_mouse_sensitivity=0
     video_mode=''; video_aspect=''; video_language=''; resolved_video_aspect=''; resolved_video_language=''
     sync_dependencies
     has_selected_tasks && return 1
-    [[ "$selected_item" == german ]] || return 1
+    [[ "$selected_item" == change_path ]] || return 1
     item_enabled video_standard && return 1
     video_mode=manual; sync_dependencies
     item_enabled video_standard && item_checked video_standard && item_checked video_english || return 1
@@ -577,13 +775,17 @@ self_test() {
     gamescope_backend=sdl; use_gamescope_mouse_sensitivity=1
     item_checked backend_sdl && ! item_checked backend_auto && item_checked gamescope_mouse_sensitivity || return 1
     display_configuration_requested || return 1
-    install_german=0; convert_audio=0; install_f14=0; fix_english=0; install_nocd=0; configure_mouse=0
+    install_german=0; convert_audio=0; install_f14=0; fix_english=0; install_nocd=0; install_cpu_speed_fix=0; configure_mouse=0
     configure_widescreen=0; resolution=''; install_gamescope_launcher=0; use_fullscreen=0
     gamescope_backend=''; use_gamescope_mouse_sensitivity=0
     video_mode=''; video_aspect=''; video_language=''
     install_german=0; convert_audio=1; install_f14=1; fix_english=0; install_nocd=1; configure_mouse=1
     sync_dependencies; build_tasks || return 1
     [[ "${TASK_IDS[*]}" == 'f14 audio nocd mouse' ]] || return 1
+    install_cpu_speed_fix=1
+    sync_dependencies; build_tasks || return 1
+    [[ "${TASK_IDS[*]}" == 'f14 cpu-speed audio nocd mouse' ]] || return 1
+    install_cpu_speed_fix=0
     install_german=1; convert_audio=0; install_f14=1; install_nocd=0; configure_mouse=0
     sync_dependencies; build_tasks || return 1
     [[ "${TASK_IDS[*]}" == 'german-data-downloads german-video-downloads f14 german-f14' ]] || return 1
@@ -604,11 +806,16 @@ main() {
         printf 'Usage: %s [IW2 installation directory]\n' "$(basename -- "$0")"
         return 0
     fi
-    [[ $# -eq 0 ]] || TARGET_DIR="$1"
-    TARGET_DIR="$(cd -- "$TARGET_DIR" 2>/dev/null && pwd -P)" || {
-        printf 'Game directory does not exist: %s\n' "${1:-$TARGET_DIR}" >&2
-        return 66
-    }
+    if (( $# == 1 )); then
+        set_game_directory "$1" || {
+            printf 'Not an Independence War 2 installation: %s\n' "$1" >&2
+            return 66
+        }
+        TARGET_SOURCE=argument
+    else
+        detect_initial_game_directory || true
+    fi
+    detect_cpu_speed_fix_default || true
     [[ -t 0 && -t 1 ]] || { printf 'This interactive patcher needs a terminal.\n' >&2; return 69; }
     [[ -x "$PATCH_DIR/apply-german-patch.sh" ]] || { printf 'German patch module is missing.\n' >&2; return 66; }
     hide_cursor
