@@ -3,7 +3,10 @@
 set -Eeuo pipefail
 
 PATCH_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd -P)"
+# shellcheck source=modules/audio-hash-library.sh
+source "$PATCH_DIR/modules/audio-hash-library.sh"
 MANIFEST="$PATCH_DIR/patch-manifest.txt"
+AUDIO_HASH_MANIFEST="$PATCH_DIR/audio-conversion-hashes.txt"
 PROGRESS_FILE="${GERPATCH_PROGRESS_FILE:-}"
 
 usage() {
@@ -32,6 +35,8 @@ TARGET_DIR="$(cd -- "$1" && pwd -P)"
     exit 66
 }
 [[ -f "$MANIFEST" ]] || { printf 'Missing patch manifest.\n' >&2; exit 66; }
+[[ -f "$AUDIO_HASH_MANIFEST" ]] || { printf 'Missing audio conversion hash manifest.\n' >&2; exit 66; }
+audio_hashes_load "$AUDIO_HASH_MANIFEST"
 command -v 7z >/dev/null || { printf '7z is required for restoration.\n' >&2; exit 69; }
 
 if [[ $# -eq 2 ]]; then
@@ -82,10 +87,15 @@ while IFS='|' read -r relative english_hash german_hash; do
         continue
     fi
     saved="$tmp_dir/$relative"
-    [[ -f "$saved" && "$(sha256 "$saved")" == "$english_hash" ]] || {
+    [[ -f "$saved" ]] || {
         printf 'Backup does not contain the expected English file: %s\n' "$relative" >&2
         exit 65
     }
+    saved_hash="$(sha256 "$saved")"
+    if [[ "$saved_hash" != "$english_hash" ]] && ! audio_pcm_hash_matches "$relative" "$saved_hash"; then
+        printf 'Backup does not contain a recognized English or English-PCM file: %s\n' "$relative" >&2
+        exit 65
+    fi
     destination="$TARGET_DIR/$relative"
     mkdir -p -- "$(dirname -- "$destination")"
     cp -af -- "$saved" "$destination"

@@ -5,7 +5,10 @@ set -Eeuo pipefail
 PATCH_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd -P)"
 # shellcheck source=modules/german-data-library.sh
 source "$PATCH_DIR/modules/german-data-library.sh"
+# shellcheck source=modules/audio-hash-library.sh
+source "$PATCH_DIR/modules/audio-hash-library.sh"
 MANIFEST="$PATCH_DIR/patch-manifest.txt"
+AUDIO_HASH_MANIFEST="$PATCH_DIR/audio-conversion-hashes.txt"
 MODE=apply
 PROGRESS_FILE="${GERPATCH_PROGRESS_FILE:-}"
 SKIP_GERMAN_STORY_VIDEOS="${GERPATCH_SKIP_GERMAN_STORY_VIDEOS:-0}"
@@ -43,6 +46,8 @@ TARGET_DIR="$(cd -- "$1" && pwd -P)"
     exit 66
 }
 [[ -f "$MANIFEST" ]] || { printf 'Missing patch manifest.\n' >&2; exit 66; }
+[[ -f "$AUDIO_HASH_MANIFEST" ]] || { printf 'Missing audio conversion hash manifest.\n' >&2; exit 66; }
+audio_hashes_load "$AUDIO_HASH_MANIFEST"
 command -v 7z >/dev/null || { printf '7z is required for backups.\n' >&2; exit 69; }
 case "$SKIP_GERMAN_STORY_VIDEOS" in 0|1) ;; *) printf 'Invalid German story-video mode.\n' >&2; exit 64 ;; esac
 case "$GERMAN_STORY_VIDEOS_PREPARED" in 0|1) ;; *) printf 'Invalid German story-video preparation state.\n' >&2; exit 64 ;; esac
@@ -89,6 +94,8 @@ while IFS='|' read -r relative english_hash german_hash; do
     fi
     target="$TARGET_DIR/$relative"
     PATHS+=("$relative")
+    current_hash=''
+    [[ -f "$target" ]] && current_hash="$(sha256 "$target")"
     if [[ ! -f "$target" ]]; then
         if [[ "$english_hash" == '-' ]]; then
             printf '  ENGLISH  %s (not present in Steam)\n' "$relative"
@@ -97,15 +104,18 @@ while IFS='|' read -r relative english_hash german_hash; do
             printf '  UNKNOWN  %s (missing)\n' "$relative"
             ((unknown_count += 1))
         fi
-    elif [[ "$english_hash" != '-' && "$english_hash" == "$german_hash" && "$(sha256 "$target")" == "$german_hash" ]]; then
+    elif [[ "$english_hash" != '-' && "$english_hash" == "$german_hash" && "$current_hash" == "$german_hash" ]]; then
         printf '  SHARED   %s (identical in English and German)\n' "$relative"
         ((shared_count += 1))
-    elif [[ "$(sha256 "$target")" == "$english_hash" ]]; then
+    elif [[ "$current_hash" == "$english_hash" ]]; then
         printf '  ENGLISH  %s\n' "$relative"
         ((english_count += 1))
-    elif [[ "$(sha256 "$target")" == "$german_hash" ]]; then
+    elif [[ "$current_hash" == "$german_hash" ]]; then
         printf '  GERMAN   %s\n' "$relative"
         ((german_count += 1))
+    elif audio_pcm_hash_matches "$relative" "$current_hash"; then
+        printf '  ENGLISH-PCM  %s\n' "$relative"
+        ((english_count += 1))
     else
         printf '  UNKNOWN  %s (unexpected checksum)\n' "$relative"
         ((unknown_count += 1))
