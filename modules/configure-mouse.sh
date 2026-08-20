@@ -7,6 +7,7 @@ SOURCE_CONFIG="$PATCH_DIR/payloads/configs/corrected.ini"
 APP_ID="${IW2_STEAM_APP_ID:-359630}"
 PROGRESS_FILE="${GERPATCH_PROGRESS_FILE:-}"
 PROTON_PREFIX="${IW2_PROTON_PREFIX:-}"
+TARGET_IS_STEAM="${IW2_TARGET_IS_STEAM:-0}"
 
 progress() {
     [[ -n "$PROGRESS_FILE" ]] || return 0
@@ -26,22 +27,6 @@ mouse_warp_enabled() {
     ' "$registry"
 }
 
-detect_proton_prefix() {
-    local target_dir="$1"
-    local common_dir steamapps_dir
-
-    common_dir="$(dirname -- "$target_dir")"
-    steamapps_dir="$(dirname -- "$common_dir")"
-
-    if [[ "$(basename -- "$common_dir")" == "common" &&
-          "$(basename -- "$steamapps_dir")" == "steamapps" ]]; then
-        printf '%s\n' "$steamapps_dir/compatdata/$APP_ID/pfx"
-        return 0
-    fi
-
-    return 1
-}
-
 wait_for_mouse_warp() {
     local attempt
 
@@ -55,14 +40,6 @@ wait_for_mouse_warp() {
 
 [[ $# -eq 1 ]] || { printf 'Usage: %s <IW2 installation directory>\n' "$(basename -- "$0")" >&2; exit 64; }
 TARGET_DIR="$(cd -- "$1" && pwd -P)"
-
-if [[ -z "$PROTON_PREFIX" ]]; then
-    PROTON_PREFIX="$(detect_proton_prefix "$TARGET_DIR" 2>/dev/null || true)"
-fi
-
-if [[ -z "$PROTON_PREFIX" ]]; then
-    PROTON_PREFIX="$HOME/.local/share/Steam/steamapps/compatdata/$APP_ID/pfx"
-fi
 
 FLUX_INI="$TARGET_DIR/flux.ini"
 TARGET_CONFIG="$TARGET_DIR/configs/corrected.ini"
@@ -81,6 +58,17 @@ grep -q '^input_scheme_ini = configs/corrected.ini$' "$FLUX_INI" || {
     printf '\n[FcInputMapper]\ninput_scheme_ini = configs/corrected.ini\n' >> "$FLUX_INI"
 }
 progress mouse 2 3
+
+# MouseWarpOverride lives in a Proton prefix, not in the selected game folder.
+# For a standalone/test copy there is deliberately no associated Steam prefix,
+# so stop after applying the game-local mouse files.
+if [[ "$TARGET_IS_STEAM" != 1 || -z "$PROTON_PREFIX" ]]; then
+    progress mouse 3 3
+    printf 'Mouse ship controls configured for the selected game directory. Proton MouseWarpOverride was skipped because this target is not the registered Steam installation.\n'
+    printf 'Mouse ship controls configured. Backup: %s\n' "$backup_dir"
+    exit 0
+fi
+
 if mouse_warp_enabled; then
     printf 'MouseWarpOverride is already enabled in the Proton prefix.\n'
 

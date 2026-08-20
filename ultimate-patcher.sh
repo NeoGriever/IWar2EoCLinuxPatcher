@@ -7,7 +7,10 @@ APP_ID="${IW2_STEAM_APP_ID:-359630}"
 TARGET_DIR=''
 TARGET_SOURCE=''
 PATH_MESSAGE=''
-USER_PROTON_PREFIX="${IW2_PROTON_PREFIX:-}"
+TARGET_IS_STEAM=0
+TARGET_STEAM_LIBRARY=''
+TARGET_PROTON_PREFIX=''
+TARGET_RUNTIME_DIR=''
 CPU_SPEED_STATUS=''
 
 RESET=$'\e[0m'
@@ -136,11 +139,23 @@ detect_steam_game_dir() {
 }
 
 steam_library_for_game_dir() {
-    local game_dir="$1" common_dir steamapps_dir
+    local game_dir="$1" common_dir steamapps_dir library manifest install_dir candidate canonical
     common_dir="$(dirname -- "$game_dir")"
     steamapps_dir="$(dirname -- "$common_dir")"
     [[ "$(basename -- "$common_dir")" == common && "$(basename -- "$steamapps_dir")" == steamapps ]] || return 1
-    dirname -- "$steamapps_dir"
+
+    library="$(dirname -- "$steamapps_dir")"
+    manifest="$library/steamapps/appmanifest_${APP_ID}.acf"
+    [[ -f "$manifest" ]] || return 1
+
+    install_dir="$(vdf_value "$manifest" installdir)"
+    [[ -n "$install_dir" ]] || return 1
+
+    candidate="$library/steamapps/common/$install_dir"
+    canonical="$(cd -- "$candidate" 2>/dev/null && pwd -P)" || return 1
+    [[ "$canonical" == "$game_dir" ]] || return 1
+
+    printf '%s\n' "$library"
 }
 
 set_game_directory() {
@@ -153,11 +168,31 @@ set_game_directory() {
         PATH_MESSAGE='The selected EdgeOfChaos.exe is not in a valid IW2 installation.'
         return 1
     }
+
     TARGET_DIR="$canonical"
+    TARGET_IS_STEAM=0
+    TARGET_STEAM_LIBRARY=''
+    TARGET_PROTON_PREFIX=''
+    TARGET_RUNTIME_DIR="$TARGET_DIR/.iwar2-linux-patcher"
+
+    # A path change must never inherit the automatically selected Proton prefix
+    # from the previously selected installation.
+    unset IW2_PROTON_PREFIX
+    export IW2_TARGET_IS_STEAM=0
+    export IW2_TARGET_STEAM_LIBRARY=''
+    export IW2_RUNTIME_DIR="$TARGET_RUNTIME_DIR"
+
     library="$(steam_library_for_game_dir "$TARGET_DIR" 2>/dev/null || true)"
-    if [[ -z "$USER_PROTON_PREFIX" && -n "$library" ]]; then
-        export IW2_PROTON_PREFIX="$library/steamapps/compatdata/$APP_ID/pfx"
+    if [[ -n "$library" ]]; then
+        TARGET_IS_STEAM=1
+        TARGET_STEAM_LIBRARY="$library"
+        TARGET_PROTON_PREFIX="$library/steamapps/compatdata/$APP_ID/pfx"
+
+        export IW2_TARGET_IS_STEAM=1
+        export IW2_TARGET_STEAM_LIBRARY="$TARGET_STEAM_LIBRARY"
+        export IW2_PROTON_PREFIX="$TARGET_PROTON_PREFIX"
     fi
+
     PATH_MESSAGE=''
     return 0
 }
@@ -242,6 +277,12 @@ sync_dependencies() {
         video_aspect=''
         video_language=''
     fi
+    # Steam launch options are an external Steam-client change. Never keep
+    # that task selected for a standalone/test copy.
+    if (( ! TARGET_IS_STEAM )); then
+        install_gamescope_launcher=0
+    fi
+
     if (( install_gamescope_launcher )); then
         [[ -n "$gamescope_backend" ]] || gamescope_backend=auto
     else
@@ -253,7 +294,8 @@ sync_dependencies() {
 
 item_enabled() {
     case "$1" in
-        change_path|german|f14|nocd|cpu_speed|mouse|widescreen|videos_none|videos_settings|videos_manual|gamescope_launcher) return 0 ;;
+        change_path|german|f14|nocd|cpu_speed|mouse|widescreen|videos_none|videos_settings|videos_manual) return 0 ;;
+        gamescope_launcher) (( TARGET_IS_STEAM )) ;;
         audio) (( ! install_german )) ;;
         english) (( install_f14 && ! install_german )) ;;
         720p|1080p|1440p|4k) (( configure_widescreen )) ;;
@@ -770,6 +812,7 @@ self_test() {
     item_enabled english && item_enabled 720p || return 1
     install_f14=0; sync_dependencies
     (( ! fix_english )) || return 1
+    TARGET_IS_STEAM=1
     install_gamescope_launcher=1; sync_dependencies
     item_enabled backend_auto && item_checked backend_auto && ! item_checked gamescope_mouse_sensitivity || return 1
     gamescope_backend=sdl; use_gamescope_mouse_sensitivity=1

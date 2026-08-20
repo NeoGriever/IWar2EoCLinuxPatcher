@@ -46,7 +46,15 @@ set_flux_value() {
     ' "$FLUX_INI"
 }
 
-GAME_DIR="$(read_config game_dir "${HOME:-/tmp}/.local/share/Steam/steamapps/common/Independence War 2 - Edge of Chaos")"
+GAME_DIR="$(read_config game_dir '')"
+[[ -n "$GAME_DIR" ]] || {
+    printf 'No IW2 game directory is configured in %s.\n' "$DISPLAY_CONFIG" >&2
+    exit 66
+}
+GAME_DIR="$(cd -- "$GAME_DIR" 2>/dev/null && pwd -P)" || {
+    printf 'Configured IW2 game directory no longer exists: %s\n' "$GAME_DIR" >&2
+    exit 66
+}
 FLUX_INI="$GAME_DIR/flux.ini"
 OUTPUT_WIDTH="$(read_config width 1280)"
 OUTPUT_HEIGHT="$(read_config height 720)"

@@ -3,8 +3,8 @@
 set -Eeuo pipefail
 
 PATCH_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd -P)"
-RUNTIME_DIR="${IW2_RUNTIME_DIR:-$HOME/.local/share/independence-war-2-ultimate-patcher}"
-DISPLAY_CONFIG="$RUNTIME_DIR/runtime/display.conf"
+RUNTIME_DIR=''
+DISPLAY_CONFIG=''
 PROGRESS_FILE="${GERPATCH_PROGRESS_FILE:-}"
 
 progress() {
@@ -61,6 +61,8 @@ usage() {
 
 [[ $# -ge 3 && $# -le 5 ]] || usage
 TARGET_DIR="$(cd -- "$1" && pwd -P)"
+RUNTIME_DIR="$TARGET_DIR/.iwar2-linux-patcher"
+DISPLAY_CONFIG="$RUNTIME_DIR/runtime/display.conf"
 RESOLUTION="$2"
 OUTER_FULLSCREEN="$3"
 GAMESCOPE_BACKEND="${4:-auto}"

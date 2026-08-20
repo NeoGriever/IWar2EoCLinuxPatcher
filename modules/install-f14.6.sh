@@ -7,7 +7,8 @@ PAYLOAD_DIR="$PATCH_DIR/payloads/f14.6"
 MANIFEST="$PATCH_DIR/payloads/f14.6-manifest.txt"
 APP_ID="${IW2_STEAM_APP_ID:-359630}"
 PROGRESS_FILE="${GERPATCH_PROGRESS_FILE:-}"
-PROTON_PREFIX="${IW2_PROTON_PREFIX:-$HOME/.local/share/Steam/steamapps/compatdata/$APP_ID/pfx}"
+PROTON_PREFIX="${IW2_PROTON_PREFIX:-}"
+TARGET_IS_STEAM="${IW2_TARGET_IS_STEAM:-0}"
 
 progress() {
     [[ -n "$PROGRESS_FILE" ]] || return 0
@@ -19,6 +20,7 @@ progress() {
 sha256() { sha256sum -- "$1" | awk '{print $1}'; }
 
 f14_registry_present() {
+    [[ "$TARGET_IS_STEAM" == 1 && -n "$PROTON_PREFIX" ]] || return 1
     local registry="$PROTON_PREFIX/system.reg"
     [[ -f "$registry" ]] || return 1
     awk '
@@ -64,10 +66,18 @@ done < "$MANIFEST"
 
 (( ${#paths[@]} == 394 )) || { printf 'Unexpected F14.6 manifest size.\n' >&2; exit 65; }
 
-if (( payload_already_installed )) && f14_registry_present; then
-    progress install 1 1
-    printf 'F14.6 files and the Proton registry entry are already verified.\n'
-    exit 0
+if (( payload_already_installed )); then
+    if [[ "$TARGET_IS_STEAM" != 1 || -z "$PROTON_PREFIX" || "${IW2_SKIP_F14_REGISTRY:-0}" == 1 ]]; then
+        progress install 1 1
+        printf 'F14.6 files are already verified. Proton registry registration is not applicable to this target.\n'
+        exit 0
+    fi
+
+    if f14_registry_present; then
+        progress install 1 1
+        printf 'F14.6 files and the Proton registry entry are already verified.\n'
+        exit 0
+    fi
 fi
 
 backup_dir="${GERPATCH_BACKUP_DIR:-$PATCH_DIR/backups}"
@@ -99,7 +109,9 @@ done
 
 # The official installer creates this 32-bit Proton registry key.  The game
 # files are already valid without it, but keep the installer state equivalent.
-if f14_registry_present; then
+if [[ "$TARGET_IS_STEAM" != 1 || -z "$PROTON_PREFIX" ]]; then
+    printf 'Skipped F14.6 Proton registry registration because the selected target is a standalone/test copy.\n'
+elif f14_registry_present; then
     printf 'The existing F14.6 Proton registry entry is already valid.\n'
 elif [[ "${IW2_SKIP_F14_REGISTRY:-0}" == 1 ]]; then
     printf 'Skipped Proton registry registration (test mode).\n'

@@ -5,11 +5,11 @@ set -Eeuo pipefail
 PATCH_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd -P)"
 APP_ID="${IW2_STEAM_APP_ID:-359630}"
 STEAM_ROOT="${IW2_STEAM_ROOT:-$HOME/.local/share/Steam}"
-RUNTIME_DIR="${IW2_RUNTIME_DIR:-$HOME/.local/share/independence-war-2-ultimate-patcher}"
+RUNTIME_DIR=''
 SOURCE_WRAPPER="$PATCH_DIR/tools/iwar2-gamescope-diagnostic.sh"
-INSTALLED_WRAPPER="$RUNTIME_DIR/tools/iwar2-gamescope-diagnostic.sh"
+INSTALLED_WRAPPER=''
 SOURCE_DISPLAY_CONFIG="$PATCH_DIR/runtime/display.conf"
-DISPLAY_CONFIG="$RUNTIME_DIR/runtime/display.conf"
+DISPLAY_CONFIG=''
 PROGRESS_FILE="${GERPATCH_PROGRESS_FILE:-}"
 NOTICE_FILE="${GERPATCH_NOTICE_FILE:-}"
 
@@ -25,10 +25,51 @@ request_user_notice() {
     printf '%s\n' 'steam-launch-options' > "$NOTICE_FILE"
 }
 
-[[ $# -eq 1 && -f "$1/flux.ini" ]] || {
+vdf_value() {
+    local file="$1" key="$2"
+    sed -nE "s/^[[:space:]]*\\\"${key}\\\"[[:space:]]*\\\"([^\\\"]*)\\\".*$/\\1/p" "$file" | head -n 1
+}
+
+registered_steam_target() {
+    local game_dir="$1" common_dir steamapps_dir library manifest install_dir candidate canonical
+
+    common_dir="$(dirname -- "$game_dir")"
+    steamapps_dir="$(dirname -- "$common_dir")"
+    [[ "$(basename -- "$common_dir")" == common && "$(basename -- "$steamapps_dir")" == steamapps ]] || return 1
+
+    library="$(dirname -- "$steamapps_dir")"
+    manifest="$library/steamapps/appmanifest_${APP_ID}.acf"
+    [[ -f "$manifest" ]] || return 1
+
+    install_dir="$(vdf_value "$manifest" installdir)"
+    [[ -n "$install_dir" ]] || return 1
+
+    candidate="$library/steamapps/common/$install_dir"
+    canonical="$(cd -- "$candidate" 2>/dev/null && pwd -P)" || return 1
+    [[ "$canonical" == "$game_dir" ]]
+}
+
+[[ $# -eq 1 ]] || {
     printf 'Usage: %s <IW2 installation directory>\n' "$(basename -- "$0")" >&2
     exit 64
 }
+TARGET_DIR="$(cd -- "$1" 2>/dev/null && pwd -P)" || {
+    printf 'The selected IW2 directory does not exist.\n' >&2
+    exit 66
+}
+[[ -f "$TARGET_DIR/flux.ini" ]] || {
+    printf 'The selected IW2 directory does not contain flux.ini: %s\n' "$TARGET_DIR" >&2
+    exit 66
+}
+registered_steam_target "$TARGET_DIR" || {
+    printf 'Refusing to change Steam launch options: the selected target is not the registered Steam App %s installation.\n' "$APP_ID" >&2
+    exit 66
+}
+
+RUNTIME_DIR="$TARGET_DIR/.iwar2-linux-patcher"
+INSTALLED_WRAPPER="$RUNTIME_DIR/tools/iwar2-gamescope-diagnostic.sh"
+DISPLAY_CONFIG="$RUNTIME_DIR/runtime/display.conf"
+
 [[ -x "$SOURCE_WRAPPER" ]] || { printf 'Gamescope wrapper is missing: %s\n' "$SOURCE_WRAPPER" >&2; exit 66; }
 [[ -f "$SOURCE_DISPLAY_CONFIG" ]] || { printf 'Gamescope display template is missing: %s\n' "$SOURCE_DISPLAY_CONFIG" >&2; exit 66; }
 
