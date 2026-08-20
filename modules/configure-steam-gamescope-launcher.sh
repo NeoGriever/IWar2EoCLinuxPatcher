@@ -69,6 +69,7 @@ registered_steam_target "$TARGET_DIR" || {
 RUNTIME_DIR="$TARGET_DIR/.iwar2-linux-patcher"
 INSTALLED_WRAPPER="$RUNTIME_DIR/tools/iwar2-gamescope-diagnostic.sh"
 DISPLAY_CONFIG="$RUNTIME_DIR/runtime/display.conf"
+LAUNCH_OPTION="\"$INSTALLED_WRAPPER\" %command%"
 
 [[ -x "$SOURCE_WRAPPER" ]] || { printf 'Gamescope wrapper is missing: %s\n' "$SOURCE_WRAPPER" >&2; exit 66; }
 [[ -f "$SOURCE_DISPLAY_CONFIG" ]] || { printf 'Gamescope display template is missing: %s\n' "$SOURCE_DISPLAY_CONFIG" >&2; exit 66; }
@@ -126,7 +127,7 @@ if steam_is_running; then
     printf 'Steam is running, so its local configuration was left unchanged.\n\n'
     printf 'In Steam: Library → Independence War 2 → Properties → General → Launch Options\n'
     printf 'Copy this exact line into the Launch Options field:\n\n'
-    printf '%s %%command%%\n\n' "$INSTALLED_WRAPPER"
+    printf '%s\n\n' "$LAUNCH_OPTION"
     printf 'Then start the game normally from Steam.\n'
     exit 0
 fi
@@ -142,7 +143,7 @@ updated=0
 for config in "${configs[@]}"; do
     grep -Fq "\"$APP_ID\"" "$config" || continue
     cp -a -- "$config" "$backup_dir/$(basename "$(dirname "$(dirname "$config")")")-localconfig.vdf"
-    IW2_APP_ID="$APP_ID" IW2_LAUNCH_OPTION="$INSTALLED_WRAPPER %command%" perl -0pi -e '
+    IW2_APP_ID="$APP_ID" IW2_LAUNCH_OPTION="$LAUNCH_OPTION" perl -0pi -e '
         my $app_id = $ENV{IW2_APP_ID};
         my $value = $ENV{IW2_LAUNCH_OPTION};
         my $escaped_value = $value;
@@ -183,9 +184,13 @@ for config in "${configs[@]}"; do
             if ($depth == 0) { $close = $index; last; }
         }
         my $block = substr($_, $anchor, $close - $anchor + 1);
-        print $1 if $block =~ /"LaunchOptions"[ \t]*"((?:\\.|[^"\\])*)"/;
+        if ($block =~ /"LaunchOptions"[ \t]*"((?:\\.|[^"\\])*)"/) {
+            my $value = $1;
+            $value =~ s/\\(["\\])/$1/g;
+            print $value;
+        }
     ' "$config")"
-    [[ "$actual" == "$INSTALLED_WRAPPER %command%" ]] || { printf 'Failed to verify Steam launch option in %s\n' "$config" >&2; exit 65; }
+    [[ "$actual" == "$LAUNCH_OPTION" ]] || { printf 'Failed to verify Steam launch option in %s\n' "$config" >&2; exit 65; }
     updated=$((updated + 1))
     progress steam-launcher "$updated" "${#configs[@]}"
 done
